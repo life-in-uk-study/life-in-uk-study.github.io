@@ -1,0 +1,59 @@
+{
+  "retrieved_on": "2026-08-21",
+  "usage_context": "Non-commercial personal study website",
+  "provider_terms": "https://www.themoviedb.org/api-terms-of-use",
+  "attribution_guidance": "https://developer.themoviedb.org/docs/faq",
+  "credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+  "assets": [
+    {
+      "local_path": "/images/media/suffragette-2015-poster.jpg",
+      "title": "Suffragette (2015) theatrical poster",
+      "provider": "TMDB",
+      "source_url": "https://image.tmdb.org/t/p/w780/tE7pTdmUADi2lhK6T3n67Qn6CSd.jpg",
+      "provider_page": "https://www.themoviedb.org/movie/245168-suffragette"
+    },
+    {
+      "local_path": "/images/media/dunkirk-2017-poster.jpg",
+      "title": "Dunkirk (2017) theatrical poster",
+      "provider": "TMDB",
+      "source_url": "https://image.tmdb.org/t/p/w780/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
+      "provider_page": "https://www.themoviedb.org/movie/374720-dunkirk"
+    },
+    {
+      "local_path": "/images/media/the-imitation-game-2014-poster.jpg",
+      "title": "The Imitation Game (2014) theatrical poster",
+      "provider": "TMDB",
+      "source_url": "https://image.tmdb.org/t/p/w780/5Uc82xW62CoDMbSvcopOq5Zn6uK.jpg",
+      "provider_page": "https://www.themoviedb.org/movie/205596-the-imitation-game"
+    },
+    {
+      "local_path": "/images/media/tmdb-logo.svg",
+      "title": "TMDB logo",
+      "provider": "TMDB",
+      "source_url": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg",
+      "provider_page": "https://developer.themoviedb.org/docs/faq"
+    },
+    {
+      "local_path": "/images/featured/the-cenotaph-whitehall.jpg",
+      "title": "The Cenotaph, Whitehall, London",
+      "provider": "Wikimedia Commons",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Cenotaph%2C_Whitehall%2C_London.jpg/1280px-The_Cenotaph%2C_Whitehall%2C_London.jpg",
+      "provider_page": "https://commons.wikimedia.org/wiki/File:The_Cenotaph,_Whitehall,_London.jpg",
+      "author": "Paul the Archivist",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_on": "2026-08-21"
+    },
+    {
+      "local_path": "/images/featured/margaret-thatcher-1983.jpg",
+      "title": "Margaret Thatcher in 1983",
+      "provider": "Wikimedia Commons / Nationaal Archief",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Margaret_Thatcher_%281983%29.jpg/960px-Margaret_Thatcher_%281983%29.jpg",
+      "provider_page": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_(1983).jpg",
+      "author": "Rob Bogaerts for Anefo",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "retrieved_on": "2026-08-21"
+    }
+  ]
+}

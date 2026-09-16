@@ -1,0 +1,55 @@
+{
+  "duplicate_group_count": 7,
+  "duplicate_groups": [
+    {
+      "question": "which of the following statements is correct?",
+      "ids": [
+        "exam-01-q18",
+        "exam-13-q20"
+      ]
+    },
+    {
+      "question": "by law, which two types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?",
+      "ids": [
+        "exam-01-q19",
+        "exam-04-q24"
+      ]
+    },
+    {
+      "question": "which of the following plays was written by william shakespeare?",
+      "ids": [
+        "exam-02-q14",
+        "exam-17-q15"
+      ]
+    },
+    {
+      "question": "wales has its own established church.",
+      "ids": [
+        "exam-03-q02",
+        "exam-10-q03"
+      ]
+    },
+    {
+      "question": "who was the tribal leader who fought against the romans?",
+      "ids": [
+        "exam-04-q08",
+        "exam-14-q24"
+      ]
+    },
+    {
+      "question": "who was voted the greatest briton of all time in 2002?",
+      "ids": [
+        "exam-04-q09",
+        "exam-12-q23"
+      ]
+    },
+    {
+      "question": "which of the following statements is true:",
+      "ids": [
+        "exam-05-q15",
+        "exam-06-q23",
+        "exam-12-q24"
+      ]
+    }
+  ]
+}

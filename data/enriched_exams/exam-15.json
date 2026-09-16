@@ -1,0 +1,1779 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 15,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "cambridge-splitting-atom": {
+      "title": "History of the University of Cambridge",
+      "publisher": "University of Cambridge",
+      "url": "https://www.cam.ac.uk/about-the-university/history",
+      "authority": "official_university_history",
+      "note_zh": "剑桥大学记录John Cockcroft和Ernest Walton于1932年在Ernest Rutherford指导下首次分裂原子核。"
+    },
+    "commons-library-peerages-2026": {
+      "title": "Peerages and membership of the House of Lords",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10635/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "下议院图书馆确认House of Lords (Hereditary Peers) Act 2026实施后，剩余世袭贵族于2026年4月29日失去仅凭世袭爵位议事和投票的资格。"
+    },
+    "dib-james-stephens": {
+      "title": "Stephens, James",
+      "publisher": "Dictionary of Irish Biography",
+      "url": "https://www.dib.ie/index.php/biography/stephens-james-a8277",
+      "authority": "national_academic_biography",
+      "note_zh": "Dictionary of Irish Biography介绍James Stephens、Irish Republican Brotherhood及其与美国Fenian Brotherhood的组织联系。"
+    },
+    "dib-john-omahony": {
+      "title": "O'Mahony, John",
+      "publisher": "Dictionary of Irish Biography",
+      "url": "https://www.dib.ie/index.php/biography/omahony-john-a6878",
+      "authority": "national_academic_biography",
+      "note_zh": "Dictionary of Irish Biography说明Gaelic学者John O'Mahony创建Fenian Brotherhood，并从爱尔兰神话中的Fianna勇士团取得名称。"
+    },
+    "english-heritage-hadrians-wall-teachers-kit": {
+      "title": "Discover the Story of Hadrian's Wall",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/siteassets/home/learn/teaching-resources/resources-library/hadrians_wall_teachers-kit-2022.pdf",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage教学资料说明Hadrian's Wall横跨England北部约73 miles，从东部Wallsend延伸至西部Bowness-on-Solway。"
+    },
+    "english-heritage-housesteads": {
+      "title": "Housesteads Roman Fort — Hadrian's Wall",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/housesteads",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage给出Housesteads在Haydon Bridge、Hexham、Northumberland的地址，并说明堡垒建在Hadrian's Wall与Whin Sill高地上。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "holac-appointment-process": {
+      "title": "Role of House of Lords Appointments Commission",
+      "publisher": "House of Lords Appointments Commission",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2024/04/2023-02-14-XB-Political-Appointment-Process-Redacted.pdf",
+      "authority": "independent_public_body",
+      "note_zh": "HOLAC说明其推荐非党派Crossbench终身贵族，并审查包括政治提名在内的所有上议院终身贵族提名是否适当。"
+    },
+    "hull-domesday-name": {
+      "title": "Domesday, or Doomsday",
+      "publisher": "Hull Domesday Project",
+      "url": "https://www.domesdaybook.net/domesday-book/domesday-inquest/domesday-or-doomsday",
+      "authority": "academic_research_project",
+      "note_zh": "Hull Domesday Project引用中世纪财政大臣的解释：英格兰人把该书称为Domesday，即Day of Judgement，因为其裁决如Last Judgement一样不能上诉。"
+    },
+    "national-archives-american-revolution": {
+      "title": "The causes of the American Revolution",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/democracy-and-protest/causes-of-the-american-revolution/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆解释Seven Years War债务、Stamp Act、taxation without representation及1776年独立。"
+    },
+    "national-archives-domesday": {
+      "title": "Domesday",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/medieval/domesday/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆介绍William I在1085年下令进行的土地调查及Domesday Book。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-archives-puritan": {
+      "title": "Civil War person: Puritan",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/civil-war-people/civil-war-person-puritan/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆说明Puritans是激进的新教徒，主张更简朴的教堂和礼拜，并担忧Church of England恢复Catholic做法。"
+    },
+    "national-archives-religious-conformity": {
+      "title": "Religious conformity",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/james-i/religious-conformity/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆把Puritans定义为寻求进一步改革Church of England的新教徒。"
+    },
+    "national-archives-versailles": {
+      "title": "The Treaty of Versailles",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-treaty-of-versailles/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明1918年停战协定停止战斗，而1919年6月28日签署的Treaty of Versailles正式规定和平条件。"
+    },
+    "nature-neolithic-britain-genomes": {
+      "title": "Ancient genomes indicate population replacement in Early Neolithic Britain",
+      "publisher": "Nature Ecology & Evolution",
+      "url": "https://www.nature.com/articles/s41559-019-0871-9",
+      "authority": "peer_reviewed_research",
+      "note_zh": "2019年同行评审研究分析6名Mesolithic及67名Neolithic英国人的古DNA，支持大陆移民把农业带入Britain。"
+    },
+    "nhm-neolithic-first-farmers": {
+      "title": "Neolithic Britain: where did the first farmers come from?",
+      "publisher": "Natural History Museum",
+      "url": "https://www.nhm.ac.uk/discover/news/2019/april/neolithic-britain-where-did-the-first-farmers-come-from.html",
+      "authority": "national_museum",
+      "note_zh": "Natural History Museum根据古DNA研究解释早期农民由Aegean经Mediterranean、Iberia和France进入Britain的路线。"
+    },
+    "nls-robert-burns-auld-lang-syne": {
+      "title": "Robert Burns and his history of myself",
+      "publisher": "National Library of Scotland",
+      "url": "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/",
+      "authority": "national_library",
+      "note_zh": "苏格兰国家图书馆介绍Burns收集并改写旧民歌Auld Lang Syne、歌曲收入The Scots Musical Museum及其新年传统。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "oireachtas-fianna-warriors": {
+      "title": "Written Answers — National Anthem",
+      "publisher": "Houses of the Oireachtas",
+      "url": "https://www.oireachtas.ie/en/debates/debate/dail/2012-01-31/30/",
+      "authority": "official_parliamentary_record",
+      "note_zh": "爱尔兰议会记录解释Fianna为Finn MacCool的传奇勇士，并说明该名称与爱尔兰士兵和国家传统的联系。"
+    },
+    "parliament-armistice-centenary": {
+      "title": "Centenary of the Armistice",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2018-0239/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "英国下议院图书馆说明停战协定于1918年11月11日清晨5点在Compiègne的铁路车厢内签署，六小时后于上午11点停止炮火。"
+    },
+    "parliament-charles-i-trial": {
+      "title": "The trial of Charles I",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/building/palace/westminsterhall/government-and-administration/trial-of-charlesi/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍Charles I于1649年1月在Westminster Hall受审、被控暴政与叛国及判处死刑的过程。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-lords-appointed": {
+      "title": "How members are appointed",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/business/lords/whos-in-the-house-of-lords/members-and-their-roles/how-members-are-appointed/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明终身贵族由国王根据首相建议任命、HOLAC的遴选与审查角色、Letters Patent及26个Church of England主教席位。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "parliament-reformation": {
+      "title": "The Reformation",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/overview/reformation/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明教皇反对Henry VIII与Catherine of Aragon离婚，以及1534年Act of Supremacy确立国王的教会领导地位。"
+    },
+    "parliament-revolution-civil-war": {
+      "title": "Revolution and civil war",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/revolution-and-civil-war/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明Charles I的Personal Rule、1648至1649年第二次内战、处决及England成为Commonwealth and Free State。"
+    },
+    "teamgb-mary-peters": {
+      "title": "Mary Peters",
+      "publisher": "Team GB",
+      "url": "https://www.teamgb.com/athlete/mary-peters/6RrxP7qcbq9LA0vPSmYxKW",
+      "authority": "national_olympic_team",
+      "note_zh": "Team GB记录Mary Peters赢得1972年Munich Olympics女子田径五项全能金牌，以4,801分创造世界纪录，并介绍五项比赛过程。"
+    },
+    "us-national-archives-declaration": {
+      "title": "Declaration of Independence: A Transcription",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "authority": "official_archive",
+      "note_zh": "美国国家档案馆提供《独立宣言》原文，其中列出未经殖民者同意征税、限制代表权及干预殖民地立法等控诉。"
+    },
+    "us-state-armistice-terms": {
+      "title": "The Armistice Negotiations with the Germans",
+      "publisher": "United States Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1918Supp01v01/d384",
+      "authority": "official_diplomatic_archive",
+      "note_zh": "美国国务院公布的历史外交文件载有停战条款：陆地和空中作战在停战协定签署六小时后停止。"
+    },
+    "vindolanda-fort-museum": {
+      "title": "Roman Vindolanda Fort and Museum",
+      "publisher": "The Vindolanda Trust",
+      "url": "https://www.vindolanda.com/roman-vindolanda-fort-museum",
+      "authority": "site_preservation_charity",
+      "note_zh": "Vindolanda Trust说明Vindolanda位于Hadrian's Wall墙体以南，建在较早的Stanegate frontier上，先于长城建立，后来成为长城的建设与驻军基地。"
+    },
+    "visitscotland-hogmanay": {
+      "title": "Hogmanay in Scotland",
+      "publisher": "VisitScotland",
+      "url": "https://www.visitscotland.com/things-to-do/events/christmas-winter-festivals/hogmanay",
+      "authority": "official_tourism_body",
+      "note_zh": "苏格兰官方旅游资料介绍Hogmanay、first-footing、Auld Lang Syne及其冬季节庆背景。"
+    },
+    "world-athletics-mary-peters": {
+      "title": "Mary Peters athlete profile",
+      "publisher": "World Athletics",
+      "url": "https://worldathletics.org/athletes/great-britain-ni/mary-peters-14372718",
+      "authority": "international_sports_governing_body",
+      "note_zh": "World Athletics的运动员档案确认Mary Peters为Olympic champion，并记录她在1972年Munich的100米栏、跳高和200米等成绩。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Welsh"
+        },
+        {
+          "id": "r1",
+          "text": "Gaelic"
+        },
+        {
+          "id": "r2",
+          "text": "Norman French"
+        },
+        {
+          "id": "r3",
+          "text": "Anglo-Saxon"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q1.two-languages-spoken-during-middle-ages.m4a",
+      "question": "Which two languages were used across England during the Middle Ages?",
+      "explanation": "The Middle Ages saw the development of a national culture and identity. After the Norman Conquest, the king and his noblemen had spoken Norman French and the peasants had continued to speak Anglo-Saxon.",
+      "id": "exam-15-q01",
+      "number": 1,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r2",
+        "r3"
+      ],
+      "correct_answers": [
+        "Norman French",
+        "Anglo-Saxon"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Middle Ages saw the development of a national culture and identity. After the Norman Conquest, the king and his noblemen had spoken Norman French and the peasants had continued to speak Anglo-Saxon.",
+        "why_correct_zh": "中世纪见证了民族文化和身份的发展。诺曼征服后，国王和他的贵族讲诺曼法语，而农民则继续讲盎格鲁撒克逊语。",
+        "answer_summary_zh": "正确选项：Norman French；Anglo-Saxon。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "Middle Ages"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two languages were used across England during the Middle Ages?”及正确答案“Norman French；Anglo-Saxon”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "North African"
+        },
+        {
+          "id": "r1",
+          "text": "Asian"
+        },
+        {
+          "id": "r2",
+          "text": "North American"
+        },
+        {
+          "id": "r3",
+          "text": "South African"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q2.british-colonies-declared-independence-in-1776.m4a",
+      "question": "In 1776, which British colonies declared their independence because they demanded that there should be ‘no taxation without representation‘.",
+      "explanation": "In 1776, 13 North American colonies declared their independence, stating that people had a right to establish their own governments.",
+      "id": "exam-15-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "North American"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "After the Seven Years' War ended in 1763, Britain faced heavy debt and the cost of keeping troops in North America. Parliament argued that the colonies should contribute to their defence and passed the Stamp Act in 1765, directly taxing newspapers, legal documents and other printed material. The central dispute was not simply the amount of tax but who had authority to impose it. The colonies elected no members to the Westminster Parliament and argued that only their own elected colonial assemblies could consent to taxation: 'No taxation without representation.' Britain replied that Parliament virtually represented all imperial subjects. Although the Stamp Act was repealed in 1766, the Declaratory Act asserted Parliament's authority to legislate for the colonies in all cases. Later duties, the Tea Act and coercive measures prolonged the conflict. The Boston Tea Party in 1773 was followed by punitive legislation, and fighting began at Lexington and Concord in 1775. On 4 July 1776, the 13 colonies adopted the Declaration of Independence. It listed taxation without consent among many grievances and argued that legitimate government derives its powers from the consent of the governed. Tax was therefore a trigger for a wider struggle over representation, legislative authority and self-government.",
+        "why_correct_zh": "Seven Years' War于1763年结束后，英国负债沉重，还需支付北美驻军费用。Parliament于1765年通过Stamp Act，向报纸、法律文件等印刷品直接征税。\n\n殖民者反对的核心不是税额，而是谁有权征税。殖民地没有议员进入Westminster Parliament，认为只有自己的colonial assemblies才能同意纳税，因此提出“No taxation without representation”。英国则称Parliament可代表帝国所有臣民。\n\nStamp Act虽被废除，Declaratory Act仍宣称Parliament可全面管辖殖民地。后续税收继续激化矛盾；1773年Boston Tea Party遭惩罚性立法回应，1775年Lexington和Concord交火，冲突升级为战争。\n\n1776年7月4日，13个殖民地通过Declaration of Independence，把未经同意征税列为控诉之一，并主张政府权力来自人民同意。税务只是导火索，深层问题是representation、立法权与self-government。",
+        "answer_summary_zh": "正确选项：North American。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "1776",
+          "British"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-american-revolution",
+        "us-national-archives-declaration"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In 1776, which British colonies declared their independence because they demanded that there should be ‘no taxation without representation‘.”及正确答案“North American”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-american-revolution",
+          "us-national-archives-declaration"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "When Elizabeth I died without any successor"
+        },
+        {
+          "id": "r1",
+          "text": "When Charles I was executed"
+        },
+        {
+          "id": "r2",
+          "text": "When the Carta Magna restricted the king’s power"
+        },
+        {
+          "id": "r3",
+          "text": "When kind Harold died after the Battle of Hastings"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q3.when-was-england-ruled-by-a-republic-and-not-a-monarch.m4a",
+      "question": "When was England ruled by a republic and not by a monarch?",
+      "explanation": "When Charles I was executed, England declared itself a republic, called the Commonwealth. It no longer had a monarch.",
+      "id": "exam-15-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "When Charles I was executed"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "This happened in 1649. Charles I believed strongly in divinely authorised monarchy and clashed with Parliament over taxation, law and religion. He governed without Parliament from 1629 to 1640; after war expenses forced him to summon it again, the conflict eventually produced the English Civil War in 1642. Parliament's New Model Army defeated the Royalists and captured the king. Charles continued secret negotiations and sought Scottish military support, helping trigger the Second Civil War in 1648. Army leaders concluded that he could not be trusted. After the Army purged MPs opposed to a trial, the Rump Parliament created a High Court of Justice. Charles was accused of waging war against his own people as a tyrant and traitor. His public trial opened in Westminster Hall on 20 January 1649. He refused to recognise the court's authority but was convicted and beheaded outside the Banqueting House in Whitehall on 30 January. The monarchy and House of Lords were abolished, and on 19 May England was declared a Commonwealth and Free State. Oliver Cromwell became Lord Protector in 1653; after his death the regime destabilised, and Charles II restored the monarchy in 1660. Strictly speaking, the United Kingdom did not yet exist: England was the state first declared a republic.",
+        "why_correct_zh": "发生在1649年。Charles I强调divine right of kings，并与Parliament争夺征税和宗教权力。他在1629—1640年不召开Parliament；1642年爆发English Civil War。\n\nParliament的New Model Army获胜并俘获国王。Charles争取Scottish军队支持，引发1648年的Second Civil War，军方遂认定他不可信。军队清除反对审判的议员，Rump Parliament成立特别法庭。\n\nCharles被控以暴君和叛徒身份向人民发动战争。审判于1649年1月20日在Westminster Hall开始；他拒绝承认法庭权力，仍被定罪，并于1月30日在Banqueting House外斩首。\n\n君主制和House of Lords随后被废除，England于5月19日成为Commonwealth and Free State。1653年Oliver Cromwell成为Lord Protector；他死后政局失稳，1660年Charles II复辟。当时UK尚未成立，成为共和国的是England。",
+        "answer_summary_zh": "正确选项：When Charles I was executed。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-charles-i-trial",
+        "parliament-revolution-civil-war"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When was England ruled by a republic and not by a monarch?”及正确答案“When Charles I was executed”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-charles-i-trial",
+          "parliament-revolution-civil-war"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Harry Potter"
+        },
+        {
+          "id": "r1",
+          "text": "Spider-man"
+        },
+        {
+          "id": "r2",
+          "text": "The Lord of the Rings"
+        },
+        {
+          "id": "r3",
+          "text": "Indiana Jones"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q4.most-commercially-successful-films-in-the-uk.m4a",
+      "question": "Which film produced in the UK was one of the most commercially successful films of all time and one of the highest-grossing film franchises?",
+      "explanation": "Some of the most commercially successful films of all time, including the two highest-grossing film franchises (Harry Potter and James Bond), have been produced in the UK.",
+      "id": "exam-15-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Harry Potter"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Some of the most commercially successful films of all time, including the two highest-grossing film franchises (Harry Potter and James Bond), have been produced in the UK.",
+        "why_correct_zh": "一些有史以来商业上最成功的电影，包括两部票房最高的电影系列（《哈利·波特》和《詹姆斯·邦德》），都是在英国制作的。",
+        "answer_summary_zh": "正确选项：Harry Potter。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which film produced in the UK was one of the most commercially successful films of all time and one of the highest-grossing film franchises?”及正确答案“Harry Potter”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "10,000 years ago"
+        },
+        {
+          "id": "r1",
+          "text": "6,000 years ago"
+        },
+        {
+          "id": "r2",
+          "text": "15,000 years ago"
+        },
+        {
+          "id": "r3",
+          "text": "2,000 years ago"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q5.when-did-first-farmers-come-to-britain.m4a",
+      "question": "When did the first farmers come to Britain?",
+      "explanation": "The first farmers arrived in Britain 6,000 years ago.",
+      "id": "exam-15-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "6,000 years ago"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Farming reached Britain about 6,000 years ago, around 4000 BC, largely through migrants from continental Europe. They did not make a single direct journey from south-eastern Europe to Britain. Their nearer route probably came through France, while their deeper ancestry traced back to early farmers around the Aegean and Anatolia, in modern Turkey. These populations moved west mainly along the Mediterranean into Iberia, then followed the Atlantic coast through France before crossing the English Channel. A different stream of early farmers had moved through central Europe along the Danube, but ancient DNA shows that Britain's Neolithic farmers were genetically closer to Iberian and Mediterranean groups. A 2019 study compared genomes from six Mesolithic and 67 Neolithic individuals in Britain. The major ancestry change around 4000 BC supports farming being introduced mainly by incoming continental farmers rather than simply adopted by local hunter-gatherers, although the newcomers carried small amounts of hunter-gatherer ancestry. Cereals, livestock, pottery, tools and new burial traditions appeared with the Neolithic culture.",
+        "why_correct_zh": "约6000年前，即约公元前4000年，农业由来自continental Europe的移民带入Britain。他们并非从东南欧一次直接航行到英国：最接近英国的一段大概来自France，而更早的祖先属于Aegean和Anatolia（今Turkey一带）的早期农民。\n\n这些人向西传播时主要沿Mediterranean路线进入Iberia，再沿Atlantic coast经过France，最后渡过English Channel。另一批早期农民曾沿Danube进入中欧，但古DNA显示，英国新石器时代农民与Iberian和Mediterranean群体的遗传关系更密切。\n\n2019年的研究比较了6名Mesolithic和67名Neolithic英国人的基因组。约公元前4000年，Britain的人群祖源出现明显变化，说明农业主要由大陆移民带来，而不只是当地hunter-gatherers学会种地；新来者仍带有少量与当地猎人采集者混合的祖源。谷物、家畜、陶器、石器和墓葬传统也随Neolithic文化出现。",
+        "answer_summary_zh": "正确选项：6,000 years ago。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "nhm-neolithic-first-farmers",
+        "nature-neolithic-britain-genomes"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did the first farmers come to Britain?”及正确答案“6,000 years ago”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "nhm-neolithic-first-farmers",
+          "nature-neolithic-britain-genomes"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "At 12.00 pm on 11th November 1914"
+        },
+        {
+          "id": "r1",
+          "text": "At 12.00 pm on 11th November 1918"
+        },
+        {
+          "id": "r2",
+          "text": "At 11.00 am on 11th November 1914"
+        },
+        {
+          "id": "r3",
+          "text": "At 11.00 am on 11th November 1918"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q6.when-did-first-world-war-end.m4a",
+      "question": "When did the First World War end?",
+      "explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies.",
+      "id": "exam-15-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "At 11.00 am on 11th November 1918"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The time was fixed by the Armistice rather than being a natural or accidental endpoint. After overnight negotiations, German and Allied representatives signed the Armistice at about 5.00 am on 11 November 1918 in Ferdinand Foch's railway carriage in the Forest of Compiegne, France. Its first clause required operations on land and in the air to cease six hours after signature, so the ceasefire on the Western Front took effect at 11.00 am. The interval allowed orders to be transmitted along the front, although fighting continued and soldiers died during those final hours. The 'eleventh hour of the eleventh day of the eleventh month' subsequently became the symbol of Armistice Day and remembrance. Strictly, the Armistice stopped the fighting; the Treaty of Versailles was signed on 28 June 1919.",
+        "why_correct_zh": "这里的11点是停战协议规定的生效时间。德国代表与协约国代表经过通宵谈判，于1918年11月11日清晨约5点在France的Compiègne森林、Ferdinand Foch的铁路车厢内签署Armistice。协议第一项规定，陆地和空中的军事行动在签署六小时后停止，因此西线于上午11点停火。\n\n这段间隔让双方把停火命令传到漫长战线上的各级部队；战斗在等待生效期间仍在继续，也有人在最后几小时阵亡。所谓“第11个月第11天第11小时”后来成为Armistice Day与默哀仪式的象征。\n\n严格说，这是停止战斗的停战协定，并非最终和平条约；Treaty of Versailles于1919年6月28日签署。",
+        "answer_summary_zh": "正确选项：At 11.00 am on 11th November 1918。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "First World War"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-armistice-centenary",
+        "us-state-armistice-terms",
+        "national-archives-versailles"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did the First World War end?”及正确答案“At 11.00 am on 11th November 1918”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-armistice-centenary",
+          "us-state-armistice-terms",
+          "national-archives-versailles"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Yes"
+        },
+        {
+          "id": "r2",
+          "text": "No"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q7.can-court-orders-be-obtained-to-protect-a-person-into-a-forced-marriage.m4a",
+      "question": "Can court orders be obtained to protect a person from being forced into a marriage?",
+      "explanation": "True. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage.",
+      "id": "exam-15-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Yes"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "True. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage.",
+        "why_correct_zh": "真的。可以获得法院命令来保护某人免遭强迫婚姻，或保护处于强迫婚姻中的人。",
+        "answer_summary_zh": "正确选项：Yes。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Can"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Can court orders be obtained to protect a person from being forced into a marriage?”及正确答案“Yes”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "She did not win any medals"
+        },
+        {
+          "id": "r1",
+          "text": "Silver"
+        },
+        {
+          "id": "r2",
+          "text": "Gold"
+        },
+        {
+          "id": "r3",
+          "text": "Bronze"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q8.what-medal-did-mary-peters-win-in-1972-olympics.m4a",
+      "question": "What medal did Mary Peters win in the 1972 Olympics?",
+      "explanation": "Born in Manchester, Mary Peters moved to Northern Ireland as a child. She was a talented athlete who won an Olympic gold medal in the pentathlon in 1972.",
+      "id": "exam-15-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Gold"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Mary Peters won the women's athletics pentathlon at the 1972 Munich Olympics. This was not modern pentathlon: the women's athletics event comprised the 100 metres hurdles, shot put, high jump, long jump and 200 metres. Peters took the lead after the second event and finished with 4,801 points, then a world record, only ten points ahead of West Germany's Heide Rosendahl. Because the final scores still had to be calculated after the 200 metres, Peters first realised she had won when Rosendahl embraced her. Peters was 33 and competing at her third Olympic Games.",
+        "why_correct_zh": "Mary Peters在1972年Munich Olympics赢得的是田径女子pentathlon（五项全能）金牌。它不是包含击剑、游泳和马术的modern pentathlon；当时的女子田径五项依次包括100 metres hurdles、shot put、high jump、long jump和200 metres。\n\n她在前两项后取得领先，最终以4,801分创造当时的world record，只比主场作战的West Germany选手Heide Rosendahl多10分。最后一项200米结束后还要计算总分，Peters得知夺冠，是因为Rosendahl先跑来拥抱她。她当时33岁，这是她第三次参加Olympics。",
+        "answer_summary_zh": "正确选项：Gold。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Mary Peters",
+          "1972",
+          "Olympics"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "teamgb-mary-peters",
+        "world-athletics-mary-peters"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What medal did Mary Peters win in the 1972 Olympics?”及正确答案“Gold”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "teamgb-mary-peters",
+          "world-athletics-mary-peters"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Up to 3 specially trained magistrates"
+        },
+        {
+          "id": "r1",
+          "text": "A District Judge"
+        },
+        {
+          "id": "r2",
+          "text": "A sheriff"
+        },
+        {
+          "id": "r3",
+          "text": "Up to 5 specially trained magistrates"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q9.england-wales-northern-ireland-youth-courts-cases-heard-by.m4a",
+      "question": "In England, Wales and Northern Ireland Youth Court cases are normally heard by (choose TWO answers)?",
+      "explanation": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge.",
+      "id": "exam-15-q09",
+      "number": 9,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r1"
+      ],
+      "correct_answers": [
+        "Up to 3 specially trained magistrates",
+        "A District Judge"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge.",
+        "why_correct_zh": "在英格兰、威尔士和北爱尔兰，如果被告年龄在 10 至 17 岁之间，案件通常在青少年法庭审理，由最多三名经过专门培训的治安法官或地区法官审理。",
+        "answer_summary_zh": "正确选项：Up to 3 specially trained magistrates；A District Judge。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "In England",
+          "Wales and Northern Ireland Youth",
+          "Court"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In England, Wales and Northern Ireland Youth Court cases are normally heard by (choose TWO answers)?”及正确答案“Up to 3 specially trained magistrates；A District Judge”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The jet engine"
+        },
+        {
+          "id": "r1",
+          "text": "The television"
+        },
+        {
+          "id": "r2",
+          "text": "The Turing machine"
+        },
+        {
+          "id": "r3",
+          "text": "The ball pen"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q10.invention-alan-turing-1930s.m4a",
+      "question": "What was invented by Alan Turing in the 1930s?",
+      "explanation": "A Turing machine is a theoretical mathematical device invented by Alan Turing (1912-54), a British mathematician, in the 1930s.",
+      "id": "exam-15-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Turing machine"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "A Turing machine is a theoretical mathematical device invented by Alan Turing (1912-54), a British mathematician, in the 1930s.",
+        "why_correct_zh": "图灵机是英国数学家艾伦·图灵（Alan Turing，1912-54）在 20 世纪 30 年代发明的一种理论数学设备。",
+        "answer_summary_zh": "正确选项：The Turing machine。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Alan Turing"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-15-q10.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：What was invented by Alan Turing in the 1930s?；正确答案：The Turing machine",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": {
+        "title": "The Imitation Game",
+        "year": 2014,
+        "relationship": "background",
+        "poster_src": "/images/media/the-imitation-game-2014-poster.jpg",
+        "poster_alt_en": "An official theatrical poster for The Imitation Game (2014).",
+        "poster_alt_zh": "电影《The Imitation Game》（2014）的正式海报。",
+        "fun_fact_en": "The Imitation Game (2014) is a biographical drama about Alan Turing and wartime codebreaking. The exam question asks about his earlier theoretical Turing machine, so the film is useful context rather than a direct explanation of that invention.",
+        "fun_fact_zh": "《The Imitation Game》（2014）是一部关于艾伦·图灵和战时代码破译的传记剧情片。考试题问的是他更早提出的理论“图灵机”，所以电影提供的是人物背景，而不是对这项发明的直接讲解。",
+        "source_title": "The Imitation Game (2014) — BFI",
+        "source_url": "https://www.bfi.org.uk/film/3186b089-c5f3-5572-b7f7-a119132a34c6/the-imitation-game",
+        "poster_provider": "TMDB",
+        "poster_provider_url": "https://www.themoviedb.org/movie/205596-the-imitation-game",
+        "poster_credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+      }
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Domesday Book"
+        },
+        {
+          "id": "r1",
+          "text": "The Book of Common Prayer"
+        },
+        {
+          "id": "r2",
+          "text": "The Canterbury Tales"
+        },
+        {
+          "id": "r3",
+          "text": "The Carta Magna"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q11.how-people-lived-in-england-after-norman-conquest.m4a",
+      "question": "Which of the following tells us about how people lived in England just after the Norman Conquest?",
+      "explanation": "William sent people all over England to draw up lists of all the towns and villages. The people who lived there, who owned the land and what animals they owned were also listed. This was called the Domesday Book. It still exists today and gives a picture of society in England just after the Norman Conquest.",
+      "id": "exam-15-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Domesday Book"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Domesday Book is not a book about the end of the world. Domesday is an older form of Doomsday, while Old English doom meant law or judgement. The name became attached to the record after the survey. Medieval writers compared its authority with the Christian Last Judgement: everyone was called to account and there was no appeal from the final decision. William I's survey similarly recorded land, holders, value, resources and tax obligations in exceptional detail, and royal administrators treated it as authoritative evidence in disputes. William ordered the survey at Christmas 1085 and it was conducted in 1086. It was also known as the Book of Winchester because it was initially kept in the royal treasury there. The familiar Chinese title is therefore best understood as a land register whose judgement was treated as final, not as a prophecy of doomsday.",
+        "why_correct_zh": "Domesday Book并不是关于世界末日的书。Domesday是Doomsday的旧式写法；doom在古英语中原有“法律、判决”之意。这个名称是在调查完成后才逐渐出现的，大意更接近“审判日之书”。\n\n中世纪人把它比作基督教的Last Judgement：所有人都要交账，而且最终裁决不能上诉。William I的调查同样极为彻底，土地、持有人、价值、牲畜及应缴税款都被登记；王室处理土地权利和税务争议时，把书中的记录视为具有最终权威的依据，因此得名。\n\n调查由William I于1085年圣诞节下令，1086年进行。它原本也被称为Book of Winchester，因为早期保存在Winchester的王室财政机构。中文通常译作《末日审判书》，但理解成“像最后审判一样不可推翻的土地总账”更准确。",
+        "answer_summary_zh": "正确选项：The Domesday Book。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "England",
+          "Norman Conquest"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-domesday",
+        "hull-domesday-name"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following tells us about how people lived in England just after the Norman Conquest?”及正确答案“The Domesday Book”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-domesday",
+          "hull-domesday-name"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Alexander Fleming"
+        },
+        {
+          "id": "r1",
+          "text": "Alan Turing"
+        },
+        {
+          "id": "r2",
+          "text": "Ernest Rutherford"
+        },
+        {
+          "id": "r3",
+          "text": "Sir Peter Mansfield"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q12.who-split-atom-first-time.m4a",
+      "question": "Who led a team of scientists to ‘split the atom‘ for the first time?",
+      "explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom‘ and took part in the Manhattan Project in the United States, which developed the atomic bomb.",
+      "id": "exam-15-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Ernest Rutherford"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom‘ and took part in the Manhattan Project in the United States, which developed the atomic bomb.",
+        "why_correct_zh": "题库答案是Ernest Rutherford。他开创核物理研究，并领导剑桥Cavendish Laboratory；1932年，John Cockcroft和Ernest Walton在他的指导下首次用人工加速的质子分裂原子核。\n\n需要纠正原解释中的混淆：Rutherford于1937年去世，没有参加后来美国的Manhattan Project。考试记忆点仍是Rutherford领导的团队与“split the atom”相联系。",
+        "answer_summary_zh": "正确选项：Ernest Rutherford。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "scientists"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "cambridge-splitting-atom"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who led a team of scientists to ‘split the atom‘ for the first time?”及正确答案“Ernest Rutherford”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "cambridge-splitting-atom"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Auld Lang Syne"
+        },
+        {
+          "id": "r1",
+          "text": "The British Anthem"
+        },
+        {
+          "id": "r2",
+          "text": "Jingle Bells"
+        },
+        {
+          "id": "r3",
+          "text": "White Christmas"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q13.song-sung-in-uk-new-year.m4a",
+      "question": "What song is sung by people in the UK and other countries when they are celebrating the New Year?",
+      "explanation": "The song Auld Lang Syne, which is sung by people in the UK and other countries when they are celebrating the New Year (or Hogmanay as it is called in Scotland).",
+      "id": "exam-15-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Auld Lang Syne"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Auld Lang Syne is written mainly in Scots, not Scottish Gaelic. Scots is a Germanic language closely related to English, whereas Scottish Gaelic is a distinct Celtic language. Word by word, auld means old, lang means long, and syne means since or ago; the phrase evokes times long past and is commonly understood as 'for old times' sake'. Words such as twa, hae, braes and wee are characteristic Scots forms. Robert Burns collected an older Scottish folk song and adapted or extended its words, sending his version to the music publisher James Johnson in 1788. It later appeared in The Scots Musical Museum. The song is now sung at New Year, including Scotland's Hogmanay celebrations, to remember old friends and shared times.",
+        "why_correct_zh": "Auld Lang Syne主要用Scots（低地苏格兰语）写成，不是Scottish Gaelic。Scots是与English关系密切的Germanic language；Scottish Gaelic则属于Celtic languages，两者是不同语言。\n\n标题逐词看，auld是old，lang是long，syne是since或ago，字面接近“很久以前”。整句话通常理解为“往昔的岁月”或“为了旧日情谊”，所以中文常译作《友谊地久天长》。歌词中的twa、hae、braes和wee等也都是典型Scots词。\n\nRobert Burns从苏格兰民间传统中收集并改写歌词，1788年把版本寄给音乐出版人James Johnson，后来收入The Scots Musical Museum。如今人们常在New Year或苏格兰Hogmanay午夜牵手合唱，用来纪念旧友与共同往事。",
+        "answer_summary_zh": "正确选项：Auld Lang Syne。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK and",
+          "New Year"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "nls-robert-burns-auld-lang-syne",
+        "visitscotland-hogmanay"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What song is sung by people in the UK and other countries when they are celebrating the New Year?”及正确答案“Auld Lang Syne”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "nls-robert-burns-auld-lang-syne",
+          "visitscotland-hogmanay"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The House of York and the House of Lancaster"
+        },
+        {
+          "id": "r1",
+          "text": "The Anglo-Saxons and the Vikings"
+        },
+        {
+          "id": "r2",
+          "text": "The Cavaliers and the Roundheads"
+        },
+        {
+          "id": "r3",
+          "text": "The House of Fraser and the House of Stuart"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q14.houses-fought-english-civil-war-1642.m4a",
+      "question": "Who fought in the English Civil war of 1642?",
+      "explanation": "The Civil war between the king and Parliament began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+      "id": "exam-15-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Cavaliers and the Roundheads"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Civil war between the king and Parliament began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+        "why_correct_zh": "国王与议会之间的内战于 1642 年开始。国家分裂为支持国王的派（骑士派）和支持议会的派（圆头派）。",
+        "answer_summary_zh": "正确选项：The Cavaliers and the Roundheads。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "English Civil",
+          "1642"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who fought in the English Civil war of 1642?”及正确答案“The Cavaliers and the Roundheads”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Vindolanda"
+        },
+        {
+          "id": "r1",
+          "text": "Maiden Castle"
+        },
+        {
+          "id": "r2",
+          "text": "Housesteads"
+        },
+        {
+          "id": "r3",
+          "text": "Grimsby"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q15.forts-part-hadrians-wall.m4a",
+      "question": "Which two of these forts were part of Hadrian‘s wall?",
+      "explanation": "Parts of Hadrian‘s Wall, include the forts of Housesteads and Vindolanda.",
+      "id": "exam-15-q15",
+      "number": 15,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r2"
+      ],
+      "correct_answers": [
+        "Vindolanda",
+        "Housesteads"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Housesteads and Vindolanda are both in Northumberland in northern England, in the central sector of the Hadrian's Wall frontier between Newcastle and Carlisle, near Hexham and Bardon Mill. Hadrian's Wall itself runs about 73 miles from Wallsend in the east to Bowness-on-Solway in the west. Housesteads Roman Fort stands directly on the Wall near Haydon Bridge, roughly midway along it, on the Whin Sill escarpment. Vindolanda is near Bardon Mill, about one mile south of the curtain wall. It stands on the earlier Roman Stanegate road and its first forts pre-dated the construction of Hadrian's Wall, which began in AD 122; it later served as an important construction and garrison base for the Wall. The question therefore uses 'part of Hadrian's Wall' in the wider sense of the Roman frontier complex, not to mean that Vindolanda is built into the stone wall itself.",
+        "why_correct_zh": "Housesteads和Vindolanda都在England北部的Northumberland，位于Newcastle与Carlisle之间、靠近Hexham和Bardon Mill的哈德良长城中央地段。长城整体从东部Wallsend横跨北英格兰至西部Bowness-on-Solway，全长约73 miles。\n\nHousesteads Roman Fort位于Haydon Bridge附近，直接建在长城线上和Whin Sill高地上，大约处于长城中段；它曾驻扎约800名士兵，是英国保存最完整的Roman fort之一。\n\nVindolanda位于Bardon Mill附近，约在长城以南1 mile。它沿更早的Roman road Stanegate修建，最初堡垒早于公元122年开始建造的Hadrian's Wall，后来成为修建和守卫长城的重要基地。因此题目说它是“part of Hadrian's Wall”，应理解为属于广义的Roman frontier遗址体系，而不是堡垒直接嵌在石墙中。",
+        "answer_summary_zh": "正确选项：Vindolanda；Housesteads。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Hadrian"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "english-heritage-housesteads",
+        "vindolanda-fort-museum",
+        "english-heritage-hadrians-wall-teachers-kit"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of these forts were part of Hadrian‘s wall?”及正确答案“Vindolanda；Housesteads”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "english-heritage-housesteads",
+          "vindolanda-fort-museum",
+          "english-heritage-hadrians-wall-teachers-kit"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Hindu"
+        },
+        {
+          "id": "r1",
+          "text": "Catholic"
+        },
+        {
+          "id": "r2",
+          "text": "Sikh"
+        },
+        {
+          "id": "r3",
+          "text": "Protestant"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q16.religion-of-puritans.m4a",
+      "question": "What was the religion of the Puritans?",
+      "explanation": "The Puritans were a group of Protestants who advocated strict and simple religious doctrine and worship.",
+      "id": "exam-15-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Protestant"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Puritans were Christians within Protestant Christianity, not followers of a completely separate religion. Christianity is the broad category, Protestantism is one of its major traditions, and the Puritans were a reform movement within English Protestantism in the 16th and 17th centuries. All Puritans were Protestants, but not all Protestants were Puritans. Protestant describes Christians whose churches emerged from the Reformation and rejected the Pope's supreme authority over their churches, although Protestant denominations differ greatly. The name Puritan reflects their wish to 'purify' the Church of England further. They believed the English Reformation had retained too many Catholic ceremonies, vestments, set prayers and episcopal structures. Many sought reform from within the Church of England; others became Separatists or Nonconformists. Often influenced by Reformed or Calvinist theology, they emphasised the Bible, preaching, moral discipline, Sabbath observance and plain worship.",
+        "why_correct_zh": "清教徒信奉Christianity，属于Protestant Christianity（新教），不是一种完全独立的新宗教。Christianity是大类，Protestantism是其中一大传统，Puritans则是16—17世纪England新教内部的改革运动。因此，清教徒都是新教徒，但新教徒不都是清教徒。\n\nProtestant指宗教改革后脱离Roman Catholic Church权威的基督徒。不同新教教派并不完全相同，但通常拒绝Pope对本教会的最高权威，强调Bible以及本地语言的讲道和礼拜。Church of England和Church of Scotland都属于广义新教传统。\n\nPuritan一名来自他们希望进一步“purify”Church of England。他们认为English Reformation不够彻底，教会仍保留太多Catholic仪式，例如华丽装饰、祭服和固定礼文。许多人希望从教会内部改革，另一些成为Separatists或Nonconformists。他们常受Calvinist神学影响，重视Bible、讲道、个人纪律、Sabbath及简朴礼拜。",
+        "answer_summary_zh": "正确选项：Protestant。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Puritans"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-reformation",
+        "national-archives-puritan",
+        "national-archives-religious-conformity"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was the religion of the Puritans?”及正确答案“Protestant”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-reformation",
+          "national-archives-puritan",
+          "national-archives-religious-conformity"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Fenians"
+        },
+        {
+          "id": "r1",
+          "text": "Quakers"
+        },
+        {
+          "id": "r2",
+          "text": "Highlanders"
+        },
+        {
+          "id": "r3",
+          "text": "Suffragettes"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q17.irish-people-who-favoured-complete-independence-from-the-uk-in-19-century.m4a",
+      "question": "What is the name of Irish people who favoured complete independence from the UK in the 19th century?",
+      "explanation": "The Irish Nationalist movement had grown strongly through the 19th century. Some, such as the Fenians, favoured complete independence.",
+      "id": "exam-15-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Fenians"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The name Fenian comes from the Fianna of Irish mythology, not from the surname of a nineteenth-century politician. The Fianna were a legendary warrior band led by Fionn mac Cumhaill, anglicised as Finn MacCool, and portrayed as defenders of Ireland. In 1858 James Stephens founded the secret revolutionary Irish Republican Brotherhood in Dublin. That year the Irish nationalist and Gaelic scholar John O'Mahony established its American sister organisation, the Fenian Brotherhood, in New York. He took the name from the Fianna to present its members as modern warriors for Irish independence. Both organisations sought an independent Irish republic through revolution, and their members and wider movement became known as Fenians. From the 1860s Fenianism became a general term for revolutionary Irish nationalism. It is distinct from the Fianna Fail political party founded in 1926; in some modern contexts Fenian is also used as a sectarian slur against Irish people or Catholics.",
+        "why_correct_zh": "Fenian这个名称来自爱尔兰神话中的Fianna，而不是某位19世纪人物的姓。Fianna是由英雄Fionn mac Cumhaill（英语化名称Finn MacCool）领导的传奇勇士团，故事把他们描写成保卫Ireland的战士。\n\n1858年，James Stephens在Dublin建立秘密革命组织Irish Republican Brotherhood（IRB）；同年，流亡New York的爱尔兰民族主义者兼Gaelic学者John O'Mahony建立其美国姐妹组织Fenian Brotherhood。他从Fianna取名，希望把成员塑造成争取爱尔兰独立的现代勇士。\n\n两组织希望通过革命建立独立的Irish Republic，成员及整个运动后来都被统称为Fenians。1860年代以后，Fenianism逐渐成为革命性Irish nationalism的代称。它与1926年成立的政党Fianna Fáil不是同一个组织；现代语境中Fenian有时也会被当作针对爱尔兰人或Catholics的贬义词。",
+        "answer_summary_zh": "正确选项：Fenians。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Irish",
+          "UK",
+          "19th century"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "dib-john-omahony",
+        "dib-james-stephens",
+        "oireachtas-fianna-warriors"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of Irish people who favoured complete independence from the UK in the 19th century?”及正确答案“Fenians”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "dib-john-omahony",
+          "dib-james-stephens",
+          "oireachtas-fianna-warriors"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Rolling Stones"
+        },
+        {
+          "id": "r1",
+          "text": "The Beatles"
+        },
+        {
+          "id": "r2",
+          "text": "ABBA"
+        },
+        {
+          "id": "r3",
+          "text": "Radiohead"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q18.famous-british-pop-groups-during-swinging-sixties.m4a",
+      "question": "Which two British pop music groups were famous during the Swinging Sixties?",
+      "explanation": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music. Two well-known pop music groups at the time were The Beatles and The Rolling Stones.",
+      "id": "exam-15-q18",
+      "number": 18,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r1"
+      ],
+      "correct_answers": [
+        "The Rolling Stones",
+        "The Beatles"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music. Two well-known pop music groups at the time were The Beatles and The Rolling Stones.",
+        "why_correct_zh": "20世纪60年代是社会发生重大变革的时期。它被称为“摇摆的六十年代”。英国时尚、电影和流行音乐都有增长。当时两个著名的流行音乐团体是披头士乐队和滚石乐队。",
+        "answer_summary_zh": "正确选项：The Rolling Stones；The Beatles。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British",
+          "Swinging Sixties"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two British pop music groups were famous during the Swinging Sixties?”及正确答案“The Rolling Stones；The Beatles”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "16 years old"
+        },
+        {
+          "id": "r1",
+          "text": "17 years old"
+        },
+        {
+          "id": "r2",
+          "text": "18 years old"
+        },
+        {
+          "id": "r3",
+          "text": "21 years old"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q19.minimum-age-required-to-drive-motorcycle.m4a",
+      "question": "What is the minimum age required to drive a motorcycle?",
+      "explanation": "In the UK, you must be at least 17 years to drive a car or motorcycle and you must have a driving licence to drive on public roads.",
+      "id": "exam-15-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "17 years old"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In the UK, you must be at least 17 years to drive a car or motorcycle and you must have a driving licence to drive on public roads.",
+        "why_correct_zh": "在英国，您必须年满 17 岁才能驾驶汽车或摩托车，并且必须拥有驾驶执照才能在公共道路上驾驶。",
+        "answer_summary_zh": "正确选项：17 years old。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "minimum age"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the minimum age required to drive a motorcycle?”及正确答案“17 years old”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q20.members-house-of-lords-peers-elected-by-people.m4a",
+      "question": "The members of the House of Lords, known as peers, are elected by the people.",
+      "explanation": "False. The members of the House of Lords, known as peers, are not elected by the people.",
+      "id": "exam-15-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. Members of the House of Lords are not elected by the public. As of 2026, the House mainly comprises life peers and 26 Church of England bishop seats. Political parties can propose political nominees. People may nominate themselves or others for non-party-political Crossbench membership, and the independent House of Lords Appointments Commission assesses those candidates and vets every life-peer nomination for propriety. The Prime Minister formally advises the King, who creates the life peerage by Letters Patent; a new member must then take the oath before sitting and voting. A life peerage lasts only for that person's life and does not pass a Lords seat to their children. The Lords Spiritual comprise the Archbishops of Canterbury and York, the Bishops of London, Durham and Winchester, and other senior Church of England bishops; their seats pass on when they leave episcopal office. Following the House of Lords (Hereditary Peers) Act 2026, the remaining hereditary peers ceased on 29 April 2026 to sit merely by virtue of hereditary peerages.",
+        "why_correct_zh": "错误。House of Lords不是由公众普选产生。截至2026年，它主要由life peers（终身贵族）和26个Church of England主教席位组成。\n\n多数议员是life peers。政党可提出政治性人选；非党派Crossbench人选由独立的House of Lords Appointments Commission遴选。该委员会还审查全部终身贵族提名是否适当。Prime Minister向King正式建议，King以Letters Patent授予终身爵位；新成员宣誓后才能议事和投票。爵位只在本人一生有效，议席不能传给子女。\n\n26个Lords Spiritual席位由Archbishops of Canterbury和York、Bishops of London、Durham、Winchester及其他资深Church of England主教担任，离任后按制度补位。House of Lords (Hereditary Peers) Act 2026实施后，hereditary peers自2026年4月29日起不再仅凭世袭爵位拥有议席。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "House of Lords"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-lords-appointed",
+        "commons-library-peerages-2026",
+        "holac-appointment-process"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The members of the House of Lords, known as peers, are elected by the people.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-lords-appointed",
+          "commons-library-peerages-2026",
+          "holac-appointment-process"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1835"
+        },
+        {
+          "id": "r1",
+          "text": "1823"
+        },
+        {
+          "id": "r2",
+          "text": "1807"
+        },
+        {
+          "id": "r3",
+          "text": "1833"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q21.year-emancipation-act-abolished-slavery-british-empire.m4a",
+      "question": "When did the Emancipation Act abolish slavery throughout the British Empire?",
+      "explanation": "In 1833 the Emancipation Act abolished slavery throughout the British Empire.",
+      "id": "exam-15-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "1833"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1833 the Emancipation Act abolished slavery throughout the British Empire.",
+        "why_correct_zh": "1833年，《解放奴隶法》废除了整个大英帝国的奴隶制。",
+        "answer_summary_zh": "正确选项：1833。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Emancipation Act",
+          "British Empire"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did the Emancipation Act abolish slavery throughout the British Empire?”及正确答案“1833”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Chancellor of the Exchequer"
+        },
+        {
+          "id": "r1",
+          "text": "The Foreign Secretary"
+        },
+        {
+          "id": "r2",
+          "text": "The Speaker"
+        },
+        {
+          "id": "r3",
+          "text": "The Home Secretary"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q22.who-is-respnsible-for-crime.m4a",
+      "question": "Who is responsible for crime, policing and immigration?",
+      "explanation": "The Home Secretary is responsible for crime, policing and immigration.",
+      "id": "exam-15-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Home Secretary"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Home Secretary is responsible for crime, policing and immigration.",
+        "why_correct_zh": "内政大臣负责犯罪、治安和移民。",
+        "answer_summary_zh": "正确选项：The Home Secretary。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "responsible"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who is responsible for crime, policing and immigration?”及正确答案“The Home Secretary”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A soap opera"
+        },
+        {
+          "id": "r1",
+          "text": "A silent movie"
+        },
+        {
+          "id": "r2",
+          "text": "An animated film"
+        },
+        {
+          "id": "r3",
+          "text": "An action film"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q23.genre-film-wallace-and-gromit-nick-park.m4a",
+      "question": "What kind of genre was the film Wallace and Gromit created by Nick Park?",
+      "explanation": "Nick Park won four Oscars for his animated films, including three for films featuring Wallace and Gromit.",
+      "id": "exam-15-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "An animated film"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Nick Park won four Oscars for his animated films, including three for films featuring Wallace and Gromit.",
+        "why_correct_zh": "尼克·帕克因其动画电影获得四项奥斯卡奖，其中三项以《超级无敌掌门狗》为主题的电影。",
+        "answer_summary_zh": "正确选项：An animated film。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Wallace and Gromit",
+          "Nick Park"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What kind of genre was the film Wallace and Gromit created by Nick Park?”及正确答案“An animated film”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT15/Q24.anyone-violent-towards-their-partner-can-be-prosecuted.m4a",
+      "question": "Anyone who is violent towards their partner – whether they are a man or a woman, married or living together – can be prosecuted.",
+      "explanation": "True. Anyone who is violent towards their partner – whether they are a man or a woman, married or living together – can be prosecuted.",
+      "id": "exam-15-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 15,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-15/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "True. Anyone who is violent towards their partner – whether they are a man or a woman, married or living together – can be prosecuted.",
+        "why_correct_zh": "真的。任何对伴侣施暴的人——无论他们是男性还是女性，已婚还是同居——都可能被起诉。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "prosecuted"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-15-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Anyone who is violent towards their partner – whether they are a man or a woman, married or living together – can be prosecuted.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

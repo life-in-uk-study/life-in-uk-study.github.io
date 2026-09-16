@@ -1,0 +1,1661 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 5,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "church-england-articles-religion": {
+      "title": "Articles of Religion",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+      "authority": "established_church",
+      "note_zh": "Church of England的Thirty-nine Articles说明Holy Scripture的地位、因信称义，以及Baptism与Lord's Supper两件福音圣礼。"
+    },
+    "church-england-easter-day": {
+      "title": "Easter Day",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/faith-life/what-we-believe/lent-holy-week-and-easter/easter-day",
+      "authority": "established_church",
+      "note_zh": "英格兰教会介绍Easter Sunday礼拜，并说明复活节蛋所象征的新生命及其与耶稣墓门石头的联系。"
+    },
+    "english-heritage-hot-cross-buns": {
+      "title": "Holy or heretical? A history of hot cross buns",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/easter/a-history-of-hot-cross-buns/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍hot cross buns与Good Friday的传统联系，以及面包上十字图案的宗教象征。"
+    },
+    "gov-ie-st-patrick-global": {
+      "title": "Ireland marks St. Patrick’s Day 2022",
+      "publisher": "Department of Foreign Affairs, Ireland",
+      "url": "https://www.gov.ie/en/department-of-foreign-affairs/press-releases/ireland-marks-st-patricks-day-2022/",
+      "authority": "official_government",
+      "note_zh": "爱尔兰外交部说明St Patrick’s Day已成为全球爱尔兰社群与文化身份的国际庆祝活动。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "govuk-test-rules": {
+      "title": "Life in the UK Test",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/life-in-the-uk-test",
+      "authority": "official_government",
+      "note_zh": "确认考试内容仅来自官方 Guide for New Residents。"
+    },
+    "govuk-volunteering": {
+      "title": "Volunteer opportunities, rights and expenses",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/volunteering",
+      "authority": "official_government",
+      "note_zh": "社区志愿服务的官方信息。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "historic-scotland-st-andrews-links": {
+      "title": "St Andrews Links",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://portal.historicenvironment.scot/designation/GDL00344",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Environment Scotland说明St Andrews Links的海岸地形、高尔夫传统及其国际影响。"
+    },
+    "ireland-st-patrick-activity-pack": {
+      "title": "St Patrick Activity Pack",
+      "publisher": "Ireland.ie",
+      "url": "https://assets.ireland.ie/documents/StPatricksDayActivityPack.pdf",
+      "authority": "official_government",
+      "note_zh": "爱尔兰官方资料介绍St Patrick被掳到爱尔兰为奴、逃脱后返回传播基督教，以及3月17日作为其传统逝世纪念日的由来。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-trust-easter-traditions": {
+      "title": "The story of Easter in the collection",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/discover/history/art-collections/the-story-of-easter-in-the-collection",
+      "authority": "national_conservation_charity",
+      "note_zh": "National Trust介绍Easter Bunny、chocolate eggs、egg hunts、Easter bonnets及英国地方复活节传统。"
+    },
+    "nls-early-scottish-golf": {
+      "title": "Early moments in Scottish golf",
+      "publisher": "National Library of Scotland",
+      "url": "https://www.nls.uk/collections/stories/sports-and-recreation/early-moments-in-scottish-golf/",
+      "authority": "national_library",
+      "note_zh": "苏格兰国家图书馆介绍1457年禁球令、James IV购买球杆、1744年规则及John Rattray获救的故事。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-religion": {
+      "title": "Religion",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion",
+      "authority": "official_statistics",
+      "note_zh": "英国宗教人口数据和分析。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-reformation": {
+      "title": "The Reformation",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/overview/reformation/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明教皇反对Henry VIII与Catherine of Aragon离婚，以及1534年Act of Supremacy确立国王的教会领导地位。"
+    },
+    "randa-why-18-holes": {
+      "title": "Why are there 18 holes?",
+      "publisher": "The R&A",
+      "url": "https://publications.randa.org/why-are-there-18-holes-by-peter-lewis",
+      "authority": "official_sports_governing_body",
+      "note_zh": "The R&A梳理早期球场洞数并不统一，以及18洞在St Andrews影响下逐渐成为标准的历史。"
+    },
+    "vatican-scripture-tradition": {
+      "title": "The relationship between Tradition and Sacred Scripture",
+      "publisher": "The Holy See",
+      "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/artcile_2/ii_the_relationship_between_tradition_and_sacred_scripture.html",
+      "authority": "official_church_teaching",
+      "note_zh": "Catholic Church教理说明Sacred Scripture与Sacred Tradition共同传递信仰，并由教会训导权负责权威解释。"
+    },
+    "vatican-seven-sacraments": {
+      "title": "The Seven Sacraments of the Church",
+      "publisher": "The Holy See",
+      "url": "https://www.vatican.va/content/catechism/en/part_two/section_two.index.html",
+      "authority": "official_church_teaching",
+      "note_zh": "Catholic Church教理列出Baptism、Confirmation、Eucharist、Penance、Anointing of the Sick、Holy Orders及Matrimony七件圣礼。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "November or December"
+        },
+        {
+          "id": "r1",
+          "text": "January or February"
+        },
+        {
+          "id": "r2",
+          "text": "March or April"
+        },
+        {
+          "id": "r3",
+          "text": "May or June"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-1.When-does-Easter-take-place.m4a",
+      "question": "When does Easter take place?",
+      "explanation": "Easter takes place in March or April.",
+      "id": "exam-05-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "March or April"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Easter falls in March or April because it is a movable Christian festival. In Western churches, Easter Sunday is the first Sunday after the first full moon following the spring equinox, so its calendar date changes each year.\n\nCommon UK customs include Easter Sunday church services, chocolate Easter eggs, Easter Bunny stories and egg hunts. Eggs represent new life and are sometimes linked to the stone at Jesus's tomb. Hot cross buns are traditionally associated with Good Friday; decorated eggs, egg rolling and Easter bonnets also survive in some communities.",
+        "why_correct_zh": "正确答案是March or April。Easter是日期会移动的基督教节日；西方教会通常以春分后第一次满月之后的星期日为Easter Sunday，因此每年日期不同。\n\n英国常见习俗包括参加Easter Sunday礼拜、赠送chocolate Easter eggs、讲述Easter Bunny送蛋的故事，以及举行egg hunts。蛋象征new life，也常被联想到耶稣墓门前的石头。Good Friday常吃带十字的hot cross buns；部分地区还保留彩蛋装饰、egg rolling和Easter bonnet等传统。",
+        "answer_summary_zh": "正确选项：March or April。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Easter"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "church-england-easter-day",
+        "national-trust-easter-traditions",
+        "english-heritage-hot-cross-buns"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When does Easter take place?”及正确答案“March or April”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "church-england-easter-day",
+          "national-trust-easter-traditions",
+          "english-heritage-hot-cross-buns"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1p"
+        },
+        {
+          "id": "r1",
+          "text": "5p"
+        },
+        {
+          "id": "r2",
+          "text": "25p"
+        },
+        {
+          "id": "r3",
+          "text": "£1"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-2.Which-of-the-following-is-not-a-valid-UK-coin.m4a",
+      "question": "Which of the following is not a valid UK coin?",
+      "explanation": "There are no 25p coins in the UK currency.",
+      "id": "exam-05-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "25p"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "25p is not a normal UK coin denomination. Current circulating coins are 1p, 2p, 5p, 10p, 20p, 50p, £1 and £2; the heptagonal 20p and 50p coins can help prevent confusion with the invented 25p option.",
+        "why_correct_zh": "正确答案是25p。英国常用流通硬币面额为1p、2p、5p、10p、20p、50p、£1和£2，没有普通25p硬币。七边形的20p和50p也能帮助记忆。",
+        "answer_summary_zh": "正确选项：25p。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is not a valid UK coin?”及正确答案“25p”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Dorset"
+        },
+        {
+          "id": "r1",
+          "text": "Cornwall"
+        },
+        {
+          "id": "r2",
+          "text": "Devon"
+        },
+        {
+          "id": "r3",
+          "text": "Somerset"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-3.Where-is-the-Eden-Project-located.m4a",
+      "question": "Where is the Eden Project located?",
+      "explanation": "The Eden Project is located in Cornwall, in the south west of England.",
+      "id": "exam-05-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Cornwall"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Eden Project is in Cornwall, near St Austell. Its enormous geodesic Biomes were built in a former china-clay pit and contain plants from rainforest and Mediterranean climates, turning an industrial landscape into an environmental visitor attraction.",
+        "why_correct_zh": "正确答案是Cornwall。Eden Project位于St Austell附近，巨大的geodesic Biomes建在废弃瓷土矿坑中，分别展示rainforest和Mediterranean等气候植物，是工业土地再生的代表项目。",
+        "answer_summary_zh": "正确选项：Cornwall。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Eden Project"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the Eden Project located?”及正确答案“Cornwall”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-4.St-Helena-and-the-Falkland-Islands-are-part-of-Great-Britain.m4a",
+      "question": "St Helena and the Falkland Islands are part of Great Britain.",
+      "explanation": "False. There are several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not part of it.",
+      "id": "exam-05-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "False. St Helena and the Falkland Islands are British Overseas Territories, not constituent parts of Great Britain or the United Kingdom. The UK is responsible for matters such as defence and foreign affairs, while each territory has its own local constitutional arrangements.",
+        "why_correct_zh": "本题答案是False。St Helena与Falkland Islands属于British Overseas Territories，并非Great Britain或UK的组成部分。UK主要承担国防和外交责任，各领土拥有自己的宪制与地方政府。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St Helena and the Falkland",
+          "Islands",
+          "Great Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“St Helena and the Falkland Islands are part of Great Britain.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "76",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Monarchy"
+        },
+        {
+          "id": "r1",
+          "text": "The rule of law"
+        },
+        {
+          "id": "r2",
+          "text": "Democracy"
+        },
+        {
+          "id": "r3",
+          "text": "Join a political party"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-5.fundamental-principles-of-British-life-The-rule-of-law-democracy.m4a",
+      "question": "Which two of the following are fundamental principles of British life?",
+      "explanation": "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life.",
+      "id": "exam-05-q05",
+      "number": 5,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r2"
+      ],
+      "correct_answers": [
+        "The rule of law",
+        "Democracy"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "1.2 The values and principles of the UK",
+      "handbook_locator": "Chapter 1: The values and principles of the UK",
+      "learning": {
+        "why_correct_en": "The rule of law and democracy are two fundamental principles of British life. The full set also includes individual liberty, mutual respect and tolerance of different faiths and beliefs, and participation in community life.",
+        "why_correct_zh": "正确答案是The rule of law和Democracy。英国生活的基本原则还包括individual liberty、尊重并包容不同信仰，以及参与社区生活。记忆时把democracy与rule of law分别理解为权力来自选民、所有人受法律约束。",
+        "answer_summary_zh": "正确选项：The rule of law；Democracy。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-test-rules"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of the following are fundamental principles of British life?”及正确答案“The rule of law；Democracy”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-test-rules"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The electoral register"
+        },
+        {
+          "id": "r1",
+          "text": "Your local church"
+        },
+        {
+          "id": "r2",
+          "text": "The NHS"
+        },
+        {
+          "id": "r3",
+          "text": "The British Embassy"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-6.Where-should-you-register-if-you-want-to-become-part-of-a-jury.m4a",
+      "question": "Where should you register if you want to become part of a jury?",
+      "explanation": "People on the electoral register are randomly selected to serve on a jury. Therefore, if you want to be selected to form part of a jury you have to be on the electoral register and be between 18 to 70 years old.",
+      "id": "exam-05-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The electoral register"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Potential jurors are selected using the electoral register, so eligible people need to be registered to vote. Selection is random and registration does not guarantee service; courts then apply the relevant age, residence and disqualification rules.",
+        "why_correct_zh": "正确答案是the electoral register。法院从选民登记册随机选择潜在jurors，所以符合资格者首先需要登记投票；登记并不保证一定被召，之后仍会核对年龄、居住和不合资格条件。",
+        "answer_summary_zh": "正确选项：The electoral register。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "register"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-volunteering"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where should you register if you want to become part of a jury?”及正确答案“The electoral register”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-volunteering"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Catholic"
+        },
+        {
+          "id": "r1",
+          "text": "Baptist"
+        },
+        {
+          "id": "r2",
+          "text": "Presbyterian"
+        },
+        {
+          "id": "r3",
+          "text": "Methodist"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-7.What-sort-of-church-is-the-Church-of-Scotland.m4a",
+      "question": "What sort of church is the Church of Scotland?",
+      "explanation": "In Scotland, the national Church is the Church of Scotland, which is a Presbyterian Church.",
+      "id": "exam-05-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Presbyterian"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Church of Scotland is Presbyterian. It is governed through councils of ministers and elders rather than bishops, and although it is Scotland's national church it is constitutionally independent of the state.",
+        "why_correct_zh": "正确答案是Presbyterian。Church of Scotland由ministers和elders组成的各级会议治理，而不是由bishops领导。它是Scotland的national church，但在宪制上独立于国家。",
+        "answer_summary_zh": "正确选项：Presbyterian。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Church of Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-religion"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What sort of church is the Church of Scotland?”及正确答案“Presbyterian”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-religion"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Wales"
+        },
+        {
+          "id": "r1",
+          "text": "Australia"
+        },
+        {
+          "id": "r2",
+          "text": "Ireland"
+        },
+        {
+          "id": "r3",
+          "text": "Scotland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-8.Where-does-golf-come-from-scotland.m4a",
+      "question": "Where does golf come from?",
+      "explanation": "The modern game of golf can be traced back to 15th century Scotland.",
+      "id": "exam-05-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Scotland"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Modern golf developed in Scotland, but it was not invented by one known person on a single date. It evolved from medieval stick-and-ball games. Players first used streets and churchyards; Scotland's coastal links provided firm, well-drained turf and natural hollows that became hazards, making them ideal places to play a ball through a series of holes.\n\nScotland's earliest surviving written reference is James II's 1457 ban, issued because golf distracted men from compulsory archery practice. Royal and noble participation later helped move the game onto designated grounds with specialist clubs. The Company of Gentlemen Golfers wrote the earliest surviving 13 rules in Edinburgh in 1744. Early courses had different numbers of holes; the influence of St Andrews and The R&A helped make 18 holes the accepted standard by the late nineteenth century.",
+        "why_correct_zh": "正确答案是Scotland。现代golf并非由某个人在某一天突然发明，而是由中世纪苏格兰多种用球杆击球的游戏逐渐发展而来。人们起初曾在街道和教堂墓地击球；苏格兰东海岸称为links的沙质草地排水良好，天然凹地又能形成障碍，因此很适合把球从起点连续打进一系列洞中。\n\n1457年，James II下令禁玩golf，担心它妨碍国民练习国防所需的射箭；这是苏格兰现存最早的高尔夫文字记录。后来王室和贵族参与，使游戏转移到专门场地并使用特制球杆。1744年，Edinburgh的Company of Gentlemen Golfers写下现存最早的13条规则。早期球场洞数不一，随着St Andrews和The R&A影响扩大，18洞到19世纪后期逐渐成为标准。",
+        "answer_summary_zh": "正确选项：Scotland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "golf"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "nls-early-scottish-golf",
+        "historic-scotland-st-andrews-links",
+        "randa-why-18-holes"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where does golf come from?”及正确答案“Scotland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "nls-early-scottish-golf",
+          "historic-scotland-st-andrews-links",
+          "randa-why-18-holes"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Valentine’s Day"
+        },
+        {
+          "id": "r1",
+          "text": "Boxing Day"
+        },
+        {
+          "id": "r2",
+          "text": "Halloween"
+        },
+        {
+          "id": "r3",
+          "text": "April Fool’s Day"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-9.When-do-the-television-and-newspapers-have-stories-that-are-jokes-until-midday.m4a",
+      "question": "When do the television and newspapers have stories that are jokes until midday?",
+      "explanation": "On April Fool’s Day, the 1st of April the television and newspapers often have stories that are April Fool jokes.",
+      "id": "exam-05-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "April Fool’s Day"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "April Fool's Day is on 1 April, when newspapers and broadcasters traditionally publish convincing joke stories until midday. The prank is often revealed later, training readers to notice improbable details and check sources.",
+        "why_correct_zh": "正确答案是April Fool’s Day，即4月1日。报纸和电视传统上会在中午前发布看似真实的恶作剧新闻，之后揭晓；这也提醒读者留意不合常理的细节并核查来源。",
+        "answer_summary_zh": "正确选项：April Fool’s Day。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "television"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When do the television and newspapers have stories that are jokes until midday?”及正确答案“April Fool’s Day”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Richard III"
+        },
+        {
+          "id": "r1",
+          "text": "Charles II"
+        },
+        {
+          "id": "r2",
+          "text": "James I"
+        },
+        {
+          "id": "r3",
+          "text": "Henry IV"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-10.king-defeated-by-oliver-cromwell-during-civil-war.m4a",
+      "question": "What king was defeated by Oliver Cromwell during the Civil War and hid in an oak tree before escaping to Europe?",
+      "explanation": "The correct answer is Charles II.",
+      "id": "exam-05-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Charles II"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Charles II is the correct answer. After the Royalist defeat at Worcester in 1651, he hid in an oak tree at Boscobel House while escaping Parliament's forces, eventually reaching France. The episode is remembered in many places and pubs named the Royal Oak.",
+        "why_correct_zh": "正确答案是Charles II。1651年Royalists在Worcester战败后，他为躲避Parliament军队搜捕，曾藏在Boscobel House附近的oak tree中，后来逃往France。许多名为Royal Oak的酒馆源自这个故事。",
+        "answer_summary_zh": "正确选项：Charles II。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Oliver Cromwell",
+          "Civil War and",
+          "Europe"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What king was defeated by Oliver Cromwell during the Civil War and hid in an oak tree before escaping to Europe?”及正确答案“Charles II”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Edward I"
+        },
+        {
+          "id": "r1",
+          "text": "Henry V"
+        },
+        {
+          "id": "r2",
+          "text": "Henry VII"
+        },
+        {
+          "id": "r3",
+          "text": "Henry VIII"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-11.Who-was-the-father-of-Queen-Elizabeth-I.m4a",
+      "question": "Who was the father of Queen Elizabeth I?",
+      "explanation": "The father of Queen Elizabeth I was Henry VIII.",
+      "id": "exam-05-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Henry VIII"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Henry VIII was Elizabeth I's father; her mother was Anne Boleyn. Elizabeth was declared illegitimate after Anne's execution but later restored to the succession, becoming queen in 1558 and ruling for 44 years.",
+        "why_correct_zh": "正确答案是Henry VIII，Elizabeth I的母亲是Anne Boleyn。Anne被处决后Elizabeth一度被宣布为非婚生，但后来恢复继承资格，1558年即位并统治44年。",
+        "answer_summary_zh": "正确选项：Henry VIII。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Queen Elizabeth I"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the father of Queen Elizabeth I?”及正确答案“Henry VIII”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-12.Complaints-against-the-police-can-only-be-made-by-writing-to-the-Police-Complaints-Commissioner.m4a",
+      "question": "Complaints against the police can ONLY be made by writing to the Police Complaints Commissioner.",
+      "explanation": "False. Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland.",
+      "id": "exam-05-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. A police complaint is not limited to a written letter to one commissioner. It may be made directly to the police force or through the independent oversight body for the relevant UK nation; the bodies and procedures differ across England and Wales, Scotland and Northern Ireland.",
+        "why_correct_zh": "本题答案是False。投诉警察并非只能写信给一位Police Complaints Commissioner；可直接向有关police force提出，也可通过所在UK地区的独立监督机构办理。England和Wales、Scotland及Northern Ireland的机构与程序不同。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Complaints",
+          "ONLY",
+          "Police Complaints Commissioner"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Complaints against the police can ONLY be made by writing to the Police Complaints Commissioner.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St George"
+        },
+        {
+          "id": "r1",
+          "text": "St Patrick"
+        },
+        {
+          "id": "r2",
+          "text": "St Andrew"
+        },
+        {
+          "id": "r3",
+          "text": "St David"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-13.Who-is-the-patron-Saint-of-Northern-Ireland.m4a",
+      "question": "Who is the patron Saint of Northern Ireland?",
+      "explanation": "The patron Saint of Northern Ireland is St Patrick.",
+      "id": "exam-05-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "St Patrick"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "St Patrick is the patron saint associated with Northern Ireland and Ireland. St Patrick's Day is 17 March, traditionally his death date.\n\nA shamrock is a small clover-like plant with three leaflets at the end of one stalk. The Christian Trinity means that the Father, the Son and the Holy Spirit are three distinct persons but one God. A later tradition says that St Patrick held up a shamrock and used its three leaflets on one plant as a simple comparison. This is why the shamrock became closely associated with St Patrick's Day and Ireland, although there is no direct record of the story from Patrick's lifetime.",
+        "why_correct_zh": "正确答案是St Patrick。St Patrick’s Day在3月17日举行，传统认为是他的逝世纪念日。\n\nshamrock指常见的三叶草：同一根叶柄顶端分出三片小叶。Christian Trinity（三位一体）指Father（圣父）、Son（圣子）和Holy Spirit（圣灵）是三个不同位格，但同属一位上帝。后世传说称，St Patrick拿着一株shamrock，以“一株植物有三片小叶”作比喻来解释这个概念。因此shamrock后来成为St Patrick’s Day和爱尔兰的重要象征；不过这是流传已久的传统故事，并没有St Patrick本人时代的直接记录。",
+        "answer_summary_zh": "正确选项：St Patrick。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "patron Saint",
+          "Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ireland-st-patrick-activity-pack",
+        "gov-ie-st-patrick-global"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who is the patron Saint of Northern Ireland?”及正确答案“St Patrick”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ireland-st-patrick-activity-pack",
+          "gov-ie-st-patrick-global"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Enlightenment"
+        },
+        {
+          "id": "r1",
+          "text": "The Glorious Revolution"
+        },
+        {
+          "id": "r2",
+          "text": "The Swinging Sixties"
+        },
+        {
+          "id": "r3",
+          "text": "The Reformation"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-14.What-is-the-name-of-the-period-when-new-ideas-about-politics-philosophy-and-science-were-developed.m4a",
+      "question": "What is the name of the period when new ideas about politics, philosophy and science were developed?",
+      "explanation": "During the 18th century, new ideas about politics, philosophy and science were developed. This is often called ‘the Enlightenment’.",
+      "id": "exam-05-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Enlightenment"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Enlightenment was the 17th- and 18th-century movement that emphasised reason, observation and debate about science, government and individual rights. British figures included John Locke, David Hume and Adam Smith, whose ideas influenced modern democracy and economics.",
+        "why_correct_zh": "正确答案是The Enlightenment。17至18世纪的启蒙运动强调reason、observation及对科学、政府和个人权利的讨论。英国相关思想家包括John Locke、David Hume和Adam Smith，其思想影响现代民主与经济学。",
+        "answer_summary_zh": "正确选项：The Enlightenment。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "philosophy"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the period when new ideas about politics, philosophy and science were developed?”及正确答案“The Enlightenment”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Mary Stuart (‘Mary, Queen of Scots’) was a Protestant"
+        },
+        {
+          "id": "r1",
+          "text": "Mary Stuart (‘Mary, Queen of Scots’) was a Catholic"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-15.Mary-Stuart-Queen-of-Scots-was-a-Catholic.m4a",
+      "question": "Which of the following statements is TRUE:",
+      "explanation": "Mary Stuart (‘Mary, Queen of Scots’) was a Catholic.",
+      "id": "exam-05-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Mary Stuart (‘Mary, Queen of Scots’) was a Catholic"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Mary, Queen of Scots was Catholic, while her cousin Elizabeth I was Protestant. Mary's religion and claim to the English throne made her a focus for Catholic plots; after years in English custody, she was executed in 1587.\n\nCatholics and Protestants are both Christians who affirm Jesus Christ, the Bible and the Trinity. The Catholic Church is a worldwide communion led by the Pope and bishops; it receives doctrine through Scripture and Apostolic Tradition, interpreted by the Church's teaching authority, and recognises seven sacraments. Protestant is an umbrella term for many traditions that emerged from the sixteenth-century Reformation. They reject the Pope's universal jurisdiction, place greater emphasis on Scripture as the highest norm and on salvation by God's grace through faith. Many recognise Baptism and Holy Communion as the two principal Gospel sacraments, but Anglican, Presbyterian and other Protestant churches differ considerably in worship and government.",
+        "why_correct_zh": "正确说法是Mary, Queen of Scots was a Catholic；她的表亲Elizabeth I是Protestant。Mary的宗教身份和英格兰王位继承主张使她成为Catholic plots的焦点，长期被囚后于1587年处决。\n\n两者都属于Christianity，都相信Jesus Christ、Bible和Trinity。Catholic Church是由Pope与各地主教领导的全球教会；其教义依据Bible和Apostolic Tradition，由教会训导权解释，并承认七件Sacraments。\n\nProtestant是16世纪Reformation后多个教派的总称，并非单一教会；它们不承认Pope对所有基督徒的最高管辖权，更强调Bible是信仰的最高准则，以及人靠上帝的grace、通过faith得救。许多Protestant教会主要承认Baptism和Holy Communion两件圣礼，但Anglican、Presbyterian等教派的组织和礼仪仍有明显差异。",
+        "answer_summary_zh": "正确选项：Mary Stuart (‘Mary, Queen of Scots’) was a Catholic。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "TRUE"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-reformation",
+        "church-england-articles-religion",
+        "vatican-scripture-tradition",
+        "vatican-seven-sacraments"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following statements is TRUE:”及正确答案“Mary Stuart (‘Mary, Queen of Scots’) was a Catholic”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-reformation",
+          "church-england-articles-religion",
+          "vatican-scripture-tradition",
+          "vatican-seven-sacraments"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "To sell tobacco products to anyone under the age of 18"
+        },
+        {
+          "id": "r1",
+          "text": "To buy alcohol for people who are under the age of 18"
+        },
+        {
+          "id": "r2",
+          "text": "Discrimination in the workplace"
+        },
+        {
+          "id": "r3",
+          "text": "To carry a weapon of any kind, even if it is for self-defence"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-16.example-of-civil-law-discrimination-in-the-workplace.m4a",
+      "question": "Which of the following is an example of civil law?",
+      "explanation": "Discrimination in the workplace is an example of civil law.",
+      "id": "exam-05-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Discrimination in the workplace"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Workplace discrimination is generally a civil-law matter: an individual may bring a claim in an employment tribunal and seek a remedy such as compensation. This differs from a criminal prosecution brought by the state, although some conduct can involve both civil and criminal law.",
+        "why_correct_zh": "正确答案是Discrimination in the workplace。受害者通常可向employment tribunal提出civil claim并请求赔偿等救济；这不同于由国家检控的criminal case，不过某些行为也可能同时触及民法和刑法。",
+        "answer_summary_zh": "正确选项：Discrimination in the workplace。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is an example of civil law?”及正确答案“Discrimination in the workplace”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Battle of Hastings"
+        },
+        {
+          "id": "r1",
+          "text": "The Battle of Waterloo"
+        },
+        {
+          "id": "r2",
+          "text": "The Battle of Trafalgar"
+        },
+        {
+          "id": "r3",
+          "text": "The Battle of Bannockburn"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-17.battle-did-Admiral-Nelson-die-Trafalgar.m4a",
+      "question": "In which battle did Admiral Nelson die?",
+      "explanation": "Admiral Nelson was in charge of the British fleet at the Battle of Trafalgar and was killed in the battle.",
+      "id": "exam-05-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Battle of Trafalgar"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Admiral Nelson died at the Battle of Trafalgar on 21 October 1805. His fleet defeated the combined French and Spanish fleets, preventing Napoleon from gaining control of the sea; Nelson was shot aboard HMS Victory and died after learning that victory was secure.",
+        "why_correct_zh": "正确答案是The Battle of Trafalgar。1805年10月21日Nelson率舰队击败French与Spanish联合舰队，阻止Napoleon取得制海权。他在HMS Victory上中弹，并在得知胜局已定后去世。",
+        "answer_summary_zh": "正确选项：The Battle of Trafalgar。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Admiral Nelson"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In which battle did Admiral Nelson die?”及正确答案“The Battle of Trafalgar”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The ‘Glorious Revolution’"
+        },
+        {
+          "id": "r1",
+          "text": "The Restoration"
+        },
+        {
+          "id": "r2",
+          "text": "The ‘Great Depression’"
+        },
+        {
+          "id": "r3",
+          "text": "The ‘Blitz’"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-18.William-of-Orange-was-asked-by-Protestants-to-invade-England-and-proclaim-himself-king-Glorious-Revolution.m4a",
+      "question": "William of Orange was asked by Protestants to invade England and proclaim himself king. But, when William reached England, there was no resistance and he took over the throne. This event was later known as:",
+      "explanation": "William of Orange was asked by Protestants to invade England and proclaim himself king. When William reached England, there was no resistance and he took over the throne. This event was later called the ‘Glorious Revolution’.",
+      "id": "exam-05-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The ‘Glorious Revolution’"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The event is called the Glorious Revolution of 1688. William of Orange landed with an army, James II lost political and military support and fled, and William III and Mary II accepted the crown subject to the 1689 Bill of Rights, strengthening Parliament's constitutional position.",
+        "why_correct_zh": "正确答案是Glorious Revolution。1688年William of Orange率军登陆，James II失去政治与军事支持后逃亡；William III与Mary II随后接受王位及1689年Bill of Rights，使Parliament的宪制地位进一步增强。",
+        "answer_summary_zh": "正确选项：The ‘Glorious Revolution’。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "William of Orange",
+          "Protestants",
+          "England and"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“William of Orange was asked by Protestants to invade England and proclaim himself king. But, when William reached England, there was no resistance and he took over the throne. This event was later known as:”及正确答案“The ‘Glorious Revolution’”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "An environmental charity"
+        },
+        {
+          "id": "r1",
+          "text": "A medical research charity"
+        },
+        {
+          "id": "r2",
+          "text": "A charity working with pets"
+        },
+        {
+          "id": "r3",
+          "text": "A charity working with older people"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-19.What-sort-of-charity-is-Friends-of-the-Earth.m4a",
+      "question": "What sort of charity is ‘Friends of the Earth’?",
+      "explanation": "Friends of the Earth is an environmental charity.",
+      "id": "exam-05-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "An environmental charity"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Friends of the Earth is an environmental charity and campaigning network. It works on issues such as climate change, pollution and protection of nature, using local groups, public campaigns and legal or policy advocacy.",
+        "why_correct_zh": "正确答案是An environmental charity。Friends of the Earth关注climate change、污染和自然保护，通过地方团体、公众运动及法律和政策倡议推动环境改善。",
+        "answer_summary_zh": "正确选项：An environmental charity。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Friends of the Earth"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-volunteering"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What sort of charity is ‘Friends of the Earth’?”及正确答案“An environmental charity”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-volunteering"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-20.If-a-husband-forces-his-wife-to-have-sex-he-can-be-charged-with-rape.m4a",
+      "question": "If a husband forces his wife to have sex he can be charged with rape.",
+      "explanation": "This statement is true.",
+      "id": "exam-05-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "True. Marriage does not create permanent consent to sex. A husband who intentionally penetrates his wife without her consent, and without reasonably believing that she consents, can be prosecuted for rape; English law definitively rejected the old marital-rape exemption in 1991.",
+        "why_correct_zh": "本题答案是True。婚姻不等于永久同意性行为；丈夫若在妻子未同意且自己并无合理理由相信对方同意时强行发生性行为，可以被控rape。英国法律于1991年明确否定旧有的marital rape exemption。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "If"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“If a husband forces his wife to have sex he can be charged with rape.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Netherlands"
+        },
+        {
+          "id": "r1",
+          "text": "Falkland Islands"
+        },
+        {
+          "id": "r2",
+          "text": "Gibraltar"
+        },
+        {
+          "id": "r3",
+          "text": "South Africa"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-21.In-which-country-of-the-British-Empire-did-the-Boer-War-1899-1902-take-place.m4a",
+      "question": "In which country of the British Empire did the Boer War (1899-1902) take place?",
+      "explanation": "The Boer War of 1899 to 1902 took place in South Africa with settlers from the Netherlands called the Boers.",
+      "id": "exam-05-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "South Africa"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Boer War of 1899–1902 was fought in South Africa between the British Empire and the two Boer republics, the South African Republic and Orange Free State. The Boers were largely descendants of Dutch-speaking settlers, and the conflict ended with British victory and later political union.",
+        "why_correct_zh": "正确答案是South Africa。1899–1902年的Boer War发生在British Empire与South African Republic、Orange Free State两个Boer共和国之间。Boers多为荷兰语定居者后裔，战争以英国获胜并最终形成政治联合告终。",
+        "answer_summary_zh": "正确选项：South Africa。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British Empire",
+          "Boer War",
+          "1899"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In which country of the British Empire did the Boer War (1899-1902) take place?”及正确答案“South Africa”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Donating blood to help people"
+        },
+        {
+          "id": "r1",
+          "text": "Volunteering for an environmental charity"
+        },
+        {
+          "id": "r2",
+          "text": "Caring for animals at a local rescue shelter"
+        },
+        {
+          "id": "r3",
+          "text": "Persuading people to vote for a political party"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-22.Which-of-the-following-actions-is-known-as-canvassing.m4a",
+      "question": "Which of the following actions is known as “canvassing”?",
+      "explanation": "Members of political parties persuade people to vote for their candidates – for instance, by handing out leaflets in the street or by knocking on people’s doors and asking for their support. This is called ‘canvassing’.",
+      "id": "exam-05-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Persuading people to vote for a political party"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Canvassing means contacting voters to persuade them to support a party or candidate, commonly by knocking on doors, telephoning or speaking in public places. Campaigners also record issues raised by voters and encourage supporters to vote on polling day.",
+        "why_correct_zh": "正确答案是Persuading people to vote for a political party。canvassing通常包括敲门、打电话或在公共场所接触选民；竞选人员也会记录民众关心的问题，并在投票日提醒支持者投票。",
+        "answer_summary_zh": "正确选项：Persuading people to vote for a political party。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "canvassing"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-volunteering"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following actions is known as “canvassing”?”及正确答案“Persuading people to vote for a political party”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-volunteering"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Oliver Twist"
+        },
+        {
+          "id": "r1",
+          "text": "James Bond"
+        },
+        {
+          "id": "r2",
+          "text": "Pride and Prejudice"
+        },
+        {
+          "id": "r3",
+          "text": "The Lord of the Rings"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-23.Which-novel-written-by-JRR-Tolkien-was-voted-the-countrys-best-loved-novel-in-2003.m4a",
+      "question": "Which novel written by JRR Tolkien was voted the country’s best-loved novel in 2003?",
+      "explanation": "In 2003, the Lord of the Rings by JRR Tolkien was voted the country’s best-loved novel.",
+      "id": "exam-05-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Lord of the Rings"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Lord of the Rings by J. R. R. Tolkien won the BBC's 2003 Big Read poll as the nation's best-loved novel. Tolkien was an Oxford philologist, and his knowledge of Old and Middle English helped shape the languages, names and mythology of Middle-earth.",
+        "why_correct_zh": "正确答案是The Lord of the Rings。它在BBC 2003年的The Big Read公众投票中获选最受喜爱小说。J. R. R. Tolkien是Oxford语文学家，对Old English和Middle English的研究深刻影响了Middle-earth的语言和神话。",
+        "answer_summary_zh": "正确选项：The Lord of the Rings。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "JRR Tolkien",
+          "2003"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which novel written by JRR Tolkien was voted the country’s best-loved novel in 2003?”及正确答案“The Lord of the Rings”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1942"
+        },
+        {
+          "id": "r1",
+          "text": "1941"
+        },
+        {
+          "id": "r2",
+          "text": "1940"
+        },
+        {
+          "id": "r3",
+          "text": "1939"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT5/BCT5.Q-24.When-did-Germany-invade-Poland-1939.m4a",
+      "question": "When did Germany invade Poland?",
+      "explanation": "Germany invaded Poland in 1939.",
+      "id": "exam-05-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "1939"
+      ],
+      "exam_number": 5,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-5/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Germany invaded Poland on 1 September 1939. Britain and France declared war on Germany on 3 September after their demand for withdrawal was ignored, marking the beginning of the Second World War in Europe.",
+        "why_correct_zh": "正确答案是1939。Germany于9月1日入侵Poland；Britain与France要求撤军未果，于9月3日对Germany宣战，标志Second World War在欧洲爆发。",
+        "answer_summary_zh": "正确选项：1939。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Germany",
+          "Poland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-05-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did Germany invade Poland?”及正确答案“1939”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

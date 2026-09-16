@@ -1,0 +1,1653 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 11,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "college-policing-chief-constable": {
+      "title": "Chief constable",
+      "publisher": "College of Policing",
+      "url": "https://www.college.police.uk/career-learning/support-for-career-development/policing-professional-profiles/core-rank-profiles/chief-constable",
+      "authority": "official_policing_body",
+      "note_zh": "英国警务学院说明Chief Constable是领导警队、负责警务行动指挥与整体方向的最高级警官。"
+    },
+    "communications-act-2003-impartiality": {
+      "title": "Communications Act 2003 — sections 319 and 320",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/pdfs/ukpga_20030021_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "《2003年通信法》第319和320条规定广播标准及政治争议、公共政策事项的适当公正性要求。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-botc-passport-guidance": {
+      "title": "British overseas territories citizens — passport guidance",
+      "publisher": "HM Passport Office",
+      "url": "https://www.gov.uk/government/publications/british-overseas-territories-citizens/british-overseas-territories-citizens-accessible-version",
+      "authority": "official_government",
+      "note_zh": "HM Passport Office说明BOTC护照、British citizen护照、双重身份，以及Falkland Islands和2002年海外领土国籍改革的规则。"
+    },
+    "govuk-british-overseas-territories-citizenship": {
+      "title": "Types of British nationality — British overseas territories citizen",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/types-of-british-nationality/british-overseas-territories-citizen",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明British Overseas Territories citizenship的取得条件，以及符合条件领土居民自2002年取得British citizenship的规则。"
+    },
+    "govuk-margaret-thatcher": {
+      "title": "History of Baroness Thatcher",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+      "authority": "official_government",
+      "note_zh": "英国政府首相历史资料确认撒切尔夫人的任期、第一位女首相身份、化学教育及研究化学师背景。"
+    },
+    "govuk-overseas-territories-constitutional-status": {
+      "title": "Guide to making legislation — Overseas Territories",
+      "publisher": "Cabinet Office",
+      "url": "https://www.gov.uk/government/publications/guide-to-making-legislation/guide-to-making-legislation-html--2",
+      "authority": "official_government",
+      "note_zh": "英国政府说明海外领土在宪法上与UK分离；英国仍负责其整体良好治理、国防和外交事务，每个领土都有成文宪法。"
+    },
+    "govuk-volunteering": {
+      "title": "Volunteer opportunities, rights and expenses",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/volunteering",
+      "authority": "official_government",
+      "note_zh": "社区志愿服务的官方信息。"
+    },
+    "iopc-complaints-process": {
+      "title": "A guide to the complaints process",
+      "publisher": "Independent Office for Police Conduct",
+      "url": "https://www.policeconduct.gov.uk/complaints/guide-to-complaints-process",
+      "authority": "official_police_oversight_body",
+      "note_zh": "IOPC说明英格兰和威尔士的警察投诉提交方式、警队初步处理、严重案件转介以及复核流程。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "ofcom-due-impartiality": {
+      "title": "Broadcasting Code Section Five: Due impartiality and due accuracy",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-five-due-impartiality-accuracy",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom明确说明due impartiality不等于给每个观点完全相同的播出时间，而是根据节目主题、性质和语境给予适当权重。"
+    },
+    "ofcom-elections-referendums": {
+      "title": "Broadcasting Code Section Six: Elections and referendums",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-six-elections-referendums",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom选举规则要求根据过去或当前支持度给予政党和独立候选人适当权重，并考虑具有重要意义的观点。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-religion": {
+      "title": "Religion",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion",
+      "authority": "official_statistics",
+      "note_zh": "英国宗教人口数据和分析。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-thatcher-booklet": {
+      "title": "Margaret Thatcher — official booklet for the Parliamentary statue",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/documents/upload/baroness-thatcher-booklet.pdf",
+      "authority": "official_parliament",
+      "note_zh": "英国议会概述Thatcherism、私有化、工会改革、经济政策、福克兰群岛战争及其国内外影响和争议。"
+    },
+    "parliament-thatcher-tributes": {
+      "title": "Tributes to Baroness Thatcher",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://hansard.parliament.uk/Commons/2013-04-10/debates/1304104000001/TributesToBaronessThatcher",
+      "authority": "official_parliament",
+      "note_zh": "英国议会记录说明“Iron Lady”最初由苏联方面作为讽刺称呼提出，撒切尔夫人随后把它当作自豪的称号。"
+    },
+    "thatcher-foundation-britain-awake": {
+      "title": "Speech at Kensington Town Hall — Britain Awake",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102939",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月19日“Britain Awake”演讲档案，并记录苏联军方报纸Red Star于1月24日首次使用“Iron Lady”称号。"
+    },
+    "thatcher-foundation-iron-lady-response": {
+      "title": "Speech to Finchley Conservatives — admits to being an Iron Lady",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102947",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月31日演讲档案，记录撒切尔夫人如何以幽默方式接受并重新定义“Iron Lady”称号。"
+    },
+    "wordsworth-grasmere-daffodils": {
+      "title": "Daffodils — the inspiration, the poem, the place",
+      "publisher": "Wordsworth Grasmere",
+      "url": "https://wordsworth.org.uk/daffodils/",
+      "authority": "author_museum_and_archive",
+      "note_zh": "Wordsworth Grasmere介绍《I Wandered Lonely as a Cloud》（通常称为《Daffodils》）的诗文、创作背景、版本及William和Dorothy Wordsworth在Ullswater湖畔看到水仙花的经历。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Yes"
+        },
+        {
+          "id": "r2",
+          "text": "No"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q1.St Helena part of the UK.m4a",
+      "question": "Is St Helena part of the UK?",
+      "explanation": "British overseas territories, such as St Helena and the Falkland Islands are linked to the UK but are not part of it.",
+      "id": "exam-11-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "No"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "St Helena and the Falkland Islands are British Overseas Territories: the UK is responsible for their sovereignty, but constitutionally they are not part of the UK. Eligible local residents are normally British Overseas Territories citizens (BOTCs) and may apply for the corresponding British passport. Since 21 May 2002, most BOTCs connected with these qualifying territories have also been British citizens; Falkland Islanders additionally benefited from the British Nationality (Falkland Islands) Act 1983. Many residents can therefore obtain a standard British citizen passport and may also hold a BOTC passport. BOTC status alone does not automatically give a right to live and work in the UK. Birth in a territory is not always sufficient by itself: the date of birth and a parent's citizenship or settled status also matter.",
+        "why_correct_zh": "St Helena和Falkland Islands是British Overseas Territories：英国对其承担主权责任，但它们在宪法上不属于UK。当地符合条件的居民通常拥有British Overseas Territories citizenship（BOTC），可申请相应的英国护照。\n\n自2002年5月21日起，与这些合资格领土有联系的大多数BOTC也取得British citizenship；Falkland Islanders还受到1983年专门法案保障。因此不少居民可申请普通British citizen passport，也可以同时持有BOTC护照。只有BOTC而没有British citizenship的人，并不自动享有在英国本土定居和工作的权利。出生在当地也不是无条件取得身份，仍取决于出生时间及父母当时的国籍或定居身份。",
+        "answer_summary_zh": "正确选项：No。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Is St Helena",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-overseas-territories-constitutional-status",
+        "govuk-british-overseas-territories-citizenship",
+        "govuk-botc-passport-guidance"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Is St Helena part of the UK?”及正确答案“No”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-overseas-territories-constitutional-status",
+          "govuk-british-overseas-territories-citizenship",
+          "govuk-botc-passport-guidance"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Docklands"
+        },
+        {
+          "id": "r1",
+          "text": "London’s East End"
+        },
+        {
+          "id": "r2",
+          "text": "London’s West End"
+        },
+        {
+          "id": "r3",
+          "text": "London’s South End"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q2.where is Theatreland.m4a",
+      "question": "Where is Theatreland?",
+      "explanation": "London’s West End, also known as ‘Theatreland’, is particularly well known for its theatres.",
+      "id": "exam-11-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "London’s West End"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "London’s West End, also known as ‘Theatreland’, is particularly well known for its theatres.",
+        "why_correct_zh": "伦敦西区也被称为“剧院王国”，以其剧院而闻名。",
+        "answer_summary_zh": "正确选项：London’s West End。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Theatreland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is Theatreland?”及正确答案“London’s West End”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Euro"
+        },
+        {
+          "id": "r1",
+          "text": "Pound Sterling"
+        },
+        {
+          "id": "r2",
+          "text": "Peso"
+        },
+        {
+          "id": "r3",
+          "text": "Dollar"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q3.what is the name of the UK currency.m4a",
+      "question": "What is the name of the UK currency?",
+      "explanation": "The currency in the UK is the pound sterling (symbol £).",
+      "id": "exam-11-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Pound Sterling"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The currency in the UK is the pound sterling (symbol £).",
+        "why_correct_zh": "英国的货币是英镑（符号£）。",
+        "answer_summary_zh": "正确选项：Pound Sterling。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the UK currency?”及正确答案“Pound Sterling”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Festival of Lights"
+        },
+        {
+          "id": "r1",
+          "text": "Ash Wednesday"
+        },
+        {
+          "id": "r2",
+          "text": "Good Friday"
+        },
+        {
+          "id": "r3",
+          "text": "Easter Monday"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q4.what other name is given to Diwali.m4a",
+      "question": "What other name is given to Diwali?",
+      "explanation": "Diwali is often called the Festival of Lights.",
+      "id": "exam-11-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Festival of Lights"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Diwali is often called the Festival of Lights.",
+        "why_correct_zh": "排灯节通常被称为灯节。",
+        "answer_summary_zh": "正确选项：The Festival of Lights。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Diwali"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What other name is given to Diwali?”及正确答案“The Festival of Lights”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A period of total peace in England"
+        },
+        {
+          "id": "r1",
+          "text": "A period when new ideas about politics, philosophy and science were developed"
+        },
+        {
+          "id": "r2",
+          "text": "A period when England became the largest empire the world had ever seen"
+        },
+        {
+          "id": "r3",
+          "text": "A period of economic recovery after the Second World War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q5.what is the Enlightenment.m4a",
+      "question": "What is the Enlightenment?",
+      "explanation": "The Enlightenment was a period during the 18th century when new ideas about politics, philosophy and science were developed.",
+      "id": "exam-11-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "A period when new ideas about politics, philosophy and science were developed"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Enlightenment was a period during the 18th century when new ideas about politics, philosophy and science were developed.",
+        "why_correct_zh": "启蒙运动是 18 世纪的一个时期，政治、哲学和科学的新思想得到发展。",
+        "answer_summary_zh": "正确选项：A period when new ideas about politics, philosophy and science were developed。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Enlightenment"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the Enlightenment?”及正确答案“A period when new ideas about politics, philosophy and science were developed”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "NSPCC"
+        },
+        {
+          "id": "r1",
+          "text": "Shelter"
+        },
+        {
+          "id": "r2",
+          "text": "Friends of the Earth"
+        },
+        {
+          "id": "r3",
+          "text": "Crisis"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q6.which of the following charities helps the environment.m4a",
+      "question": "Which of the following charities helps the environment?",
+      "explanation": "Friends of the Earth is an environmental charity.",
+      "id": "exam-11-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Friends of the Earth"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Friends of the Earth is an environmental charity.",
+        "why_correct_zh": "地球之友是一个环保慈善机构。",
+        "answer_summary_zh": "正确选项：Friends of the Earth。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-volunteering"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following charities helps the environment?”及正确答案“Friends of the Earth”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-volunteering"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Battle of Britain"
+        },
+        {
+          "id": "r1",
+          "text": "The Battle of Worcester"
+        },
+        {
+          "id": "r2",
+          "text": "The Battle of Dunbar"
+        },
+        {
+          "id": "r3",
+          "text": "The Battle of Marston Moor"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q7.crucial aerial battle fought between Germany and Britain during world war 2.m4a",
+      "question": "Which of the following was a crucial aerial battle fought between Germany and Britain during WWII?",
+      "explanation": "The correct answer is the Battle of Britain.",
+      "id": "exam-11-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Battle of Britain"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the Battle of Britain.",
+        "why_correct_zh": "正确答案是不列颠之战。",
+        "answer_summary_zh": "正确选项：The Battle of Britain。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Germany and Britain",
+          "WWII"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following was a crucial aerial battle fought between Germany and Britain during WWII?”及正确答案“The Battle of Britain”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "She fought for the right to vote for women"
+        },
+        {
+          "id": "r1",
+          "text": "She was the first woman Prime Minister of the UK"
+        },
+        {
+          "id": "r2",
+          "text": "She set up the women’s Franchise League"
+        },
+        {
+          "id": "r3",
+          "text": "She was the founder of modern nursing"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q8.what was Margaret Thatcher famous for.m4a",
+      "question": "What was Margaret Thatcher famous for?",
+      "explanation": "Margaret Thatcher was the first woman Prime Minister of the UK.",
+      "id": "exam-11-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "She was the first woman Prime Minister of the UK"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Margaret Thatcher was the first woman Prime Minister of the UK.",
+        "why_correct_zh": "玛格丽特·撒切尔最著名的历史身份是：她于1979年成为英国第一位女首相。她任职至1990年11月，并连续赢得三次大选。\n\n“Iron Lady”有明确的起点。1976年1月19日，仍是反对党领袖的撒切尔发表“Britain Awake”演讲，警告苏联扩张和军力增长，主张英国及西方加强防务。\n\n1月24日，苏联军方报纸Red Star称她为“Iron Lady”。这个称呼原本是冷战宣传中的负面标签，把她描绘成不妥协、反苏和好战的西方政客。\n\n她没有回避，而是主动重新定义。1月31日，她在Finchley的演讲中幽默地称自己是“西方世界的Iron Lady”，并把“强硬”解释为捍卫西方价值、自由和国防决心。",
+        "answer_summary_zh": "正确选项：She was the first woman Prime Minister of the UK。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Margaret Thatcher"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-margaret-thatcher",
+        "parliament-thatcher-tributes",
+        "thatcher-foundation-britain-awake",
+        "thatcher-foundation-iron-lady-response",
+        "parliament-thatcher-booklet"
+      ],
+      "visual": {
+        "src": "/images/featured/margaret-thatcher-1983.jpg",
+        "kind": "licensed_real_photo",
+        "display_after_answer": true,
+        "alt_zh": "玛格丽特·撒切尔1983年的黑白肖像照片。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-margaret-thatcher",
+          "parliament-thatcher-tributes",
+          "thatcher-foundation-britain-awake",
+          "thatcher-foundation-iron-lady-response",
+          "parliament-thatcher-booklet"
+        ],
+        "credit": "Photo: Rob Bogaerts / Anefo / Nationaal Archief (CC0)",
+        "credit_url": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_(1983).jpg"
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Latin"
+        },
+        {
+          "id": "r1",
+          "text": "Anglo-Saxon"
+        },
+        {
+          "id": "r2",
+          "text": "Proto-Celtic"
+        },
+        {
+          "id": "r3",
+          "text": "Norman French"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q9.which two languages combined to become one English language.m4a",
+      "question": "Which two languages combined to become one English language?",
+      "explanation": "After the Norman Conquest, the king and his noblemen had spoken Norman French and the peasants had continued to speak Anglo-Saxon. Gradually these two languages combined to become one English language.",
+      "id": "exam-11-q09",
+      "number": 9,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r3"
+      ],
+      "correct_answers": [
+        "Anglo-Saxon",
+        "Norman French"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "After the Norman Conquest, the king and his noblemen had spoken Norman French and the peasants had continued to speak Anglo-Saxon. Gradually these two languages combined to become one English language.",
+        "why_correct_zh": "诺曼征服后，国王和他的贵族讲诺曼法语，而农民则继续讲盎格鲁撒克逊语。渐渐地，这两种语言合并成为一种英语。",
+        "answer_summary_zh": "正确选项：Anglo-Saxon；Norman French。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "English"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two languages combined to become one English language?”及正确答案“Anglo-Saxon；Norman French”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q10.radio and television coverage of the political parties must be balanced.m4a",
+      "question": "By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.",
+      "explanation": "This statement is true.",
+      "id": "exam-11-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "UK broadcasters must observe due impartiality when covering political controversy and elections. This requires appropriate weight for significant rival viewpoints; it does not necessarily mean mechanically identical minutes for every party in every programme.",
+        "why_correct_zh": "题库把本题判为True，是因为Television和Radio确实受到法定广播公正性规则约束。《Communications Act 2003》第319和320条要求Ofcom制定due impartiality（适当公正性）标准，并由《Broadcasting Code》落实。\n\n但“equal time”不是现行法律的准确标准。Ofcom明确说明，due impartiality不要求给每个观点完全相同的播出时间。选举期间，应根据政党和独立候选人过去及当前的支持度给予due weight（适当权重），并考虑具有重要意义的观点。因此，报道时长可以不同，只要整体没有不公正地偏向一方。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "television"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "communications-act-2003-impartiality",
+        "ofcom-due-impartiality",
+        "ofcom-elections-referendums"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "communications-act-2003-impartiality",
+          "ofcom-due-impartiality",
+          "ofcom-elections-referendums"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "France"
+        },
+        {
+          "id": "r1",
+          "text": "Spain"
+        },
+        {
+          "id": "r2",
+          "text": "Italy"
+        },
+        {
+          "id": "r3",
+          "text": "South America"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q11.where did the Spanish Armada come from.m4a",
+      "question": "Where did the Spanish Armada come from?",
+      "explanation": "In 1588 the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.",
+      "id": "exam-11-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Spain"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1588 the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.",
+        "why_correct_zh": "1588年，英国人击败了西班牙派来征服英格兰并恢复天主教的西班牙无敌舰队（一支大型舰队）。",
+        "answer_summary_zh": "正确选项：Spain。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Spanish Armada"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where did the Spanish Armada come from?”及正确答案“Spain”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Dumfries"
+        },
+        {
+          "id": "r1",
+          "text": "Cenotaph"
+        },
+        {
+          "id": "r2",
+          "text": "Royal Crescent"
+        },
+        {
+          "id": "r3",
+          "text": "The White Tower"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q12.name of the War Memorial located in Whitehall.m4a",
+      "question": "What is the name of the War Memorial located in Whitehall?",
+      "explanation": "The Cenotaph is a war memorial located in Whitehall.",
+      "id": "exam-11-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Cenotaph"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Cenotaph is a war memorial located in Whitehall.",
+        "why_correct_zh": "和平纪念碑是位于白厅的战争纪念馆。",
+        "answer_summary_zh": "正确选项：Cenotaph。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "War Memorial",
+          "Whitehall"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the War Memorial located in Whitehall?”及正确答案“Cenotaph”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q13.UK government has never suspended the Northern Ireland Assembly.m4a",
+      "question": "The UK government has never suspended the Northern Ireland Assembly.",
+      "explanation": "False. The Northern Ireland Assembly has been suspended on a few occasions.",
+      "id": "exam-11-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. The Northern Ireland Assembly has been suspended on a few occasions.",
+        "why_correct_zh": "错误的。北爱尔兰议会已数次暂停。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The UK",
+          "Northern Ireland Assembly"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The UK government has never suspended the Northern Ireland Assembly.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A Catholic church"
+        },
+        {
+          "id": "r1",
+          "text": "A Protestant church"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q14.church-established-scotland-protestant.m4a",
+      "question": "What kind of church did Scotland establish in 1560?",
+      "explanation": "In 1560, the predominantly Protestant Scottish Parliament abolished the authority of the Pope in Scotland and Roman Catholic religious services became illegal. A Protestant Church of Scotland with an elected leadership was established but, unlike in England, this was not a state Church.",
+      "id": "exam-11-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "A Protestant church"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1560, the predominantly Protestant Scottish Parliament abolished the authority of the Pope in Scotland and Roman Catholic religious services became illegal. A Protestant Church of Scotland with an elected leadership was established but, unlike in England, this was not a state Church.",
+        "why_correct_zh": "1560年，新教占主导地位的苏格兰议会废除了教皇在苏格兰的权威，罗马天主教的宗教仪式变得非法。苏格兰新教教会成立，其领导层由选举产生，但与英格兰不同，这不是一个国家教会。",
+        "answer_summary_zh": "正确选项：A Protestant church。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scotland",
+          "1560"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What kind of church did Scotland establish in 1560?”及正确答案“A Protestant church”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "After the Viking invasion"
+        },
+        {
+          "id": "r1",
+          "text": "After the Norman conquest"
+        },
+        {
+          "id": "r2",
+          "text": "After the last Roman invasion"
+        },
+        {
+          "id": "r3",
+          "text": "After the Anglo-Saxon invasion"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q15.Domesday Book written.m4a",
+      "question": "When was the Domesday Book written?",
+      "explanation": "William the conqueror sent people all over England to draw up lists of all the towns and villages. The people who lived there, who owned the land and what animals they owned were also listed. This was called the Domesday Book, which gives a picture of society in England just after the Norman Conquest.",
+      "id": "exam-11-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "After the Norman conquest"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William the conqueror sent people all over England to draw up lists of all the towns and villages. The people who lived there, who owned the land and what animals they owned were also listed. This was called the Domesday Book, which gives a picture of society in England just after the Norman Conquest.",
+        "why_correct_zh": "征服者威廉派人到英格兰各地起草所有城镇和村庄的名单。住在那里的人、拥有土地的人以及他们拥有的动物也都被列出来。这本书被称为《末日审判书》，描绘了诺曼征服之后英国的社会图景。",
+        "answer_summary_zh": "正确选项：After the Norman conquest。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Domesday Book"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When was the Domesday Book written?”及正确答案“After the Norman conquest”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Immigration"
+        },
+        {
+          "id": "r1",
+          "text": "Education"
+        },
+        {
+          "id": "r2",
+          "text": "Agriculture"
+        },
+        {
+          "id": "r3",
+          "text": "Defence"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q16.Northern Ireland Assembly cannot make decisions on.m4a",
+      "question": "The Northern Ireland Assembly cannot make decisions on which two of the following issues?",
+      "explanation": "The Northern Ireland Assembly can make decisions on issues such as: education, agriculture, the environment health and social services, but it cannot make decisions on immigration or defence issues.",
+      "id": "exam-11-q16",
+      "number": 16,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r3"
+      ],
+      "correct_answers": [
+        "Immigration",
+        "Defence"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Northern Ireland Assembly can make decisions on issues such as: education, agriculture, the environment health and social services, but it cannot make decisions on immigration or defence issues.",
+        "why_correct_zh": "北爱尔兰议会可以就教育、农业、环境健康和社会服务等问题做出决定，但不能就移民或国防问题做出决定。",
+        "answer_summary_zh": "正确选项：Immigration；Defence。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Northern Ireland Assembly"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The Northern Ireland Assembly cannot make decisions on which two of the following issues?”及正确答案“Immigration；Defence”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Write a complaint letter to the House of Commons"
+        },
+        {
+          "id": "r1",
+          "text": "Go to the Police station directly"
+        },
+        {
+          "id": "r2",
+          "text": "Write to the Chief Constable of the police force involved"
+        },
+        {
+          "id": "r3",
+          "text": "Write to your MP"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q17.make a complaint about the police.m4a",
+      "question": "What should you do to make a complaint about the police (choose two answers)?",
+      "explanation": "Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland.",
+      "id": "exam-11-q17",
+      "number": 17,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r2"
+      ],
+      "correct_answers": [
+        "Go to the Police station directly",
+        "Write to the Chief Constable of the police force involved"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland.",
+        "why_correct_zh": "本题的两个答案是直接前往警察局，或写信给涉事警队的Chief Constable。Chief Constable是地方警队的最高级警官；投诉实际通常由警队的Professional Standards Department（专业标准部门）处理，并非由Chief Constable本人逐一处理。\n\n以英格兰和威尔士为例，现在也可以通过警队网站、101电话或IOPC表格投诉。IOPC一般会把投诉转给相关警队，由警队评估并记录；最严重的案件必须转交IOPC。处理结果通知会说明能否申请review（复核），通常须在28天内提出。",
+        "answer_summary_zh": "正确选项：Go to the Police station directly；Write to the Chief Constable of the police force involved。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "complaint"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "college-policing-chief-constable",
+        "iopc-complaints-process"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What should you do to make a complaint about the police (choose two answers)?”及正确答案“Go to the Police station directly；Write to the Chief Constable of the police force involved”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "college-policing-chief-constable",
+          "iopc-complaints-process"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Rose"
+        },
+        {
+          "id": "r1",
+          "text": "Daffodil"
+        },
+        {
+          "id": "r2",
+          "text": "Thistle"
+        },
+        {
+          "id": "r3",
+          "text": "Shamrock"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q18.what flower did William Wordsworth write about.m4a",
+      "question": "What flower did William Wordsworth write about?",
+      "explanation": "William Wordsworth wrote ‘The Daffodils’.",
+      "id": "exam-11-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Daffodil"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "William Wordsworth wrote ‘The Daffodils’.",
+        "why_correct_zh": "正确的花是 daffodil（水仙花）。William Wordsworth 的这首诗通常被称为《Daffodils》，正式标题是《I Wandered Lonely as a Cloud》。其中最著名的几句是：\n\n“I wandered lonely as a cloud ...\nA host, of golden daffodils;\nAnd then my heart with pleasure fills,\nAnd dances with the daffodils.”\n\n大意是：我独自漫游如一朵云……眼前是一大片金黄水仙；后来回忆起这幅景象，心便充满快乐，也随水仙起舞。",
+        "answer_summary_zh": "正确选项：Daffodil。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "William Wordsworth"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "wordsworth-grasmere-daffodils"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What flower did William Wordsworth write about?”及正确答案“Daffodil”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "wordsworth-grasmere-daffodils"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "17th April"
+        },
+        {
+          "id": "r1",
+          "text": "31st December"
+        },
+        {
+          "id": "r2",
+          "text": "1st March"
+        },
+        {
+          "id": "r3",
+          "text": "30th November"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q19.St Andrews day celebrated.m4a",
+      "question": "When is St Andrew’s day celebrated?",
+      "explanation": "St Andrew’s day, patron of Scotland, is celebrated on the 30th of November.",
+      "id": "exam-11-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "30th November"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "St Andrew’s day, patron of Scotland, is celebrated on the 30th of November.",
+        "why_correct_zh": "11 月 30 日是苏格兰的守护神圣安德鲁日。",
+        "answer_summary_zh": "正确选项：30th November。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St Andrew’s"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-religion"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is St Andrew’s day celebrated?”及正确答案“30th November”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-religion"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Robert Adam"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Christopher Wren"
+        },
+        {
+          "id": "r2",
+          "text": "Sir Norman Foster"
+        },
+        {
+          "id": "r3",
+          "text": "Dame Zaha Hadid"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q20.architech-st-pauls-cathedral-sir-christopher-wren.m4a",
+      "question": "Who was the architect that rebuilt Saint Paul’s cathedral after the Great Fire in 1666?",
+      "explanation": "In 1666, a great fire destroyed much of the city, including many churches and St Paul’s Cathedral. London was rebuilt with a new St Paul\\\\\\\\\\\\\\'s, which was designed by a famous architect, Sir Christopher Wren.",
+      "id": "exam-11-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Sir Christopher Wren"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1666, a great fire destroyed much of the city, including many churches and St Paul’s Cathedral. London was rebuilt with a new St Paul\\\\\\\\\\\\\\'s, which was designed by a famous architect, Sir Christopher Wren.",
+        "why_correct_zh": "1666 年，一场大火摧毁了这座城市的大部分地区，包括许多教堂和圣保罗大教堂。伦敦重建了新的圣保罗教堂，由著名建筑师克里斯托弗·雷恩爵士设计。",
+        "answer_summary_zh": "正确选项：Sir Christopher Wren。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Saint Paul’s",
+          "Great Fire",
+          "1666"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the architect that rebuilt Saint Paul’s cathedral after the Great Fire in 1666?”及正确答案“Sir Christopher Wren”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Stone Age"
+        },
+        {
+          "id": "r1",
+          "text": "The Bronze Age"
+        },
+        {
+          "id": "r2",
+          "text": "The Iron Age"
+        },
+        {
+          "id": "r3",
+          "text": "The Middle Ages"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q21.when were the first coins in Britain made.m4a",
+      "question": "When were the first coins in Britain made?",
+      "explanation": "The people of the Iron Age made the first coins to be minted in Britain.",
+      "id": "exam-11-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Iron Age"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The people of the Iron Age made the first coins to be minted in Britain.",
+        "why_correct_zh": "铁器时代的人们在英国铸造了第一批硬币。",
+        "answer_summary_zh": "正确选项：The Iron Age。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When were the first coins in Britain made?”及正确答案“The Iron Age”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A suffragette"
+        },
+        {
+          "id": "r1",
+          "text": "A nurse"
+        },
+        {
+          "id": "r2",
+          "text": "A doctor"
+        },
+        {
+          "id": "r3",
+          "text": "A scientist"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q22.who was Emmeline Pankhurst.m4a",
+      "question": "Who was Emmeline Pankhurst?",
+      "explanation": "Emmeline Pankhurst was born in Manchester in 1858. She set up the women’s Franchise League in 1889, which fought to get the vote in local elections for married women. In 1903 she helped found the Women’s Social and Political Union (WSPU). This was the first group whose members were called ‘suffragettes’.",
+      "id": "exam-11-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "A suffragette"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Emmeline Pankhurst was born in Manchester in 1858. She set up the women’s Franchise League in 1889, which fought to get the vote in local elections for married women. In 1903 she helped found the Women’s Social and Political Union (WSPU). This was the first group whose members were called ‘suffragettes’.",
+        "why_correct_zh": "艾米琳·潘克赫斯特 (Emmeline Pankhurst) 1858 年出生于曼彻斯特。她于 1889 年成立了妇女特许经营联盟，为已婚妇女在地方选举中争取投票权而奋斗。 1903 年，她帮助成立了妇女社会和政治联盟 (WSPU)。这是第一个其成员被称为“妇女参政论者”的团体。",
+        "answer_summary_zh": "正确选项：A suffragette。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Emmeline Pankhurst"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was Emmeline Pankhurst?”及正确答案“A suffragette”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Turkey"
+        },
+        {
+          "id": "r1",
+          "text": "Russia"
+        },
+        {
+          "id": "r2",
+          "text": "France"
+        },
+        {
+          "id": "r3",
+          "text": "Germany"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q23.who did Britain fight against in the Crimean War.m4a",
+      "question": "Who did Britain fight against in the Crimean War?",
+      "explanation": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War.",
+      "id": "exam-11-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Russia"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War.",
+        "why_correct_zh": "1853年至1856年，英国与土耳其、法国在克里米亚战争中对抗俄罗斯。",
+        "answer_summary_zh": "正确选项：Russia。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain",
+          "Crimean War"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who did Britain fight against in the Crimean War?”及正确答案“Russia”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "17"
+        },
+        {
+          "id": "r1",
+          "text": "18"
+        },
+        {
+          "id": "r2",
+          "text": "19"
+        },
+        {
+          "id": "r3",
+          "text": "20"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT11/Q24.how old do you have to be to buy alcohol in the UK.m4a",
+      "question": "How old do you have to be to buy alcohol in the UK?",
+      "explanation": "It is a criminal offence to sell alcohol to anyone who is under 18 or to buy alcohol for people who are under the age of 18. (There is one exception: people aged 16 or over can drink alcohol with a meal in a hotel or restaurant).",
+      "id": "exam-11-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "18"
+      ],
+      "exam_number": 11,
+      "source_url": "https://lifeintheuktestweb.co.uk/audio-british-citizenship-test-11/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "It is a criminal offence to sell alcohol to anyone who is under 18 or to buy alcohol for people who are under the age of 18. (There is one exception: people aged 16 or over can drink alcohol with a meal in a hotel or restaurant).",
+        "why_correct_zh": "向 18 岁以下的人出售酒类或为 18 岁以下的人购买酒类属于刑事犯罪。（有一个例外：16 岁或以上的人可以在酒店或餐厅用餐时饮酒）。",
+        "answer_summary_zh": "正确选项：18。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-11-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How old do you have to be to buy alcohol in the UK?”及正确答案“18”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

@@ -1,0 +1,1811 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 2,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "bank-england-legal-tender": {
+      "title": "What is legal tender?",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行解释Scottish和Northern Ireland纸币、legal tender与商家接受付款之间的区别。"
+    },
+    "church-england-lent-easter": {
+      "title": "The significance of Lent, Holy Week and Easter",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/faith-life/what-we-believe/lent-holy-week-and-easter/significance-lent-and-easter",
+      "authority": "established_church",
+      "note_zh": "英格兰教会说明四旬期从Ash Wednesday至Easter Eve，并解释40天与耶稣在旷野禁食受试探的关系。"
+    },
+    "control-of-dogs-order-1992": {
+      "title": "The Control of Dogs Order 1992",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/1992/901/contents/made",
+      "authority": "primary_legislation",
+      "note_zh": "该法令要求狗在公路或公共场所佩戴写有主人姓名和地址的项圈或身份牌，并列出特定豁免情况。"
+    },
+    "english-heritage-norman-conquest": {
+      "title": "1066 and the Norman Conquest",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍William、Harold、Battle of Hastings及Norman统治对England的影响。"
+    },
+    "english-heritage-william-legacy": {
+      "title": "What was the legacy of William the Conqueror?",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/what-was-the-legacy-of-william-the-conqueror",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage说明征服后的土地重分配、封建关系、城堡建设及Norman French对英语的长期影响。"
+    },
+    "etymonline-good-friday": {
+      "title": "Good Friday — Origin and meaning",
+      "publisher": "Online Etymology Dictionary",
+      "url": "https://www.etymonline.com/word/Good%20Friday",
+      "authority": "etymology_reference",
+      "note_zh": "词源资料说明Good Friday约见于1300年，其中good可能保留中古英语表示holy或sacred的用法。"
+    },
+    "gov-ie-st-patrick-global": {
+      "title": "Ireland marks St. Patrick’s Day 2022",
+      "publisher": "Department of Foreign Affairs, Ireland",
+      "url": "https://www.gov.ie/en/department-of-foreign-affairs/press-releases/ireland-marks-st-patricks-day-2022/",
+      "authority": "official_government",
+      "note_zh": "爱尔兰外交部说明St Patrick’s Day已成为全球爱尔兰社群与文化身份的国际庆祝活动。"
+    },
+    "govuk-british-overseas-territories-citizenship": {
+      "title": "Types of British nationality — British overseas territories citizen",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/types-of-british-nationality/british-overseas-territories-citizen",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明British Overseas Territories citizenship的取得条件，以及符合条件领土居民自2002年取得British citizenship的规则。"
+    },
+    "govuk-dog-ownership-enforcement-manual": {
+      "title": "Dealing with irresponsible dog ownership — practitioner's manual",
+      "publisher": "Department for Environment, Food & Rural Affairs",
+      "url": "https://assets.publishing.service.gov.uk/media/5a75b640ed915d6faf2b51c9/dog-ownership-practitioners-manual-annexes-a-d.pdf",
+      "authority": "official_government",
+      "note_zh": "英国政府执法手册说明未佩戴项圈和身份牌属于违法，地方政府人员可将狗带走并按走失犬处理，违法行为适用Level 5 fine。"
+    },
+    "govuk-home-office-about": {
+      "title": "About us — Home Office",
+      "publisher": "Home Office",
+      "url": "https://www.gov.uk/government/organisations/home-office/about",
+      "authority": "official_government",
+      "note_zh": "Home Office说明其负责移民与护照、毒品政策、犯罪、反恐和警务。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "govuk-overseas-territories-constitutional-status": {
+      "title": "Guide to making legislation — Overseas Territories",
+      "publisher": "Cabinet Office",
+      "url": "https://www.gov.uk/government/publications/guide-to-making-legislation/guide-to-making-legislation-html--2",
+      "authority": "official_government",
+      "note_zh": "英国政府说明海外领土在宪法上与UK分离；英国仍负责其整体良好治理、国防和外交事务，每个领土都有成文宪法。"
+    },
+    "historic-scotland-st-andrews-links": {
+      "title": "St Andrews Links",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://portal.historicenvironment.scot/designation/GDL00344",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Environment Scotland说明St Andrews Links的海岸地形、高尔夫传统及其国际影响。"
+    },
+    "hrp-crown-jewels": {
+      "title": "The Crown Jewels",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-crown-jewels/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces介绍Crown Jewels的组成、1649年销毁与1661年重制、不同王冠的用途及Tower of London的收藏安排。"
+    },
+    "iet-100-years-television": {
+      "title": "100 Years of Television",
+      "publisher": "Institution of Engineering and Technology",
+      "url": "https://tv.theiet.org/Video/100_Years_of_Television/646b023c-53b7-4cc2-9c75-8180cba812ea",
+      "authority": "professional_engineering_body",
+      "note_zh": "IET资料记录William Taynton成为Baird系统中首位可辨认真人、获得2 shillings and 6 pence报酬，以及1926年公开演示。"
+    },
+    "ireland-st-patrick-activity-pack": {
+      "title": "St Patrick Activity Pack",
+      "publisher": "Ireland.ie",
+      "url": "https://assets.ireland.ie/documents/StPatricksDayActivityPack.pdf",
+      "authority": "official_government",
+      "note_zh": "爱尔兰官方资料介绍St Patrick被掳到爱尔兰为奴、逃脱后返回传播基督教，以及3月17日作为其传统逝世纪念日的由来。"
+    },
+    "merton-caxton-canterbury-tales": {
+      "title": "Merton’s Copy of Caxton’s First Edition of Canterbury Tales",
+      "publisher": "Merton College, University of Oxford",
+      "url": "https://www.merton.ox.ac.uk/library-and-archives/exhibitions/caxtons-first-edition-of-canterbury-tales",
+      "authority": "university_collection",
+      "note_zh": "Merton College说明Caxton从商人转为印书商、从Bruges迁印刷机至Westminster，并选择有市场需求的英文文学作品以收回投资。"
+    },
+    "national-archives-domesday": {
+      "title": "Domesday",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/medieval/domesday/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆介绍William I在1085年下令进行的土地调查及Domesday Book。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-archives-women-first-world-war": {
+      "title": "Women and the First World War",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/early-20th-century/women-first-world-war/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆记录女性在军火、工程、Wrens女子海军服务队和Women’s Land Army等领域的战时工作。"
+    },
+    "nidirect-controlling-dog-public": {
+      "title": "Controlling your dog in public",
+      "publisher": "nidirect — Northern Ireland Government",
+      "url": "https://www.nidirect.gov.uk/articles/controlling-your-dog-public",
+      "authority": "devolved_government",
+      "note_zh": "Northern Ireland政府说明当地依据独立的Dogs Order管理公共场所中的狗只和身份标识。"
+    },
+    "nls-early-scottish-golf": {
+      "title": "Early moments in Scottish golf",
+      "publisher": "National Library of Scotland",
+      "url": "https://www.nls.uk/collections/stories/sports-and-recreation/early-moments-in-scottish-golf/",
+      "authority": "national_library",
+      "note_zh": "苏格兰国家图书馆介绍1457年禁球令、James IV购买球杆、1744年规则及John Rattray获救的故事。"
+    },
+    "nms-first-colour-television": {
+      "title": "The first ever colour television",
+      "publisher": "National Museums Scotland",
+      "url": "https://www.nms.ac.uk/discover-catalogue/the-first-ever-colour-television",
+      "authority": "national_museum",
+      "note_zh": "苏格兰国家博物馆介绍Baird于1928年完成跨大西洋电视传输，并演示机械彩色电视和立体电视。"
+    },
+    "ny-courts-criminal-trial": {
+      "title": "Criminal Trial",
+      "publisher": "New York State Unified Court System",
+      "url": "https://www.nycourts.gov/help/criminal/criminal-trial",
+      "authority": "official_judiciary",
+      "note_zh": "纽约州法院说明felony审判使用12名陪审员，misdemeanor审判使用6名陪审员。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-did-war-make-a-difference": {
+      "title": "Did the war make a difference?",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/did-the-war-make-a-difference/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明战争使女性劳动更加可见，但1918年选举权不能简单解释为对战时服务的奖励。"
+    },
+    "parliament-lords-spiritual": {
+      "title": "Lords spiritual in the House of Lords explained",
+      "publisher": "House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/",
+      "authority": "official_parliament",
+      "note_zh": "上议院图书馆说明26位英格兰教会大主教和主教以Lords Spiritual身份在上议院任职、审议法案并投票。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "parliament-suffrage-wartime": {
+      "title": "Suffrage in wartime",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/suffragetteswartime/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明一战期间约200万女性接替男性就业，并讨论战时劳动如何改变社会对女性角色的看法。"
+    },
+    "plymouth-collar-tag-case-2025": {
+      "title": "Microchip, collar and tag your pooch warning",
+      "publisher": "Plymouth City Council",
+      "url": "https://www.plymouth.gov.uk/news/microchip-collar-and-tag-your-pooch-warning",
+      "authority": "local_government",
+      "note_zh": "Plymouth City Council记录2025年一起案件：未让狗佩戴项圈和身份牌被罚£220，另须支付诉讼费和附加费。"
+    },
+    "randa-why-18-holes": {
+      "title": "Why are there 18 holes?",
+      "publisher": "The R&A",
+      "url": "https://publications.randa.org/why-are-there-18-holes-by-peter-lewis",
+      "authority": "official_sports_governing_body",
+      "note_zh": "The R&A梳理早期球场洞数并不统一，以及18洞在St Andrews影响下逐渐成为标准的历史。"
+    },
+    "rcahmw-bandi-chhor-divas": {
+      "title": "Bandi Chhor Divas",
+      "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "url": "https://rcahmw.gov.uk/bandi-chhor-divas-2/",
+      "authority": "official_heritage_body",
+      "note_zh": "威尔士皇家古迹委员会介绍Sikhs纪念Guru Hargobind及52名囚徒获释的Bandi Chhor Divas传统。"
+    },
+    "rcahmw-diwali-festival": {
+      "title": "Diwali Festival",
+      "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "url": "https://rcahmw.gov.uk/diwali-festival/",
+      "authority": "official_heritage_body",
+      "note_zh": "威尔士皇家古迹委员会介绍Diwali的名称、光明战胜黑暗的象征，以及Rama与Sita返回Ayodhya的传统故事。"
+    },
+    "royal-coronation-regalia": {
+      "title": "The Coronation Regalia",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/coronation-regalia",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室资料说明St Edward’s Crown、Imperial State Crown、权杖、宝球和其他加冕礼器的仪式用途。"
+    },
+    "rsc-midsummer-plot": {
+      "title": "The plot — A Midsummer Night's Dream",
+      "publisher": "Royal Shakespeare Company",
+      "url": "https://www.rsc.org.uk/a-midsummer-nights-dream/the-plot",
+      "authority": "official_theatre_company",
+      "note_zh": "Royal Shakespeare Company的剧情梗概，说明四位恋人、Puck的爱情魔药、Titania与Bottom以及最后的婚礼。"
+    },
+    "science-museum-stookie-bill": {
+      "title": "John Logie Baird's test subject 'Stookie Bill'",
+      "publisher": "Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8067247/john-logie-bairds-test-subject-stookie-bill",
+      "authority": "national_museum",
+      "note_zh": "Science Museum Group藏品资料说明Stookie Bill用于Baird的电视实验，因为测试灯光过热，不适合长时间使用真人。"
+    },
+    "st-helena-constitution-2009": {
+      "title": "The St Helena, Ascension and Tristan da Cunha Constitution Order 2009",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/2009/1751/contents",
+      "authority": "primary_legislation",
+      "note_zh": "2009年宪法令确立Saint Helena, Ascension and Tristan da Cunha的宪制及各岛政府安排。"
+    },
+    "us-courts-jury-types": {
+      "title": "Types of Juries",
+      "publisher": "United States Courts",
+      "url": "https://www.uscourts.gov/court-programs/jury-service/types-juries",
+      "authority": "official_judiciary",
+      "note_zh": "美国联邦法院说明审判陪审团可由6至12人组成，并区分刑事与民事案件的裁决标准。"
+    },
+    "westminster-abbey-william-caxton": {
+      "title": "William Caxton",
+      "publisher": "Westminster Abbey",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/william-caxton",
+      "authority": "official_heritage_body",
+      "note_zh": "Westminster Abbey介绍Caxton的布商生涯、Bruges与Cologne经历，以及他于1476年在Westminster建立英格兰第一座印刷所。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Health"
+        },
+        {
+          "id": "r1",
+          "text": "Defence"
+        },
+        {
+          "id": "r2",
+          "text": "Education"
+        },
+        {
+          "id": "r3",
+          "text": "Policing"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-1.What-is-the-home-secretary-responsible-for.m4a",
+      "question": "What is the Home Secretary responsible for?",
+      "explanation": "The Home Secretary is responsible for crime, policing and immigration.",
+      "id": "exam-02-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Policing"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Policing is the correct answer. The Home Secretary leads the Home Office, whose responsibilities include policing, crime, counter-terrorism, borders, immigration and passports.",
+        "why_correct_zh": "正确答案是Policing。Home Secretary领导Home Office，负责警务、犯罪、反恐、边境、移民和护照。",
+        "answer_summary_zh": "正确选项：Policing。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Home Secretary"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-home-office-about"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the Home Secretary responsible for?”及正确答案“Policing”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-home-office-about"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-2.St-helena-and-the-falkland-islands-are-linked-to-the-uk-but-are-not-part-of-it.m4a",
+      "question": "St Helena is a British overseas territory and it is part of the United Kingdom.",
+      "explanation": "British overseas territories, such as St Helena and the Falkland Islands are linked to the UK but are not part of it.",
+      "id": "exam-02-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "False. St Helena forms part of the British Overseas Territory of Saint Helena, Ascension and Tristan da Cunha. British Overseas Territories are constitutionally separate from the United Kingdom and are not independent sovereign states. The UK is responsible for their defence and external affairs, while each has its own written constitution and local government. Eligible people connected with St Helena may hold British Overseas Territories citizenship and, under the 2002 legislation, many also hold British citizenship. Birth there alone does not always confer citizenship; the date of birth and the parents' status matter.",
+        "why_correct_zh": "本题答案是False。\n\n1. St Helena属于英国海外领土Saint Helena, Ascension and Tristan da Cunha。\n\n2. 它在宪法上不属于联合王国（UK）的组成部分；UK只由England、Scotland、Wales和Northern Ireland组成。\n\n3. 它不是独立主权国家，英国对其承担主权责任，尤其负责国防和外交；当地有自己的宪法、政府和法律。\n\n4. 符合条件的当地居民通常拥有British Overseas Territories citizenship；多数相关居民自2002年起也取得British citizenship，但并非任何在那里出生的人都无条件自动取得，仍取决于出生时间和父母身份。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St Helena",
+          "British",
+          "overseas territory"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies",
+        "govuk-overseas-territories-constitutional-status",
+        "st-helena-constitution-2009",
+        "govuk-british-overseas-territories-citizenship"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“St Helena is a British overseas territory and it is part of the United Kingdom.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies",
+          "govuk-overseas-territories-constitutional-status",
+          "st-helena-constitution-2009",
+          "govuk-british-overseas-territories-citizenship"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-3.Several-church-of-England-bishops-sit-in-the-house-of-lords.m4a",
+      "question": "Several Church of England bishops sit in the House of Lords.",
+      "explanation": "This statement is true.",
+      "id": "exam-02-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The answer is True. Twenty-six Church of England archbishops and bishops sit in the House of Lords as the Lords Spiritual. They may debate, scrutinise legislation and vote.",
+        "why_correct_zh": "本题答案是True。英国上议院为英格兰教会的26位大主教和主教保留席位，他们统称Lords Spiritual（神职议员）。他们可以参加辩论、审议法案和投票；其席位反映英格兰教会作为国教的宪制地位。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Several Church of England",
+          "House of Lords"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-lords-spiritual"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Several Church of England bishops sit in the House of Lords.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-lords-spiritual"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "That your dog does not play with other dogs"
+        },
+        {
+          "id": "r1",
+          "text": "That your dog wears a collar showing the name and address of the owner"
+        },
+        {
+          "id": "r2",
+          "text": "That your dog wears a high visibility jacket"
+        },
+        {
+          "id": "r3",
+          "text": "That your dog does not bark"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-4.When-walking-your-dog-in-a-public-place-you-must-ensure.m4a",
+      "question": "When walking your dog in a public place, you must ensure:",
+      "explanation": "All dogs in public places must wear a collar showing the name and address of the owner.",
+      "id": "exam-02-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "That your dog wears a collar showing the name and address of the owner"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Dogs on a highway or in a public place in England, Wales and Scotland must wear a collar bearing the owner's name and address, either on the collar itself or on an attached tag. A microchip does not replace this requirement. Failure to comply is an offence: a local authority officer may seize the dog and treat it as a stray, and the owner may be prosecuted. The offence carries a level 5 fine; this is unlimited in England and Wales and normally capped at £5,000 in Scotland, with the actual amount set by the court. In a 2025 Plymouth case, the collar-and-tag offence resulted in a £220 fine plus costs and a surcharge. Northern Ireland has a separate dog-control regime.",
+        "why_correct_zh": "在England、Wales和Scotland，狗在公路或公共场所必须佩戴项圈，并在项圈或身份牌上显示主人姓名和地址。即使已经植入微芯片，也不能代替项圈和身份牌。\n\n如果没有佩戴，属于违法行为。地方政府人员可将狗带走并按走失犬处理，主人也可能被起诉。该违法行为适用Level 5 fine：英格兰和威尔士的Level 5罚款目前没有法定金额上限；苏格兰通常最高为£5,000，实际罚款由法院根据具体情况决定。\n\n例如Plymouth在2025年的一个案件中，仅“未戴项圈和身份牌”一项罚款£220，另加诉讼费和附加费。\n\n《Control of Dogs Order 1992》适用于England、Wales和Scotland；Northern Ireland另有自己的狗只管理制度。",
+        "answer_summary_zh": "正确选项：That your dog wears a collar showing the name and address of the owner。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "walking"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "control-of-dogs-order-1992",
+        "govuk-dog-ownership-enforcement-manual",
+        "plymouth-collar-tag-case-2025",
+        "nidirect-controlling-dog-public"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When walking your dog in a public place, you must ensure:”及正确答案“That your dog wears a collar showing the name and address of the owner”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "control-of-dogs-order-1992",
+          "govuk-dog-ownership-enforcement-manual",
+          "plymouth-collar-tag-case-2025",
+          "nidirect-controlling-dog-public"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Second World War"
+        },
+        {
+          "id": "r1",
+          "text": "The Crimean War"
+        },
+        {
+          "id": "r2",
+          "text": "The First World War"
+        },
+        {
+          "id": "r3",
+          "text": "The Civil War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-5.Women-over-the-age-of-30-were-given-the-right-to-vote-as-a-result-of-their-contribution-towards-the-first-world-war-effort.m4a",
+      "question": "Women over the age of 30 were given the right to vote as a result of their contribution towards the war effort. Which war was that?",
+      "explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+      "id": "exam-02-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The First World War"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The First World War is the correct answer. Women made munitions, explosives and aircraft parts; served as nurses and VAD volunteers; worked in agriculture through the Women's Land Army; took jobs in transport, policing, postal services and government offices; and joined women's services such as the Wrens, performing communications, electrical and shore-based duties that released more men for the front. This work made women's labour and social value more visible. However, the limited female franchise introduced in 1918 also resulted from the long suffrage campaign and wider electoral reform, so it should not be described simply as a reward for wartime service.",
+        "why_correct_zh": "正确答案是The First World War。战争期间女性的主要贡献包括：\n\n• 军火与工程：制造炮弹、炸药和飞机零件，并承担接触TNT等危险工作。\n• 医疗：在英国及海外担任护士和VAD志愿救护人员，照顾伤员。\n• 农业：加入Women’s Land Army，补充农场劳动力并维持粮食生产。\n• 交通与公共服务：担任司机、公交售票员、邮政、警务和政府文职人员。\n• 军事辅助：加入Wrens等女子军种，承担通信、电气及岸上职务，使更多男性可以前往前线。\n\n这些工作让女性的劳动能力与社会价值更受重视。不过，1918年部分女性获得投票权也是长期参政运动和整体选举改革共同作用的结果，不能简单视为对战争服务的奖励。",
+        "answer_summary_zh": "正确选项：The First World War。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Women",
+          "age of 30",
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-women-first-world-war",
+        "parliament-suffrage-wartime",
+        "parliament-did-war-make-a-difference"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Women over the age of 30 were given the right to vote as a result of their contribution towards the war effort. Which war was that?”及正确答案“The First World War”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-women-first-world-war",
+          "parliament-suffrage-wartime",
+          "parliament-did-war-make-a-difference"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1925"
+        },
+        {
+          "id": "r1",
+          "text": "1939"
+        },
+        {
+          "id": "r2",
+          "text": "1949"
+        },
+        {
+          "id": "r3",
+          "text": "1927"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-6.When-did-ireland-become-a-republic-1949.m4a",
+      "question": "When did Ireland become a republic?",
+      "explanation": "Ireland became a republic in 1949.",
+      "id": "exam-02-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "1949"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Ireland became a republic in 1949.",
+        "why_correct_zh": "1949年爱尔兰成为共和国。",
+        "answer_summary_zh": "正确选项：1949。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did Ireland become a republic?”及正确答案“1949”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "South-west Europe"
+        },
+        {
+          "id": "r1",
+          "text": "South-east Europe"
+        },
+        {
+          "id": "r2",
+          "text": "North-east America"
+        },
+        {
+          "id": "r3",
+          "text": "North-west Asia"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-7.Where-did-the-first-farmers-come-from-south-east-europe.m4a",
+      "question": "Where did the first farmers come from?",
+      "explanation": "The first farmers arrived in Britain 6,000 years ago. The ancestors of these first farmers probably came from south-east Europe.",
+      "id": "exam-02-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "South-east Europe"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The first farmers arrived in Britain 6,000 years ago. The ancestors of these first farmers probably came from south-east Europe.",
+        "why_correct_zh": "6000年前，第一批农民抵达英国。英国最早的农民并非直接从东南欧来到英国。他们的远祖属于安纳托利亚和爱琴海地区的早期农民，后代沿地中海迁至伊比利亚，再经法国进入英国。古DNA显示，英国新石器时代农民与这些地中海农民关系密切，而与此前英国的猎人采集者差异明显；同时出现的谷物、家畜、陶器和墓葬传统也支持农业由大陆移民带入。",
+        "answer_summary_zh": "正确选项：South-east Europe。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "farmers"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where did the first farmers come from?”及正确答案“South-east Europe”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "David Hockney"
+        },
+        {
+          "id": "r1",
+          "text": "Lucian Freud"
+        },
+        {
+          "id": "r2",
+          "text": "John Petts"
+        },
+        {
+          "id": "r3",
+          "text": "Henry Moore"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-8.contributor-pop-art-movement.m4a",
+      "question": "Who was an important contributor to the ‘pop art’ movement of the 1960’s?",
+      "explanation": "David Hockney was an important contributor to the ‘pop art’ movement of the 1960s and continues to be influential today.",
+      "id": "exam-02-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "David Hockney"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "David Hockney was an important contributor to the ‘pop art’ movement of the 1960s and continues to be influential today.",
+        "why_correct_zh": "大卫·霍克尼（David Hockney）是20世纪60年代英国波普艺术的重要贡献者，至今仍具有影响力。\n\n波普艺术以广告、漫画、商品、电影明星等大众文化为素材，用鲜艳色彩、重复图像和商业印刷风格创作艺术。它于20世纪50年代首先在英国发展，后来在美国盛行。英国代表人物包括Richard Hamilton和David Hockney；Andy Warhol是最著名的美国波普艺术家之一。",
+        "answer_summary_zh": "正确选项：David Hockney。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "pop art",
+          "1960"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was an important contributor to the ‘pop art’ movement of the 1960’s?”及正确答案“David Hockney”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Winston Churchill"
+        },
+        {
+          "id": "r1",
+          "text": "Clement Attlee"
+        },
+        {
+          "id": "r2",
+          "text": "Margaret Thatcher"
+        },
+        {
+          "id": "r3",
+          "text": "Sir Robert Walpole"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-9.Who-became-prime-minister-and-was-an-inspirational-leader-to-the-british-people-during-WWII-winston-churchill.m4a",
+      "question": "Who became Prime Minister and was an inspirational leader to the British people during WWII?",
+      "explanation": "Winston Churchill.",
+      "id": "exam-02-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Winston Churchill"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Winston Churchill.",
+        "why_correct_zh": "正确答案是温斯顿·丘吉尔（Winston Churchill）。他于1940年5月出任首相，组建跨党派联合政府。当法国即将战败、英国可能独自面对德国时，他反对通过谈判退出战争。他通过广播和议会演说鼓舞民众，同时推动军事生产，并与美国总统Franklin D. Roosevelt及苏联领导人Joseph Stalin建立同盟关系，使英国最终成为盟军胜利的重要成员。",
+        "answer_summary_zh": "正确选项：Winston Churchill。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Prime Minister and",
+          "British",
+          "WWII"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who became Prime Minister and was an inspirational leader to the British people during WWII?”及正确答案“Winston Churchill”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Emperor Hadrian"
+        },
+        {
+          "id": "r1",
+          "text": "Julius Caesar"
+        },
+        {
+          "id": "r2",
+          "text": "Canute"
+        },
+        {
+          "id": "r3",
+          "text": "William, the Duke of Normandy"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q10.first-invasion-britain-julius-caesar.m4a",
+      "question": "Who led the first invasion of Britain?",
+      "explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire. In AD 43 the Emperor Claudius led the Roman army in a new invasion. This time, there was resistance from some of the British tribes but the Romans were successful in occupying almost all of Britain.",
+      "id": "exam-02-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Julius Caesar"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire. In AD 43 the Emperor Claudius led the Roman army in a new invasion. This time, there was resistance from some of the British tribes but the Romans were successful in occupying almost all of Britain.",
+        "why_correct_zh": "公元前 55 年，朱利叶斯·凯撒率领罗马入侵不列颠。但这并不成功，英国在近一百年的时间里一直与罗马帝国分离。公元43年，克劳迪斯皇帝率领罗马军队进行了新的入侵。这次，虽然遭到一些不列颠部落的抵抗，但罗马人成功占领了几乎整个不列颠。",
+        "answer_summary_zh": "正确选项：Julius Caesar。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who led the first invasion of Britain?”及正确答案“Julius Caesar”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "William of Orange"
+        },
+        {
+          "id": "r1",
+          "text": "King Alfred the Great"
+        },
+        {
+          "id": "r2",
+          "text": "Henry VIII"
+        },
+        {
+          "id": "r3",
+          "text": "Robert the Bruce"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-11.Under-which-king-did-the-anglo-saxon-kingdoms-in-england-unite-to-defeat-vikings.m4a",
+      "question": "Under which king did the Anglo-Saxon kingdoms in England unite to defeat the Vikings?",
+      "explanation": "The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings.",
+      "id": "exam-02-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "King Alfred the Great"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings.",
+        "why_correct_zh": "正确答案是King Alfred the Great。\n\n1. 早年：Alfred约849年出生于Wantage，是Wessex国王Æthelwulf的第五个儿子。\n\n2. 抵抗维京人：他于871年成为Wessex国王。878年，他在Battle of Edington击败Guthrum率领的丹麦军队，保住了Wessex；随后议和，英格兰北部和东部仍由Danelaw控制。\n\n3. 改革：他建立burhs防御城镇，改革军队、法律和铸币，并推动拉丁文著作翻译成Old English，以恢复教育。\n\n4. 遗产：Alfred于899年去世。他开启了统一进程，英格兰最终由其儿孙继续扩张并统一。他是英国历史上唯一被普遍冠以“the Great”的君主。",
+        "answer_summary_zh": "正确选项：King Alfred the Great。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Under",
+          "Anglo-Saxon",
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Under which king did the Anglo-Saxon kingdoms in England unite to defeat the Vikings?”及正确答案“King Alfred the Great”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1514"
+        },
+        {
+          "id": "r1",
+          "text": "1215"
+        },
+        {
+          "id": "r2",
+          "text": "1415"
+        },
+        {
+          "id": "r3",
+          "text": "1314"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-12.When-was-the-carta-magna-created-1215.m4a",
+      "question": "When was the Magna Carta created?",
+      "explanation": "The Magna Carta was created in 1215.",
+      "id": "exam-02-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "1215"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Magna Carta was created in 1215.",
+        "why_correct_zh": "《大宪章》（Magna Carta）于1215年由King John接受，最初是国王与反叛贵族之间的和平协议。\n\n它限制国王任意使用权力，确认国王也必须服从法律；自由人未经合法裁决或法律程序，不得被随意逮捕、监禁、流放或剥夺财产，司法也不得被出售、拒绝或无故拖延。国王筹集部分税费时需要协商，这也推动了后来Parliament的发展。\n\n1215年的文本主要保护教会、贵族和free men，并不是现代全民人权宣言，而且很快被宣布无效；但后来的重新颁布使它成为rule of law与正当法律程序的重要象征。",
+        "answer_summary_zh": "正确选项：1215。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Magna Carta"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When was the Magna Carta created?”及正确答案“1215”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-13.Northern-ireland-has-its-own-banknotes-which-are-valid-everywhere-in-the-uk.m4a",
+      "question": "Northern Ireland has its own banknotes, which are valid everywhere in the UK.",
+      "explanation": "This statement is true.",
+      "id": "exam-02-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The answer is True. Authorised Northern Ireland banks issue notes denominated in pounds sterling, and the notes can be used across the UK.\n\nHowever, 'valid everywhere' does not mean every shop must accept them. Northern Irish and Scottish banknotes are not legal tender anywhere in the UK, and businesses may choose which payments to accept.",
+        "why_correct_zh": "本题答案是True。北爱尔兰获授权的银行可以发行以英镑计价的纸币，这些纸币代表pound sterling，可在英国各地使用。\n\n但“valid everywhere”不等于商店必须接受：北爱尔兰和苏格兰纸币在英国任何地区都不是legal tender，商家可以自行决定接受哪些付款方式。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "bank-england-legal-tender"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Northern Ireland has its own banknotes, which are valid everywhere in the UK.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "bank-england-legal-tender"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Pride and Prejudice"
+        },
+        {
+          "id": "r1",
+          "text": "A Midsummer Night’s dream"
+        },
+        {
+          "id": "r2",
+          "text": "Sense and Sensibility"
+        },
+        {
+          "id": "r3",
+          "text": "Great Expectations"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-14.Which-of-the-following-plays-was-written-by-william-shakespeare-a-midsummer-nights-dream.m4a",
+      "question": "Which of the following plays was written by William Shakespeare?",
+      "explanation": "William Shakespeare’s most famous plays include A Midsummer Night’s dream.",
+      "id": "exam-02-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "A Midsummer Night’s dream"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "A Midsummer Night's Dream is one of William Shakespeare's best-known comedies. Four young lovers enter a forest near Athens, where Puck's mistaken use of a love potion makes them fall in love with the wrong people. The fairy queen Titania is also enchanted and falls in love with Bottom, whose head has been transformed into that of a donkey. The spells are eventually corrected and the lovers are reunited at the wedding celebrations.",
+        "why_correct_zh": "正确答案是《仲夏夜之梦》（A Midsummer Night’s Dream），它是William Shakespeare最著名的喜剧之一。\n\n故事中，Hermia、Lysander、Helena和Demetrius四位年轻人进入雅典附近的森林。精灵Puck误用爱情魔药，使他们爱错对象，引发一连串混乱；仙后Titania也中魔法，爱上了被变成驴头的演员Bottom。魔法解除后，恋人恢复正确的关系，并在婚礼中团圆。作品以爱情、梦境、现实与幻象之间的错乱制造喜剧效果。",
+        "answer_summary_zh": "正确选项：A Midsummer Night’s dream。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "William Shakespeare"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "rsc-midsummer-plot"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following plays was written by William Shakespeare?”及正确答案“A Midsummer Night’s dream”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "rsc-midsummer-plot"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "9"
+        },
+        {
+          "id": "r1",
+          "text": "12"
+        },
+        {
+          "id": "r2",
+          "text": "15"
+        },
+        {
+          "id": "r3",
+          "text": "20"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-15.How-many-members-does-a-jury-have-in-england-wales-and-northern-ireland-12.m4a",
+      "question": "How many members does a jury have in England, Wales and Northern Ireland?",
+      "explanation": "In England, Wales and Northern Ireland a jury has 12 members.",
+      "id": "exam-02-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "12"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The correct answer is 12. Criminal juries in England, Wales and Northern Ireland normally have 12 members; Scotland traditionally uses 15. US federal criminal juries also usually have 12 members, although federal civil juries may have 6 to 12 and state rules vary.",
+        "why_correct_zh": "正确答案是12人。在England、Wales和Northern Ireland，刑事审判的陪审团通常由12人组成；Scotland的刑事陪审团传统上是15人。\n\n美国联邦刑事陪审团通常也有12人，但联邦民事陪审团可由6至12人组成，各州规则也可能不同。",
+        "answer_summary_zh": "正确选项：12。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "Wales and Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "us-courts-jury-types",
+        "ny-courts-criminal-trial"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How many members does a jury have in England, Wales and Northern Ireland?”及正确答案“12”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "us-courts-jury-types",
+          "ny-courts-criminal-trial"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Buddhists"
+        },
+        {
+          "id": "r1",
+          "text": "Hindus"
+        },
+        {
+          "id": "r2",
+          "text": "Jews"
+        },
+        {
+          "id": "r3",
+          "text": "Sikhs"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-16.Which-two-of-the-following-religious-communities-celebrate-diwali-hindus-sikhs.m4a",
+      "question": "Which two of the following religious communities celebrate Diwali?",
+      "explanation": "Diwali is celebrated by Hindus and Sikhs.",
+      "id": "exam-02-q16",
+      "number": 16,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r3"
+      ],
+      "correct_answers": [
+        "Hindus",
+        "Sikhs"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The correct answer is Hindus and Sikhs. Diwali, or Deepavali, is the Festival of Lights and usually falls between October and November. Lighting lamps symbolises light over darkness, good over evil and knowledge over ignorance. Hindu traditions commonly connect the festival with Rama and Sita's return to Ayodhya after defeating Ravana, and many families worship Lakshmi. Sikhs mark Bandi Chhor Divas at the same time, remembering the release of Guru Hargobind and, according to tradition, 52 other imprisoned princes. Celebrations include diyas, rangoli, family meals, sweets, gifts, prayer and fireworks.",
+        "why_correct_zh": "正确答案是Hindus and Sikhs。排灯节通常称为Diwali或Deepavali，意思接近“成排的灯”，因此也叫Festival of Lights。它通常在10月至11月之间举行，日期按印度历法变化。点亮油灯象征光明战胜黑暗、善战胜恶、知识战胜无知。\n\n• Hindus：不同地区有不同传统。最常见的故事是Rama与Sita击败Ravana、结束14年流亡后返回Ayodhya，居民点灯欢迎他们。许多家庭也敬奉财富与繁荣女神Lakshmi，祈求新一年幸福顺利。\n\n• Sikhs：同一时期主要纪念Bandi Chhor Divas，即“囚徒解放日”。传统认为第六位Guru Hargobind获释时，坚持让另外52名被囚禁的王公与他一同离开，因此节日象征自由、正义及反抗压迫。\n\n常见庆祝方式包括点燃diyas油灯、装饰rangoli图案、家庭聚餐、赠送甜食和礼物、祈祷以及燃放烟花。",
+        "answer_summary_zh": "正确选项：Hindus；Sikhs。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Diwali"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "rcahmw-diwali-festival",
+        "rcahmw-bandi-chhor-divas"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of the following religious communities celebrate Diwali?”及正确答案“Hindus；Sikhs”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "rcahmw-diwali-festival",
+          "rcahmw-bandi-chhor-divas"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The day when Jesus Christ rose from the dead"
+        },
+        {
+          "id": "r1",
+          "text": "The day when Jesus Christ was born"
+        },
+        {
+          "id": "r2",
+          "text": "The day when Jesus Christ died"
+        },
+        {
+          "id": "r3",
+          "text": "The day when Jesus Christ became 30 years old"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-17.What-is-good-friday.m4a",
+      "question": "What is Good Friday?",
+      "explanation": "Good Friday marks the death of Jesus Christ during the Easter.",
+      "id": "exam-02-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The day when Jesus Christ died"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The correct answer is Good Friday. It commemorates the crucifixion and death of Jesus. The exact origin of the name is uncertain, but 'good' may preserve a Middle English sense meaning holy or sacred. In Christian belief, Jesus's suffering and death also opened the way to redemption and new life; the day is therefore solemn and sorrowful while still being called Good Friday.",
+        "why_correct_zh": "正确答案是Good Friday。Good Friday纪念耶稣被钉十字架和死亡。名称中的Good可能保留了中古英语“holy、sacred”的含义；从基督教信仰看，耶稣的受难也被认为给人类带来了救赎和新生命，因此这一天虽然悲痛，却被称为Good Friday。",
+        "answer_summary_zh": "正确选项：The day when Jesus Christ died。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Good Friday"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "church-england-lent-easter",
+        "etymonline-good-friday"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is Good Friday?”及正确答案“The day when Jesus Christ died”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "church-england-lent-easter",
+          "etymonline-good-friday"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-18.St-patricks-day-is-a-public-holiday-in-northern-ireland.m4a",
+      "question": "St Patrick’s day is a public holiday in Northern Ireland.",
+      "explanation": "True. Only Scotland and Northern Ireland have their patron saint’s day as an official holiday (although in Scotland not all businesses and offices will close).",
+      "id": "exam-02-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The answer is True. Northern Ireland observes St Patrick's Day as a public holiday. St Patrick's Day is held on 17 March, traditionally regarded as the anniversary of Ireland's patron saint's death. Patrick was probably born in Roman Britain, was taken to Ireland as a slave, escaped and later returned as a Christian missionary. Originally a religious feast day, celebrations developed into large parades through the Irish diaspora and became an international celebration of Irish culture and identity.",
+        "why_correct_zh": "正确答案是True。只有Scotland和Northern Ireland将守护神节作为法定假日（尽管在Scotland，并非所有企业和办公室都会关闭）。\n\nSt Patrick’s Day在3月17日举行，传统认为这是爱尔兰守护神St Patrick的逝世纪念日。他可能出生于Roman Britain，曾被掳到爱尔兰为奴，逃脱并成为神职人员后又返回爱尔兰传播基督教。节日最初是宗教纪念日，后来在海外爱尔兰移民推动下发展出大型游行，逐渐成为庆祝爱尔兰文化和身份的国际节日。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St Patrick’s",
+          "public holiday",
+          "Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ireland-st-patrick-activity-pack",
+        "gov-ie-st-patrick-global"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“St Patrick’s day is a public holiday in Northern Ireland.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ireland-st-patrick-activity-pack",
+          "gov-ie-st-patrick-global"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Viking invasion"
+        },
+        {
+          "id": "r1",
+          "text": "The Anglo-Saxon Conquest"
+        },
+        {
+          "id": "r2",
+          "text": "The Roman invasion"
+        },
+        {
+          "id": "r3",
+          "text": "The Norman Conquest"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-19.Which-was-the-last-successful-foreign-invasion-of-britain-that-took-place-in-1066-norman-conquest.m4a",
+      "question": "Which was the last successful foreign invasion of England that took place in 1066?",
+      "explanation": "The Norman Conquest was the last successful foreign invasion of England in 1066.",
+      "id": "exam-02-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Norman Conquest"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the Norman Conquest of 1066. William, Duke of Normandy, defeated King Harold's army at the Battle of Hastings, where Harold died, and was crowned William I. The Normans descended from Scandinavian Vikings who had settled in northern France; by 1066 they were French-speaking Christians. William suppressed resistance, replaced most of the Anglo-Saxon elite with Norman lords, built castles, reorganised landholding and commissioned Domesday Book. Ordinary people continued to speak Old English while the court and ruling elite used Norman French, which contributed many words to modern English, including government, court, judge, beef and pork.",
+        "why_correct_zh": "正确答案是1066年的Norman Conquest。征服者是Normandy公爵William the Conqueror。他在Battle of Hastings击败King Harold的军队，Harold战死；William随后加冕为William I。\n\nNormans是定居法国北部的Scandinavian Vikings后代；到1066年，他们已经改信基督教并采用法语和法国文化。征服后，William镇压反抗，以Norman领主取代大部分Anglo-Saxon贵族，修建城堡、重组土地制度并编制Domesday Book。\n\n普通人继续说Old English，但王室、政府和贵族长期使用Norman French。两种语言长期接触，使现代英语吸收了大量法语词，例如government、court、judge、beef和pork。",
+        "answer_summary_zh": "正确选项：The Norman Conquest。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "1066"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "english-heritage-norman-conquest",
+        "english-heritage-william-legacy",
+        "national-archives-domesday"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which was the last successful foreign invasion of England that took place in 1066?”及正确答案“The Norman Conquest”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "english-heritage-norman-conquest",
+          "english-heritage-william-legacy",
+          "national-archives-domesday"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "At the House of Commons"
+        },
+        {
+          "id": "r1",
+          "text": "At the Tower of London"
+        },
+        {
+          "id": "r2",
+          "text": "At Buckingham Palace"
+        },
+        {
+          "id": "r3",
+          "text": "At Windsor Castle"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-20.Where-are-the-crown-jewels-kept-tower-of-london.m4a",
+      "question": "Where are the Crown Jewels kept?",
+      "explanation": "The Crown Jewels are kept at the Tower of London.",
+      "id": "exam-02-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "At the Tower of London"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The correct answer is the Tower of London. The Crown Jewels are not one crown but a collection of state regalia including crowns, sceptres, the Sovereign's Orb and the Coronation Spoon. Parliament ordered most of the medieval regalia destroyed in 1649; the core of today's collection was remade for Charles II's coronation in 1661 after the Restoration. St Edward's Crown is worn only at the moment a new monarch is crowned, while the Imperial State Crown is used for the coronation procession out of Westminster Abbey and state occasions such as the State Opening of Parliament. The monarch holds the collection in trust for the nation, and it is normally kept at the Tower of London.",
+        "why_correct_zh": "正确答案是Tower of London。Crown Jewels不是一顶王冠，而是包括王冠、权杖、宝球和加冕勺在内的一整套国家礼器。中世纪的大部分礼器在1649年被议会销毁，今天的主体为Charles II在1661年复辟后重新制造。\n\nSt Edward’s Crown只在加冕一刻由新君主佩戴；Imperial State Crown则用于加冕离场和State Opening of Parliament等国家典礼。它们由君主代表国家持有，平时收藏在Tower of London。",
+        "answer_summary_zh": "正确选项：At the Tower of London。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Crown Jewels"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "hrp-crown-jewels",
+        "royal-coronation-regalia"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where are the Crown Jewels kept?”及正确答案“At the Tower of London”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "hrp-crown-jewels",
+          "royal-coronation-regalia"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Golf"
+        },
+        {
+          "id": "r1",
+          "text": "Tennis"
+        },
+        {
+          "id": "r2",
+          "text": "Football"
+        },
+        {
+          "id": "r3",
+          "text": "Rugby"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-21.Which-sport-can-be-traced-back-to-the-15th-century-in-scotland-golf.m4a",
+      "question": "Which sport can be traced back to the 15th century in Scotland?",
+      "explanation": "The modern game of golf can be traced back to 15th century Scotland.",
+      "id": "exam-02-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Golf"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The correct answer is 15th-century Scotland. Scotland's earliest known written reference to golf is a 1457 ban intended to stop the game from distracting men from compulsory archery practice. The ban was repeated, yet James IV, under whom it was prohibited again in 1491, later bought expensive clubs in Perth, Edinburgh and St Andrews. Early courses had different numbers of holes; Scotland's natural coastal links and the influence of St Andrews helped 18 holes become the modern standard. In 1744, the Company of Gentlemen Golfers wrote 13 early rules. Its first champion, surgeon John Rattray, later escaped execution after the Jacobite rising with help from a fellow golfer.",
+        "why_correct_zh": "正确答案是15世纪的Scotland。苏格兰最早的高尔夫文字记录不是比赛，而是1457年的禁令：政府担心人们沉迷高尔夫，耽误国防所需的射箭训练。禁令多次重申仍未奏效；颁布第三次禁令的James IV后来自己迷上高尔夫，1502年的王室账目显示他曾在Perth、Edinburgh和St Andrews购买昂贵的手工球杆。\n\n早期球场没有统一洞数。苏格兰海边天然形成的沙地、草皮和凹坑很适合打球；随着St Andrews影响扩大，18洞逐渐成为现代标准。\n\n1744年，Edinburgh的Company of Gentlemen Golfers制定了现存最早的13条高尔夫规则。首届冠军、外科医生John Rattray后来参加Jacobite起义，被捕并面临处决，最终得到一位高尔夫球友帮助而获救——可以说，高尔夫真的“救了他的命”。",
+        "answer_summary_zh": "正确选项：Golf。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "15th century",
+          "Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "nls-early-scottish-golf",
+        "historic-scotland-st-andrews-links",
+        "randa-why-18-holes"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which sport can be traced back to the 15th century in Scotland?”及正确答案“Golf”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "nls-early-scottish-golf",
+          "historic-scotland-st-andrews-links",
+          "randa-why-18-holes"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "William Shakespeare"
+        },
+        {
+          "id": "r1",
+          "text": "John Barbour"
+        },
+        {
+          "id": "r2",
+          "text": "Geoffrey Chaucer"
+        },
+        {
+          "id": "r3",
+          "text": "William Caxton"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-22.Who-was-the-first-person-in-england-to-print-books-using-a-printing-press-william-caxton.m4a",
+      "question": "Who was the first person in England to print books using a printing press?",
+      "explanation": "William Caxton was the first person in England to print books using a printing press.",
+      "id": "exam-02-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "William Caxton"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is William Caxton. He brought movable-type printing skills learned on the European continent to England and established England's first printing press at Westminster around 1476. Caxton began as a London cloth merchant and spent much of his commercial career in Bruges and other trading centres in the Low Countries. He learned about printing in Cologne and later helped produce books in Flanders. His merchant experience, Continental connections and links with wealthy English patrons helped him recognise and serve a market for printed books in English.",
+        "why_correct_zh": "正确答案是William Caxton。他把在欧洲大陆学到的活字印刷技术带回England，并在1476年前后于Westminster建立英格兰第一座印刷所。\n\nCaxton原是伦敦布商，长期居住在Bruges等欧洲贸易城市，能够接触德国和低地国家的新技术、资金与国际书籍市场。他在Cologne学习活字印刷，随后在Flanders参与印书。\n\n他知道英国贵族和富裕商人希望阅读英文书籍，也明白手工抄书速度慢、成本高，因此看到了批量印刷的商业机会。他与英国王室、贵族和商人联系密切，回国后能为印刷书籍找到购买者。",
+        "answer_summary_zh": "正确选项：William Caxton。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "westminster-abbey-william-caxton",
+        "merton-caxton-canterbury-tales"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the first person in England to print books using a printing press?”及正确答案“William Caxton”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "westminster-abbey-william-caxton",
+          "merton-caxton-canterbury-tales"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "High Court"
+        },
+        {
+          "id": "r1",
+          "text": "Justice of the Peace Court"
+        },
+        {
+          "id": "r2",
+          "text": "Magistrates’ Court"
+        },
+        {
+          "id": "r3",
+          "text": "Crown Court"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-23.Which-court-deals-with-minor-criminal-cases-in-England-Wales-and-northern-ireland-magistrates-court.m4a",
+      "question": "Which court deals with minor criminal cases in England, Wales and Northern Ireland?",
+      "explanation": "In England, Wales and Northern Ireland, most minor criminal cases are dealt with in a Magistrates’ Court. In Scotland, minor criminal offences go to a Justice of the Peace Court.",
+      "id": "exam-02-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Magistrates’ Court"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In England, Wales and Northern Ireland, most minor criminal cases are dealt with in a Magistrates’ Court. In Scotland, minor criminal offences go to a Justice of the Peace Court.",
+        "why_correct_zh": "在英格兰、威尔士和北爱尔兰，大多数轻微刑事案件均由地方法院审理。在苏格兰，轻微刑事犯罪将由治安法院法官审理。",
+        "answer_summary_zh": "正确选项：Magistrates’ Court。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "Wales and Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which court deals with minor criminal cases in England, Wales and Northern Ireland?”及正确答案“Magistrates’ Court”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Television"
+        },
+        {
+          "id": "r1",
+          "text": "Radar"
+        },
+        {
+          "id": "r2",
+          "text": "Personal computer"
+        },
+        {
+          "id": "r3",
+          "text": "Radio"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT2/Q-24.What-did-the-scottish-john-logie-baird-develop-television.m4a",
+      "question": "What did the Scottish John Logie Baird develop?",
+      "explanation": "The television was developed by Scotsman John Logie Baird in the 1920s.",
+      "id": "exam-02-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Television"
+      ],
+      "exam_number": 2,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-2/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is John Logie Baird, the Scottish inventor who developed an early mechanical television system in the 1920s. His first test 'star' was the ventriloquist's dummy head Stookie Bill because the equipment required lighting too hot for prolonged human use. In 1925, Baird paid his assistant William Taynton two shillings and sixpence to endure the lights and become the first recognisable human face transmitted by Baird's system. On 26 January 1926, Baird demonstrated live, recognisable faces to Royal Institution members at 22 Frith Street, London. In 1928, he made the first transatlantic television transmission and demonstrated both colour and stereoscopic television.",
+        "why_correct_zh": "正确答案是John Logie Baird。这位苏格兰发明家在20世纪20年代开发了早期机械电视系统。\n\n• 第一个“电视明星”是木偶：早期设备需要极强、极热的灯光才能捕捉面部。Baird先用腹语木偶头Stookie Bill测试，因为真人难以长时间忍受灯光。\n\n• 第一位出现在Baird电视图像中的真人是助手William Taynton。1925年，Baird付给他2 shillings and 6 pence，让他忍受强光完成实验。\n\n• 首次公开演示：1926年1月26日，Baird在伦敦Frith Street的实验室向Royal Institution成员展示了可实时传送、辨认人脸的电视系统。\n\n• 1928年连续突破：他完成首次跨大西洋电视图像传输，并演示彩色电视和立体3D电视。",
+        "answer_summary_zh": "正确选项：Television。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scottish John Logie Baird"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "science-museum-stookie-bill",
+        "iet-100-years-television",
+        "nms-first-colour-television"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-02-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did the Scottish John Logie Baird develop?”及正确答案“Television”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "science-museum-stookie-bill",
+          "iet-100-years-television",
+          "nms-first-colour-television"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">What is the name of the War Memorial located in Whitehall? Correct answer: Cenotaph</title>
+<desc id="desc">Answer memory card shown after answering the question.</desc>
+<rect width="1200" height="675" rx="36" fill="#37224F"/>
+<circle cx="320" cy="340" r="210" fill="#FFFFFF" opacity=".045"/>
+<path d="M320 222v236M202 340h236" stroke="#CF9FE8" stroke-width="10" stroke-linecap="round" opacity=".45"/>
+<circle cx="320" cy="340" r="112" fill="none" stroke="#CF9FE8" stroke-width="10"/>
+<circle cx="320" cy="340" r="34" fill="#CF9FE8"/>
+<circle cx="320" cy="228" r="14" fill="#CF9FE8"/><circle cx="432" cy="340" r="14" fill="#CF9FE8"/><circle cx="320" cy="452" r="14" fill="#CF9FE8"/><circle cx="208" cy="340" r="14" fill="#CF9FE8"/>
+<text x="590" y="82" fill="#CF9FE8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">ANSWER MEMORY CARD · EXAM-11-Q12</text>
+<text x="590" y="126" fill="#FAF1FF" opacity=".76" font-family="Arial, Helvetica, sans-serif" font-size="18">4.5 Arts and culture</text>
+<text x="590" y="172" fill="#FAF1FF" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="600"><tspan x="590" dy="0">What is the name of the War</tspan><tspan x="590" dy="40">Memorial located in</tspan><tspan x="590" dy="40">Whitehall?</tspan></text>
+<line x1="590" y1="345" x2="1110" y2="345" stroke="#CF9FE8" stroke-width="3" opacity=".55"/>
+<text x="590" y="392" fill="#CF9FE8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">CORRECT ANSWER</text>
+<text x="590" y="438" fill="#FAF1FF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700"><tspan x="590" dy="0">Cenotaph</tspan></text>
+</svg>

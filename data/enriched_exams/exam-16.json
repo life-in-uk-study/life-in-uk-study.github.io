@@ -1,0 +1,1862 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 16,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "aardman-creature-comforts": {
+      "title": "Creature Comforts",
+      "publisher": "Aardman",
+      "url": "https://www.aardman.com/film-tv-games/creature-comforts/",
+      "authority": "official_studio",
+      "note_zh": "Aardman介绍Creature Comforts的首播时间、动物园访谈情节，以及把英国公众真实录音配给黏土动物的创作方式。"
+    },
+    "aardman-nick-park-biography": {
+      "title": "Nick Park biography",
+      "publisher": "Aardman",
+      "url": "https://www.aardman.com/about/people/nick-park-biography/",
+      "authority": "official_studio",
+      "note_zh": "Aardman官方履历列出Nick Park的四项Academy Awards及对应作品，并确认其中三部为Wallace & Gromit作品。"
+    },
+    "british-library-gallows-letter": {
+      "title": "The Gallows Letter",
+      "publisher": "British Library",
+      "url": "https://www.bl.uk/stories/blogs/posts/the-gallows-letter",
+      "authority": "national_library",
+      "note_zh": "英国国家图书馆依据档案说明Mary的回信、Walsingham对通信的监控和修改、附加的诱导性附言，以及Babington烧毁原信。"
+    },
+    "british-museum-anglo-saxons": {
+      "title": "Anglo-Saxons — British Museum learning resource",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/sites/default/files/2019-10/Visit_Anglo_Saxons.pdf",
+      "authority": "national_museum",
+      "note_zh": "British Museum说明Roman统治结束后的Germanic迁徙、不同地区的迁入规模，以及本地Britons与新文化的延续和融合。"
+    },
+    "cambridge-origins-of-english": {
+      "title": "The Origins of English — excerpt",
+      "publisher": "Cambridge University Press",
+      "url": "https://assets.cambridge.org/97811088/32960/excerpt/9781108832960_excerpt.pdf",
+      "authority": "academic_publisher",
+      "note_zh": "Cambridge资料说明Jutes、Angles、Saxons和Frisians来自North Sea对岸沿海地区，并具体联系Jutes与今天丹麦的Jutland。"
+    },
+    "commonwealth-member-countries": {
+      "title": "Member countries",
+      "publisher": "The Commonwealth",
+      "url": "https://thecommonwealth.org/our-member-countries",
+      "authority": "official_intergovernmental_organisation",
+      "note_zh": "Commonwealth Secretariat列出的当前56个独立成员国及其地区分类。"
+    },
+    "english-heritage-early-medieval-introduction": {
+      "title": "Introduction to Early Medieval England (c.410–1066)",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/learn/story-of-england/early-medieval/introduction/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage说明Angles、Saxons和Jutes自5世纪从欧洲大陆跨越北海，在Britain南部和东部迁入并定居。"
+    },
+    "english-heritage-rose-symbols": {
+      "title": "Blooming marvellous: roses through time",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/inspire-me/roses-through-time-a-history-of-rose-gardens-and-roses-as-a-symbol-in-english-culture/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍玫瑰在纹章中的使用、约克白玫瑰、兰开斯特红玫瑰及Tudor Rose。"
+    },
+    "govuk-john-major": {
+      "title": "The Rt Hon Sir John Major KG CH",
+      "publisher": "GOV.UK — History of government",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/john-major",
+      "authority": "official_government",
+      "note_zh": "GOV.UK确认John Major为Conservative首相、任期为1990至1997年，并介绍其1992年胜选和Northern Ireland和平进程工作。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "govuk-volunteering": {
+      "title": "Volunteer opportunities, rights and expenses",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/volunteering",
+      "authority": "official_government",
+      "note_zh": "社区志愿服务的官方信息。"
+    },
+    "historic-england-white-tower": {
+      "title": "The White Tower — List Entry 1260258",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1260258",
+      "authority": "official_heritage_register",
+      "note_zh": "Historic England的法定名录确认White Tower是约1078至1100年为William I和William II修建的tower keep。"
+    },
+    "hrp-tower-london-history": {
+      "title": "The story of the Tower of London",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-story-of-the-tower-of-london/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces介绍William建塔以防御并宣示王权、城堡的王室住所用途，以及1240年刷白great keep的由来。"
+    },
+    "hrp-white-tower": {
+      "title": "The White Tower",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/whats-on/white-tower/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces说明White Tower的建造年代、防御和震慑功能、St John's Chapel及今天的Royal Armouries展示。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-archives-mary-ciphers": {
+      "title": "Ciphers used by Mary Queen of Scots",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/elizabeth-monarchy/ciphers-used-by-mary-queen-of-scots/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆展示Mary的密码资料，并说明Walsingham的密码专家如何破译秘密通信。"
+    },
+    "national-archives-wars-of-roses": {
+      "title": "Spotlight On: Wars of the Roses — video transcript",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-wars-of-the-roses/transcript/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明“玫瑰战争”之名来自战争不同阶段由王位竞争者使用的玫瑰徽记。"
+    },
+    "national-trust-giants-causeway-history": {
+      "title": "Giant's Causeway's history",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway/history-of-giants-causeway",
+      "authority": "official_site_conservation_body",
+      "note_zh": "负责保护Giant’s Causeway的National Trust介绍Finn McCool、Benandonner及堤道被拆毁的著名传说。"
+    },
+    "national-trust-newton-space-saplings": {
+      "title": "Things to do at Woolsthorpe Manor",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/nottinghamshire-lincolnshire/woolsthorpe-manor/things-to-do-at-woolsthorpe-manor",
+      "authority": "official_heritage_body",
+      "note_zh": "National Trust说明Newton苹果树的品种，以及2015年苹果籽随Tim Peake前往国际空间站、六个月后返回地球的故事。"
+    },
+    "national-trust-newton-woolsthorpe": {
+      "title": "Woolsthorpe Manor's history",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/nottinghamshire-lincolnshire/woolsthorpe-manor/history-of-woolsthorpe-manor",
+      "authority": "official_heritage_body",
+      "note_zh": "National Trust介绍Newton在1665至1667年回到Woolsthorpe研究重力、苹果故事、Principia及Edmond Halley协助出版的经过。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-census-2021-international-migration": {
+      "title": "International migration, England and Wales: Census 2021",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/internationalmigrationenglandandwales/census2021",
+      "authority": "official_statistics",
+      "note_zh": "ONS统计2021年England和Wales居民本人的出生地；该指标与教材所说父母或祖父母出生地并不相同。"
+    },
+    "oscars-wallace-gromit-restored": {
+      "title": "Wallace and Gromit Restored",
+      "publisher": "Academy of Motion Picture Arts and Sciences",
+      "url": "https://www.oscars.org/events/wallace-and-gromit-restored",
+      "authority": "official_awards_body",
+      "note_zh": "Academy官方资料确认Aardman与Nick Park早期获奖情况，并列出Wallace & Gromit短片的年份。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-john-major-career": {
+      "title": "Parliamentary career for Mr John Major",
+      "publisher": "UK Parliament",
+      "url": "https://members.parliament.uk/member/119/career",
+      "authority": "official_parliamentary_record",
+      "note_zh": "UK Parliament记录John Major担任首相、Conservative党魁及反对党领袖的准确日期。"
+    },
+    "parliament-king-james-lecture": {
+      "title": "King James Lecture",
+      "publisher": "UK Parliament",
+      "url": "https://publications.parliament.uk/pa/ld200708/ldjudgmt/kingjameslecture.pdf",
+      "authority": "official_parliamentary_publication",
+      "note_zh": "英国议会刊载的法律历史讲座指出，以英格兰treason审判一位外国女王在法律上存在争议。"
+    },
+    "parliament-major-northern-ireland-1993": {
+      "title": "Ireland — Joint Declaration, 15 December 1993",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://hansard.parliament.uk/commons/1993-12-15/debates/b09cbcfb-bff4-41e2-aa05-da5059ecad21/CommonsChamber",
+      "authority": "primary_parliamentary_record",
+      "note_zh": "John Major向House of Commons说明他与Irish Taoiseach达成的1993年Downing Street Declaration及和平进程目标。"
+    },
+    "parliament-reformation": {
+      "title": "The Reformation",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/overview/reformation/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明教皇反对Henry VIII与Catherine of Aragon离婚，以及1534年Act of Supremacy确立国王的教会领导地位。"
+    },
+    "parliament-scottish-devolution-1997": {
+      "title": "Scottish Devolution — House of Commons, 24 July 1997",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1997/jul/24/scottish-devolution",
+      "authority": "primary_parliamentary_record",
+      "note_zh": "1997年政府声明把devolution解释为让Scotland和Wales更能管理自身事务，使政府更公开、易接触和可问责，同时留在UK内。"
+    },
+    "royal-elizabeth-i": {
+      "title": "Elizabeth I (r.1558–1603)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/elizabeth-i",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室资料说明天主教徒为何质疑Elizabeth的合法性，以及Mary为何成为叛乱、暗杀阴谋和外国干预的替代君主人选。"
+    },
+    "royal-mary-queen-scots": {
+      "title": "Mary, Queen of Scots (r.1542–1567)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/mary-queen-scots-r1542-1567",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室资料说明Mary的王位背景、19年囚禁、她作为天主教阴谋焦点的处境，以及1587年的处决。"
+    },
+    "scottish-parliament-path-devolution": {
+      "title": "The path to devolution",
+      "publisher": "Scottish Parliament",
+      "url": "https://www.parliament.scot/about/history-of-the-scottish-parliament/the-path-to-devolution",
+      "authority": "official_legislature",
+      "note_zh": "Scottish Parliament说明1979至1997年的devolution运动、1997年公投结果及Scotland Act 1998的通过。"
+    },
+    "senedd-history-devolution": {
+      "title": "History of Devolution",
+      "publisher": "Senedd Cymru — Welsh Parliament",
+      "url": "https://senedd.wales/how-we-work/history-of-devolution/",
+      "authority": "official_legislature",
+      "note_zh": "Senedd说明Welsh Office、quangos和民主问责问题如何推动devolution，并记录1997年公投与Government of Wales Act 1998。"
+    },
+    "tso-handbook-third-edition": {
+      "title": "Life in the United Kingdom: A Guide for New Residents — paperback, 3rd edition",
+      "publisher": "The Stationery Office",
+      "url": "https://www.tsoshop.co.uk/product/9780113413409/Society/Life-in-the-UK/Life-in-the-United-Kingdom-A-Guide-for-New-Residents-Paperback/",
+      "authority": "official_publisher",
+      "note_zh": "TSO产品记录确认官方教材第三版ISBN 9780113413409于2013年1月28日出版。"
+    },
+    "un-history": {
+      "title": "History of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "authority": "official_international_organisation",
+      "note_zh": "联合国官方资料说明50国参加旧金山会议，以及《联合国宪章》在五个主要国家及多数签署国批准后于1945年10月24日生效。"
+    },
+    "un-original-members": {
+      "title": "Growth in United Nations membership",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/growth-in-un-membership",
+      "authority": "official_international_organisation",
+      "note_zh": "联合国官方会员记录列出1945年的51个创始会员国。"
+    },
+    "un-preparatory-years": {
+      "title": "Preparatory Years: UN Charter History",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un/preparatory-years",
+      "authority": "official_international_organisation",
+      "note_zh": "联合国官方历史说明1942年《联合国家宣言》、美英苏中四国的筹备工作、Dumbarton Oaks会议及旧金山会议的形成过程。"
+    },
+    "unesco-giants-causeway": {
+      "title": "Giant's Causeway and Causeway Coast",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/369",
+      "authority": "official_international_heritage_body",
+      "note_zh": "UNESCO说明遗址约有40,000根玄武岩柱，由约5,000万至6,000万年前的火山活动形成，并记录其巨人传说与世界遗产价值。"
+    },
+    "unesco-tower-of-london": {
+      "title": "Tower of London",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/488/",
+      "authority": "international_heritage_body",
+      "note_zh": "UNESCO说明White Tower位于Thames门户的战略位置，并同时承担保护London、控制城市和象征Norman权力的作用。"
+    },
+    "wallace-gromit-close-shave": {
+      "title": "A Close Shave",
+      "publisher": "Wallace & Gromit — Aardman",
+      "url": "https://www.wallaceandgromit.com/films/a-close-shave",
+      "authority": "official_studio",
+      "note_zh": "官方作品页介绍Gromit被诬陷、Preston与失踪羊群的故事，以及1995年首播和1996年Academy Award。"
+    },
+    "wallace-gromit-were-rabbit": {
+      "title": "The Curse of the Were-Rabbit",
+      "publisher": "Wallace & Gromit — Aardman",
+      "url": "https://www.wallaceandgromit.com/films/curse-of-the-were-rabbit/",
+      "authority": "official_studio",
+      "note_zh": "官方作品页介绍Anti-Pesto、巨型蔬菜比赛和Were-Rabbit故事，并记录2005年上映及2006年Academy Award。"
+    },
+    "wallace-gromit-wrong-trousers": {
+      "title": "The Wrong Trousers",
+      "publisher": "Wallace & Gromit — Aardman",
+      "url": "https://wallaceandgromit.com/films/the-wrong-trousers/",
+      "authority": "official_studio",
+      "note_zh": "官方作品页介绍Feathers McGraw利用Techno Trousers进行盗窃的故事及1994年Academy Award。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "95",
+      "options": [
+        {
+          "id": "r0",
+          "text": "After the First World War."
+        },
+        {
+          "id": "r1",
+          "text": "After the Second World War."
+        },
+        {
+          "id": "r2",
+          "text": "Before the First World War."
+        },
+        {
+          "id": "r3",
+          "text": "Before the Second World War."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q1.when-was-united-nations-set-up.m4a",
+      "question": "When was the United Nations set up?",
+      "explanation": "The UN was set up after the Second World War and aims to prevent war and promote international peace and security.",
+      "id": "exam-16-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "After the Second World War."
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.4 The UK and international institutions",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The correct answer is after the Second World War. The United Nations was not founded by only a small handful of countries. Its initial institutional blueprint was developed principally by the United States, United Kingdom, Soviet Union and China at the Dumbarton Oaks meetings in 1944. France later joined as a sponsoring power at San Francisco and became a permanent member of the Security Council.\n\nRepresentatives of 50 countries met in San Francisco from April to June 1945 to negotiate and sign the UN Charter. Poland could not attend because it did not then have a generally recognised new government, but signed later, bringing the total to 51 original Member States. They also included countries such as Australia, Canada, India, New Zealand, Brazil and Mexico.\n\nThe Charter entered into force on 24 October 1945 after ratification by China, France, the Soviet Union, the UK, the US and a majority of the other signatories. That date marks the UN's formal creation. The five named powers became the permanent members of the Security Council, reflecting the special position of the principal Allied powers in the post-war security system.",
+        "why_correct_zh": "正确答案是After the Second World War。联合国并不是由少数几个国家单独建立的。最初的制度蓝图主要由United States、United Kingdom、Soviet Union和China在1944年的Dumbarton Oaks会议中拟定；France后来也成为旧金山会议的发起国和Security Council常任理事国。\n\n1945年4月至6月，50个国家在San Francisco共同讨论并签署UN Charter。Poland因当时没有获普遍承认的新政府而未能参会，但随后签署，因此联合国共有51个original Member States；其中还包括Australia、Canada、India、New Zealand、Brazil、Mexico等国。\n\n《宪章》在China、France、Soviet Union、UK、US以及多数其他签署国批准后，于1945年10月24日生效，联合国正式成立。这五国成为Security Council常任理事国，反映了二战后主要同盟国在新国际安全体系中的特殊地位。",
+        "answer_summary_zh": "正确选项：After the Second World War.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "United Nations"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "un-preparatory-years",
+        "un-history",
+        "un-original-members"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When was the United Nations set up?”及正确答案“After the Second World War.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "un-preparatory-years",
+          "un-history",
+          "un-original-members"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "England"
+        },
+        {
+          "id": "r2",
+          "text": "Wales"
+        },
+        {
+          "id": "r3",
+          "text": "Northern Ireland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q2.giants-causeway.m4a",
+      "question": "Where is the Giant’s Causeway located?",
+      "explanation": "The Giant’s Causeway is a land formation of columns made from volcanic lava located on the north-east coast of Northern Ireland. It was formed about 50 million years ago. There are many legends about the Causeway and how it was formed.",
+      "id": "exam-16-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Northern Ireland"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Giant's Causeway lies on the County Antrim coast of Northern Ireland and contains about 40,000 basalt columns. The scientific explanation is that lava cooled, contracted and fractured into polygonal columns around 50 to 60 million years ago.\n\nThe best-known legend concerns the Irish giant Fionn mac Cumhaill, often anglicised as Finn McCool. He laid enormous stones into the sea to build a causeway to Scotland and challenge the Scottish giant Benandonner. When Finn saw that his opponent was much larger, he ran home, where his wife Oonagh wrapped him in a blanket and disguised him as a baby.\n\nBenandonner saw the enormous 'baby' and reasoned that its father must be terrifyingly large. He fled to Scotland, tearing up the causeway behind him so Finn could not follow. The surviving ends were said to be the Giant's Causeway in Northern Ireland and Fingal's Cave on the Scottish island of Staffa. Rock formations at the site resembling a boot, organ and harp are also woven into the story as the Giant's Boot, Organ and Harp.",
+        "why_correct_zh": "Giant’s Causeway位于Northern Ireland的County Antrim海岸，由约40,000根玄武岩柱组成。科学解释是约5,000万至6,000万年前的熔岩冷却、收缩并开裂，逐渐形成多边形石柱。\n\n最著名的传说主角是爱尔兰巨人Fionn mac Cumhaill，也常写作Finn McCool。他为了到Scotland挑战巨人Benandonner，把巨石铺进海里建成堤道。Finn见到对方远比自己高大，便逃回家；妻子Oonagh把他裹进毯子，伪装成婴儿。\n\nBenandonner看到这个“婴儿”如此巨大，心想父亲一定更加可怕，于是逃回Scotland，并沿途拆毁堤道，防止Finn追赶。传说称北爱尔兰海岸留下Giant’s Causeway，Scotland的Staffa岛则留下另一端Fingal’s Cave。现场形似靴子、风琴和竖琴的岩石，也被故事称为Giant’s Boot、Organ和Harp。",
+        "answer_summary_zh": "正确选项：Northern Ireland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Giant’s Causeway"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-trust-giants-causeway-history",
+        "unesco-giants-causeway"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the Giant’s Causeway located?”及正确答案“Northern Ireland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-trust-giants-causeway-history",
+          "unesco-giants-causeway"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "She got married."
+        },
+        {
+          "id": "r1",
+          "text": "She was sent to France."
+        },
+        {
+          "id": "r2",
+          "text": "She was executed."
+        },
+        {
+          "id": "r3",
+          "text": "She was sent to Scotland."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q3.mary-queen-scotts.m4a",
+      "question": "What happened to Mary, Queen of Scots, after being sent to prison for 20 years by her cousin Queen Elizabeth I?",
+      "explanation": "Mary was executed, accused of plotting against Elizabeth I.",
+      "id": "exam-16-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "She was executed."
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Mary here means Mary, Queen of Scots. She was Catholic and a great-granddaughter of Henry VII, giving her a dynastic claim to the English throne. Many Catholics rejected Henry VIII's marriage to Anne Boleyn and therefore regarded Elizabeth I as illegitimate, making Mary the most important Catholic alternative. After Mary fled to England, she was held for 19 years but remained a focus for domestic rebellion and possible intervention by foreign Catholic powers.\n\nThe Babington Plot of 1586 proposed assassinating Elizabeth, freeing Mary and placing her on the English throne. Francis Walsingham secretly controlled Mary's communications, and his cryptographers intercepted and deciphered the correspondence. Mary's reply was read as authorising the assassination and became the central evidence against her. Her position involved religion, succession and a desire to escape prolonged captivity, although she did not originate every plot made in her name.\n\nThe controversy concerns both the evidence and the legal process. Babington burned the letter he received, so the principal surviving materials are contemporary copies and decipherments. Walsingham's agents also amended passages in transit and added a postscript designed to obtain the assassins' names. British archival accounts nevertheless conclude that Mary's original reply endorsed the plot, but the intelligence service's control of the evidence and decision to let the conspiracy continue have sustained arguments about fairness. Mary also maintained that, as a foreign sovereign, she could not lawfully be tried for English treason. She was executed at Fotheringhay Castle in 1587.",
+        "why_correct_zh": "Mary是Mary, Queen of Scots。她信奉Catholicism，又是Henry VII的曾外孙女，对英格兰王位有继承主张。许多天主教徒不承认Henry VIII与Anne Boleyn的婚姻，因而视Elizabeth I为非合法继承人，把Mary当作天主教替代君主。被拘禁后仍是反对Elizabeth的政治象征。\n\n1586年的Babington Plot计划刺杀Elizabeth、营救Mary并拥立她。Francis Walsingham秘密监控并破译Mary的通信；她的回信被解释为批准刺杀，成为定罪核心。Mary既有宗教和王位利益，也希望结束19年囚禁，但并非所有反Elizabeth阴谋都由她发起。\n\n争议在于Babington烧毁了原信，现存材料主要是副本和破译记录；Walsingham一方还修改过传递中的文字，并添加附言套取刺客姓名。英国档案资料仍认为Mary原信同意了阴谋，但情报机关控制证据链并刻意让计划继续，使审判公平性受质疑。Mary还主张自己是外国君主，英格兰法院无权以treason审判她。她于1587年在Fotheringhay Castle被处决。",
+        "answer_summary_zh": "正确选项：She was executed.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Mary, Queen of Scots",
+          "20",
+          "Queen Elizabeth I"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "royal-mary-queen-scots",
+        "royal-elizabeth-i",
+        "national-archives-mary-ciphers",
+        "british-library-gallows-letter",
+        "parliament-king-james-lecture"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What happened to Mary, Queen of Scots, after being sent to prison for 20 years by her cousin Queen Elizabeth I?”及正确答案“She was executed.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "royal-mary-queen-scots",
+          "royal-elizabeth-i",
+          "national-archives-mary-ciphers",
+          "british-library-gallows-letter",
+          "parliament-king-james-lecture"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Gepids"
+        },
+        {
+          "id": "r1",
+          "text": "The Jutes"
+        },
+        {
+          "id": "r2",
+          "text": "The Frisians"
+        },
+        {
+          "id": "r3",
+          "text": "The Burgundians"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q4.tribe-came-britain-northern-europe-after-romans-jutes.m4a",
+      "question": "Which tribe came to Britain from northern Europe after the Romans left in AD 410?",
+      "explanation": "Britain was invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons.",
+      "id": "exam-16-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Jutes"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "These were Germanic-speaking groups who began crossing the North Sea into Britain in the fifth century. They should not be confused with the Vikings, whose major raids and settlements came several centuries later.\n\nThe Angles are traditionally associated with the Angeln peninsula in today's Schleswig-Holstein, northern Germany, close to the Danish border. Their name survives in England and English. The Saxons came principally from northern Germany and its North Sea coast; the names Wessex, Sussex and Essex preserve West, South and East Saxons. The Jutes are traditionally linked with the Jutland peninsula of modern Denmark, particularly its northern and central parts, and with early settlement in Kent and the Isle of Wight.\n\nThe British Museum summarises the wider migration zone as northern Germany, southern Scandinavia and the Frisian coast. Calling this simply an 'invasion' is a useful exam shorthand, but the process after Roman rule ended around AD 410 also included raiding, military service, migration, settlement and cultural integration. Archaeology indicates that the existing Britons were not all killed or displaced; many communities gradually adopted what became Anglo-Saxon culture.",
+        "why_correct_zh": "这些人是公元5世纪起跨越North Sea进入Britain的Germanic-speaking groups，不等同于几个世纪后通常所说的Vikings。传统来源地可对应为：\n\n- Angles：今天德国Schleswig-Holstein的Angeln半岛，靠近丹麦边境；England和English的名称都来自Angles。\n- Saxons：今天德国北部及其North Sea沿岸一带；Wessex、Sussex和Essex分别源于West、South和East Saxons。\n- Jutes：传统上来自今天丹麦的Jutland半岛，尤其北部和中部；他们主要与Kent和Isle of Wight的早期定居有关。\n\nBritish Museum把迁徙来源概括为德国北部、Scandinavia南部和Frisian海岸。教材称为“入侵”，但现代研究认为Roman统治约410年结束后的过程包括袭击、受雇作战、迁居和长期定居；当地Britons也并非全部被消灭或赶走，许多人逐渐融入并采用了Anglo-Saxon文化。",
+        "answer_summary_zh": "正确选项：The Jutes。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain",
+          "Europe",
+          "Romans"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "english-heritage-early-medieval-introduction",
+        "british-museum-anglo-saxons",
+        "cambridge-origins-of-english"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which tribe came to Britain from northern Europe after the Romans left in AD 410?”及正确答案“The Jutes”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "english-heritage-early-medieval-introduction",
+          "british-museum-anglo-saxons",
+          "cambridge-origins-of-english"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "James Bond"
+        },
+        {
+          "id": "r1",
+          "text": "Star Wars"
+        },
+        {
+          "id": "r2",
+          "text": "The Lord of the Rings"
+        },
+        {
+          "id": "r3",
+          "text": "Superman"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q5.film-franchises-james-bond.m4a",
+      "question": "What is one of the highest-grossing film franchises produced in the UK?",
+      "explanation": "Some of the most commercially successful films of all time, including the two highest-grossing film franchises (Harry Potter and James Bond), have been produced in the UK.",
+      "id": "exam-16-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "James Bond"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Some of the most commercially successful films of all time, including the two highest-grossing film franchises (Harry Potter and James Bond), have been produced in the UK.",
+        "why_correct_zh": "一些有史以来商业上最成功的电影，包括两部票房最高的电影系列（《哈利·波特》和《詹姆斯·邦德》），都是在英国制作的。",
+        "answer_summary_zh": "正确选项：James Bond。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is one of the highest-grossing film franchises produced in the UK?”及正确答案“James Bond”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Specially trained magistrates."
+        },
+        {
+          "id": "r1",
+          "text": "Social workers."
+        },
+        {
+          "id": "r2",
+          "text": "District judges."
+        },
+        {
+          "id": "r3",
+          "text": "Members of the public."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q6.cases-youth-courts.m4a",
+      "question": "Who can hear cases in Youth Courts in England, Wales and Northern Ireland (two answers)?",
+      "explanation": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge. The most serious cases will go the Crown Court. The parents or carers of the young person are expected to attend the hearing. Members of the public are not allowed in Youth Courts, and the name or photographs of the accused young person cannot be published in newspapers or used by the media.",
+      "id": "exam-16-q06",
+      "number": 6,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r2"
+      ],
+      "correct_answers": [
+        "Specially trained magistrates.",
+        "District judges."
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge. The most serious cases will go the Crown Court. The parents or carers of the young person are expected to attend the hearing. Members of the public are not allowed in Youth Courts, and the name or photographs of the accused young person cannot be published in newspapers or used by the media.",
+        "why_correct_zh": "在英格兰、威尔士和北爱尔兰，如果被告年龄在 10 至 17 岁之间，案件通常在青少年法庭审理，由最多三名经过专门培训的治安法官或地区法官审理。最严重的案件将提交刑事法庭审理。青少年的父母或照顾者应出席听证会。公众不得进入青少年法庭，被告青少年的姓名或照片不得在报纸上发表或被媒体使用。",
+        "answer_summary_zh": "正确选项：Specially trained magistrates.；District judges.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Youth Courts",
+          "England",
+          "Wales and Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who can hear cases in Youth Courts in England, Wales and Northern Ireland (two answers)?”及正确答案“Specially trained magistrates.；District judges.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "William II"
+        },
+        {
+          "id": "r1",
+          "text": "Charles II"
+        },
+        {
+          "id": "r2",
+          "text": "Edward II"
+        },
+        {
+          "id": "r3",
+          "text": "George II"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q7.king-came-from-netherlands.m4a",
+      "question": "Who came from the Netherlands to become the British monarch?",
+      "explanation": "In May 1660, Parliament invited Charles II to come back from exile in the Netherlands. He was crowned King Charles II of England, Wales, Scotland and Ireland.",
+      "id": "exam-16-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Charles II"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In May 1660, Parliament invited Charles II to come back from exile in the Netherlands. He was crowned King Charles II of England, Wales, Scotland and Ireland.",
+        "why_correct_zh": "1660 年 5 月，议会邀请查理二世从荷兰流亡归来。他加冕为英格兰、威尔士、苏格兰和爱尔兰国王查理二世。",
+        "answer_summary_zh": "正确选项：Charles II。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Netherlands",
+          "British"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who came from the Netherlands to become the British monarch?”及正确答案“Charles II”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "14- and 15-year-olds"
+        },
+        {
+          "id": "r1",
+          "text": "15- and 16-year-olds"
+        },
+        {
+          "id": "r2",
+          "text": "16- and 17-year-olds"
+        },
+        {
+          "id": "r3",
+          "text": "17- and 18-year-olds"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q8.national-citizen-service-program.m4a",
+      "question": "Who can apply for the National Citizen Service programme?",
+      "explanation": "The National Citizen Service programme gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project.",
+      "id": "exam-16-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "16- and 17-year-olds"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The National Citizen Service programme gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project.",
+        "why_correct_zh": "国家公民服务计划为 16 岁和 17 岁的青少年提供享受户外活动、发展技能和参与社区项目的机会。",
+        "answer_summary_zh": "正确选项：16- and 17-year-olds。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "National Citizen Service"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-volunteering"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who can apply for the National Citizen Service programme?”及正确答案“16- and 17-year-olds”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-volunteering"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Chariots of Fire"
+        },
+        {
+          "id": "r1",
+          "text": "Wallace and Gromit"
+        },
+        {
+          "id": "r2",
+          "text": "Four Weddings and a Funeral"
+        },
+        {
+          "id": "r3",
+          "text": "Women in Love"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q9.nick-park.m4a",
+      "question": "Nick Park has won four Oscars for his animated films, including three for films featuring:",
+      "explanation": "Nick Park, who has won four Oscars for his animated films, including three for films featuring Wallace and Gromit.",
+      "id": "exam-16-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Wallace and Gromit"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Nick Park's four Academy Awards came from four stop-motion productions. Creature Comforts premiered in 1989 and received its Oscar at the 1991 ceremony. It presents clay animals in an English zoo as documentary interviewees discussing their accommodation, food and the weather, using genuine unscripted interviews with members of the British public. It is not a Wallace & Gromit film.\n\nThe three Wallace & Gromit winners were The Wrong Trousers (1993 film; 1994 ceremony), in which the criminal penguin Feathers McGraw uses Wallace's Techno Trousers for a diamond robbery; A Close Shave (1995 film; 1996 ceremony), in which Gromit is framed for sheep rustling and the pair confront the mechanical dog Preston, with Shaun the Sheep making his debut; and The Curse of the Were-Rabbit (2005 film; 2006 ceremony), in which the humane pest-control business Anti-Pesto must stop a mysterious creature from destroying a giant vegetable competition.\n\nThe first three awards were for Best Animated Short Film. The Curse of the Were-Rabbit, Wallace and Gromit's first feature film, won Best Animated Feature.",
+        "why_correct_zh": "Nick Park的四项Oscar来自四部stop-motion作品：\n\n- Creature Comforts：1989年首播，1991年颁奖。动物园里的黏土动物像纪录片受访者一样谈论住所、食物和天气，配音取自公众访谈；它不是Wallace & Gromit作品。\n\n- The Wrong Trousers：1993年作品，1994年颁奖。企鹅罪犯Feathers McGraw租住Wallace家，控制Techno Trousers实施钻石盗窃。\n\n- A Close Shave：1995年作品，1996年颁奖。Gromit被诬陷偷羊，Wallace和羊群对抗机器狗Preston；Shaun the Sheep在这里首次登场。\n\n- The Curse of the Were-Rabbit：2005年作品，2006年颁奖。Wallace与Gromit经营人道除兔公司Anti-Pesto，却要追捕破坏巨型蔬菜比赛的神秘Were-Rabbit。\n\n后三部属于《超级无敌掌门狗》；前三项为Best Animated Short Film，最后一项为Best Animated Feature。",
+        "answer_summary_zh": "正确选项：Wallace and Gromit。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Nick Park",
+          "Oscars"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "aardman-nick-park-biography",
+        "aardman-creature-comforts",
+        "wallace-gromit-wrong-trousers",
+        "wallace-gromit-close-shave",
+        "wallace-gromit-were-rabbit",
+        "oscars-wallace-gromit-restored"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Nick Park has won four Oscars for his animated films, including three for films featuring:”及正确答案“Wallace and Gromit”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "aardman-nick-park-biography",
+          "aardman-creature-comforts",
+          "wallace-gromit-wrong-trousers",
+          "wallace-gromit-close-shave",
+          "wallace-gromit-were-rabbit",
+          "oscars-wallace-gromit-restored"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sir Ian Wilmot"
+        },
+        {
+          "id": "r1",
+          "text": "Keith Campbell"
+        },
+        {
+          "id": "r2",
+          "text": "James Watt"
+        },
+        {
+          "id": "r3",
+          "text": "Francis Crick"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q10.dna-molecule-crick.m4a",
+      "question": "Who was the British scientist who co-discovered the structure of the DNA molecule in the 1950s?",
+      "explanation": "The structure of the DNA molecule was discovered in 1953 through work at British universities in London and Cambridge. This discovery contributed to many scientific advances, particularly in medicine and fighting crime. Francis Crick (1916-2004), was one of those awarded the Nobel Prize for this discovery.",
+      "id": "exam-16-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Francis Crick"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The structure of the DNA molecule was discovered in 1953 through work at British universities in London and Cambridge. This discovery contributed to many scientific advances, particularly in medicine and fighting crime. Francis Crick (1916-2004), was one of those awarded the Nobel Prize for this discovery.",
+        "why_correct_zh": "1953 年，英国伦敦和剑桥大学的研究人员发现了 DNA 分子的结构。这一发现促进了许多科学进步，特别是在医学和打击犯罪方面。弗朗西斯·克里克（Francis Crick，1916-2004）是因这一发现而获得诺贝尔奖的人之一。",
+        "answer_summary_zh": "正确选项：Francis Crick。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British",
+          "DNA"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the British scientist who co-discovered the structure of the DNA molecule in the 1950s?”及正确答案“Francis Crick”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Around 5%"
+        },
+        {
+          "id": "r1",
+          "text": "Around 10%"
+        },
+        {
+          "id": "r2",
+          "text": "Around 15%"
+        },
+        {
+          "id": "r3",
+          "text": "Around 20%"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q11.parent-grandparent-outside-uk.m4a",
+      "question": "What percentage of the UK population has a parent or grandparent born outside of the UK?",
+      "explanation": "Nearly 10% of the population has a parent or grandparent born outside the UK.",
+      "id": "exam-16-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Around 10%"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The exam answer is around 10% because the official handbook states that post-war immigration means nearly 10% of the population has a parent or grandparent born outside the UK.\n\nThe handbook does not identify a particular survey, statistical table or reference year for this sentence. What can be established is that it appears in the third edition of Life in the United Kingdom: A Guide for New Residents, published on 28 January 2013. It should therefore be labelled as a figure in the 2013 edition whose exact statistical reference year is unspecified, not as a current population estimate.\n\nCensus 2021 reported that 16.8% of residents in England and Wales were themselves born outside the UK, compared with 13.4% in 2011. That measures each resident's own country of birth rather than the birthplace of a parent or grandparent, and it does not cover the whole UK, so it is not directly comparable and does not replace the handbook answer.",
+        "why_correct_zh": "考试答案是Around 10%，因为官方教材原文称，战后移民使近10%的人口有父母或祖父母出生在UK以外。\n\n但这句话没有注明某次调查、统计表或数据年份。能够确认的是，它出自2013年1月28日出版的《Life in the United Kingdom: A Guide for New Residents》第三版。因此更准确的标注是“2013版教材中的数字，精确统计参考年份不明”，不能称为当前人口数据。\n\nONS的Census 2021显示，2021年England和Wales有16.8%的居民本人出生在UK以外；2011年为13.4%。这统计的是居民本人的出生地，不是父母或祖父母的出生地，地域也不是整个UK，所以不能与教材的10%直接比较，也不能据此修改本题答案。",
+        "answer_summary_zh": "正确选项：Around 10%。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "tso-handbook-third-edition",
+        "ons-census-2021-international-migration"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What percentage of the UK population has a parent or grandparent born outside of the UK?”及正确答案“Around 10%”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "tso-handbook-third-edition",
+          "ons-census-2021-international-migration"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "91",
+      "options": [
+        {
+          "id": "r0",
+          "text": "15 years old"
+        },
+        {
+          "id": "r1",
+          "text": "16 years old"
+        },
+        {
+          "id": "r2",
+          "text": "17 years old"
+        },
+        {
+          "id": "r3",
+          "text": "18 years old"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q12.age-drive-moped.m4a",
+      "question": "How old do you have to be to drive a moped in the UK?",
+      "explanation": "In the UK, you need to be at least 16 years old to ride a moped, and there are other age requirements and special tests for driving large vehicles.",
+      "id": "exam-16-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "16 years old"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.1 The development of British democracy",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In the UK, you need to be at least 16 years old to ride a moped, and there are other age requirements and special tests for driving large vehicles.",
+        "why_correct_zh": "在英国，骑轻便摩托车需要年满 16 岁，驾驶大型车辆还有其他年龄要求和特殊测试。",
+        "answer_summary_zh": "正确选项：16 years old。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How old do you have to be to drive a moped in the UK?”及正确答案“16 years old”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "James Callaghan"
+        },
+        {
+          "id": "r1",
+          "text": "Clement Attlee"
+        },
+        {
+          "id": "r2",
+          "text": "Gordon Brown"
+        },
+        {
+          "id": "r3",
+          "text": "Tony Blair"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q13.leader-labour-party.m4a",
+      "question": "Who was the leader of the Labour Party who introduced a Scottish Parliament and a Welsh Assembly?",
+      "explanation": "In 1997 the Labour Party led by Tony Blair was elected. The Blair government introduced a Scottish Parliament and a Welsh Assembly.",
+      "id": "exam-16-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Tony Blair"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Blair government presented devolution as part of a programme to modernise the UK constitution. The aim was to let elected institutions in Scotland and Wales make decisions about domestic matters such as health, education and housing, making government more local, open and accountable while strengthening rather than dissolving the United Kingdom.\n\nIt also answered long-running political pressure. Campaigns for a law-making Scottish parliament continued after the failed 1979 scheme. In Wales, the Welsh Office and unelected public bodies administered an expanding range of services without scrutiny by a body directly elected across Wales. During the 1980s and 1990s, low Welsh support for UK Conservative governments contributed to demands for greater democratic accountability.\n\nLabour first sought public consent in the 1997 referendums. In Scotland, 74.3% of those voting supported a parliament; Wales approved an assembly by 50.3%, a majority of only 6,721. The UK Parliament then passed the Scotland Act 1998 and Government of Wales Act 1998, and the institutions began operating in 1999. Scotland initially received primary law-making and limited tax-varying powers. Wales initially received mainly executive functions and secondary-legislation powers, which were expanded later. Devolution did not make either country independent.",
+        "why_correct_zh": "Blair政府把devolution作为“现代化英国宪制”的一部分：让Scotland和Wales的教育、卫生、住房等本地事务由当地民选机构决定，使政府更接近居民、更公开并接受问责，同时希望以地方自治巩固而不是拆散UK。\n\n这也回应了政治压力。Scotland自1979年方案失败后持续争取有立法权的议会；Wales的Welsh Office和quangos掌握公共事务，却缺少由全Wales选民直接选出的机构监督。1980至90年代，UK Conservative政府在Wales支持率较低，也加强了这种“由远处治理”的不满。\n\nLabour没有直接设立机构，而先举行1997年referendums：Scotland有74.3%投票者赞成议会，Wales则以50.3%险胜。随后UK Parliament通过Scotland Act 1998和Government of Wales Act 1998，两机构于1999年开始运作。Scotland最初拥有立法及有限税率权；Wales最初主要接收行政职能和secondary legislation权，后来才逐步扩权。Devolution不是独立。",
+        "answer_summary_zh": "正确选项：Tony Blair。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Labour Party",
+          "Scottish Parliament and",
+          "Welsh Assembly"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-scottish-devolution-1997",
+        "scottish-parliament-path-devolution",
+        "senedd-history-devolution"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the leader of the Labour Party who introduced a Scottish Parliament and a Welsh Assembly?”及正确答案“Tony Blair”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-scottish-devolution-1997",
+          "scottish-parliament-path-devolution",
+          "senedd-history-devolution"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "£3,000"
+        },
+        {
+          "id": "r1",
+          "text": "£5,000"
+        },
+        {
+          "id": "r2",
+          "text": "£8,000"
+        },
+        {
+          "id": "r3",
+          "text": "£10,000"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q14.small-claims-procedure-maximum-amount.m4a",
+      "question": "What is the maximum amount you can claim through the small claims procedure in Scotland and Northern Ireland?",
+      "explanation": "The small claims procedure is an informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer. This procedure is used for claims of less than £10,000 in England and Wales, £5,000 in Scotland and Northern Ireland.",
+      "id": "exam-16-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "£5,000"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The small claims procedure is an informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer. This procedure is used for claims of less than £10,000 in England and Wales, £5,000 in Scotland and Northern Ireland.",
+        "why_correct_zh": "小额索赔程序是一种非正式的方式，可以帮助人们解决小额纠纷，而无需花费大量时间和金钱聘请律师。该程序适用于英格兰和威尔士 10,000 英镑以下的索赔，苏格兰和北爱尔兰 5,000 英镑以下的索赔。",
+        "answer_summary_zh": "正确选项：£5,000。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "small claims procedure",
+          "Scotland and Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the maximum amount you can claim through the small claims procedure in Scotland and Northern Ireland?”及正确答案“£5,000”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St Paul’s Cathedral"
+        },
+        {
+          "id": "r1",
+          "text": "The Cenotaph"
+        },
+        {
+          "id": "r2",
+          "text": "Dumfries House"
+        },
+        {
+          "id": "r3",
+          "text": "The White Tower"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q15.monument-william-conqueror.m4a",
+      "question": "Which historical monument did William the Conqueror build?",
+      "explanation": "The White Tower in the Tower of London is an example of a Norman castle keep, built on the orders of William the Conqueror.",
+      "id": "exam-16-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The White Tower"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The White Tower is the earliest and central keep of the Tower of London, built from about 1078 to 1100. It had three connected purposes. Militarily, its thick walls, towers, well and garrison made it a defensible stronghold controlling the Thames gateway to London and a final refuge for the monarch in a crisis. Politically, William had only recently conquered England and feared rebellion: the huge stone tower dominated the medieval skyline to awe and subdue Londoners and visibly assert Norman royal authority. UNESCO describes the fortress as serving both to protect London and to control its citizens.\n\nIt was also a fortress palace rather than merely a barracks. It contained royal accommodation, ceremonial space and St John's Chapel, allowing monarchs to live, worship and conduct government there. In later centuries it was used to safeguard arms and other state possessions; today it displays the Royal Armouries collection.\n\nThe White Tower was not originally constructed primarily as a prison. Many famous imprisonment and execution stories relate to the wider Tower complex as it developed later. Its name dates from 1240, when Henry III ordered the great keep to be painted white.",
+        "why_correct_zh": "White Tower是Tower of London最早、最核心的keep，约1078至1100年建成，主要有三重作用：\n\n- 军事堡垒：厚墙、塔楼、井和驻军使它能抵御围攻，并控制Thames通往London的水路门户。危急时也可作为君主最后的安全据点。\n\n- 统治象征：William刚征服England，仍担心London反抗；这座远高于当时城市建筑的石塔用来震慑居民，公开宣示Norman国王的权力。UNESCO因此称它兼具保护London和控制London的作用。\n\n- 王室及政府空间：它不只是军营，内部有王室住所、礼仪空间和St John's Chapel，可供君主居住、礼拜和处理事务。后来又用于保存武器等国家财产；今天展示Royal Armouries收藏。\n\n它最初并不是专为关押犯人而建。著名的监禁和处决故事多属于后来扩建的整个Tower建筑群。White Tower这个名称来自Henry III于1240年下令把great keep刷白。",
+        "answer_summary_zh": "正确选项：The White Tower。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "William the Conqueror"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "hrp-white-tower",
+        "hrp-tower-london-history",
+        "unesco-tower-of-london",
+        "historic-england-white-tower"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which historical monument did William the Conqueror build?”及正确答案“The White Tower”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "hrp-white-tower",
+          "hrp-tower-london-history",
+          "unesco-tower-of-london",
+          "historic-england-white-tower"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "James Callaghan"
+        },
+        {
+          "id": "r1",
+          "text": "John Major"
+        },
+        {
+          "id": "r2",
+          "text": "Tony Blair"
+        },
+        {
+          "id": "r3",
+          "text": "Harold Wilson"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q16.prime-minister-john-major.m4a",
+      "question": "Who became Prime Minister after Margaret Thatcher and played an important part in the Northern Ireland peace process?",
+      "explanation": "John Major became Prime Minister after Margaret Thatcher and played an important part in the Northern Ireland peace process.",
+      "id": "exam-16-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "John Major"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "John Major was a Conservative. He served as Prime Minister of the United Kingdom from 28 November 1990 to 2 May 1997. After serving as Foreign Secretary and Chancellor of the Exchequer under Margaret Thatcher, he won the Conservative leadership contest when Thatcher resigned and succeeded her as Prime Minister.\n\nMajor led the Conservatives to victory in the 1992 general election and therefore remained in office. He left Downing Street after losing the 1997 election to Tony Blair's Labour Party, then continued briefly as Conservative leader and Leader of the Opposition until 19 June 1997.\n\nHis government worked with the Irish Government to advance the Northern Ireland peace process, including the 1993 Downing Street Declaration with Taoiseach Albert Reynolds and the period of the 1994 IRA ceasefire. This work helped establish the path later followed by the Blair government towards the 1998 Good Friday Agreement.",
+        "why_correct_zh": "John Major属于Conservative Party，担任UK Prime Minister的任期为1990年11月28日至1997年5月2日。他此前在Thatcher政府任Foreign Secretary和Chancellor of the Exchequer；Thatcher辞职后，Major赢得Conservative党魁选举并接任首相。\n\n他在1992年General Election带领Conservatives获胜，因此继续执政；1997年大选败给Tony Blair领导的Labour后离任。他担任Conservative Party leader及Leader of the Opposition至1997年6月19日。\n\n任内，他与Irish Government合作推进Northern Ireland谈判，1993年与Taoiseach Albert Reynolds发表Downing Street Declaration，并经历1994年IRA ceasefire。这为Blair政府时期达成的1998年Good Friday Agreement奠定了基础。",
+        "answer_summary_zh": "正确选项：John Major。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Prime Minister",
+          "Margaret Thatcher and",
+          "Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-john-major",
+        "parliament-john-major-career",
+        "parliament-major-northern-ireland-1993"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who became Prime Minister after Margaret Thatcher and played an important part in the Northern Ireland peace process?”及正确答案“John Major”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-john-major",
+          "parliament-john-major-career",
+          "parliament-major-northern-ireland-1993"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Your local Council."
+        },
+        {
+          "id": "r1",
+          "text": "Your local MP."
+        },
+        {
+          "id": "r2",
+          "text": "Your local police force."
+        },
+        {
+          "id": "r3",
+          "text": "The Prime Minister."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q17.contact-terr-activity.m4a",
+      "question": "Who should you contact to report a terrorist activity?",
+      "explanation": "If you think someone is trying to persuade you to join an extremist or terrorist cause, you should notify your local police force.",
+      "id": "exam-16-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Your local police force."
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "If you think someone is trying to persuade you to join an extremist or terrorist cause, you should notify your local police force.",
+        "why_correct_zh": "如果您认为有人试图说服您加入极端主义或恐怖主义事业，您应该通知当地警察部队。",
+        "answer_summary_zh": "正确选项：Your local police force.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "terrorist"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who should you contact to report a terrorist activity?”及正确答案“Your local police force.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sophie Christiansen"
+        },
+        {
+          "id": "r1",
+          "text": "Ellie Simmonds"
+        },
+        {
+          "id": "r2",
+          "text": "Baroness Tanni Grey-Thompson"
+        },
+        {
+          "id": "r3",
+          "text": "David Weir"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q18.gold-medals-ellie-simmonds.m4a",
+      "question": "Which Paralympic athlete has won gold medals for swimming at the 2008, 2012 and 2016 Paralympic Games?",
+      "explanation": "Ellie Simmonds is a Paralympian who won gold medals for swimming at the 2008, 2012 and 2016 Paralympic Games and holds a number of world records. She was the youngest member of the British team at the 2008 Games.",
+      "id": "exam-16-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Ellie Simmonds"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Ellie Simmonds is a Paralympian who won gold medals for swimming at the 2008, 2012 and 2016 Paralympic Games and holds a number of world records. She was the youngest member of the British team at the 2008 Games.",
+        "why_correct_zh": "艾莉·西蒙兹 (Ellie Simmonds) 是一名残奥会运动员，曾在 2008 年、2012 年和 2016 年残奥会上获得游泳金牌，并保持着多项世界纪录。她是2008年奥运会英国队最年轻的队员。",
+        "answer_summary_zh": "正确选项：Ellie Simmonds。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which Paralympic",
+          "2008",
+          "2012"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which Paralympic athlete has won gold medals for swimming at the 2008, 2012 and 2016 Paralympic Games?”及正确答案“Ellie Simmonds”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Wales"
+        },
+        {
+          "id": "r1",
+          "text": "Northern Ireland"
+        },
+        {
+          "id": "r2",
+          "text": "Scotland"
+        },
+        {
+          "id": "r3",
+          "text": "England"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q19.country-associated-with-rose.m4a",
+      "question": "Each of the UK countries is associated with a flower symbol, which country is associated with the rose?",
+      "explanation": "The countries that make up the UK all have flowers which are particularly associated with them and which are sometimes worn on national saints’ days. The flowers associated to each country are as follows: England – the rose, Scotland – the thistle, Wales – the daffodil and Northern Ireland – the shamrock.",
+      "id": "exam-16-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "England"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "England's rose has its strongest personal associations with the Wars of the Roses and the Tudor dynasty. Henry VI's House of Lancaster became associated with the red rose, while Edward IV and Richard III's House of York became associated with the white rose. In 1485 Henry Tudor defeated Richard III at the Battle of Bosworth and became Henry VII; the following year he married Edward IV's daughter, Elizabeth of York. The Tudor dynasty combined the Lancastrian red rose and Yorkist white rose as the Tudor Rose, presenting the marriage as a reconciliation of the rival houses and a symbol of the new dynasty's legitimacy. Their son was Henry VIII and their granddaughter was Elizabeth I. The Tudor Rose is a designed heraldic emblem, not a naturally occurring flower. The name 'Wars of the Roses' is also a later summary: rival claimants used rose badges at different stages rather than every participant consistently wearing a red or white rose. The familiar national associations today are England—rose, Scotland—thistle, Wales—daffodil and Northern Ireland—shamrock.",
+        "why_correct_zh": "England的rose最重要的人物关联来自Wars of the Roses和Tudor王朝。\n\nHenry VI所属的House of Lancaster与红玫瑰相连；Edward IV和Richard III所属的House of York与白玫瑰相连。两家都是Plantagenet王室支系，为英格兰王位长期争斗。\n\n1485年，Henry Tudor在Battle of Bosworth击败Richard III，成为Henry VII；次年迎娶Edward IV的女儿Elizabeth of York。Tudor王朝把Lancaster红玫瑰和York白玫瑰组合成Tudor Rose，用来宣示两家和解及新王朝的合法性。他们的儿子是Henry VIII，孙女是Elizabeth I。\n\nTudor Rose不是自然存在的花，而是人为设计的heraldic emblem。“Wars of the Roses”也是后来的概括名称：玫瑰由不同王位竞争者在战争不同阶段使用，并非每名参战者一直佩戴红或白玫瑰。",
+        "answer_summary_zh": "正确选项：England。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Each of the UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-wars-of-roses",
+        "english-heritage-rose-symbols"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Each of the UK countries is associated with a flower symbol, which country is associated with the rose?”及正确答案“England”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-wars-of-roses",
+          "english-heritage-rose-symbols"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The construction of the Great Western Railway."
+        },
+        {
+          "id": "r1",
+          "text": "The invention of the television."
+        },
+        {
+          "id": "r2",
+          "text": "The construction of the Tower of London."
+        },
+        {
+          "id": "r3",
+          "text": "The discovery of insulin."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q20.isambard-kingdom-brunel.m4a",
+      "question": "Isambard Kingdom Brunel was responsible for:",
+      "explanation": "Brunel was originally from Portsmouth, England. He was an engineer who built tunnels, bridges, railway lines and ships. He was responsible for constructing the Great Western Railway, which was the first major railway built in Britain. It runs from Paddington Station in London to the south west of England, the West Midlands and Wales.",
+      "id": "exam-16-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The construction of the Great Western Railway."
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Brunel was originally from Portsmouth, England. He was an engineer who built tunnels, bridges, railway lines and ships. He was responsible for constructing the Great Western Railway, which was the first major railway built in Britain. It runs from Paddington Station in London to the south west of England, the West Midlands and Wales.",
+        "why_correct_zh": "布鲁内尔最初来自英国朴茨茅斯。他是一名建造隧道、桥梁、铁路线和船舶的工程师。他负责修建大西部铁路，这是英国修建的第一条主要铁路。它从伦敦帕丁顿车站延伸至英格兰西南部、西米德兰兹和威尔士。",
+        "answer_summary_zh": "正确选项：The construction of the Great Western Railway.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Isambard Kingdom Brunel"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Isambard Kingdom Brunel was responsible for:”及正确答案“The construction of the Great Western Railway.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "95",
+      "options": [
+        {
+          "id": "r0",
+          "text": "An organization responsible for the protection and promotion of human rights in its member countries."
+        },
+        {
+          "id": "r1",
+          "text": "A group of European and North American countries that have agreed to help each other if they come under attack."
+        },
+        {
+          "id": "r2",
+          "text": "An association of countries that support each other and work together towards shared goals in democracy and development."
+        },
+        {
+          "id": "r3",
+          "text": "An international organization that aims to prevent war and promote international peace and security."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q21.what-is-the-commonwealth.m4a",
+      "question": "What is the Commonwealth?",
+      "explanation": "The Commonwealth is an association of countries that support each other and work together towards shared goals in democracy and development. Most member states were once part of the British Empire, although a few countries which were not have also joined.",
+      "id": "exam-16-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "An association of countries that support each other and work together towards shared goals in democracy and development."
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "5.4 The UK and international institutions",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Commonwealth is a voluntary association of 56 independent and equal countries. Africa (21): Botswana, Cameroon, Gabon, The Gambia, Ghana, Kenya, Eswatini, Lesotho, Malawi, Mauritius, Mozambique, Namibia, Nigeria, Rwanda, Seychelles, Sierra Leone, South Africa, Togo, Uganda, Tanzania and Zambia. Asia (8): Bangladesh, Brunei Darussalam, India, Malaysia, Maldives, Pakistan, Singapore and Sri Lanka. Caribbean and Americas (13): Antigua and Barbuda, The Bahamas, Barbados, Belize, Canada, Dominica, Grenada, Guyana, Jamaica, Saint Lucia, St Kitts and Nevis, St Vincent and the Grenadines, and Trinidad and Tobago. Europe (3): Cyprus, Malta and the United Kingdom. Pacific (11): Australia, Fiji, Kiribati, Nauru, New Zealand, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu and Vanuatu. Most members have historical links to the British Empire, but membership is not restricted to former British colonies.",
+        "why_correct_zh": "Commonwealth（英联邦）目前由56个独立且地位平等的国家组成。\n\n非洲（21）：博茨瓦纳、喀麦隆、加蓬、冈比亚、加纳、肯尼亚、埃斯瓦蒂尼、莱索托、马拉维、毛里求斯、莫桑比克、纳米比亚、尼日利亚、卢旺达、塞舌尔、塞拉利昂、南非、多哥、乌干达、坦桑尼亚、赞比亚。\n\n亚洲（8）：孟加拉国、文莱、印度、马来西亚、马尔代夫、巴基斯坦、新加坡、斯里兰卡。\n\n加勒比及美洲（13）：安提瓜和巴布达、巴哈马、巴巴多斯、伯利兹、加拿大、多米尼克、格林纳达、圭亚那、牙买加、圣卢西亚、圣基茨和尼维斯、圣文森特和格林纳丁斯、特立尼达和多巴哥。\n\n欧洲（3）：塞浦路斯、马耳他、英国。太平洋（11）：澳大利亚、斐济、基里巴斯、瑙鲁、新西兰、巴布亚新几内亚、萨摩亚、所罗门群岛、汤加、图瓦卢、瓦努阿图。多数成员与大英帝国有历史联系，但成员都是独立国家；莫桑比克、卢旺达、加蓬和多哥等也可说明成员资格并不限于前英国殖民地。",
+        "answer_summary_zh": "正确选项：An association of countries that support each other and work together towards shared goals in democracy and development.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Commonwealth"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "commonwealth-member-countries"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the Commonwealth?”及正确答案“An association of countries that support each other and work together towards shared goals in democracy and development.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "commonwealth-member-countries"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Spanish Inquisition"
+        },
+        {
+          "id": "r1",
+          "text": "The Holy Wars"
+        },
+        {
+          "id": "r2",
+          "text": "The Reformation"
+        },
+        {
+          "id": "r3",
+          "text": "The Enlightenment"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q22.movement-against-pope.m4a",
+      "question": "Under which name was the movement of opinion against the authority of the Pope during the times of Henry VIII known?",
+      "explanation": "The correct answer is the Reformation.",
+      "id": "exam-16-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Reformation"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the Reformation. Across sixteenth-century Europe, reformers challenged papal authority and aspects of Catholic doctrine and practice, producing several Protestant churches; the movement began before Henry VIII's break with Rome. In England the immediate trigger was the succession. Henry's marriage to Catherine of Aragon had produced no surviving son, and he wanted an annulment so that he could marry Anne Boleyn. Pope Clement VII would not grant it. Between 1533 and 1536 Thomas Cromwell helped steer a series of Acts through Parliament. The Act of Supremacy 1534 severed the English Church's jurisdictional links with Rome and recognised the king, rather than the Pope, as the supreme head on earth of the Church of England. Henry then dissolved the monasteries and confiscated and sold much of their land; opponents of his religious authority, including Thomas More and John Fisher, were executed. Henry retained many traditional doctrines. More explicitly Protestant reforms followed under Edward VI, Mary I briefly restored Roman Catholicism, and Elizabeth I later established a more durable religious settlement. The Reformation was therefore a prolonged political and religious transformation, not simply a royal divorce.",
+        "why_correct_zh": "正确答案是the Reformation（宗教改革）。这是16世纪欧洲挑战教皇权威和天主教会部分教义、形成Protestant教会的运动；它在Henry VIII之前已经开始。\n\n英格兰的直接导火索是王位继承。Henry VIII与Catherine of Aragon只有女儿Mary存活，他希望解除婚姻并迎娶Anne Boleyn，以争取男性继承人。Pope Clement VII拒绝批准婚姻无效。\n\n1533—1536年，Thomas Cromwell协助国王推动议会法案。1534年的Act of Supremacy切断英格兰教会与罗马的管辖关系，承认国王而非教皇为Church of England在世上的最高领袖。Henry随后解散修道院，没收并出售土地；Thomas More和John Fisher因拒绝承认其宗教权威而被处决。\n\nHenry仍保留许多传统教义；更明显的Protestant改革在Edward VI时期推进，Mary I一度恢复罗马天主教，Elizabeth I又建立较稳定的宗教安排。因此Reformation是一段长期而反复的政治与宗教变革，不只是一次“离婚”。",
+        "answer_summary_zh": "正确选项：The Reformation。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Under",
+          "Pope",
+          "Henry VIII"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-reformation"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Under which name was the movement of opinion against the authority of the Pope during the times of Henry VIII known?”及正确答案“The Reformation”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-reformation"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Gravity"
+        },
+        {
+          "id": "r1",
+          "text": "Penicillin"
+        },
+        {
+          "id": "r2",
+          "text": "Insulin"
+        },
+        {
+          "id": "r3",
+          "text": "Lightbulb"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q23.isaac-newton-discovery.m4a",
+      "question": "What did Isaac Newton discover?",
+      "explanation": "Newton’s most famous published work was Philosophiae Naturalis Principia Mathematica (‘Mathematical Principle of Natural Philosophy’), which showed how gravity applied to the whole universe. Newton also discovered that white light is made up of the colours of the rainbow.",
+      "id": "exam-16-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Gravity"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The exam answer is gravity. More precisely, Isaac Newton did not discover that objects fall; he formulated the law of universal gravitation, showing that the motion of an apple on Earth and the Moon in the sky could be explained by the same force. When the Great Plague closed Cambridge in 1665, the roughly 23-year-old Newton returned to Woolsthorpe Manor in Lincolnshire. According to a story Newton later told, seeing an apple fall prompted him to ask why it always fell straight towards the ground. There is no reliable evidence that it struck him on the head. The Flower of Kent apple tree associated with the story still grows at Woolsthorpe. The apple was the beginning of a question, not an instant completed theory. Newton continued developing the mathematics and published his laws of motion and universal gravitation in the Principia in 1687. Edmond Halley encouraged him and paid for its publication when the Royal Society lacked funds. In 2015, pips from the tree travelled with Tim Peake to the International Space Station and spent six months in microgravity before returning to Earth.",
+        "why_correct_zh": "考试答案是Gravity。严格地说，Isaac Newton不是第一个发现物体会落下的人，而是建立了law of universal gravitation：地面上的苹果与天空中Moon的运动，可以由同一种引力解释。\n\n1665年Great Plague使Cambridge关闭，约23岁的Newton回到Lincolnshire的Woolsthorpe Manor。根据他晚年讲述的故事，他看见苹果从树上落下，开始追问：为什么它总是垂直落向地面？故事没有可靠证据说苹果砸中了他的头。与这个故事相连的Flower of Kent苹果树至今仍在Woolsthorpe生长。\n\n苹果只是问题的起点，并非瞬间产生完整理论。Newton继续运用数学研究地球、Moon和行星的运动，最终在1687年的Principia中发表运动定律和万有引力理论。Edmond Halley曾鼓励他完成这部著作，并在Royal Society资金不足时承担出版费用。2015年，这棵树的苹果籽随Tim Peake进入International Space Station，在微重力中停留六个月后返回地球。",
+        "answer_summary_zh": "正确选项：Gravity。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Isaac Newton"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-trust-newton-woolsthorpe",
+        "national-trust-newton-space-saplings"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did Isaac Newton discover?”及正确答案“Gravity”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-trust-newton-woolsthorpe",
+          "national-trust-newton-space-saplings"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Action movies"
+        },
+        {
+          "id": "r1",
+          "text": "Animated movies"
+        },
+        {
+          "id": "r2",
+          "text": "Thrillers"
+        },
+        {
+          "id": "r3",
+          "text": "Horror movies"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT16/Q24.nick-park-animated-movies.m4a",
+      "question": "What kind of movies did Academy Award winner Nick Park specialise in?",
+      "explanation": "Britain continues to be particularly strong in special effects and animation. One example is the work of Nick Park, who has won four Oscars for his animated films, including three for films featuring Wallace and Gromit.",
+      "id": "exam-16-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Animated movies"
+      ],
+      "exam_number": 16,
+      "source_url": "https://lifeintheuktestweb.co.uk/life-in-the-uk-exam-16/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Britain continues to be particularly strong in special effects and animation. One example is the work of Nick Park, who has won four Oscars for his animated films, including three for films featuring Wallace and Gromit.",
+        "why_correct_zh": "英国在特效和动画方面仍然特别强大。尼克·帕克的作品就是一个例子，他因其动画电影赢得了四项奥斯卡奖，其中以《超级无敌掌门狗》为主角的电影获得了三项奥斯卡奖。",
+        "answer_summary_zh": "正确选项：Animated movies。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Academy Award",
+          "Nick Park"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-16-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What kind of movies did Academy Award winner Nick Park specialise in?”及正确答案“Animated movies”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

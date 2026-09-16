@@ -1,0 +1,1780 @@
+{
+  "sources": {
+    "hrp-crown-jewels": {
+      "title": "The Crown Jewels",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-crown-jewels/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces介绍Crown Jewels的组成、1649年销毁与1661年重制、不同王冠的用途及Tower of London的收藏安排。"
+    },
+    "hrp-white-tower": {
+      "title": "The White Tower",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/whats-on/white-tower/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces说明White Tower的建造年代、防御和震慑功能、St John's Chapel及今天的Royal Armouries展示。"
+    },
+    "hrp-tower-london-history": {
+      "title": "The story of the Tower of London",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-story-of-the-tower-of-london/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces介绍William建塔以防御并宣示王权、城堡的王室住所用途，以及1240年刷白great keep的由来。"
+    },
+    "unesco-tower-of-london": {
+      "title": "Tower of London",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/488/",
+      "authority": "international_heritage_body",
+      "note_zh": "UNESCO说明White Tower位于Thames门户的战略位置，并同时承担保护London、控制城市和象征Norman权力的作用。"
+    },
+    "historic-england-white-tower": {
+      "title": "The White Tower — List Entry 1260258",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1260258",
+      "authority": "official_heritage_register",
+      "note_zh": "Historic England的法定名录确认White Tower是约1078至1100年为William I和William II修建的tower keep。"
+    },
+    "govuk-john-major": {
+      "title": "The Rt Hon Sir John Major KG CH",
+      "publisher": "GOV.UK — History of government",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/john-major",
+      "authority": "official_government",
+      "note_zh": "GOV.UK确认John Major为Conservative首相、任期为1990至1997年，并介绍其1992年胜选和Northern Ireland和平进程工作。"
+    },
+    "parliament-john-major-career": {
+      "title": "Parliamentary career for Mr John Major",
+      "publisher": "UK Parliament",
+      "url": "https://members.parliament.uk/member/119/career",
+      "authority": "official_parliamentary_record",
+      "note_zh": "UK Parliament记录John Major担任首相、Conservative党魁及反对党领袖的准确日期。"
+    },
+    "parliament-major-northern-ireland-1993": {
+      "title": "Ireland — Joint Declaration, 15 December 1993",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://hansard.parliament.uk/commons/1993-12-15/debates/b09cbcfb-bff4-41e2-aa05-da5059ecad21/CommonsChamber",
+      "authority": "primary_parliamentary_record",
+      "note_zh": "John Major向House of Commons说明他与Irish Taoiseach达成的1993年Downing Street Declaration及和平进程目标。"
+    },
+    "royal-coronation-regalia": {
+      "title": "The Coronation Regalia",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/coronation-regalia",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室资料说明St Edward’s Crown、Imperial State Crown、权杖、宝球和其他加冕礼器的仪式用途。"
+    },
+    "english-heritage-norman-conquest": {
+      "title": "1066 and the Norman Conquest",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍William、Harold、Battle of Hastings及Norman统治对England的影响。"
+    },
+    "english-heritage-william-legacy": {
+      "title": "What was the legacy of William the Conqueror?",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/what-was-the-legacy-of-william-the-conqueror",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage说明征服后的土地重分配、封建关系、城堡建设及Norman French对英语的长期影响。"
+    },
+    "national-archives-domesday": {
+      "title": "Domesday",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/medieval/domesday/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆介绍William I在1085年下令进行的土地调查及Domesday Book。"
+    },
+    "hull-domesday-name": {
+      "title": "Domesday, or Doomsday",
+      "publisher": "Hull Domesday Project",
+      "url": "https://www.domesdaybook.net/domesday-book/domesday-inquest/domesday-or-doomsday",
+      "authority": "academic_research_project",
+      "note_zh": "Hull Domesday Project引用中世纪财政大臣的解释：英格兰人把该书称为Domesday，即Day of Judgement，因为其裁决如Last Judgement一样不能上诉。"
+    },
+    "etymonline-good-friday": {
+      "title": "Good Friday — Origin and meaning",
+      "publisher": "Online Etymology Dictionary",
+      "url": "https://www.etymonline.com/word/Good%20Friday",
+      "authority": "etymology_reference",
+      "note_zh": "词源资料说明Good Friday约见于1300年，其中good可能保留中古英语表示holy或sacred的用法。"
+    },
+    "nls-early-scottish-golf": {
+      "title": "Early moments in Scottish golf",
+      "publisher": "National Library of Scotland",
+      "url": "https://www.nls.uk/collections/stories/sports-and-recreation/early-moments-in-scottish-golf/",
+      "authority": "national_library",
+      "note_zh": "苏格兰国家图书馆介绍1457年禁球令、James IV购买球杆、1744年规则及John Rattray获救的故事。"
+    },
+    "historic-scotland-st-andrews-links": {
+      "title": "St Andrews Links",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://portal.historicenvironment.scot/designation/GDL00344",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Environment Scotland说明St Andrews Links的海岸地形、高尔夫传统及其国际影响。"
+    },
+    "randa-why-18-holes": {
+      "title": "Why are there 18 holes?",
+      "publisher": "The R&A",
+      "url": "https://publications.randa.org/why-are-there-18-holes-by-peter-lewis",
+      "authority": "official_sports_governing_body",
+      "note_zh": "The R&A梳理早期球场洞数并不统一，以及18洞在St Andrews影响下逐渐成为标准的历史。"
+    },
+    "westminster-abbey-william-caxton": {
+      "title": "William Caxton",
+      "publisher": "Westminster Abbey",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/william-caxton",
+      "authority": "official_heritage_body",
+      "note_zh": "Westminster Abbey介绍Caxton的布商生涯、Bruges与Cologne经历，以及他于1476年在Westminster建立英格兰第一座印刷所。"
+    },
+    "merton-caxton-canterbury-tales": {
+      "title": "Merton’s Copy of Caxton’s First Edition of Canterbury Tales",
+      "publisher": "Merton College, University of Oxford",
+      "url": "https://www.merton.ox.ac.uk/library-and-archives/exhibitions/caxtons-first-edition-of-canterbury-tales",
+      "authority": "university_collection",
+      "note_zh": "Merton College说明Caxton从商人转为印书商、从Bruges迁印刷机至Westminster，并选择有市场需求的英文文学作品以收回投资。"
+    },
+    "science-museum-stookie-bill": {
+      "title": "John Logie Baird's test subject 'Stookie Bill'",
+      "publisher": "Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8067247/john-logie-bairds-test-subject-stookie-bill",
+      "authority": "national_museum",
+      "note_zh": "Science Museum Group藏品资料说明Stookie Bill用于Baird的电视实验，因为测试灯光过热，不适合长时间使用真人。"
+    },
+    "iet-100-years-television": {
+      "title": "100 Years of Television",
+      "publisher": "Institution of Engineering and Technology",
+      "url": "https://tv.theiet.org/Video/100_Years_of_Television/646b023c-53b7-4cc2-9c75-8180cba812ea",
+      "authority": "professional_engineering_body",
+      "note_zh": "IET资料记录William Taynton成为Baird系统中首位可辨认真人、获得2 shillings and 6 pence报酬，以及1926年公开演示。"
+    },
+    "nms-first-colour-television": {
+      "title": "The first ever colour television",
+      "publisher": "National Museums Scotland",
+      "url": "https://www.nms.ac.uk/discover-catalogue/the-first-ever-colour-television",
+      "authority": "national_museum",
+      "note_zh": "苏格兰国家博物馆介绍Baird于1928年完成跨大西洋电视传输，并演示机械彩色电视和立体电视。"
+    },
+    "ireland-st-patrick-activity-pack": {
+      "title": "St Patrick Activity Pack",
+      "publisher": "Ireland.ie",
+      "url": "https://assets.ireland.ie/documents/StPatricksDayActivityPack.pdf",
+      "authority": "official_government",
+      "note_zh": "爱尔兰官方资料介绍St Patrick被掳到爱尔兰为奴、逃脱后返回传播基督教，以及3月17日作为其传统逝世纪念日的由来。"
+    },
+    "gov-ie-st-patrick-global": {
+      "title": "Ireland marks St. Patrick’s Day 2022",
+      "publisher": "Department of Foreign Affairs, Ireland",
+      "url": "https://www.gov.ie/en/department-of-foreign-affairs/press-releases/ireland-marks-st-patricks-day-2022/",
+      "authority": "official_government",
+      "note_zh": "爱尔兰外交部说明St Patrick’s Day已成为全球爱尔兰社群与文化身份的国际庆祝活动。"
+    },
+    "rcahmw-diwali-festival": {
+      "title": "Diwali Festival",
+      "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "url": "https://rcahmw.gov.uk/diwali-festival/",
+      "authority": "official_heritage_body",
+      "note_zh": "威尔士皇家古迹委员会介绍Diwali的名称、光明战胜黑暗的象征，以及Rama与Sita返回Ayodhya的传统故事。"
+    },
+    "rcahmw-bandi-chhor-divas": {
+      "title": "Bandi Chhor Divas",
+      "publisher": "Royal Commission on the Ancient and Historical Monuments of Wales",
+      "url": "https://rcahmw.gov.uk/bandi-chhor-divas-2/",
+      "authority": "official_heritage_body",
+      "note_zh": "威尔士皇家古迹委员会介绍Sikhs纪念Guru Hargobind及52名囚徒获释的Bandi Chhor Divas传统。"
+    },
+    "us-courts-jury-types": {
+      "title": "Types of Juries",
+      "publisher": "United States Courts",
+      "url": "https://www.uscourts.gov/court-programs/jury-service/types-juries",
+      "authority": "official_judiciary",
+      "note_zh": "美国联邦法院说明审判陪审团可由6至12人组成，并区分刑事与民事案件的裁决标准。"
+    },
+    "ny-courts-criminal-trial": {
+      "title": "Criminal Trial",
+      "publisher": "New York State Unified Court System",
+      "url": "https://www.nycourts.gov/help/criminal/criminal-trial",
+      "authority": "official_judiciary",
+      "note_zh": "纽约州法院说明felony审判使用12名陪审员，misdemeanor审判使用6名陪审员。"
+    },
+    "bfi-twelve-angry-men": {
+      "title": "12 Angry Men (1957)",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/film/41cc047b-b269-55d8-bbfb-c722685cc9b4/12-angry-men",
+      "authority": "national_film_institute",
+      "note_zh": "BFI介绍电影的12人陪审团、Juror 8对有罪判断提出质疑，以及影片的创作背景。"
+    },
+    "rsc-midsummer-plot": {
+      "title": "The plot — A Midsummer Night's Dream",
+      "publisher": "Royal Shakespeare Company",
+      "url": "https://www.rsc.org.uk/a-midsummer-nights-dream/the-plot",
+      "authority": "official_theatre_company",
+      "note_zh": "Royal Shakespeare Company的剧情梗概，说明四位恋人、Puck的爱情魔药、Titania与Bottom以及最后的婚礼。"
+    },
+    "national-army-museum-waterloo": {
+      "title": "Battle of Waterloo",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "authority": "national_museum",
+      "note_zh": "介绍1815年Waterloo战役的地点、日期、Wellington与Blücher联军、Napoleon战败及其后果。"
+    },
+    "museum-wales-st-davids-symbols": {
+      "title": "St David’s Day in Wales: History, Traditions and Symbols",
+      "publisher": "Museum Wales",
+      "url": "https://museum.wales/blog/1183/St-Davids-Day-in-Wales-History-Traditions-and-Symbols/",
+      "authority": "national_museum",
+      "note_zh": "介绍St David’s Day、Welsh daffodil和leek象征及相关语言和传统背景。"
+    },
+    "london-fire-brigade-great-fire": {
+      "title": "The Great Fire of London",
+      "publisher": "London Fire Brigade",
+      "url": "https://www.london-fire.gov.uk/museum/history-and-stories/the-great-fire-of-london/",
+      "authority": "public_fire_authority",
+      "note_zh": "介绍1666年大火从Pudding Lane面包店开始、蔓延原因、损毁规模和London重建。"
+    },
+    "parliament-dissolution": {
+      "title": "Dissolution of Parliament",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/elections-and-voting/general/dissolution/",
+      "authority": "official_parliament",
+      "note_zh": "说明Parliament最长五年、解散时Commons席位全部空缺及大选程序。"
+    },
+    "national-trust-purpose": {
+      "title": "The history of the National Trust",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/who-we-are/about-us/the-history-of-the-national-trust",
+      "authority": "national_conservation_charity",
+      "note_zh": "National Trust介绍1895年创立、保护范围、土地与海岸规模，以及National Trust for Scotland的独立地位。"
+    },
+    "british-museum-boudicca": {
+      "title": "Who was Nero? — The Boudican revolt",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/blog/who-was-nero",
+      "authority": "national_museum",
+      "note_zh": "介绍Boudicca在AD 60–61领导Iceni反抗Romans、起义原因、受袭城市和最终失败。"
+    },
+    "bbc-great-britons-annual-report": {
+      "title": "BBC Annual Report and Accounts 2002–03",
+      "publisher": "BBC",
+      "url": "https://downloads.bbc.co.uk/annualreport/pdf/2002-03/bbcannualreport_200203.pdf",
+      "authority": "public_service_broadcaster",
+      "note_zh": "BBC年度报告记录2002年Great Britons节目及其公众影响；考试教材给出Churchill位列第一的答案。"
+    },
+    "parliament-two-house-system": {
+      "title": "The two-House system",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/role/system/",
+      "authority": "official_parliament",
+      "note_zh": "说明Commons与Lords在立法、监督政府、财政法案和相互制衡方面的职责。"
+    },
+    "parliament-equal-franchise-1928": {
+      "title": "90th anniversary of the Equal Franchise Act 1928",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8361/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "说明1928年女性与男性取得同等投票资格及新增约500万女性选民。"
+    },
+    "church-england-supreme-governor": {
+      "title": "The Queen: her faith and the Church of England",
+      "publisher": "Church of England",
+      "url": "https://www.churchofengland.org/queen-her-faith-and-church-england",
+      "authority": "established_church",
+      "note_zh": "解释Sovereign的Supreme Governor正式称号及其从Henry VIII和Elizabeth I时期形成的历史。"
+    },
+    "church-england-archbishops": {
+      "title": "The Archbishops",
+      "publisher": "Church of England",
+      "url": "https://www.churchofengland.org/about/governance/archbishops",
+      "authority": "established_church",
+      "note_zh": "说明Archbishop of Canterbury与Archbishop of York在Church of England的实际领导地位。"
+    },
+    "jockey-club-grand-national-history": {
+      "title": "The History of the Grand National",
+      "publisher": "The Jockey Club — Aintree Racecourse",
+      "url": "https://int.thejockeyclub.co.uk/aintree/about/history/",
+      "authority": "official_sport_organiser",
+      "note_zh": "介绍Grand National始于1839年的steeplechase历史及Red Rum三次夺冠纪录。"
+    },
+    "british-library-canterbury-tales": {
+      "title": "Geoffrey Chaucer, The Canterbury Tales (Haistwell Manuscript)",
+      "publisher": "British Library",
+      "url": "https://searcharchives.bl.uk/catalog/032-001984783",
+      "authority": "national_library",
+      "note_zh": "British Library手稿目录列出The Canterbury Tales的prologues、verse tales及prose tales。"
+    },
+    "national-archives-civil-war-people": {
+      "title": "Civil War People",
+      "publisher": "The National Archives",
+      "url": "https://cdn.nationalarchives.gov.uk/documents/education/civil-war-people.pdf",
+      "authority": "official_archive",
+      "note_zh": "国家档案馆的English Civil War人物与阵营学习资料。"
+    },
+    "british-museum-bayeux": {
+      "title": "A history of storytelling through pictures — Bayeux Tapestry",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/blog/history-storytelling-through-pictures",
+      "authority": "national_museum",
+      "note_zh": "说明Bayeux Tapestry描绘Norman Conquest和Hastings，实际上是羊毛线亚麻布刺绣并可能在England制作。"
+    },
+    "historic-royal-palaces-anne-boleyn": {
+      "title": "Anne Boleyn",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/",
+      "authority": "official_heritage_body",
+      "note_zh": "介绍Anne Boleyn在Tower of London遭审判、于1536年在Tower Green被剑手斩首及埋葬地点。"
+    },
+    "cps-racially-aggravated-offences": {
+      "title": "Verbal abuse and harassment in public",
+      "publisher": "Crown Prosecution Service",
+      "url": "https://www.cps.gov.uk/types-crime/verbal-abuse-and-harassment-public",
+      "authority": "official_prosecution_service",
+      "note_zh": "CPS说明警方调查、charge决定及racially aggravated offences可能适用更重处罚。"
+    },
+    "govuk-smoke-free-law": {
+      "title": "Smoking at work: the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/smoking-at-work-the-law",
+      "authority": "official_government",
+      "note_zh": "说明UK封闭工作场所、公共建筑和公共交通的禁烟规则与罚款。"
+    },
+    "bfi-chaplin-tramp": {
+      "title": "Rare promotional images of Charlie Chaplin — and what they tell us about him",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/features/charlie-chaplin-promotional-photos",
+      "authority": "national_film_institute",
+      "note_zh": "BFI介绍Chaplin的Tramp服装、绅士符号与挑战社会权威的角色特点。"
+    },
+    "parliament-mp-candidates": {
+      "title": "Who can stand as an MP?",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/mps-and-lords/members/electing-mps/candidates/",
+      "authority": "official_parliament",
+      "note_zh": "列出MP候选人最低年龄18岁、公民身份和主要不合资格群体。"
+    },
+    "electoral-commission-candidate-guide": {
+      "title": "UK Parliamentary general election media guide — Candidates",
+      "publisher": "Electoral Commission",
+      "url": "https://www.electoralcommission.org.uk/news-and-views/media-centre/uk-parliamentary-general-election-media-guide",
+      "authority": "official_electoral_regulator",
+      "note_zh": "说明候选人可独立参选，并列出提名文件和£500押金等要求。"
+    },
+    "raf-museum-watson-watt-radar": {
+      "title": "Robert Alexander Watson-Watt and Chain Home",
+      "publisher": "Royal Air Force Museum",
+      "url": "https://www.rafmuseum.org.uk/documents/LargePrintGuides/BoB_Guides/LPG_People_LondonPartII.pdf",
+      "authority": "national_military_museum",
+      "note_zh": "介绍Watson-Watt于1935年发展radio-wave aircraft detection、Chain Home网络及其在Battle of Britain的作用。"
+    },
+    "govuk-ten-downing-street": {
+      "title": "10 Downing Street",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/history/10-downing-street",
+      "authority": "official_government",
+      "note_zh": "介绍Number 10作为Prime Minister官邸与办公室、Walpole及First Lord of the Treasury传统。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "govuk-test-rules": {
+      "title": "Life in the UK Test",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/life-in-the-uk-test",
+      "authority": "official_government",
+      "note_zh": "确认考试内容仅来自官方 Guide for New Residents。"
+    },
+    "fa-bobby-moore-captain": {
+      "title": "England's greatest leaders: The top ten captains",
+      "publisher": "The Football Association",
+      "url": "https://www.thefa.com/news/2014/jul/21/steven-gerrard-england-greatest-leaders",
+      "authority": "official_sports_governing_body",
+      "note_zh": "英足总资料说明Bobby Moore司职中后卫，并记录他首次担任英格兰队长时的年龄、国家队出场次数、队长场次、胜场和世界杯成就。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "jersey-relationship-uk": {
+      "title": "Jersey's relationship with the United Kingdom",
+      "publisher": "Government of Jersey",
+      "url": "https://www.gov.je/Government/Departments/JerseyWorld/Pages/RelationshipEUandUK.aspx",
+      "authority": "crown_dependency_government",
+      "note_zh": "泽西政府说明Jersey是自治的Crown Dependency，不属于英国；英国代表王室负责防务及部分国际关系。"
+    },
+    "govuk-crown-dependencies-factsheet": {
+      "title": "Fact sheet on the UK's relationship with the Crown Dependencies",
+      "publisher": "Ministry of Justice",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/863381/crown-dependencies-factsheet-february-2020.pdf",
+      "authority": "official_government",
+      "note_zh": "英国政府资料说明Crown Dependencies的自治地位、国籍制度、立法关系以及Common Travel Area安排。"
+    },
+    "royal-crown-dependencies": {
+      "title": "Crown Dependencies",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/crown-dependencies",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室官网说明君主是皇家属地的国家元首，在Isle of Man称Lord of Mann，在Channel Islands传统上称Duke of Normandy，并由Lieutenant Governor代表。"
+    },
+    "british-nationality-act-1981": {
+      "title": "British Nationality Act 1981",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/61/pdfs/ukpga_19810061_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "《1981年英国国籍法》在国籍事项中把Channel Islands和Isle of Man纳入相关UK定义，并规定出生取得英国公民身份的条件。"
+    },
+    "jersey-child-passport-nationality": {
+      "title": "Get a passport for your child — establishing British identity",
+      "publisher": "Government of Jersey",
+      "url": "https://www.gov.je/Travel/Passports/GetAPassport/pages/getapassportforyourchild.aspx",
+      "authority": "crown_dependency_government",
+      "note_zh": "泽西政府说明1983年1月1日以后在英国、Channel Islands或Isle of Man出生者，并非只凭出生地点自动成为英国公民；通常取决于父母的英国公民或定居身份。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "royal-mary-queen-scots": {
+      "title": "Mary, Queen of Scots (r.1542–1567)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/mary-queen-scots-r1542-1567",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室资料说明Mary的王位背景、19年囚禁、她作为天主教阴谋焦点的处境，以及1587年的处决。"
+    },
+    "royal-elizabeth-i": {
+      "title": "Elizabeth I (r.1558–1603)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/elizabeth-i",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室资料说明天主教徒为何质疑Elizabeth的合法性，以及Mary为何成为叛乱、暗杀阴谋和外国干预的替代君主人选。"
+    },
+    "national-archives-mary-ciphers": {
+      "title": "Ciphers used by Mary Queen of Scots",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/elizabeth-monarchy/ciphers-used-by-mary-queen-of-scots/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆展示Mary的密码资料，并说明Walsingham的密码专家如何破译秘密通信。"
+    },
+    "british-library-gallows-letter": {
+      "title": "The Gallows Letter",
+      "publisher": "British Library",
+      "url": "https://www.bl.uk/stories/blogs/posts/the-gallows-letter",
+      "authority": "national_library",
+      "note_zh": "英国国家图书馆依据档案说明Mary的回信、Walsingham对通信的监控和修改、附加的诱导性附言，以及Babington烧毁原信。"
+    },
+    "parliament-king-james-lecture": {
+      "title": "King James Lecture",
+      "publisher": "UK Parliament",
+      "url": "https://publications.parliament.uk/pa/ld200708/ldjudgmt/kingjameslecture.pdf",
+      "authority": "official_parliamentary_publication",
+      "note_zh": "英国议会刊载的法律历史讲座指出，以英格兰treason审判一位外国女王在法律上存在争议。"
+    },
+    "english-heritage-early-medieval-introduction": {
+      "title": "Introduction to Early Medieval England (c.410–1066)",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/learn/story-of-england/early-medieval/introduction/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage说明Angles、Saxons和Jutes自5世纪从欧洲大陆跨越北海，在Britain南部和东部迁入并定居。"
+    },
+    "british-museum-anglo-saxons": {
+      "title": "Anglo-Saxons — British Museum learning resource",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/sites/default/files/2019-10/Visit_Anglo_Saxons.pdf",
+      "authority": "national_museum",
+      "note_zh": "British Museum说明Roman统治结束后的Germanic迁徙、不同地区的迁入规模，以及本地Britons与新文化的延续和融合。"
+    },
+    "cambridge-origins-of-english": {
+      "title": "The Origins of English — excerpt",
+      "publisher": "Cambridge University Press",
+      "url": "https://assets.cambridge.org/97811088/32960/excerpt/9781108832960_excerpt.pdf",
+      "authority": "academic_publisher",
+      "note_zh": "Cambridge资料说明Jutes、Angles、Saxons和Frisians来自North Sea对岸沿海地区，并具体联系Jutes与今天丹麦的Jutland。"
+    },
+    "aardman-nick-park-biography": {
+      "title": "Nick Park biography",
+      "publisher": "Aardman",
+      "url": "https://www.aardman.com/about/people/nick-park-biography/",
+      "authority": "official_studio",
+      "note_zh": "Aardman官方履历列出Nick Park的四项Academy Awards及对应作品，并确认其中三部为Wallace & Gromit作品。"
+    },
+    "aardman-creature-comforts": {
+      "title": "Creature Comforts",
+      "publisher": "Aardman",
+      "url": "https://www.aardman.com/film-tv-games/creature-comforts/",
+      "authority": "official_studio",
+      "note_zh": "Aardman介绍Creature Comforts的首播时间、动物园访谈情节，以及把英国公众真实录音配给黏土动物的创作方式。"
+    },
+    "wallace-gromit-wrong-trousers": {
+      "title": "The Wrong Trousers",
+      "publisher": "Wallace & Gromit — Aardman",
+      "url": "https://wallaceandgromit.com/films/the-wrong-trousers/",
+      "authority": "official_studio",
+      "note_zh": "官方作品页介绍Feathers McGraw利用Techno Trousers进行盗窃的故事及1994年Academy Award。"
+    },
+    "wallace-gromit-close-shave": {
+      "title": "A Close Shave",
+      "publisher": "Wallace & Gromit — Aardman",
+      "url": "https://www.wallaceandgromit.com/films/a-close-shave",
+      "authority": "official_studio",
+      "note_zh": "官方作品页介绍Gromit被诬陷、Preston与失踪羊群的故事，以及1995年首播和1996年Academy Award。"
+    },
+    "wallace-gromit-were-rabbit": {
+      "title": "The Curse of the Were-Rabbit",
+      "publisher": "Wallace & Gromit — Aardman",
+      "url": "https://www.wallaceandgromit.com/films/curse-of-the-were-rabbit/",
+      "authority": "official_studio",
+      "note_zh": "官方作品页介绍Anti-Pesto、巨型蔬菜比赛和Were-Rabbit故事，并记录2005年上映及2006年Academy Award。"
+    },
+    "oscars-wallace-gromit-restored": {
+      "title": "Wallace and Gromit Restored",
+      "publisher": "Academy of Motion Picture Arts and Sciences",
+      "url": "https://www.oscars.org/events/wallace-and-gromit-restored",
+      "authority": "official_awards_body",
+      "note_zh": "Academy官方资料确认Aardman与Nick Park早期获奖情况，并列出Wallace & Gromit短片的年份。"
+    },
+    "tso-handbook-third-edition": {
+      "title": "Life in the United Kingdom: A Guide for New Residents — paperback, 3rd edition",
+      "publisher": "The Stationery Office",
+      "url": "https://www.tsoshop.co.uk/product/9780113413409/Society/Life-in-the-UK/Life-in-the-United-Kingdom-A-Guide-for-New-Residents-Paperback/",
+      "authority": "official_publisher",
+      "note_zh": "TSO产品记录确认官方教材第三版ISBN 9780113413409于2013年1月28日出版。"
+    },
+    "ons-census-2021-international-migration": {
+      "title": "International migration, England and Wales: Census 2021",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/internationalmigrationenglandandwales/census2021",
+      "authority": "official_statistics",
+      "note_zh": "ONS统计2021年England和Wales居民本人的出生地；该指标与教材所说父母或祖父母出生地并不相同。"
+    },
+    "parliament-scottish-devolution-1997": {
+      "title": "Scottish Devolution — House of Commons, 24 July 1997",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1997/jul/24/scottish-devolution",
+      "authority": "primary_parliamentary_record",
+      "note_zh": "1997年政府声明把devolution解释为让Scotland和Wales更能管理自身事务，使政府更公开、易接触和可问责，同时留在UK内。"
+    },
+    "scottish-parliament-path-devolution": {
+      "title": "The path to devolution",
+      "publisher": "Scottish Parliament",
+      "url": "https://www.parliament.scot/about/history-of-the-scottish-parliament/the-path-to-devolution",
+      "authority": "official_legislature",
+      "note_zh": "Scottish Parliament说明1979至1997年的devolution运动、1997年公投结果及Scotland Act 1998的通过。"
+    },
+    "senedd-history-devolution": {
+      "title": "History of Devolution",
+      "publisher": "Senedd Cymru — Welsh Parliament",
+      "url": "https://senedd.wales/how-we-work/history-of-devolution/",
+      "authority": "official_legislature",
+      "note_zh": "Senedd说明Welsh Office、quangos和民主问责问题如何推动devolution，并记录1997年公投与Government of Wales Act 1998。"
+    },
+    "national-archives-wars-of-roses": {
+      "title": "Spotlight On: Wars of the Roses — video transcript",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-wars-of-the-roses/transcript/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明“玫瑰战争”之名来自战争不同阶段由王位竞争者使用的玫瑰徽记。"
+    },
+    "commonwealth-member-countries": {
+      "title": "Member countries",
+      "publisher": "The Commonwealth",
+      "url": "https://thecommonwealth.org/our-member-countries",
+      "authority": "official_intergovernmental_organisation",
+      "note_zh": "Commonwealth Secretariat列出的当前56个独立成员国及其地区分类。"
+    },
+    "national-trust-newton-woolsthorpe": {
+      "title": "Woolsthorpe Manor's history",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/nottinghamshire-lincolnshire/woolsthorpe-manor/history-of-woolsthorpe-manor",
+      "authority": "official_heritage_body",
+      "note_zh": "National Trust介绍Newton在1665至1667年回到Woolsthorpe研究重力、苹果故事、Principia及Edmond Halley协助出版的经过。"
+    },
+    "national-trust-newton-space-saplings": {
+      "title": "Things to do at Woolsthorpe Manor",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/nottinghamshire-lincolnshire/woolsthorpe-manor/things-to-do-at-woolsthorpe-manor",
+      "authority": "official_heritage_body",
+      "note_zh": "National Trust说明Newton苹果树的品种，以及2015年苹果籽随Tim Peake前往国际空间站、六个月后返回地球的故事。"
+    },
+    "national-archives-spanish-armada": {
+      "title": "God blew and they were scattered — the Spanish Armada",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/god-blew-they-were-scattered/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆利用原始文件解释西班牙无敌舰队的入侵计划、未能与陆军会合、英军行动及天气造成的损失。"
+    },
+    "rmg-elizabeth-spanish-armada": {
+      "title": "Elizabeth I and the Spanish Armada",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/stories/royal-history/elizabeth-i-spanish-armada",
+      "authority": "official_museum",
+      "note_zh": "皇家格林尼治博物馆说明Calais火船行动、Gravelines海战、舰队向北撤退以及返航风暴。"
+    },
+    "rmg-spanish-armada-research-guide": {
+      "title": "Charts of the Spanish Armada by Robert Adams",
+      "publisher": "Royal Museums Greenwich",
+      "url": "https://www.rmg.co.uk/collections/research-guides/research-guide-p3-charts-spanish-armada-robert-adams-museum",
+      "authority": "official_museum",
+      "note_zh": "皇家格林尼治博物馆说明1588年战败的军事、政治和宗教意义，并指出英西战争持续到1604年。"
+    },
+    "spanish-navy-gran-armada-name": {
+      "title": "Geoffrey Parker presents La Gran Armada at Spain's Naval Museum",
+      "publisher": "Armada Española, Ministerio de Defensa",
+      "url": "https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/conocenosnoticias/prefLang-es/00noticias--2011--09--NT-199-P-LIBRO-es?_pageAction=selectItem&_pageNum=333&_selectedNodeID=554015&paramNo=000000",
+      "authority": "official_military_history",
+      "note_zh": "西班牙海军资料说明该舰队在西班牙称Gran Armada；“Invincible Armada”并非西班牙正式自称，而是英格兰方面传播的名称。"
+    },
+    "national-archives-drake-to-elizabeth": {
+      "title": "Sir Francis Drake to Elizabeth",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/elizabeth-monarchy/sir-francis-drake-to-elizabeth/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆以Drake的原始信件说明海军技术与天气共同作用，并介绍胜利如何提高Elizabeth I及英格兰的国际声望。"
+    },
+    "english-heritage-rose-symbols": {
+      "title": "Blooming marvellous: roses through time",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/inspire-me/roses-through-time-a-history-of-rose-gardens-and-roses-as-a-symbol-in-english-culture/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍玫瑰在纹章中的使用、约克白玫瑰、兰开斯特红玫瑰及Tudor Rose。"
+    },
+    "royal-collection-medieval-palace": {
+      "title": "The medieval palace — podcast transcript",
+      "publisher": "Royal Collection Trust",
+      "url": "https://media.rct.uk/sites/default/files/Transcript%20-%20The%20medieval%20palace.pdf",
+      "authority": "official_royal_collection",
+      "note_zh": "Royal Collection Trust资料说明兰利的埃德蒙把白玫瑰作为个人徽记。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-commons-speaker": {
+      "title": "The Speaker of the House of Commons",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/business/commons/the-speaker/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明下议院议长由其他议员从议员中选举产生，并确认现任议长为Sir Lindsay Hoyle。"
+    },
+    "parliament-commons-chamber-guide": {
+      "title": "The House of Commons — a brief guide",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/globalassets/documents/commons-information-office/hofcbgenglish.pdf",
+      "authority": "official_parliament",
+      "note_zh": "英国议会的议场指南标明Speaker’s Chair位于Table of the House尽头，并说明政府与反对党的相对座位。"
+    },
+    "parliament-bill-of-rights-1689": {
+      "title": "1689 Bill of Rights",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/get-involved1/2015-banners-exhibition/ross-sinclair/1689-bill-of-rights-gallery/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会概述《权利法案》对君主改变法律、征税和维持军队的限制，以及自由选举和议会言论保障。"
+    },
+    "national-archives-declaration-of-rights": {
+      "title": "James II and the Declaration of Rights",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/declaration-of-rights/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆以原始文件说明1689年权利宣言的十三项申诉及对王权的对应限制。"
+    },
+    "english-heritage-cenotaph-history": {
+      "title": "History of the Cenotaph",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/places/the-cenotaph/history/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage说明cenotaph意为“空墓”，并介绍白厅The Cenotaph的国家纪念地位、建造历史及碑内没有遗体。"
+    },
+    "english-heritage-cenotaph": {
+      "title": "The Cenotaph",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/places/the-cenotaph/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage给出的准确地址为The Cenotaph, Whitehall, Westminster, London, SW1A 2ET。"
+    },
+    "iwm-cenotaph-register": {
+      "title": "The Cenotaph",
+      "publisher": "Imperial War Museums War Memorials Register",
+      "url": "https://memorials.iwm.org.uk/memorial/104",
+      "authority": "official_museum_register",
+      "note_zh": "帝国战争博物馆的战争纪念碑登记记录，说明其名称、位置、设计者及“空墓”的象征含义。"
+    },
+    "govuk-margaret-thatcher": {
+      "title": "History of Baroness Thatcher",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+      "authority": "official_government",
+      "note_zh": "英国政府首相历史资料确认撒切尔夫人的任期、第一位女首相身份、化学教育及研究化学师背景。"
+    },
+    "parliament-thatcher-tributes": {
+      "title": "Tributes to Baroness Thatcher",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://hansard.parliament.uk/Commons/2013-04-10/debates/1304104000001/TributesToBaronessThatcher",
+      "authority": "official_parliament",
+      "note_zh": "英国议会记录说明“Iron Lady”最初由苏联方面作为讽刺称呼提出，撒切尔夫人随后把它当作自豪的称号。"
+    },
+    "thatcher-foundation-britain-awake": {
+      "title": "Speech at Kensington Town Hall — Britain Awake",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102939",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月19日“Britain Awake”演讲档案，并记录苏联军方报纸Red Star于1月24日首次使用“Iron Lady”称号。"
+    },
+    "thatcher-foundation-iron-lady-response": {
+      "title": "Speech to Finchley Conservatives — admits to being an Iron Lady",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102947",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月31日演讲档案，记录撒切尔夫人如何以幽默方式接受并重新定义“Iron Lady”称号。"
+    },
+    "parliament-thatcher-booklet": {
+      "title": "Margaret Thatcher — official booklet for the Parliamentary statue",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/documents/upload/baroness-thatcher-booklet.pdf",
+      "authority": "official_parliament",
+      "note_zh": "英国议会概述Thatcherism、私有化、工会改革、经济政策、福克兰群岛战争及其国内外影响和争议。"
+    },
+    "parliament-big-ben-construction": {
+      "title": "Constructing the most accurate clock in the world",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/building-clock-tower/constructing-the-most-accurate-clock-in-the-world/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会关于大本钟建造过程及其昵称由来的官方历史资料。"
+    },
+    "ons-religion": {
+      "title": "Religion",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion",
+      "authority": "official_statistics",
+      "note_zh": "英国宗教人口数据和分析。"
+    },
+    "scotland-st-andrew": {
+      "title": "Who Was St Andrew?",
+      "publisher": "Scotland.org",
+      "url": "https://www.scotland.org/events/st-andrews-day/who-was-st-andrew",
+      "authority": "official_national_information",
+      "note_zh": "苏格兰国家门户关于圣安德鲁、苏格兰守护神与圣安德鲁十字的背景资料。"
+    },
+    "prado-rubens-saint-andrew": {
+      "title": "Saint Andrew",
+      "publisher": "Museo Nacional del Prado",
+      "url": "https://www.museodelprado.es/en/the-collection/art-work/saint-andrew/3b512d00-0e07-47f9-944e-159058552dbf/",
+      "authority": "official_museum_collection",
+      "note_zh": "普拉多博物馆藏鲁本斯《圣安德鲁》（约1610至1612年）；画中可见象征其殉道的X形十字架。"
+    },
+    "rubens-saint-andrew-image": {
+      "title": "Saint Andrew by Peter Paul Rubens",
+      "publisher": "Museo Nacional del Prado via Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rubens_-_RKDimages,_237565.jpg",
+      "authority": "public_domain_museum_image",
+      "note_zh": "鲁本斯《圣安德鲁》的公共领域馆藏图像。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "bank-holidays-act-1871": {
+      "title": "Bank Holidays Act 1871",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/Vict/34-35/17/pdfs/ukpga_18710017_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "1871年法案规定银行在指定日期停业，并将当日到期的汇票和本票顺延至下一工作日处理。"
+    },
+    "parliament-bank-holidays-history": {
+      "title": "Bank holidays — parliamentary debate, 13 May 2011",
+      "publisher": "UK Parliament",
+      "url": "https://publications.parliament.uk/pa/cm201011/cmhansrd/chan157.pdf",
+      "authority": "official_parliamentary_record",
+      "note_zh": "议会记录介绍Sir John Lubbock推动1871年法案，以及新增假日一度被昵称为St Lubbock’s Days的历史。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "college-policing-chief-constable": {
+      "title": "Chief constable",
+      "publisher": "College of Policing",
+      "url": "https://www.college.police.uk/career-learning/support-for-career-development/policing-professional-profiles/core-rank-profiles/chief-constable",
+      "authority": "official_policing_body",
+      "note_zh": "英国警务学院说明Chief Constable是领导警队、负责警务行动指挥与整体方向的最高级警官。"
+    },
+    "iopc-complaints-process": {
+      "title": "A guide to the complaints process",
+      "publisher": "Independent Office for Police Conduct",
+      "url": "https://www.policeconduct.gov.uk/complaints/guide-to-complaints-process",
+      "authority": "official_police_oversight_body",
+      "note_zh": "IOPC说明英格兰和威尔士的警察投诉提交方式、警队初步处理、严重案件转介以及复核流程。"
+    },
+    "govuk-jury-service": {
+      "title": "Jury service: How jury service works",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/jury-service",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明陪审员从选民登记册随机选出，并在英格兰和威尔士由12人组成陪审团决定刑事审判结果。"
+    },
+    "govuk-voting-in-person": {
+      "title": "How to vote: Voting in person",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/how-to-vote/voting-in-person",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明投票卡会告知投票日期和指定投票站，普通选民即使遗失或未携带投票卡仍可投票。"
+    },
+    "legislation-sample-poll-card": {
+      "title": "Official poll card — prescribed sample form",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukdsi/2012/9780111519035/pdfs/ukdsi_9780111519035_en.pdf",
+      "authority": "official_legislation_form",
+      "note_zh": "法定投票卡样表展示选举名称、投票日期与时间、投票站、选民姓名和地址、选民编号及投票说明等字段。"
+    },
+    "electoral-commission-anonymous-voting": {
+      "title": "How to vote anonymously",
+      "publisher": "Electoral Commission",
+      "url": "https://www.electoralcommission.org.uk/voting-and-elections/ways-vote/how-vote-anonymously",
+      "authority": "official_elections_regulator",
+      "note_zh": "英国选举委员会说明匿名登记选民的投票卡只显示选民编号，并且现场投票时必须携带该卡。"
+    },
+    "communications-act-2003-impartiality": {
+      "title": "Communications Act 2003 — sections 319 and 320",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/pdfs/ukpga_20030021_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "《2003年通信法》第319和320条规定广播标准及政治争议、公共政策事项的适当公正性要求。"
+    },
+    "ofcom-due-impartiality": {
+      "title": "Broadcasting Code Section Five: Due impartiality and due accuracy",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-five-due-impartiality-accuracy",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom明确说明due impartiality不等于给每个观点完全相同的播出时间，而是根据节目主题、性质和语境给予适当权重。"
+    },
+    "ofcom-elections-referendums": {
+      "title": "Broadcasting Code Section Six: Elections and referendums",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-six-elections-referendums",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom选举规则要求根据过去或当前支持度给予政党和独立候选人适当权重，并考虑具有重要意义的观点。"
+    },
+    "judiciary-criminal-jurisdiction": {
+      "title": "Criminal jurisdiction",
+      "publisher": "Courts and Tribunals Judiciary",
+      "url": "https://www.judiciary.uk/about-the-judiciary/our-justice-system/jurisdictions/criminal-jurisdiction/",
+      "authority": "official_judiciary",
+      "note_zh": "英格兰和威尔士司法机构说明法官负责法律与审判程序，陪审团负责判断事实并作出有罪或无罪裁决。"
+    },
+    "govuk-volunteering": {
+      "title": "Volunteer opportunities, rights and expenses",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/volunteering",
+      "authority": "official_government",
+      "note_zh": "社区志愿服务的官方信息。"
+    },
+    "science-museum-whittle-jet-engine": {
+      "title": "Coventry City of Culture 2021: Driving innovation",
+      "publisher": "Science Museum",
+      "url": "https://blog.sciencemuseum.org.uk/coventry-city-of-culture-2021-driving-innovation/",
+      "authority": "official_museum",
+      "note_zh": "英国科学博物馆说明Whittle的喷气发动机研发、1941年Gloster-Whittle E.28/39首次飞行，以及喷气推进提高飞行速度和高度的历史意义。"
+    },
+    "raf-museum-whittle-engine": {
+      "title": "Prepare — RAF Museum large print guide",
+      "publisher": "Royal Air Force Museum",
+      "url": "https://www.rafmuseum.org.uk/documents/LargePrintGuides/Prepare.pdf",
+      "authority": "official_museum",
+      "note_zh": "英国皇家空军博物馆说明Whittle的WU、W.1、W.2系列与Rolls-Royce Welland和Gloster Meteor之间的发展关系。"
+    },
+    "raf-museum-meteor-1944": {
+      "title": "British military aviation in 1944",
+      "publisher": "Royal Air Force Museum",
+      "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1944-2/",
+      "authority": "official_museum",
+      "note_zh": "英国皇家空军博物馆记录Gloster Meteor于1944年7月服役，并执行RAF喷气式战斗机首次针对V-1飞行炸弹的作战巡逻。"
+    },
+    "wordsworth-grasmere-daffodils": {
+      "title": "Daffodils — the inspiration, the poem, the place",
+      "publisher": "Wordsworth Grasmere",
+      "url": "https://wordsworth.org.uk/daffodils/",
+      "authority": "author_museum_and_archive",
+      "note_zh": "Wordsworth Grasmere介绍《I Wandered Lonely as a Cloud》（通常称为《Daffodils》）的诗文、创作背景、版本及William和Dorothy Wordsworth在Ullswater湖畔看到水仙花的经历。"
+    },
+    "parliament-protectorate-parliaments": {
+      "title": "The Protectorate Parliaments",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/protectorate-parliaments/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明1653年《Instrument of Government》创设Protector和Council of State组成的行政权力，并介绍Cromwell拒绝王位及护国公时期的议会。"
+    },
+    "national-archives-cromwell-protector": {
+      "title": "Christmas is cancelled!",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/christmas-is-cancelled/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆介绍Rump Parliament和Nominated Assembly失败后建立护国公制度，以及Cromwell于1653年就任、后来拒绝王位的经过。"
+    },
+    "royal-family-interregnum": {
+      "title": "Interregnum (1649–1660)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/interregnum-1649-1660",
+      "authority": "official_royal_history",
+      "note_zh": "英国王室历史资料说明Interregnum期间的宪制实验、Cromwell在《Instrument of Government》下成为Lord Protector及其拒绝王位。"
+    },
+    "govuk-solicitor-guideline-hourly-rates": {
+      "title": "Solicitors' guideline hourly rates",
+      "publisher": "HM Courts & Tribunals Service",
+      "url": "https://www.gov.uk/guidance/solicitors-guideline-hourly-rates",
+      "authority": "official_court_guidance",
+      "note_zh": "英格兰和威尔士法院用于简易评定诉讼费用的2026年指导时薪；这是法院评估基准，不是律所市场平均价或强制零售价。"
+    },
+    "sra-price-transparency": {
+      "title": "Transparency in price and service",
+      "publisher": "Solicitors Regulation Authority",
+      "url": "https://www.sra.org.uk/solicitors/guidance/transparency-in-price-and-service/",
+      "authority": "legal_services_regulator",
+      "note_zh": "SRA说明律所对部分常见服务公开价格、收费基础、VAT、额外支出及服务范围的义务。"
+    },
+    "bsb-barrister-fees": {
+      "title": "Barristers' Fees and Costs",
+      "publisher": "Bar Standards Board",
+      "url": "https://www.barstandardsboard.org.uk/for-the-public/using-a-barrister/barristers-and-their-fees.html",
+      "authority": "legal_services_regulator",
+      "note_zh": "英格兰和威尔士大律师监管委员会说明barrister没有统一标准价，可按固定费用、小时费率或条件收费。"
+    },
+    "parliament-lords-spiritual": {
+      "title": "Lords spiritual in the House of Lords explained",
+      "publisher": "House of Lords Library",
+      "url": "https://lordslibrary.parliament.uk/lords-spiritual-in-the-house-of-lords-explained/",
+      "authority": "official_parliament",
+      "note_zh": "上议院图书馆说明26位英格兰教会大主教和主教以Lords Spiritual身份在上议院任职、审议法案并投票。"
+    },
+    "bank-england-legal-tender": {
+      "title": "What is legal tender?",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行解释Scottish和Northern Ireland纸币、legal tender与商家接受付款之间的区别。"
+    },
+    "bank-england-current-banknotes": {
+      "title": "Current banknotes",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行列出目前流通的Bank of England纸币面额：£5、£10、£20和£50。"
+    },
+    "bank-england-uk-notes-coins": {
+      "title": "UK Notes and Coins",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/banknotes/uk-notes-and-coins",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行说明英国其他获准发钞银行的纸币，其中Bank of Scotland发行£50和£100 polymer notes。"
+    },
+    "govuk-fgm-help": {
+      "title": "Female genital mutilation: help and advice",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/female-genital-mutilation-help-advice",
+      "authority": "official_government",
+      "note_zh": "英国政府说明FGM在英国违法，带英国国民或永久居民出国接受FGM以及协助实施同样违法。"
+    },
+    "govuk-individual-electoral-registration": {
+      "title": "Date confirmed for Individual Electoral Registration",
+      "publisher": "Cabinet Office",
+      "url": "https://www.gov.uk/government/news/date-confirmed-for-individual-electoral-registration-ier",
+      "authority": "official_government",
+      "note_zh": "英国政府确认England和Wales于2014年6月、Scotland于2014年9月转为Individual Electoral Registration。"
+    },
+    "cambridge-splitting-atom": {
+      "title": "History of the University of Cambridge",
+      "publisher": "University of Cambridge",
+      "url": "https://www.cam.ac.uk/about-the-university/history",
+      "authority": "official_university_history",
+      "note_zh": "剑桥大学记录John Cockcroft和Ernest Walton于1932年在Ernest Rutherford指导下首次分裂原子核。"
+    },
+    "discover-ni-ulster-fry": {
+      "title": "Unique Northern Ireland Foods",
+      "publisher": "Tourism Northern Ireland",
+      "url": "https://discovernorthernireland.com/blog/post/unique-northern-ireland-foods/",
+      "authority": "official_tourism_body",
+      "note_zh": "北爱尔兰官方旅游资料介绍Ulster Fry以及其中具有代表性的soda bread和potato bread。"
+    },
+    "parliament-great-famine": {
+      "title": "The Great Famine",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/the-great-famine/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍1845至1852年爱尔兰Great Famine、马铃薯疫病、饥荒、疾病和移民。"
+    },
+    "control-of-dogs-order-1992": {
+      "title": "The Control of Dogs Order 1992",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/1992/901/contents/made",
+      "authority": "primary_legislation",
+      "note_zh": "该法令要求狗在公路或公共场所佩戴写有主人姓名和地址的项圈或身份牌，并列出特定豁免情况。"
+    },
+    "govuk-dog-ownership-enforcement-manual": {
+      "title": "Dealing with irresponsible dog ownership — practitioner's manual",
+      "publisher": "Department for Environment, Food & Rural Affairs",
+      "url": "https://assets.publishing.service.gov.uk/media/5a75b640ed915d6faf2b51c9/dog-ownership-practitioners-manual-annexes-a-d.pdf",
+      "authority": "official_government",
+      "note_zh": "英国政府执法手册说明未佩戴项圈和身份牌属于违法，地方政府人员可将狗带走并按走失犬处理，违法行为适用Level 5 fine。"
+    },
+    "plymouth-collar-tag-case-2025": {
+      "title": "Microchip, collar and tag your pooch warning",
+      "publisher": "Plymouth City Council",
+      "url": "https://www.plymouth.gov.uk/news/microchip-collar-and-tag-your-pooch-warning",
+      "authority": "local_government",
+      "note_zh": "Plymouth City Council记录2025年一起案件：未让狗佩戴项圈和身份牌被罚£220，另须支付诉讼费和附加费。"
+    },
+    "nidirect-controlling-dog-public": {
+      "title": "Controlling your dog in public",
+      "publisher": "nidirect — Northern Ireland Government",
+      "url": "https://www.nidirect.gov.uk/articles/controlling-your-dog-public",
+      "authority": "devolved_government",
+      "note_zh": "Northern Ireland政府说明当地依据独立的Dogs Order管理公共场所中的狗只和身份标识。"
+    },
+    "national-archives-women-first-world-war": {
+      "title": "Women and the First World War",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/early-20th-century/women-first-world-war/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆记录女性在军火、工程、Wrens女子海军服务队和Women’s Land Army等领域的战时工作。"
+    },
+    "parliament-suffrage-wartime": {
+      "title": "Suffrage in wartime",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/suffragetteswartime/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明一战期间约200万女性接替男性就业，并讨论战时劳动如何改变社会对女性角色的看法。"
+    },
+    "parliament-did-war-make-a-difference": {
+      "title": "Did the war make a difference?",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/did-the-war-make-a-difference/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明战争使女性劳动更加可见，但1918年选举权不能简单解释为对战时服务的奖励。"
+    },
+    "govuk-overseas-territories-constitutional-status": {
+      "title": "Guide to making legislation — Overseas Territories",
+      "publisher": "Cabinet Office",
+      "url": "https://www.gov.uk/government/publications/guide-to-making-legislation/guide-to-making-legislation-html--2",
+      "authority": "official_government",
+      "note_zh": "英国政府说明海外领土在宪法上与UK分离；英国仍负责其整体良好治理、国防和外交事务，每个领土都有成文宪法。"
+    },
+    "st-helena-constitution-2009": {
+      "title": "The St Helena, Ascension and Tristan da Cunha Constitution Order 2009",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/uksi/2009/1751/contents",
+      "authority": "primary_legislation",
+      "note_zh": "2009年宪法令确立Saint Helena, Ascension and Tristan da Cunha的宪制及各岛政府安排。"
+    },
+    "govuk-british-overseas-territories-citizenship": {
+      "title": "Types of British nationality — British overseas territories citizen",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/types-of-british-nationality/british-overseas-territories-citizen",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明British Overseas Territories citizenship的取得条件，以及符合条件领土居民自2002年取得British citizenship的规则。"
+    },
+    "govuk-home-office-about": {
+      "title": "About us — Home Office",
+      "publisher": "Home Office",
+      "url": "https://www.gov.uk/government/organisations/home-office/about",
+      "authority": "official_government",
+      "note_zh": "Home Office说明其负责移民与护照、毒品政策、犯罪、反恐和警务。"
+    },
+    "church-england-lent-easter": {
+      "title": "The significance of Lent, Holy Week and Easter",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/faith-life/what-we-believe/lent-holy-week-and-easter/significance-lent-and-easter",
+      "authority": "established_church",
+      "note_zh": "英格兰教会说明四旬期从Ash Wednesday至Easter Eve，并解释40天与耶稣在旷野禁食受试探的关系。"
+    },
+    "church-england-countdown-easter": {
+      "title": "Countdown to Easter",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/life-events/christenings/after-christening/things-do-children-spring/countdown-easter",
+      "authority": "established_church",
+      "note_zh": "英格兰教会介绍Shrove Tuesday、Pancake Day、Ash Wednesday及四旬期传统。"
+    },
+    "church-england-easter-day": {
+      "title": "Easter Day",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/faith-life/what-we-believe/lent-holy-week-and-easter/easter-day",
+      "authority": "established_church",
+      "note_zh": "英格兰教会介绍Easter Sunday礼拜，并说明复活节蛋所象征的新生命及其与耶稣墓门石头的联系。"
+    },
+    "national-trust-easter-traditions": {
+      "title": "The story of Easter in the collection",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/discover/history/art-collections/the-story-of-easter-in-the-collection",
+      "authority": "national_conservation_charity",
+      "note_zh": "National Trust介绍Easter Bunny、chocolate eggs、egg hunts、Easter bonnets及英国地方复活节传统。"
+    },
+    "english-heritage-hot-cross-buns": {
+      "title": "Holy or heretical? A history of hot cross buns",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/easter/a-history-of-hot-cross-buns/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍hot cross buns与Good Friday的传统联系，以及面包上十字图案的宗教象征。"
+    },
+    "govuk-british-values": {
+      "title": "Guidance on promoting British values in schools published",
+      "publisher": "Department for Education",
+      "url": "https://www.gov.uk/government/news/guidance-on-promoting-british-values-in-schools-published",
+      "authority": "official_government",
+      "note_zh": "英国政府列出democracy、rule of law、individual liberty以及mutual respect and tolerance等基本价值。"
+    },
+    "church-in-wales-centenary": {
+      "title": "100 years serving Wales",
+      "publisher": "Church in Wales",
+      "url": "https://www.churchinwales.org.uk/en/news-and-events/100-years-serving-wales/",
+      "authority": "national_church",
+      "note_zh": "Church in Wales说明其于1920年正式脱离国教地位并成为独立教省。"
+    },
+    "parliament-ireland-disestablishment": {
+      "title": "Disestablishment",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/disestablishment/",
+      "authority": "official_parliamentary_history",
+      "note_zh": "UK Parliament说明爱尔兰多数人口为Catholic，对Anglican Church of Ireland的国教地位长期不满；Irish Church Act 1869使其自1871年起不再是国教。"
+    },
+    "commons-library-church-state-2025": {
+      "title": "The relationship between church and state in the United Kingdom",
+      "publisher": "House of Commons Library",
+      "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8886/CBP-8886.pdf",
+      "authority": "official_parliamentary_research",
+      "note_zh": "House of Commons Library介绍英国各地教会与国家的现行关系，并说明Church of Ireland取消国教地位后继续作为覆盖整个爱尔兰岛的自治教会。"
+    },
+    "visitscotland-hogmanay": {
+      "title": "Hogmanay in Scotland",
+      "publisher": "VisitScotland",
+      "url": "https://www.visitscotland.com/things-to-do/events/christmas-winter-festivals/hogmanay",
+      "authority": "official_tourism_body",
+      "note_zh": "苏格兰官方旅游资料介绍Hogmanay、first-footing、Auld Lang Syne及其冬季节庆背景。"
+    },
+    "dsl-hogmanay": {
+      "title": "Hogmanay — Scottish National Dictionary",
+      "publisher": "Dictionaries of the Scots Language",
+      "url": "https://dsl.ac.uk/entry/snd/hogmanay",
+      "authority": "national_language_dictionary",
+      "note_zh": "Scottish National Dictionary记录Hogmanay的历史用法，并认为最有力的词源解释是经苏格兰与法国的联系从北部法语新年用语借入。"
+    },
+    "parliament-reformation": {
+      "title": "The Reformation",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/overview/reformation/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明教皇反对Henry VIII与Catherine of Aragon离婚，以及1534年Act of Supremacy确立国王的教会领导地位。"
+    },
+    "govuk-mod-about": {
+      "title": "About us — Ministry of Defence",
+      "publisher": "Ministry of Defence",
+      "url": "https://www.gov.uk/government/organisations/ministry-of-defence/about",
+      "authority": "official_government",
+      "note_zh": "Ministry of Defence说明其通过武装部队保卫UK、Crown Dependencies及Overseas Territories，并维护国家安全和利益。"
+    },
+    "govuk-mod-governance": {
+      "title": "Our governance — Ministry of Defence",
+      "publisher": "Ministry of Defence",
+      "url": "https://www.gov.uk/government/organisations/ministry-of-defence/about/our-governance",
+      "authority": "official_government",
+      "note_zh": "Ministry of Defence说明Defence Council由Secretary of State for Defence领导，并通过Service Boards管理和指挥武装部队。"
+    },
+    "commons-armed-forces-act": {
+      "title": "What is the Armed Forces Act?",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10065/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "House of Commons Library说明Armed Forces Act提供军队的法律、纪律和司法框架，并落实和平时期维持常备军须经Parliament同意的宪制要求。"
+    },
+    "parliament-shadow-cabinet": {
+      "title": "Shadow Cabinet",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/site-information/glossary/shadow-cabinet/",
+      "authority": "official_parliament",
+      "note_zh": "UK Parliament说明Shadow Cabinet由反对党领袖选择，其成员分别对应政府Cabinet的政策领域，监督和挑战相应部长，并把反对党呈现为alternative government-in-waiting。"
+    },
+    "church-england-articles-religion": {
+      "title": "Articles of Religion",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+      "authority": "established_church",
+      "note_zh": "Church of England的Thirty-nine Articles说明Holy Scripture的地位、因信称义，以及Baptism与Lord's Supper两件福音圣礼。"
+    },
+    "vatican-scripture-tradition": {
+      "title": "The relationship between Tradition and Sacred Scripture",
+      "publisher": "The Holy See",
+      "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/artcile_2/ii_the_relationship_between_tradition_and_sacred_scripture.html",
+      "authority": "official_church_teaching",
+      "note_zh": "Catholic Church教理说明Sacred Scripture与Sacred Tradition共同传递信仰，并由教会训导权负责权威解释。"
+    },
+    "vatican-seven-sacraments": {
+      "title": "The Seven Sacraments of the Church",
+      "publisher": "The Holy See",
+      "url": "https://www.vatican.va/content/catechism/en/part_two/section_two.index.html",
+      "authority": "official_church_teaching",
+      "note_zh": "Catholic Church教理列出Baptism、Confirmation、Eucharist、Penance、Anointing of the Sick、Holy Orders及Matrimony七件圣礼。"
+    },
+    "royal-armouries-hundred-years-war": {
+      "title": "The Hundred Years War 1337–1453",
+      "publisher": "Royal Armouries",
+      "url": "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+      "authority": "national_museum",
+      "note_zh": "Royal Armouries梳理Hundred Years War的时间、王位与领土争端、Agincourt和Joan of Arc等关键事件。"
+    },
+    "nts-scotland-history": {
+      "title": "The history of Scotland",
+      "publisher": "National Trust for Scotland",
+      "url": "https://www.nts.org.uk/schools/adult-learning/the-history-of-scotland",
+      "authority": "national_heritage_charity",
+      "note_zh": "National Trust for Scotland介绍Bonnie Prince Charlie在1745年抵达Scotland发动起义及1746年Culloden失败。"
+    },
+    "govuk-contact-police": {
+      "title": "Contact the police",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/contact-police",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明紧急情况拨999、非紧急情况拨101及反恐信息举报方式。"
+    },
+    "govuk-ncs-about": {
+      "title": "National Citizen Service — About us",
+      "publisher": "National Citizen Service",
+      "url": "https://www.gov.uk/government/organisations/national-citizen-service/about",
+      "authority": "official_government",
+      "note_zh": "官方页面说明NCS曾是England的自愿青年项目，并于2025年3月31日结束。"
+    },
+    "hrp-yeoman-warders": {
+      "title": "Yeoman Warders at the Tower of London",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/yeoman-warders-at-the-tower-of-london/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces介绍Yeoman Warders的Tudor起源、现代职责、军旅资历及Beefeater昵称。"
+    },
+    "science-museum-concorde": {
+      "title": "1970s: Concorde",
+      "publisher": "Science Museum",
+      "url": "https://blog.sciencemuseum.org.uk/1970s-concorde/",
+      "authority": "national_museum",
+      "note_zh": "Science Museum说明Britain与France于1962年合作研制Concorde、Mach 2速度、1976年服役及2003年退役。"
+    },
+    "nasa-tu144-history": {
+      "title": "Tu-144 Development History",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120315main_fs-062-dfrc.pdf",
+      "authority": "official_space_agency",
+      "note_zh": "NASA说明Tu-144与Concorde均进入生产和商业服务，Tu-144于1977年开始载客并于1978年停止。"
+    },
+    "eryri-visit": {
+      "title": "Visit Eryri",
+      "publisher": "Eryri National Park Authority",
+      "url": "https://www.eryri.llyw.cymru/visit/",
+      "authority": "national_park_authority",
+      "note_zh": "Eryri国家公园管理局说明该公园位于Wales，并介绍Yr Wyddfa与Llyn Tegid。"
+    },
+    "rcsed-joseph-bell": {
+      "title": "Joseph Bell",
+      "publisher": "Royal College of Surgeons of Edinburgh",
+      "url": "https://archiveandlibrary.rcsed.ac.uk/surgeon/3769275-joseph-bell",
+      "authority": "royal_professional_college_archive",
+      "note_zh": "RCSEd档案介绍Doyle的医学老师Joseph Bell及其观察推理能力如何成为Sherlock Holmes的重要原型。"
+    },
+    "iwm-poland-1939": {
+      "title": "Second World War Galleries large print guide",
+      "publisher": "Imperial War Museums",
+      "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/second_world_war_galleries_large_print.pdf",
+      "authority": "national_museum",
+      "note_zh": "Imperial War Museums说明1939年Germany与Soviet Union从两面入侵Poland，以及Britain和France对Germany宣战。"
+    },
+    "st-davids-cathedral-who": {
+      "title": "Who is St David?",
+      "publisher": "St Davids Cathedral",
+      "url": "https://www.stdavidscathedral.org.uk/cy/node/126",
+      "authority": "cathedral_history",
+      "note_zh": "St Davids Cathedral介绍Dewi Sant的6世纪生平、修道团体、讲道传说及“do the little things”传统。"
+    },
+    "lake-district-faq": {
+      "title": "Visitor frequently asked questions",
+      "publisher": "Lake District National Park Authority",
+      "url": "https://lakedistrict.gov.uk/explore/visitor-facilities/frequently-asked-questions/",
+      "authority": "national_park_authority",
+      "note_zh": "Lake District国家公园管理局确认其为England最大国家公园及UNESCO遗产，并拥有England最高峰和最深湖。"
+    },
+    "official-london-theatre-centenary": {
+      "title": "Celebrate 100 years of London’s Theatreland",
+      "publisher": "Society of London Theatre",
+      "url": "https://officiallondontheatre.com/news/celebrate-100-years-of-londons-theatreland-72513/",
+      "authority": "official_theatre_industry_body",
+      "note_zh": "Society of London Theatre介绍West End Theatreland及1908年行业组织成立的历史。"
+    },
+    "govuk-maintained-governance-guide": {
+      "title": "Maintained schools governance guide",
+      "publisher": "Department for Education",
+      "url": "https://www.gov.uk/government/publications/maintained-schools-governance-guide/maintained-schools-governance-guide",
+      "authority": "official_government",
+      "note_zh": "教育部列出maintained school治理委员会在战略、校长问责和财务监督方面的三项核心职能。"
+    },
+    "national-archives-american-revolution": {
+      "title": "The causes of the American Revolution",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/democracy-and-protest/causes-of-the-american-revolution/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆解释Seven Years War债务、Stamp Act、taxation without representation及1776年独立。"
+    },
+    "us-national-archives-declaration": {
+      "title": "Declaration of Independence: A Transcription",
+      "publisher": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "authority": "official_archive",
+      "note_zh": "美国国家档案馆提供《独立宣言》原文，其中列出未经殖民者同意征税、限制代表权及干预殖民地立法等控诉。"
+    },
+    "parliament-charles-i-trial": {
+      "title": "The trial of Charles I",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/building/palace/westminsterhall/government-and-administration/trial-of-charlesi/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍Charles I于1649年1月在Westminster Hall受审、被控暴政与叛国及判处死刑的过程。"
+    },
+    "parliament-revolution-civil-war": {
+      "title": "Revolution and civil war",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/revolution-and-civil-war/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明Charles I的Personal Rule、1648至1649年第二次内战、处决及England成为Commonwealth and Free State。"
+    },
+    "nhm-neolithic-first-farmers": {
+      "title": "Neolithic Britain: where did the first farmers come from?",
+      "publisher": "Natural History Museum",
+      "url": "https://www.nhm.ac.uk/discover/news/2019/april/neolithic-britain-where-did-the-first-farmers-come-from.html",
+      "authority": "national_museum",
+      "note_zh": "Natural History Museum根据古DNA研究解释早期农民由Aegean经Mediterranean、Iberia和France进入Britain的路线。"
+    },
+    "nature-neolithic-britain-genomes": {
+      "title": "Ancient genomes indicate population replacement in Early Neolithic Britain",
+      "publisher": "Nature Ecology & Evolution",
+      "url": "https://www.nature.com/articles/s41559-019-0871-9",
+      "authority": "peer_reviewed_research",
+      "note_zh": "2019年同行评审研究分析6名Mesolithic及67名Neolithic英国人的古DNA，支持大陆移民把农业带入Britain。"
+    },
+    "london-museum-black-death": {
+      "title": "The Great Pestilence in London",
+      "publisher": "London Museum",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/",
+      "authority": "public_museum",
+      "note_zh": "London Museum介绍Black Death于1348年抵达、Yersinia pestis病因、死亡规模及劳动力和工资变化。"
+    },
+    "ukhsa-plague-guidance": {
+      "title": "Plague: epidemiology, outbreaks and guidance",
+      "publisher": "UK Health Security Agency",
+      "url": "https://www.gov.uk/guidance/plague-epidemiology-outbreaks-and-guidance",
+      "authority": "official_public_health_body",
+      "note_zh": "UKHSA确认鼠疫由Yersinia pestis引起，并说明受感染啮齿动物的跳蚤、动物组织和呼吸道飞沫等传播途径。"
+    },
+    "national-archives-black-death-arrival": {
+      "title": "Living in the 14th century",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/currency-converter/living-in-the-14th-century/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆记载Black Death于1348年可能随一艘从Gascony驶来的船抵达Melcombe Regis，并在1349年前后造成巨大人口损失。"
+    },
+    "cambridge-medieval-plague-dna": {
+      "title": "Plague in Medieval Cambridge",
+      "publisher": "University of Cambridge Department of Archaeology",
+      "url": "https://www.arch.cam.ac.uk/news/plague-medieval-cambridge",
+      "authority": "academic_research_institution",
+      "note_zh": "剑桥大学考古研究人员从中世纪死者牙齿中识别出Yersinia pestis DNA，为黑死病病原提供直接证据。"
+    },
+    "nidirect-youth-justice": {
+      "title": "Youth justice",
+      "publisher": "nidirect — Northern Ireland Government",
+      "url": "https://www.nidirect.gov.uk/articles/youth-justice",
+      "authority": "official_government",
+      "note_zh": "北爱尔兰政府说明Youth Court由一名District Judge担任主席并与两名Lay Magistrates共同审理，三人听取证据并作出裁决。"
+    },
+    "nijac-lay-magistrate-role": {
+      "title": "What is a Lay Magistrate?",
+      "publisher": "Northern Ireland Judicial Appointments Commission",
+      "url": "https://www.nijac.gov.uk/what-lay-magistrate",
+      "authority": "official_judicial_body",
+      "note_zh": "NIJAC说明Lay Magistrates无需法律专业背景，但须接受培训，并与District Judges共同处理Youth Court及Family Proceedings Court案件。"
+    },
+    "nijac-district-judge-qualification": {
+      "title": "District Judge (Magistrates' Courts)",
+      "publisher": "Northern Ireland Judicial Appointments Commission",
+      "url": "https://www.nijac.gov.uk/news/district-judge-magistrates-courts-x-1",
+      "authority": "official_judicial_body",
+      "note_zh": "NIJAC说明北爱尔兰District Judge (Magistrates’ Courts)处理刑事和家庭案件，申请人须具有至少七年大律师或事务律师资历。"
+    },
+    "parliament-glorious-revolution-invasion": {
+      "title": "Invasion and desertion",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/invasiondesertion/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍Immortal Seven的邀请、William of Orange登陆、James II失去支持并逃亡，以及Convention Parliament安排王位继承的过程。"
+    },
+    "national-archives-glorious-revolution": {
+      "title": "Glorious Revolution 1688",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/significant-events/glorious-revolution-1688/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆展示Immortal Seven邀请信，并解释James II的宗教政策、天主教男性继承人的出生以及William受邀介入的背景。"
+    },
+    "royal-james-ii": {
+      "title": "James II (r.1685–1688)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/james-ii",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室官网说明James II的宗教和任命政策、Seven Bishops事件、男性继承人出生以及William登陆后James逃往法国。"
+    },
+    "heritage-ireland-battle-boyne": {
+      "title": "Battle of the Boyne Visitor Centre — Oldbridge Estate",
+      "publisher": "Heritage Ireland — Office of Public Works",
+      "url": "https://heritageireland.ie/places-to-visit/battle-of-the-boyne-visitor-centre-oldbridge-estate/",
+      "authority": "official_heritage_body",
+      "note_zh": "爱尔兰国家遗产机构确认战场位于County Meath的Oldbridge、River Boyne河畔，并提供交战日期、双方兵力和历史背景。"
+    },
+    "national-archives-battle-boyne": {
+      "title": "Glorious Revolution — Battle of the Boyne",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/glorious-revolution/glorious-revolution-source-5a/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明James II在爱尔兰继续争夺王位、Boyne战败后离开爱尔兰，以及William随后巩固统治。"
+    },
+    "national-army-museum-battle-boyne": {
+      "title": "Battle of the Boyne",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/battle-boyne",
+      "authority": "national_museum",
+      "note_zh": "英国国家陆军博物馆分析Oldbridge渡河点、双方部署、Jacobite撤退，并指出战役在军事上并未消灭James的军队但具有长期政治意义。"
+    },
+    "un-preparatory-years": {
+      "title": "Preparatory Years: UN Charter History",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un/preparatory-years",
+      "authority": "official_international_organisation",
+      "note_zh": "联合国官方历史说明1942年《联合国家宣言》、美英苏中四国的筹备工作、Dumbarton Oaks会议及旧金山会议的形成过程。"
+    },
+    "un-history": {
+      "title": "History of the United Nations",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "authority": "official_international_organisation",
+      "note_zh": "联合国官方资料说明50国参加旧金山会议，以及《联合国宪章》在五个主要国家及多数签署国批准后于1945年10月24日生效。"
+    },
+    "un-original-members": {
+      "title": "Growth in United Nations membership",
+      "publisher": "United Nations",
+      "url": "https://www.un.org/en/about-us/growth-in-un-membership",
+      "authority": "official_international_organisation",
+      "note_zh": "联合国官方会员记录列出1945年的51个创始会员国。"
+    },
+    "national-trust-giants-causeway-history": {
+      "title": "Giant's Causeway's history",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway/history-of-giants-causeway",
+      "authority": "official_site_conservation_body",
+      "note_zh": "负责保护Giant’s Causeway的National Trust介绍Finn McCool、Benandonner及堤道被拆毁的著名传说。"
+    },
+    "unesco-giants-causeway": {
+      "title": "Giant's Causeway and Causeway Coast",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/369",
+      "authority": "official_international_heritage_body",
+      "note_zh": "UNESCO说明遗址约有40,000根玄武岩柱，由约5,000万至6,000万年前的火山活动形成，并记录其巨人传说与世界遗产价值。"
+    },
+    "parliament-suffragette-start": {
+      "title": "Start of the suffragette movement",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍Emmeline Pankhurst于1903年参与创建WSPU、“Deeds not words”口号、监禁和绝食抗议。"
+    },
+    "focus-suffragette-pankhurst": {
+      "title": "Celebrating International Women's Day: Three Heroes",
+      "publisher": "Focus Features",
+      "url": "https://www.focusfeatures.com/article/celebrating_international-womens-day_3-heroes",
+      "authority": "official_film_studio",
+      "note_zh": "电影发行方介绍Meryl Streep饰演Emmeline Pankhurst、角色短暂的阳台演说场景，以及台词由多篇真实演讲组合而成。"
+    },
+    "cardiff-capital": {
+      "title": "Capital of Principality (Cardiff)",
+      "publisher": "UK Parliament — Hansard",
+      "url": "https://hansard.parliament.uk/Commons/1955-12-20/debates/f75e8a8b-79d6-42d2-96be-80f271ffe0b1/CapitalOfPrincipality%28Cardiff%29",
+      "authority": "official_parliamentary_record",
+      "note_zh": "1955年12月20日的Hansard记录英国政府正式承认Cardiff为Wales首都的答复。"
+    },
+    "national-archives-thirties": {
+      "title": "Thirties Britain",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/thirties-britain/?show=all",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明1929年后shipbuilding等传统重工业衰退以及1932年失业高峰。"
+    },
+    "national-archives-jarrow": {
+      "title": "Jarrow Crusade",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/thirties-britain/jarrow-crusade/",
+      "authority": "official_archive",
+      "note_zh": "国家档案记录Palmer's Shipyard于1931年关闭及1936年Jarrow失业者向London请愿。"
+    },
+    "world-athletics-bannister": {
+      "title": "Bannister, first man to run a sub-four-minute mile",
+      "publisher": "World Athletics",
+      "url": "https://worldathletics.org/news/IAAF-news/roger-bannister-obituary",
+      "authority": "international_sports_governing_body",
+      "note_zh": "World Athletics记录Bannister于1954年5月6日跑出3:59.4、两位领跑员、医学学习及其后神经学事业。"
+    },
+    "mcb-ramadan-guide": {
+      "title": "Ramadan Guide",
+      "publisher": "Muslim Council of Britain",
+      "url": "https://www.mcb.org.uk/wp-content/uploads/2023/03/MCB-Ramadan-Guide-2023-Updated-23-MAR-SV1-1.pdf",
+      "authority": "national_faith_body",
+      "note_zh": "Muslim Council of Britain介绍Eid al-Fitr在Ramadan结束后举行、月相日期、Eid prayer、Zakat al-Fitr及家庭庆祝。"
+    },
+    "parliament-armistice-centenary": {
+      "title": "Centenary of the Armistice",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2018-0239/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "英国下议院图书馆说明停战协定于1918年11月11日清晨5点在Compiègne的铁路车厢内签署，六小时后于上午11点停止炮火。"
+    },
+    "us-state-armistice-terms": {
+      "title": "The Armistice Negotiations with the Germans",
+      "publisher": "United States Department of State, Office of the Historian",
+      "url": "https://history.state.gov/historicaldocuments/frus1918Supp01v01/d384",
+      "authority": "official_diplomatic_archive",
+      "note_zh": "美国国务院公布的历史外交文件载有停战条款：陆地和空中作战在停战协定签署六小时后停止。"
+    },
+    "national-archives-versailles": {
+      "title": "The Treaty of Versailles",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-treaty-of-versailles/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明1918年停战协定停止战斗，而1919年6月28日签署的Treaty of Versailles正式规定和平条件。"
+    },
+    "teamgb-mary-peters": {
+      "title": "Mary Peters",
+      "publisher": "Team GB",
+      "url": "https://www.teamgb.com/athlete/mary-peters/6RrxP7qcbq9LA0vPSmYxKW",
+      "authority": "national_olympic_team",
+      "note_zh": "Team GB记录Mary Peters赢得1972年Munich Olympics女子田径五项全能金牌，以4,801分创造世界纪录，并介绍五项比赛过程。"
+    },
+    "world-athletics-mary-peters": {
+      "title": "Mary Peters athlete profile",
+      "publisher": "World Athletics",
+      "url": "https://worldathletics.org/athletes/great-britain-ni/mary-peters-14372718",
+      "authority": "international_sports_governing_body",
+      "note_zh": "World Athletics的运动员档案确认Mary Peters为Olympic champion，并记录她在1972年Munich的100米栏、跳高和200米等成绩。"
+    },
+    "nls-robert-burns-auld-lang-syne": {
+      "title": "Robert Burns and his history of myself",
+      "publisher": "National Library of Scotland",
+      "url": "https://www.nls.uk/collections/stories/literature-and-poetry/robert-burns-and-his-history-of-myself/",
+      "authority": "national_library",
+      "note_zh": "苏格兰国家图书馆介绍Burns收集并改写旧民歌Auld Lang Syne、歌曲收入The Scots Musical Museum及其新年传统。"
+    },
+    "english-heritage-housesteads": {
+      "title": "Housesteads Roman Fort — Hadrian's Wall",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/housesteads",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage给出Housesteads在Haydon Bridge、Hexham、Northumberland的地址，并说明堡垒建在Hadrian's Wall与Whin Sill高地上。"
+    },
+    "vindolanda-fort-museum": {
+      "title": "Roman Vindolanda Fort and Museum",
+      "publisher": "The Vindolanda Trust",
+      "url": "https://www.vindolanda.com/roman-vindolanda-fort-museum",
+      "authority": "site_preservation_charity",
+      "note_zh": "Vindolanda Trust说明Vindolanda位于Hadrian's Wall墙体以南，建在较早的Stanegate frontier上，先于长城建立，后来成为长城的建设与驻军基地。"
+    },
+    "english-heritage-hadrians-wall-teachers-kit": {
+      "title": "Discover the Story of Hadrian's Wall",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/siteassets/home/learn/teaching-resources/resources-library/hadrians_wall_teachers-kit-2022.pdf",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage教学资料说明Hadrian's Wall横跨England北部约73 miles，从东部Wallsend延伸至西部Bowness-on-Solway。"
+    },
+    "national-archives-puritan": {
+      "title": "Civil War person: Puritan",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/civil-war-people/civil-war-person-puritan/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆说明Puritans是激进的新教徒，主张更简朴的教堂和礼拜，并担忧Church of England恢复Catholic做法。"
+    },
+    "national-archives-religious-conformity": {
+      "title": "Religious conformity",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/james-i/religious-conformity/",
+      "authority": "national_archive",
+      "note_zh": "英国国家档案馆把Puritans定义为寻求进一步改革Church of England的新教徒。"
+    },
+    "dib-john-omahony": {
+      "title": "O'Mahony, John",
+      "publisher": "Dictionary of Irish Biography",
+      "url": "https://www.dib.ie/index.php/biography/omahony-john-a6878",
+      "authority": "national_academic_biography",
+      "note_zh": "Dictionary of Irish Biography说明Gaelic学者John O'Mahony创建Fenian Brotherhood，并从爱尔兰神话中的Fianna勇士团取得名称。"
+    },
+    "dib-james-stephens": {
+      "title": "Stephens, James",
+      "publisher": "Dictionary of Irish Biography",
+      "url": "https://www.dib.ie/index.php/biography/stephens-james-a8277",
+      "authority": "national_academic_biography",
+      "note_zh": "Dictionary of Irish Biography介绍James Stephens、Irish Republican Brotherhood及其与美国Fenian Brotherhood的组织联系。"
+    },
+    "oireachtas-fianna-warriors": {
+      "title": "Written Answers — National Anthem",
+      "publisher": "Houses of the Oireachtas",
+      "url": "https://www.oireachtas.ie/en/debates/debate/dail/2012-01-31/30/",
+      "authority": "official_parliamentary_record",
+      "note_zh": "爱尔兰议会记录解释Fianna为Finn MacCool的传奇勇士，并说明该名称与爱尔兰士兵和国家传统的联系。"
+    },
+    "govuk-botc-passport-guidance": {
+      "title": "British overseas territories citizens — passport guidance",
+      "publisher": "HM Passport Office",
+      "url": "https://www.gov.uk/government/publications/british-overseas-territories-citizens/british-overseas-territories-citizens-accessible-version",
+      "authority": "official_government",
+      "note_zh": "HM Passport Office说明BOTC护照、British citizen护照、双重身份，以及Falkland Islands和2002年海外领土国籍改革的规则。"
+    },
+    "parliament-personal-rule": {
+      "title": "The Personal Rule of Charles I",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/personal-rule/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明Charles I从1629年3月至1640年4月不召集议会、以ship money筹款，以及Bishops’ Wars迫使他重新召集议会。"
+    },
+    "parliament-petition-of-right": {
+      "title": "The Petition of Right",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/petition-of-right/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍1628年Petition of Right对未经议会同意征税和任意监禁的反对，以及它与Personal Rule的关系。"
+    },
+    "commons-library-union-flag": {
+      "title": "Flags: the Union Flag and flags of the United Kingdom",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn04474/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "下议院图书馆说明Union Flag的历史、海军使用背景及Union Jack作为通用名称的沿革。"
+    },
+    "royal-union-jack": {
+      "title": "Union Jack",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/union-jack",
+      "authority": "official_royal_household",
+      "note_zh": "王室官网介绍现行Union Jack的构成、Wales未单列的原因及Jack一词的不同来源理论。"
+    },
+    "official-life-handbook-third-edition": {
+      "title": "Official Guide for New Residents book — 3rd edition",
+      "publisher": "Official Life in the UK Learning Zone",
+      "url": "https://www.officiallifeintheuk.co.uk/node/17",
+      "authority": "official_exam_publisher",
+      "note_zh": "官方学习网站确认Life in the United Kingdom第三版出版日期为2013年1月28日。"
+    },
+    "ons-women-labour-market-2013": {
+      "title": "Women in the labour market: 2013",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/womeninthelabourmarket/latest",
+      "authority": "official_statistics",
+      "note_zh": "ONS记录2013年4至6月英国16至64岁就业女性约1,340万、就业男性约1,530万，为教材的about half提供同期统计背景。"
+    },
+    "ni-assembly-stv-guide": {
+      "title": "A guide to the Single Transferable Vote",
+      "publisher": "Northern Ireland Assembly",
+      "url": "https://www.niassembly.gov.uk/visit-and-learning/assembly-elections/a-guide-to-the-single-transferable-vote-stv-or-how-your-vote-works-in-an-assembly-election/",
+      "authority": "official_devolved_legislature",
+      "note_zh": "Northern Ireland Assembly说明18个选区各选5名MLA、候选人偏好排序、quota、超额票转移和最低票候选人淘汰的STV流程。"
+    },
+    "historic-environment-scotland-christmas-timeline": {
+      "title": "A timeline of Christmas in Scotland",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://blog.historicenvironment.scot/2016/12/timeline-christmas-scotland/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Environment Scotland说明1640年Yule禁令、Hogmanay兴盛和Christmas于1958年成为苏格兰公共假日的历史。"
+    },
+    "national-army-museum-crimean-media": {
+      "title": "Faces of the Victorian Army",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/faces-victorian-army",
+      "authority": "national_museum",
+      "note_zh": "National Army Museum说明Crimean War是首次受到系统摄影记录的重大冲突，并介绍Roger Fenton、William Howard Russell和摄影技术限制。"
+    },
+    "national-army-museum-illustrated-press": {
+      "title": "Drawn on the spot: War artists and the illustrated press",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/illustrated-press",
+      "authority": "national_museum",
+      "note_zh": "National Army Museum介绍报业、铁路、电报、插图报刊及William Howard Russell如何推动现代战地报道。"
+    },
+    "parliament-lords-appointed": {
+      "title": "How members are appointed",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/business/lords/whos-in-the-house-of-lords/members-and-their-roles/how-members-are-appointed/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明终身贵族由国王根据首相建议任命、HOLAC的遴选与审查角色、Letters Patent及26个Church of England主教席位。"
+    },
+    "commons-library-peerages-2026": {
+      "title": "Peerages and membership of the House of Lords",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10635/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "下议院图书馆确认House of Lords (Hereditary Peers) Act 2026实施后，剩余世袭贵族于2026年4月29日失去仅凭世袭爵位议事和投票的资格。"
+    },
+    "holac-appointment-process": {
+      "title": "Role of House of Lords Appointments Commission",
+      "publisher": "House of Lords Appointments Commission",
+      "url": "https://lordsappointments.independent.gov.uk/wp-content/uploads/2024/04/2023-02-14-XB-Political-Appointment-Process-Redacted.pdf",
+      "authority": "independent_public_body",
+      "note_zh": "HOLAC说明其推荐非党派Crossbench终身贵族，并审查包括政治提名在内的所有上议院终身贵族提名是否适当。"
+    }
+  },
+  "category_map": {
+    "70": {"name": "2.1 What is the UK?", "chapter": "Chapter 2: What is the UK?", "source_ids": ["official-handbook", "ons-uk-geographies"]},
+    "73": {"name": "3.2 The Middle Ages", "chapter": "Chapter 3: A long and illustrious history", "source_ids": ["official-handbook", "national-archives-education", "parliament-magna-carta"]},
+    "74": {"name": "3.1 Early Britain", "chapter": "Chapter 3: A long and illustrious history", "source_ids": ["official-handbook", "national-archives-education"]},
+    "76": {"name": "1.2 The values and principles of the UK", "chapter": "Chapter 1: The values and principles of the UK", "source_ids": ["official-handbook", "govuk-test-rules"]},
+    "77": {"name": "1.1 Becoming a permanent resident", "chapter": "Chapter 1: The values and principles of the UK", "source_ids": ["official-handbook", "govuk-test-rules"]},
+    "78": {"name": "3.3 The Tudors and Stuarts", "chapter": "Chapter 3: A long and illustrious history", "source_ids": ["official-handbook", "national-archives-education", "parliament-how-it-works"]},
+    "79": {"name": "3.4 A global power", "chapter": "Chapter 3: A long and illustrious history", "source_ids": ["official-handbook", "national-archives-education"]},
+    "80": {"name": "3.5 The 20th century", "chapter": "Chapter 3: A long and illustrious history", "source_ids": ["official-handbook", "national-archives-education"]},
+    "81": {"name": "3.6 Britain since 1945", "chapter": "Chapter 3: A long and illustrious history", "source_ids": ["official-handbook", "national-archives-education"]},
+    "83": {"name": "4.1 The UK today", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook", "ons-uk-geographies"]},
+    "84": {"name": "4.2 Religion", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook", "ons-religion"]},
+    "85": {"name": "4.3 Customs and traditions", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook", "govuk-bank-holidays"]},
+    "86": {"name": "4.4 Sport", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook"]},
+    "87": {"name": "4.5 Arts and culture", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook"]},
+    "88": {"name": "4.6 Leisure", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook"]},
+    "89": {"name": "4.7 Places of interest", "chapter": "Chapter 4: A modern, thriving society", "source_ids": ["official-handbook", "historic-england-list"]},
+    "91": {"name": "5.1 The development of British democracy", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "parliament-how-it-works"]},
+    "92": {"name": "5.2 The British constitution", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "parliament-how-it-works"]},
+    "93": {"name": "5.3 The government", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "parliament-how-it-works"]},
+    "95": {"name": "5.4 The UK and international institutions", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "govuk-test-rules"]},
+    "96": {"name": "5.5 Respecting the law", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "govuk-justice"]},
+    "98": {"name": "5.6 Fundamental principles", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "parliament-how-it-works"]},
+    "101": {"name": "5.7 Your role in the community", "chapter": "Chapter 5: The UK government, the law and your role", "source_ids": ["official-handbook", "govuk-volunteering"]}
+  }
+}

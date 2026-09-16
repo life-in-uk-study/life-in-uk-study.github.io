@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">What medal did Mary Peters win in the 1972 Olympics? Correct answer: Gold</title>
+<desc id="desc">Answer memory card shown after answering the question.</desc>
+<rect width="1200" height="675" rx="36" fill="#261F18"/>
+<circle cx="320" cy="340" r="210" fill="#FFFFFF" opacity=".045"/>
+<path d="M155 438H485" stroke="#E8C978" stroke-width="8" stroke-linecap="round"/>
+<circle cx="190" cy="438" r="18" fill="#E8C978"/><circle cx="320" cy="438" r="18" fill="#E8C978"/><circle cx="450" cy="438" r="18" fill="#E8C978"/>
+<path d="M320 248l58 48-22 78h-72l-22-78z" fill="none" stroke="#E8C978" stroke-width="10"/>
+<text x="590" y="82" fill="#E8C978" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">ANSWER MEMORY CARD · EXAM-15-Q08</text>
+<text x="590" y="126" fill="#FFF7E4" opacity=".76" font-family="Arial, Helvetica, sans-serif" font-size="18">3.6 Britain since 1945</text>
+<text x="590" y="172" fill="#FFF7E4" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="600"><tspan x="590" dy="0">What medal did Mary Peters</tspan><tspan x="590" dy="40">win in the 1972 Olympics?</tspan></text>
+<line x1="590" y1="345" x2="1110" y2="345" stroke="#E8C978" stroke-width="3" opacity=".55"/>
+<text x="590" y="392" fill="#E8C978" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">CORRECT ANSWER</text>
+<text x="590" y="438" fill="#FFF7E4" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700"><tspan x="590" dy="0">Gold</tspan></text>
+</svg>

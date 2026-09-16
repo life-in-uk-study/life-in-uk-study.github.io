@@ -1,0 +1,1605 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 9,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "bank-england-current-banknotes": {
+      "title": "Current banknotes",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行列出目前流通的Bank of England纸币面额：£5、£10、£20和£50。"
+    },
+    "bank-england-uk-notes-coins": {
+      "title": "UK Notes and Coins",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/banknotes/uk-notes-and-coins",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行说明英国其他获准发钞银行的纸币，其中Bank of Scotland发行£50和£100 polymer notes。"
+    },
+    "dsl-hogmanay": {
+      "title": "Hogmanay — Scottish National Dictionary",
+      "publisher": "Dictionaries of the Scots Language",
+      "url": "https://dsl.ac.uk/entry/snd/hogmanay",
+      "authority": "national_language_dictionary",
+      "note_zh": "Scottish National Dictionary记录Hogmanay的历史用法，并认为最有力的词源解释是经苏格兰与法国的联系从北部法语新年用语借入。"
+    },
+    "govuk-individual-electoral-registration": {
+      "title": "Date confirmed for Individual Electoral Registration",
+      "publisher": "Cabinet Office",
+      "url": "https://www.gov.uk/government/news/date-confirmed-for-individual-electoral-registration-ier",
+      "authority": "official_government",
+      "note_zh": "英国政府确认England和Wales于2014年6月、Scotland于2014年9月转为Individual Electoral Registration。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "govuk-test-rules": {
+      "title": "Life in the UK Test",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/life-in-the-uk-test",
+      "authority": "official_government",
+      "note_zh": "确认考试内容仅来自官方 Guide for New Residents。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "historic-environment-scotland-christmas-timeline": {
+      "title": "A timeline of Christmas in Scotland",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://blog.historicenvironment.scot/2016/12/timeline-christmas-scotland/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Environment Scotland说明1640年Yule禁令、Hogmanay兴盛和Christmas于1958年成为苏格兰公共假日的历史。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "visitscotland-hogmanay": {
+      "title": "Hogmanay in Scotland",
+      "publisher": "VisitScotland",
+      "url": "https://www.visitscotland.com/things-to-do/events/christmas-winter-festivals/hogmanay",
+      "authority": "official_tourism_body",
+      "note_zh": "苏格兰官方旅游资料介绍Hogmanay、first-footing、Auld Lang Syne及其冬季节庆背景。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The daffodil"
+        },
+        {
+          "id": "r1",
+          "text": "The thistle"
+        },
+        {
+          "id": "r2",
+          "text": "The shamrock"
+        },
+        {
+          "id": "r3",
+          "text": "The rose"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-1.flower-associated-northern-ireland-shamrock.m4a",
+      "question": "Which flower is associated with Northern Ireland?",
+      "explanation": "The flower associated with Northern Ireland is the shamrock.",
+      "id": "exam-09-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The shamrock"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The flower associated with Northern Ireland is the shamrock.",
+        "why_correct_zh": "与北爱尔兰相关的花是三叶草。",
+        "answer_summary_zh": "正确选项：The shamrock。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which flower is associated with Northern Ireland?”及正确答案“The shamrock”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-2.last-batlle-britain-france-battle-of-waterloo.m4a",
+      "question": "The last battle between Britain and France was the battle of Waterloo.",
+      "explanation": "This statement is true.",
+      "id": "exam-09-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "At Waterloo in 1815, the army led by the Duke of Wellington and its allies, supported decisively by Prussian forces, defeated Napoleon. The battle ended Napoleon's Hundred Days return to power and the phase of conflict described by the question.",
+        "why_correct_zh": "本题答案是True。1815年的Battle of Waterloo结束了拿破仑重新掌权的“百日王朝”，也结束了题库所说的英法战争阶段。英国统帅Duke of Wellington率领的联军与普鲁士军队共同击败Napoleon。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain and France",
+          "Waterloo"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The last battle between Britain and France was the battle of Waterloo.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-3.100-pounds-notes-with-highest-value-in-circulation-in-uk.m4a",
+      "question": "£100 is the highest value note in circulation in the UK.",
+      "explanation": "This statement is false.",
+      "id": "exam-09-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "For the answer intended by this question, False is correct: the Bank of England currently issues £5, £10, £20 and £50 notes, so £50 is its highest denomination and there is no circulating £100 Bank of England note. However, the wording 'in the UK' is imprecise. Authorised banks in Scotland and Northern Ireland also issue sterling notes, and Bank of Scotland issues a £100 polymer note. It is therefore inaccurate to say simply that the UK has no £100 notes. The precise revision point is that £50 is the highest-value Bank of England note; read literally across all authorised UK note issues, the original question is ambiguous.",
+        "why_correct_zh": "按这道题预期考查的 Bank of England 纸币，应选 False。Bank of England 目前流通的面额为 £5、£10、£20 和 £50，因此其最高面额是 £50，并没有流通中的 £100 Bank of England note。\n\n不过，题干写成“in the UK”并不严谨：英国也允许部分苏格兰和北爱尔兰银行发行英镑纸币，其中 Bank of Scotland 确实发行 £100 polymer note。因此不能笼统地说“英国没有 £100 纸币”。更准确的考点是：£50 是最高面额的 Bank of England note；如果把所有获准发行的英国纸币计算在内，原题存在歧义。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "100",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "bank-england-current-banknotes",
+        "bank-england-uk-notes-coins"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“£100 is the highest value note in circulation in the UK.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "bank-england-current-banknotes",
+          "bank-england-uk-notes-coins"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "Wales"
+        },
+        {
+          "id": "r2",
+          "text": "England"
+        },
+        {
+          "id": "r3",
+          "text": "Northern Ireland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-4.where-is-lake-district-located-england.m4a",
+      "question": "Where is the Lake District National Park located?",
+      "explanation": "Lake District is in England.",
+      "id": "exam-09-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "England"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Lake District is in England.",
+        "why_correct_zh": "湖区位于英格兰。",
+        "answer_summary_zh": "正确选项：England。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Lake District National Park"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the Lake District National Park located?”及正确答案“England”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "76",
+      "options": [
+        {
+          "id": "r0",
+          "text": "To buy food locally"
+        },
+        {
+          "id": "r1",
+          "text": "To volunteer in a community project at least once a year"
+        },
+        {
+          "id": "r2",
+          "text": "To look after yourself and your family"
+        },
+        {
+          "id": "r3",
+          "text": "To respect the rights of others, including their right to their own opinions"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-5.responsibilities-as-british-citizen.m4a",
+      "question": "Which two responsibilities will you have as a British citizen?",
+      "explanation": "If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, look after yourself and your family, respect the rights of others, including their right to their own opinions, treat others with fairness and look after the area in which you live and the environment.",
+      "id": "exam-09-q05",
+      "number": 5,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r2",
+        "r3"
+      ],
+      "correct_answers": [
+        "To look after yourself and your family",
+        "To respect the rights of others, including their right to their own opinions"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "1.2 The values and principles of the UK",
+      "handbook_locator": "Chapter 1: The values and principles of the UK",
+      "learning": {
+        "why_correct_en": "If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, look after yourself and your family, respect the rights of others, including their right to their own opinions, treat others with fairness and look after the area in which you live and the environment.",
+        "why_correct_zh": "如果您希望成为英国永久居民或公民，您应该：尊重并遵守法律，照顾好自己和家人，尊重他人的权利，包括他们发表自己意见的权利，公平对待他人，并爱护您所居住的地区和环境。",
+        "answer_summary_zh": "正确选项：To look after yourself and your family；To respect the rights of others, including their right to their own opinions。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British citizen"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-test-rules"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two responsibilities will you have as a British citizen?”及正确答案“To look after yourself and your family；To respect the rights of others, including their right to their own opinions”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-test-rules"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Jane Austen"
+        },
+        {
+          "id": "r1",
+          "text": "Charles Dickens"
+        },
+        {
+          "id": "r2",
+          "text": "William Shakespeare"
+        },
+        {
+          "id": "r3",
+          "text": "Thomas Hardy"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-6.who-was-born-in-Stratford-upon-Avon-william-shakespeare.m4a",
+      "question": "Who was born in Stratford-upon-Avon?",
+      "explanation": "William Shakespeare was born in Stratford-upon-Avon, England.",
+      "id": "exam-09-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "William Shakespeare"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William Shakespeare was born in Stratford-upon-Avon, England.",
+        "why_correct_zh": "威廉·莎士比亚出生于英国埃文河畔斯特拉特福。",
+        "answer_summary_zh": "正确选项：William Shakespeare。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Stratford",
+          "Avon"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was born in Stratford-upon-Avon?”及正确答案“William Shakespeare”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Women were given the right to vote at the age of 18, the same as men."
+        },
+        {
+          "id": "r1",
+          "text": "Women were given the right to vote at the age of 25."
+        },
+        {
+          "id": "r2",
+          "text": "Women were given the right to vote at the age of 30."
+        },
+        {
+          "id": "r3",
+          "text": "Women were given the right to vote at the age of 21, the same as men."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-7.1928-important-date-womens-voting-history.m4a",
+      "question": "Why is 1928 an important year in women’s voting history?",
+      "explanation": "Women were given the right to vote at the age of 21, the same as men.",
+      "id": "exam-09-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Women were given the right to vote at the age of 21, the same as men."
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Women were given the right to vote at the age of 21, the same as men.",
+        "why_correct_zh": "女性在21岁时就被赋予了与男性相同的投票权。",
+        "answer_summary_zh": "正确选项：Women were given the right to vote at the age of 21, the same as men.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "1928"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-09-q07.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：Why is 1928 an important year in women’s voting history?；正确答案：Women were given the right to vote at the age of 21, the same as men.",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": {
+        "title": "Suffragette",
+        "year": 2015,
+        "relationship": "background",
+        "poster_src": "/images/media/suffragette-2015-poster.jpg",
+        "poster_alt_en": "The theatrical poster for Suffragette (2015).",
+        "poster_alt_zh": "电影《Suffragette》（2015）的正式海报。",
+        "fun_fact_en": "Suffragette (2015) follows ordinary British women fighting for the vote in the early 1910s. It helps explain the campaign behind this topic, but it does not dramatise the 1928 Act that finally gave women the vote at 21 on the same terms as men.",
+        "fun_fact_zh": "《Suffragette》（2015）讲述20世纪10年代初普通英国女性争取选举权的经历。它适合帮助理解这道题背后的运动，但电影并没有直接重现1928年女性最终以21岁、与男性同等条件获得投票权的法案。",
+        "source_title": "Suffragette (2015) — BFI",
+        "source_url": "https://www.bfi.org.uk/film/7a9dc7f9-58d2-57a7-b70e-8b1b81d4566f/suffragette",
+        "poster_provider": "TMDB",
+        "poster_provider_url": "https://www.themoviedb.org/movie/245168-suffragette",
+        "poster_credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+      }
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Christmas Day in Wales"
+        },
+        {
+          "id": "r1",
+          "text": "New Year’s Eve in Scotland"
+        },
+        {
+          "id": "r2",
+          "text": "Christmas Day in Scotland"
+        },
+        {
+          "id": "r3",
+          "text": "New Year’s Eve in Wales"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-8.hogmanay-new-years-eve-scotland.m4a",
+      "question": "What does Hogmanay refer to?",
+      "explanation": "In Scotland, the 31st of December (New Year’s Eve) is called Hogmanay.",
+      "id": "exam-09-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "New Year’s Eve in Scotland"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Hogmanay is the Scots name for 31 December and Scotland's New Year's Eve celebrations, with written examples dating from around 1604. Its exact origin is disputed. The Dictionaries of the Scots Language considers the strongest explanation to be a borrowing, through Scotland's long connections with France, from northern French forms such as hoginane and ultimately a French New Year expression associated with a New Year's gift, a children's call for such a gift, or New Year's Eve; its latter element may reflect l'an neuf, meaning 'the New Year'. After the Scottish Reformation, Christmas celebrations were discouraged for a long period, so winter gift-giving and festivities became concentrated around New Year. Hogmanay consequently developed into a major Scottish celebration, including Auld Lang Syne and first-footing, when the first visitor after midnight traditionally brings symbolic gifts for good fortune.",
+        "why_correct_zh": "Hogmanay 是 Scots 中对12月31日及苏格兰新年前夜庆祝活动的称呼，最早可追溯到1604年前后的书面记录。词源没有完全定论；Scots语言词典认为最有力的解释是它经长期的苏格兰—法国交流，从北部法语 hoginane 一类词形借入，并与古法语表示“新年礼物、索取新年礼物的呼喊或新年前夜”的 aguillanneuf 有关，其中后半部分可能来自 l’an neuf，即“新年”。\n\n苏格兰宗教改革后，Christmas庆祝曾长期受到限制，传统的送礼和冬季聚会因而更多集中到New Year，使Hogmanay发展成苏格兰最重要的节庆之一。常见习俗包括午夜唱 Auld Lang Syne，以及 first-footing——新年后第一位访客带着煤、shortbread或whisky登门，象征来年的温暖、食物和好运。",
+        "answer_summary_zh": "正确选项：New Year’s Eve in Scotland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Hogmanay"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "dsl-hogmanay",
+        "visitscotland-hogmanay",
+        "historic-environment-scotland-christmas-timeline"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What does Hogmanay refer to?”及正确答案“New Year’s Eve in Scotland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "dsl-hogmanay",
+          "visitscotland-hogmanay",
+          "historic-environment-scotland-christmas-timeline"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Cork"
+        },
+        {
+          "id": "r1",
+          "text": "Edinburgh"
+        },
+        {
+          "id": "r2",
+          "text": "Belfast"
+        },
+        {
+          "id": "r3",
+          "text": "Dublin"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-9.capital-city-ireland-dublin.m4a",
+      "question": "What is the capital city of Northern Ireland?",
+      "explanation": "The capital city of Northern Ireland is Belfast.",
+      "id": "exam-09-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Belfast"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The capital city of Northern Ireland is Belfast.",
+        "why_correct_zh": "北爱尔兰的首都是贝尔法斯特。",
+        "answer_summary_zh": "正确选项：Belfast。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "capital city",
+          "Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the capital city of Northern Ireland?”及正确答案“Belfast”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Hundred Years War"
+        },
+        {
+          "id": "r1",
+          "text": "The Boer War"
+        },
+        {
+          "id": "r2",
+          "text": "The First World War"
+        },
+        {
+          "id": "r3",
+          "text": "The Crimean War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-10.war-between-1899-1902-in-south-africa-boer-war.m4a",
+      "question": "Which of the following wars took place between 1899 and 1902 in South Africa?",
+      "explanation": "The Boer War.",
+      "id": "exam-09-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Boer War"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Boer War.",
+        "why_correct_zh": "布尔战争。",
+        "answer_summary_zh": "正确选项：The Boer War。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "1899",
+          "1902"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following wars took place between 1899 and 1902 in South Africa?”及正确答案“The Boer War”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-11.northern-ireland-system-individual-registration.m4a",
+      "question": "Northern Ireland uses a system called ‘individual registration’ and all those entitled to vote must complete their own registration form.",
+      "explanation": "This statement is True.",
+      "id": "exam-09-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Northern Ireland uses individual electoral registration: each eligible person is responsible for registering themselves and supplying their own identifying information, rather than one head of household registering everyone at an address.",
+        "why_correct_zh": "本题答案是True：北爱尔兰采用Individual Electoral Registration，每位合资格选民必须自行登记。\n\n需要注意，这不再是北爱尔兰独有的制度；England和Wales于2014年6月、Scotland于2014年9月也改为个人登记。考试记忆点仍是每位选民对自己的登记负责。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland",
+          "individual registration"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-individual-electoral-registration"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Northern Ireland uses a system called ‘individual registration’ and all those entitled to vote must complete their own registration form.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-individual-electoral-registration"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Health"
+        },
+        {
+          "id": "r1",
+          "text": "Education"
+        },
+        {
+          "id": "r2",
+          "text": "Defence"
+        },
+        {
+          "id": "r3",
+          "text": "Immigration"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-12.policies-not-controlled-devolved-administrations-defence-immigration.m4a",
+      "question": "Which two of the following policies are not controlled by the devolved administrations?",
+      "explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations.",
+      "id": "exam-09-q12",
+      "number": 12,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r2",
+        "r3"
+      ],
+      "correct_answers": [
+        "Defence",
+        "Immigration"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations.",
+        "why_correct_zh": "有关国防、外交、移民、税收和社会保障的政策和法律仍然处于英国中央政府的控制之下。然而，教育等许多其他公共服务由权力下放的政府控制。",
+        "answer_summary_zh": "正确选项：Defence；Immigration。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "devolved administrations"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of the following policies are not controlled by the devolved administrations?”及正确答案“Defence；Immigration”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "18"
+        },
+        {
+          "id": "r1",
+          "text": "21"
+        },
+        {
+          "id": "r2",
+          "text": "16"
+        },
+        {
+          "id": "r3",
+          "text": "25"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-13.age-to-stand-public-office.m4a",
+      "question": "How old do citizens of the UK, the Irish Republic or the Commonwealth have to be to stand for public office?",
+      "explanation": "Most citizens of the UK, the Irish republic or the Commonwealth aged 18 or over can stand for public office. There are some exceptions, including: members of the armed forces, civil servants and people found guilty of certain criminal offences.",
+      "id": "exam-09-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "18"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Most citizens of the UK, the Irish republic or the Commonwealth aged 18 or over can stand for public office. There are some exceptions, including: members of the armed forces, civil servants and people found guilty of certain criminal offences.",
+        "why_correct_zh": "大多数年满 18 岁或以上的英国、爱尔兰共和国或英联邦公民都可以竞选公职。但也有一些例外，包括：武装部队成员、公务员和被判犯有某些刑事罪行的人。",
+        "answer_summary_zh": "正确选项：18。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK",
+          "Irish Republic",
+          "Commonwealth"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How old do citizens of the UK, the Irish Republic or the Commonwealth have to be to stand for public office?”及正确答案“18”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Abolishing a number of taxes on imported goods"
+        },
+        {
+          "id": "r1",
+          "text": "Abolishing the exportation of local produce"
+        },
+        {
+          "id": "r2",
+          "text": "Preventing the importation of cheap raw materials"
+        },
+        {
+          "id": "r3",
+          "text": "Preventing the importation of cheap grain"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-14.government-promote-policies-of-free-trade-during-the-victorian-age.m4a",
+      "question": "How did the Government promote policies of free trade during the Victorian Age?",
+      "explanation": "During Victorian times, the government began to promote policies of free trade, abolishing a number of taxes on imported goods. One example of this was the repealing of the Corn Laws in 1846. These had prevented the import of cheap grain. The reforms helped the development of the British industry, because raw materials could now be imported cheaply.",
+      "id": "exam-09-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Abolishing a number of taxes on imported goods"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "During Victorian times, the government began to promote policies of free trade, abolishing a number of taxes on imported goods. One example of this was the repealing of the Corn Laws in 1846. These had prevented the import of cheap grain. The reforms helped the development of the British industry, because raw materials could now be imported cheaply.",
+        "why_correct_zh": "维多利亚时期，政府开始推行自由贸易政策，取消了多项进口商品的税收。其中一个例子是 1846 年废除《谷物法》。这些法律阻止了廉价谷物的进口。这些改革促进了英国工业的发展，因为现在可以廉价进口原材料。",
+        "answer_summary_zh": "正确选项：Abolishing a number of taxes on imported goods。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Government",
+          "Victorian Age"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How did the Government promote policies of free trade during the Victorian Age?”及正确答案“Abolishing a number of taxes on imported goods”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "One of the tribal leaders who fought against the Romans"
+        },
+        {
+          "id": "r1",
+          "text": "A British officer in charge of the British army at the Battle of Waterloo"
+        },
+        {
+          "id": "r2",
+          "text": "A British general who established the authority of the English Parliament"
+        },
+        {
+          "id": "r3",
+          "text": "A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-15.who-was-admiral-nelson.m4a",
+      "question": "Who was Admiral Nelson?",
+      "explanation": "Admiral Nelson was in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet and was killed in the battle.",
+      "id": "exam-09-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Admiral Nelson was in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet and was killed in the battle.",
+        "why_correct_zh": "纳尔逊海军上将在特拉法加海战中指挥英国舰队对抗西班牙舰队，并在战斗中阵亡。",
+        "answer_summary_zh": "正确选项：A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Admiral Nelson"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was Admiral Nelson?”及正确答案“A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Peasants who had a small area of their lord’s agricultural land"
+        },
+        {
+          "id": "r1",
+          "text": "Soldiers who fought at the Battle of Trafalgar"
+        },
+        {
+          "id": "r2",
+          "text": "Noblemen who formed part of the king’s council of advisers"
+        },
+        {
+          "id": "r3",
+          "text": "A group of skilled people from Holland who came to England during the Middle Ages"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-16.middle-ages-who-were-the-serfs.m4a",
+      "question": "During the Middle Ages, who were the serfs?",
+      "explanation": "Serfs were peasants who had a small area of their lord’s land where they could grow food.",
+      "id": "exam-09-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Peasants who had a small area of their lord’s agricultural land"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Serfs were peasants who had a small area of their lord’s land where they could grow food.",
+        "why_correct_zh": "农奴是农民，他们在领主的一小块土地上可以种植粮食。",
+        "answer_summary_zh": "正确选项：Peasants who had a small area of their lord’s agricultural land。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "During the Middle Ages"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During the Middle Ages, who were the serfs?”及正确答案“Peasants who had a small area of their lord’s agricultural land”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Radar"
+        },
+        {
+          "id": "r1",
+          "text": "The Steam Power"
+        },
+        {
+          "id": "r2",
+          "text": "The Jet Engine"
+        },
+        {
+          "id": "r3",
+          "text": "The Turing Machine"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-17.invention-led-rapid-development-industry-in-england-steam-power.m4a",
+      "question": "Which invention lead to the rapid development of the industry in Britain during the 18th and 19th centuries?",
+      "explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale. It happened because of the development of machinery and the use of steam power.",
+      "id": "exam-09-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Steam Power"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale. It happened because of the development of machinery and the use of steam power.",
+        "why_correct_zh": "工业革命是18、19世纪英国工业的快速发展。英国是第一个大规模工业化的国家。这是由于机械的发展和蒸汽动力的使用而发生的。",
+        "answer_summary_zh": "正确选项：The Steam Power。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain",
+          "18th",
+          "19th"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which invention lead to the rapid development of the industry in Britain during the 18th and 19th centuries?”及正确答案“The Steam Power”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-18.mps-can-only-be-contacted-by-post-false.m4a",
+      "question": "MPs can only be contacted by post.",
+      "explanation": "False. You can contact MPs by letter or telephone at their constituency office, or at their office in the House of Commons. In addition, many MPs, Assembly members, MSPs and MEPs hold regular local ‘surgeries’, where constituents can go in person to talk about issues that are of concern to them.",
+      "id": "exam-09-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. You can contact MPs by letter or telephone at their constituency office, or at their office in the House of Commons. In addition, many MPs, Assembly members, MSPs and MEPs hold regular local ‘surgeries’, where constituents can go in person to talk about issues that are of concern to them.",
+        "why_correct_zh": "错误的。您可以通过信函或电话联系议员的选区办公室或下议院办公室。此外，许多国会议员、议员、议员和欧洲议会议员定期举行当地“手术”，选民可以亲自去讨论他们关心的问题。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "contacted"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“MPs can only be contacted by post.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Swinging Sixties"
+        },
+        {
+          "id": "r1",
+          "text": "The Reformation"
+        },
+        {
+          "id": "r2",
+          "text": "The Suffragettes"
+        },
+        {
+          "id": "r3",
+          "text": "The Enlightenment"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-19.movement-challenge-authority-pope-reformation.m4a",
+      "question": "What movement challenged the authority of the Pope?",
+      "explanation": "The Reformation was a movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church.",
+      "id": "exam-09-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Reformation"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Reformation was a movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church.",
+        "why_correct_zh": "宗教改革是一场反对教皇权威以及罗马天主教会思想和实践的运动。",
+        "answer_summary_zh": "正确选项：The Reformation。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Pope"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What movement challenged the authority of the Pope?”及正确答案“The Reformation”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "King Henry V"
+        },
+        {
+          "id": "r1",
+          "text": "King Henry IV"
+        },
+        {
+          "id": "r2",
+          "text": "William the Conqueror"
+        },
+        {
+          "id": "r3",
+          "text": "Harold, the Saxon king of England"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-20.british-king-introduced-domesday-book-william-conqueror.m4a",
+      "question": "What English King introduced the Domesday Book?",
+      "explanation": "William the Conqueror sent people all over England to draw up lists of all the towns and villages. The people who lived there, who owned the land and what animals they owned were also listed. This was called the Domesday Book.",
+      "id": "exam-09-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "William the Conqueror"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William the Conqueror sent people all over England to draw up lists of all the towns and villages. The people who lived there, who owned the land and what animals they owned were also listed. This was called the Domesday Book.",
+        "why_correct_zh": "征服者威廉派人到英格兰各地起草所有城镇和村庄的名单。住在那里的人、拥有土地的人以及他们拥有的动物也都被列出来。这就是所谓的《末日审判书》。",
+        "answer_summary_zh": "正确选项：William the Conqueror。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "What English King",
+          "Domesday Book"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What English King introduced the Domesday Book?”及正确答案“William the Conqueror”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Free primary education in England, Wales and Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "Free university fees in England, Wales, Scotland and Northern Ireland"
+        },
+        {
+          "id": "r2",
+          "text": "Free primary and secondary education in England, Wales and Scotland"
+        },
+        {
+          "id": "r3",
+          "text": "Free secondary education in England and Wales"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-21.what-did-the-butler-act-introduced-free-secondary-education.m4a",
+      "question": "What did ’the Butler Act’ introduce in 1944?",
+      "explanation": "Richard Austen Butler became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941. In this role, he oversaw the introduction of the Education Act 1944 (often called ‘The Butler Act’), which introduced free secondary education in England and Wales.",
+      "id": "exam-09-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Free secondary education in England and Wales"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Richard Austen Butler became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941. In this role, he oversaw the introduction of the Education Act 1944 (often called ‘The Butler Act’), which introduced free secondary education in England and Wales.",
+        "why_correct_zh": "理查德·奥斯汀·巴特勒 (Richard Austen Butler) 于 1923 年成为保守党议员，并在 1941 年负责教育之前担任过多个职位。在此期间，他监督了 1944 年教育法案（通常称为“巴特勒法案”）的出台，该法案在英格兰和威尔士引入了免费中学教育。",
+        "answer_summary_zh": "正确选项：Free secondary education in England and Wales。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "the Butler Act",
+          "1944"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did ’the Butler Act’ introduce in 1944?”及正确答案“Free secondary education in England and Wales”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "An informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer"
+        },
+        {
+          "id": "r1",
+          "text": "A procedure that helps people to make small home insurance claims in certain circumstances"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-22.what-is-the-small-claims-procedure.m4a",
+      "question": "What is the small claims procedure?",
+      "explanation": "The small claims procedure is an informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer.",
+      "id": "exam-09-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "An informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The small claims procedure is an informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer.",
+        "why_correct_zh": "小额索赔程序是一种非正式的方式，可以帮助人们解决小额纠纷，而无需花费大量时间和金钱聘请律师。",
+        "answer_summary_zh": "正确选项：An informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "small claims procedure"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the small claims procedure?”及正确答案“An informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Crystal Palace"
+        },
+        {
+          "id": "r1",
+          "text": "Buckingham Palace"
+        },
+        {
+          "id": "r2",
+          "text": "Kensington Palace"
+        },
+        {
+          "id": "r3",
+          "text": "Apsley House"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-23.what-building-was-constructed-in-hyde-park-to-hold-great-exhibition-crystla-palace.m4a",
+      "question": "What building was constructed in Hyde Park to hold the Great Exhibition of 1851?",
+      "explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass. Exhibits ranged from huge machines to handmade goods.",
+      "id": "exam-09-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Crystal Palace"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass. Exhibits ranged from huge machines to handmade goods.",
+        "why_correct_zh": "1851年，世界博览会在海德公园的水晶宫开幕，水晶宫是一座由钢铁和玻璃制成的巨大建筑。展品范围从大型机器到手工制品。",
+        "answer_summary_zh": "正确选项：The Crystal Palace。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Hyde Park",
+          "Great Exhibition of",
+          "1851"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What building was constructed in Hyde Park to hold the Great Exhibition of 1851?”及正确答案“The Crystal Palace”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "An economist"
+        },
+        {
+          "id": "r1",
+          "text": "A painter"
+        },
+        {
+          "id": "r2",
+          "text": "A nurse"
+        },
+        {
+          "id": "r3",
+          "text": "A poet"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT9/BCT9.Q-24.who-was-florence-nightingale-nurse.m4a",
+      "question": "Who was Florence Nightingale?",
+      "explanation": "Florence Nightingale was a nurse. She is often regarded as the founder of modern nursing.",
+      "id": "exam-09-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "A nurse"
+      ],
+      "exam_number": 9,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-9/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Florence Nightingale was a nurse. She is often regarded as the founder of modern nursing.",
+        "why_correct_zh": "弗洛伦斯·南丁格尔是一名护士。她通常被认为是现代护理的创始人。",
+        "answer_summary_zh": "正确选项：A nurse。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Florence Nightingale"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-09-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was Florence Nightingale?”及正确答案“A nurse”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

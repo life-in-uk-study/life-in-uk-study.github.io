@@ -1,0 +1,1714 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 3,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "cardiff-capital": {
+      "title": "Capital of Principality (Cardiff)",
+      "publisher": "UK Parliament — Hansard",
+      "url": "https://hansard.parliament.uk/Commons/1955-12-20/debates/f75e8a8b-79d6-42d2-96be-80f271ffe0b1/CapitalOfPrincipality%28Cardiff%29",
+      "authority": "official_parliamentary_record",
+      "note_zh": "1955年12月20日的Hansard记录英国政府正式承认Cardiff为Wales首都的答复。"
+    },
+    "church-in-wales-centenary": {
+      "title": "100 years serving Wales",
+      "publisher": "Church in Wales",
+      "url": "https://www.churchinwales.org.uk/en/news-and-events/100-years-serving-wales/",
+      "authority": "national_church",
+      "note_zh": "Church in Wales说明其于1920年正式脱离国教地位并成为独立教省。"
+    },
+    "eryri-visit": {
+      "title": "Visit Eryri",
+      "publisher": "Eryri National Park Authority",
+      "url": "https://www.eryri.llyw.cymru/visit/",
+      "authority": "national_park_authority",
+      "note_zh": "Eryri国家公园管理局说明该公园位于Wales，并介绍Yr Wyddfa与Llyn Tegid。"
+    },
+    "focus-suffragette-pankhurst": {
+      "title": "Celebrating International Women's Day: Three Heroes",
+      "publisher": "Focus Features",
+      "url": "https://www.focusfeatures.com/article/celebrating_international-womens-day_3-heroes",
+      "authority": "official_film_studio",
+      "note_zh": "电影发行方介绍Meryl Streep饰演Emmeline Pankhurst、角色短暂的阳台演说场景，以及台词由多篇真实演讲组合而成。"
+    },
+    "govuk-british-values": {
+      "title": "Guidance on promoting British values in schools published",
+      "publisher": "Department for Education",
+      "url": "https://www.gov.uk/government/news/guidance-on-promoting-british-values-in-schools-published",
+      "authority": "official_government",
+      "note_zh": "英国政府列出democracy、rule of law、individual liberty以及mutual respect and tolerance等基本价值。"
+    },
+    "govuk-contact-police": {
+      "title": "Contact the police",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/contact-police",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明紧急情况拨999、非紧急情况拨101及反恐信息举报方式。"
+    },
+    "govuk-maintained-governance-guide": {
+      "title": "Maintained schools governance guide",
+      "publisher": "Department for Education",
+      "url": "https://www.gov.uk/government/publications/maintained-schools-governance-guide/maintained-schools-governance-guide",
+      "authority": "official_government",
+      "note_zh": "教育部列出maintained school治理委员会在战略、校长问责和财务监督方面的三项核心职能。"
+    },
+    "govuk-ncs-about": {
+      "title": "National Citizen Service — About us",
+      "publisher": "National Citizen Service",
+      "url": "https://www.gov.uk/government/organisations/national-citizen-service/about",
+      "authority": "official_government",
+      "note_zh": "官方页面说明NCS曾是England的自愿青年项目，并于2025年3月31日结束。"
+    },
+    "hrp-yeoman-warders": {
+      "title": "Yeoman Warders at the Tower of London",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/yeoman-warders-at-the-tower-of-london/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Royal Palaces介绍Yeoman Warders的Tudor起源、现代职责、军旅资历及Beefeater昵称。"
+    },
+    "iwm-poland-1939": {
+      "title": "Second World War Galleries large print guide",
+      "publisher": "Imperial War Museums",
+      "url": "https://www.iwm.org.uk/sites/default/files/files/2023-10/second_world_war_galleries_large_print.pdf",
+      "authority": "national_museum",
+      "note_zh": "Imperial War Museums说明1939年Germany与Soviet Union从两面入侵Poland，以及Britain和France对Germany宣战。"
+    },
+    "lake-district-faq": {
+      "title": "Visitor frequently asked questions",
+      "publisher": "Lake District National Park Authority",
+      "url": "https://lakedistrict.gov.uk/explore/visitor-facilities/frequently-asked-questions/",
+      "authority": "national_park_authority",
+      "note_zh": "Lake District国家公园管理局确认其为England最大国家公园及UNESCO遗产，并拥有England最高峰和最深湖。"
+    },
+    "london-museum-black-death": {
+      "title": "The Great Pestilence in London",
+      "publisher": "London Museum",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/",
+      "authority": "public_museum",
+      "note_zh": "London Museum介绍Black Death于1348年抵达、Yersinia pestis病因、死亡规模及劳动力和工资变化。"
+    },
+    "mcb-ramadan-guide": {
+      "title": "Ramadan Guide",
+      "publisher": "Muslim Council of Britain",
+      "url": "https://www.mcb.org.uk/wp-content/uploads/2023/03/MCB-Ramadan-Guide-2023-Updated-23-MAR-SV1-1.pdf",
+      "authority": "national_faith_body",
+      "note_zh": "Muslim Council of Britain介绍Eid al-Fitr在Ramadan结束后举行、月相日期、Eid prayer、Zakat al-Fitr及家庭庆祝。"
+    },
+    "nasa-tu144-history": {
+      "title": "Tu-144 Development History",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/09/120315main_fs-062-dfrc.pdf",
+      "authority": "official_space_agency",
+      "note_zh": "NASA说明Tu-144与Concorde均进入生产和商业服务，Tu-144于1977年开始载客并于1978年停止。"
+    },
+    "national-archives-american-revolution": {
+      "title": "The causes of the American Revolution",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-topic/democracy-and-protest/causes-of-the-american-revolution/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆解释Seven Years War债务、Stamp Act、taxation without representation及1776年独立。"
+    },
+    "national-archives-jarrow": {
+      "title": "Jarrow Crusade",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/thirties-britain/jarrow-crusade/",
+      "authority": "official_archive",
+      "note_zh": "国家档案记录Palmer's Shipyard于1931年关闭及1936年Jarrow失业者向London请愿。"
+    },
+    "national-archives-thirties": {
+      "title": "Thirties Britain",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/thirties-britain/?show=all",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明1929年后shipbuilding等传统重工业衰退以及1932年失业高峰。"
+    },
+    "nts-scotland-history": {
+      "title": "The history of Scotland",
+      "publisher": "National Trust for Scotland",
+      "url": "https://www.nts.org.uk/schools/adult-learning/the-history-of-scotland",
+      "authority": "national_heritage_charity",
+      "note_zh": "National Trust for Scotland介绍Bonnie Prince Charlie在1745年抵达Scotland发动起义及1746年Culloden失败。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "official-london-theatre-centenary": {
+      "title": "Celebrate 100 years of London’s Theatreland",
+      "publisher": "Society of London Theatre",
+      "url": "https://officiallondontheatre.com/news/celebrate-100-years-of-londons-theatreland-72513/",
+      "authority": "official_theatre_industry_body",
+      "note_zh": "Society of London Theatre介绍West End Theatreland及1908年行业组织成立的历史。"
+    },
+    "parliament-reformation": {
+      "title": "The Reformation",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/religion/overview/reformation/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明教皇反对Henry VIII与Catherine of Aragon离婚，以及1534年Act of Supremacy确立国王的教会领导地位。"
+    },
+    "parliament-suffragette-start": {
+      "title": "Start of the suffragette movement",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍Emmeline Pankhurst于1903年参与创建WSPU、“Deeds not words”口号、监禁和绝食抗议。"
+    },
+    "rcsed-joseph-bell": {
+      "title": "Joseph Bell",
+      "publisher": "Royal College of Surgeons of Edinburgh",
+      "url": "https://archiveandlibrary.rcsed.ac.uk/surgeon/3769275-joseph-bell",
+      "authority": "royal_professional_college_archive",
+      "note_zh": "RCSEd档案介绍Doyle的医学老师Joseph Bell及其观察推理能力如何成为Sherlock Holmes的重要原型。"
+    },
+    "royal-armouries-hundred-years-war": {
+      "title": "The Hundred Years War 1337–1453",
+      "publisher": "Royal Armouries",
+      "url": "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+      "authority": "national_museum",
+      "note_zh": "Royal Armouries梳理Hundred Years War的时间、王位与领土争端、Agincourt和Joan of Arc等关键事件。"
+    },
+    "science-museum-concorde": {
+      "title": "1970s: Concorde",
+      "publisher": "Science Museum",
+      "url": "https://blog.sciencemuseum.org.uk/1970s-concorde/",
+      "authority": "national_museum",
+      "note_zh": "Science Museum说明Britain与France于1962年合作研制Concorde、Mach 2速度、1976年服役及2003年退役。"
+    },
+    "st-davids-cathedral-who": {
+      "title": "Who is St David?",
+      "publisher": "St Davids Cathedral",
+      "url": "https://www.stdavidscathedral.org.uk/cy/node/126",
+      "authority": "cathedral_history",
+      "note_zh": "St Davids Cathedral介绍Dewi Sant的6世纪生平、修道团体、讲道传说及“do the little things”传统。"
+    },
+    "visitscotland-hogmanay": {
+      "title": "Hogmanay in Scotland",
+      "publisher": "VisitScotland",
+      "url": "https://www.visitscotland.com/things-to-do/events/christmas-winter-festivals/hogmanay",
+      "authority": "official_tourism_body",
+      "note_zh": "苏格兰官方旅游资料介绍Hogmanay、first-footing、Auld Lang Syne及其冬季节庆背景。"
+    },
+    "world-athletics-bannister": {
+      "title": "Bannister, first man to run a sub-four-minute mile",
+      "publisher": "World Athletics",
+      "url": "https://worldathletics.org/news/IAAF-news/roger-bannister-obituary",
+      "authority": "international_sports_governing_body",
+      "note_zh": "World Athletics记录Bannister于1954年5月6日跑出3:59.4、两位领跑员、医学学习及其后神经学事业。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "76",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Communism"
+        },
+        {
+          "id": "r1",
+          "text": "Intolerance"
+        },
+        {
+          "id": "r2",
+          "text": "Individual liberty"
+        },
+        {
+          "id": "r3",
+          "text": "Inequity"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.1.fundamental-principle-of-british-life-individual-liberty.m4a",
+      "question": "Which of the following is a fundamental principle of British life?",
+      "explanation": "Individual liberty is the correct answer.",
+      "id": "exam-03-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Individual liberty"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "1.2 The values and principles of the UK",
+      "handbook_locator": "Chapter 1: The values and principles of the UK",
+      "learning": {
+        "why_correct_en": "Individual liberty is a fundamental British value: people may make choices, express views and hold beliefs within the law. It is balanced by the rule of law and respect for other people's equal rights. The four groups to remember are democracy, the rule of law, individual liberty, and mutual respect and tolerance.",
+        "why_correct_zh": "Individual liberty是正确答案，指个人可在法律范围内选择生活方式、表达意见和持有信仰。它不是“想做什么都可以”：个人自由同时受rule of law约束，也必须尊重他人的同等权利。\n\n考试可把英国基本价值记成四组：democracy、rule of law、individual liberty，以及mutual respect and tolerance。",
+        "answer_summary_zh": "正确选项：Individual liberty。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "British"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-british-values"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is a fundamental principle of British life?”及正确答案“Individual liberty”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-british-values"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.2.Wales-does-not-have-its-own-established-church.m4a",
+      "question": "Wales has its own established church.",
+      "explanation": "False. There is no established Church in Wales or Northern Ireland.",
+      "id": "exam-03-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "False. Wales has no established church. The Church in Wales is Anglican, but it was disestablished in 1920 and is now an independent, self-governing province. By contrast, the Church of England remains established in England.",
+        "why_correct_zh": "答案是False。Wales没有established church。Church in Wales虽属于Anglican传统，却在1920年正式脱离国教地位，成为独立自治的教省。\n\n对比记忆：Church of England在England具有国教地位；Wales和Northern Ireland没有国教。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Wales"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "church-in-wales-centenary"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Wales has its own established church.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "church-in-wales-centenary"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Vaisakhi"
+        },
+        {
+          "id": "r1",
+          "text": "Hannukah"
+        },
+        {
+          "id": "r2",
+          "text": "Diwali"
+        },
+        {
+          "id": "r3",
+          "text": "Hogmanay"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.3.How-is-new-years-eve-called-in-Scotland-hogmanay-day.m4a",
+      "question": "How is New Year’s Eve called in Scotland?",
+      "explanation": "In Scotland, the 31st of December (New Year’s Eve) is called Hogmanay.",
+      "id": "exam-03-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Hogmanay"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Hogmanay is the Scottish name for New Year's Eve and its celebrations. Traditions include singing Auld Lang Syne at midnight and first-footing, when the first person to enter a home after midnight is thought to bring luck. Its origins are uncertain and combine older midwinter customs with later Scottish traditions.",
+        "why_correct_zh": "Hogmanay是Scotland对12月31日除夕及新年庆祝活动的称呼。常见传统包括午夜唱Auld Lang Syne，以及first-footing——新年后第一个跨进家门的人被认为会带来好运。\n\n名称来源没有定论；庆祝传统融合了冬至、Viking时期年中节庆和后来的苏格兰习俗。",
+        "answer_summary_zh": "正确选项：Hogmanay。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "New Year’s Eve",
+          "Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "visitscotland-hogmanay"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How is New Year’s Eve called in Scotland?”及正确答案“Hogmanay”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "visitscotland-hogmanay"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Because the Pope didn’t let him divorce his first wife, Catherine of Aragon"
+        },
+        {
+          "id": "r1",
+          "text": "Because the Pope didn’t let him marry Catherine Howard"
+        },
+        {
+          "id": "r2",
+          "text": "Because the Pope wanted England to be a Catholic country"
+        },
+        {
+          "id": "r3",
+          "text": "Because the Pope didn’t let him divorce his wife, Anne of Cleves"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.4.henry-church-england.m4a",
+      "question": "Why did Henry VIII establish the church of England?",
+      "explanation": "To divorce his first wife, Henry needed the approval of the Pope. When the Pope refused, Henry established the church of England.",
+      "id": "exam-03-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Because the Pope didn’t let him divorce his first wife, Catherine of Aragon"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Henry VIII wanted to end his marriage to Catherine of Aragon, but the Pope opposed it. England then broke with Rome through Acts of Parliament; the 1534 Act of Supremacy made the king head of the English Church. Henry still retained many traditional Catholic beliefs, so the break was not an immediate acceptance of every Protestant doctrine.",
+        "why_correct_zh": "Henry VIII希望结束与Catherine of Aragon的婚姻，但Pope反对。此后英格兰通过一系列法律与Rome决裂；1534年的Act of Supremacy宣布国王取代教皇，成为English Church的最高领袖。\n\n这次决裂起因与婚姻及王位继承密切相关，并不表示Henry立即接受全部Protestant教义；他仍保留许多传统天主教信仰。",
+        "answer_summary_zh": "正确选项：Because the Pope didn’t let him divorce his first wife, Catherine of Aragon。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Henry VIII",
+          "church of England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-reformation"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Why did Henry VIII establish the church of England?”及正确答案“Because the Pope didn’t let him divorce his first wife, Catherine of Aragon”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-reformation"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Crimean War"
+        },
+        {
+          "id": "r1",
+          "text": "The First World War"
+        },
+        {
+          "id": "r2",
+          "text": "The Hundred Years War"
+        },
+        {
+          "id": "r3",
+          "text": "The Boer War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.5.What-is-the-name-of-the-long-war-that-english-kings-fought-with-France-in-the-middle-ages-the-hundred-years-war.m4a",
+      "question": "What is the name of the long war that English kings fought with France in the middle ages?",
+      "explanation": "English kings fought a long war with France, called the Hundred Years War (even though it actually lasted 116 years).",
+      "id": "exam-03-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Hundred Years War"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Hundred Years War is the name given to a series of conflicts between the English and French crowns from 1337 to 1453 over claims to the French throne and control of territory. It included truces, so it was not 100 years of continuous fighting; its conventional span is about 116 years.",
+        "why_correct_zh": "答案是Hundred Years War，通常以1337至1453年计算。它不是连续打了100年，而是England与France王室围绕法国王位继承和领地控制进行的一连串战争，中间多次停战，所以实际跨度约116年。\n\n常见记忆点包括Henry V在Agincourt获胜，以及Joan of Arc帮助France扭转战局。战争结束时，England失去几乎全部法国领地。",
+        "answer_summary_zh": "正确选项：The Hundred Years War。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "English",
+          "France",
+          "middle ages"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "royal-armouries-hundred-years-war"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the long war that English kings fought with France in the middle ages?”及正确答案“The Hundred Years War”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "royal-armouries-hundred-years-war"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Bonnie Prince Charlie"
+        },
+        {
+          "id": "r1",
+          "text": "Robert Burns"
+        },
+        {
+          "id": "r2",
+          "text": "Oliver Cromwell"
+        },
+        {
+          "id": "r3",
+          "text": "Kenneth MacAlpin"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.6.Who-was-supported-by-clansmen-from-the-scottish-highlands-and-raised-and-army-in-1745-bonnie-prince-charlie.m4a",
+      "question": "Who was supported by clansmen from the Scottish highlands and raised and army in 1745?",
+      "explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I’s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised and army.",
+      "id": "exam-03-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Bonnie Prince Charlie"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Bonnie Prince Charlie was Charles Edward Stuart. In 1745 he arrived in Scotland and, supported by some Highland clans, led a Jacobite rising to restore the Stuart dynasty. His army reached Derby before retreating and was defeated at Culloden in 1746; his escape later became part of romantic legend.",
+        "why_correct_zh": "Bonnie Prince Charlie即Charles Edward Stuart。1745年他抵达Scotland，在部分Highland clans支持下发动Jacobite Rising，试图恢复Stuart王朝。军队一度南下至Derby，后来撤退。\n\n1746年Jacobite军在Battle of Culloden惨败，起义结束；Charlie随后逃离Scotland。他的逃亡后来被浪漫化为歌曲和传说，因此“Bonnie Prince Charlie”成为广为人知的称号。",
+        "answer_summary_zh": "正确选项：Bonnie Prince Charlie。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scottish",
+          "1745"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "nts-scotland-history"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was supported by clansmen from the Scottish highlands and raised and army in 1745?”及正确答案“Bonnie Prince Charlie”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "nts-scotland-history"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Home Office"
+        },
+        {
+          "id": "r1",
+          "text": "Your local police force"
+        },
+        {
+          "id": "r2",
+          "text": "Your local MP"
+        },
+        {
+          "id": "r3",
+          "text": "Your family"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.7.If-you-think-someone-is-trying-to-persuade-you-to-join-an-extremist-or-terrorist-activity-who-should-you-contact.m4a",
+      "question": "If you think someone is trying to persuade you to join an extremist or terrorist activity, who should you contact?",
+      "explanation": "If you think someone is trying to persuade you to join an extremist or terrorist cause, you should notify your local police force.",
+      "id": "exam-03-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Your local police force"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Contact the local police because attempts to draw someone into extremism or terrorism may present a serious safety risk and should be handled by trained authorities. Call 999 if there is immediate danger, use 101 for a non-emergency, or use the police counter-terrorism reporting service for relevant information.",
+        "why_correct_zh": "应联系local police，因为劝诱他人参与extremism或terrorism可能涉及严重安全风险，应由受过训练的警方处理，不要自行调查或对质。\n\n如有即时危险，应拨999；非紧急情况可拨101。若掌握可能与恐怖主义有关的信息，也可使用英国警方的反恐举报渠道。",
+        "answer_summary_zh": "正确选项：Your local police force。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "If"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-contact-police"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“If you think someone is trying to persuade you to join an extremist or terrorist activity, who should you contact?”及正确答案“Your local police force”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-contact-police"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.8.It-is-compulsory-for-16-and-17-year-olds-to-join-the-national-citizen-service-programme.m4a",
+      "question": "It is compulsory for 16 and 17-year-olds to join the National Citizen Service programme.",
+      "explanation": "False. The National Citizen Service programme, which gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project. Therefore, it is optional.",
+      "id": "exam-03-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. NCS was never compulsory: it was a voluntary programme in England for young people, with activities intended to build skills and community participation. The programme ended on 31 March 2025, so this question now describes a historical programme; the tested point is that participation was voluntary.",
+        "why_correct_zh": "答案是False。NCS从来不是16至17岁青少年必须参加的义务项目；它曾是England的一项自愿青年计划，通过户外活动、技能训练和社区项目鼓励社会参与。\n\n时效提示：National Citizen Service项目已于2025年3月31日结束。题目考查的是教材所述历史项目及“voluntary”这一关键点，不应理解为当前仍可报名。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "It",
+          "16",
+          "17"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-ncs-about"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“It is compulsory for 16 and 17-year-olds to join the National Citizen Service programme.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-ncs-about"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Knights"
+        },
+        {
+          "id": "r1",
+          "text": "Chartists"
+        },
+        {
+          "id": "r2",
+          "text": "Suffragettes"
+        },
+        {
+          "id": "r3",
+          "text": "Beefeaters"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.9.What-is-the-name-of-the-tour-guides-that-tell-visitors-stories-about-the-Tower-of-Londons-history.m4a",
+      "question": "What is the name of the tour guides that tell visitors stories about the Tower of London’s history?",
+      "explanation": "Tours are given at the Tower of London by the Yeoman Warders, also known as Beefeaters, who tell visitors about the building’s history.",
+      "id": "exam-03-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Beefeaters"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Beefeaters is the familiar name for the Yeoman Warders of the Tower of London. Their tradition developed from Tudor royal guards; today they perform ceremonial and security duties and lead tours. Modern Yeoman Warders normally have at least 22 years of military service. The origin of the nickname is uncertain.",
+        "why_correct_zh": "答案是Beefeaters，其正式名称为Yeoman Warders。他们源自Tudor时期的王室护卫传统，如今在Tower of London负责仪式、安全和导览，并向游客讲解城堡历史。\n\n现任Yeoman Warders通常须有至少22年军旅服务。“Beefeater”昵称的确切来源没有定论，常见解释与他们过去享有的牛肉口粮或待遇有关。",
+        "answer_summary_zh": "正确选项：Beefeaters。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Tower of London’s"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "hrp-yeoman-warders"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the tour guides that tell visitors stories about the Tower of London’s history?”及正确答案“Beefeaters”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "hrp-yeoman-warders"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Italy"
+        },
+        {
+          "id": "r1",
+          "text": "Britain"
+        },
+        {
+          "id": "r2",
+          "text": "Germany"
+        },
+        {
+          "id": "r3",
+          "text": "France"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.10.Which-two-countries-developed-the-Concorde-the-worlds-only-supersonic-commercial-airliner.m4a",
+      "question": "Which two countries developed the Concorde, the world’s only supersonic commercial airliner?",
+      "explanation": "Britain and France developed the world’s only supersonic commercial airliner, Concorde.",
+      "id": "exam-03-q10",
+      "number": 10,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r3"
+      ],
+      "correct_answers": [
+        "Britain",
+        "France"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Concorde was a joint British-French project established by a 1962 agreement. It entered regular service in 1976, flew at about Mach 2 and crossed the Atlantic in roughly 3 hours 50 minutes before retirement in 2003. The question's claim that it was the world's only commercial supersonic aircraft is imprecise: the Soviet Tu-144 also carried passengers briefly in 1977-78. Britain and France remain the correct answer because they developed Concorde.",
+        "why_correct_zh": "Concorde由Britain和France联合研制；两国政府于1962年签署协议，共同分担技术与成本。它以约Mach 2飞行，1976年投入定期服务，跨越Atlantic约需3小时50分钟，2003年退役。\n\n事实边界：题干称它是“世界唯一”的超音速商用客机并不严谨。苏联Tu-144也曾在1977至1978年短暂载客。考试答案仍是Britain和France，因为问题要识别Concorde的研制国。",
+        "answer_summary_zh": "正确选项：Britain；France。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Concorde"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "science-museum-concorde",
+        "nasa-tu144-history"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two countries developed the Concorde, the world’s only supersonic commercial airliner?”及正确答案“Britain；France”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "science-museum-concorde",
+          "nasa-tu144-history"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "Wales"
+        },
+        {
+          "id": "r2",
+          "text": "England"
+        },
+        {
+          "id": "r3",
+          "text": "Northern Ireland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.11.Where-is-snowdonia-located.m4a",
+      "question": "Where is Snowdonia located?",
+      "explanation": "Snowdonia is in Wales.",
+      "id": "exam-03-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Wales"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Snowdonia is in Wales. The national park now officially uses its Welsh name, Eryri, and Snowdon is officially Yr Wyddfa. Yr Wyddfa is the highest mountain in Wales, while Eryri also contains Wales's largest natural lake, Llyn Tegid.",
+        "why_correct_zh": "Snowdonia位于Wales。国家公园现在正式使用Welsh名称Eryri，其最高峰Snowdon也正式称Yr Wyddfa；Yr Wyddfa是Wales最高峰。\n\nEryri不仅有高山，也拥有Wales最大的天然湖Llyn Tegid。记忆时可把“Snowdonia / Eryri—Snowdon / Yr Wyddfa—Wales”作为一组对应关系。",
+        "answer_summary_zh": "正确选项：Wales。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Snowdonia"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "eryri-visit"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is Snowdonia located?”及正确答案“Wales”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "eryri-visit"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Evelyn Waugh"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Kingsley Amis"
+        },
+        {
+          "id": "r2",
+          "text": "Graham Greene"
+        },
+        {
+          "id": "r3",
+          "text": "Sir Arthur Conan Doyle"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.12.Who-wrote-sherlock-holmes-sir-arthur-conan-doyle.m4a",
+      "question": "Who wrote Sherlock Holmes?",
+      "explanation": "Sir Arthur Conan Doyle is the author of Sherlock Holmes.",
+      "id": "exam-03-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Sir Arthur Conan Doyle"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Sir Arthur Conan Doyle created Sherlock Holmes. Doyle studied medicine at the University of Edinburgh, where surgeon Joseph Bell was known for making deductions from small observational details. Doyle later acknowledged Bell as an important model for Holmes in an 1892 letter.",
+        "why_correct_zh": "Sir Arthur Conan Doyle创作了侦探Sherlock Holmes。Doyle本人学过医学；他在University of Edinburgh学习时的外科老师Joseph Bell以观察细致、能从细节推断病人背景著称，后来成为Holmes的重要原型。\n\nDoyle在1892年的信中明确告诉Bell，自己把Sherlock Holmes的分析能力归功于他。",
+        "answer_summary_zh": "正确选项：Sir Arthur Conan Doyle。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Sherlock Holmes"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "rcsed-joseph-bell"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who wrote Sherlock Holmes?”及正确答案“Sir Arthur Conan Doyle”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "rcsed-joseph-bell"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Austria"
+        },
+        {
+          "id": "r1",
+          "text": "Italy"
+        },
+        {
+          "id": "r2",
+          "text": "Russia"
+        },
+        {
+          "id": "r3",
+          "text": "Poland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.13.Which-country-was-invaded-by-germany-in-1939.m4a",
+      "question": "Which country was invaded by Germany in 1939?",
+      "explanation": "Germany invaded Poland in 1939.",
+      "id": "exam-03-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Poland"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Germany invaded Poland on 1 September 1939. Britain and France declared war on Germany two days later, making the invasion the immediate trigger for the Second World War in Europe. The Soviet Union then invaded Poland from the east, and Poland was overwhelmed in less than five weeks.",
+        "why_correct_zh": "Germany于1939年9月1日入侵Poland。Britain和France两天后，即9月3日对Germany宣战，因此这次入侵通常被视为Second World War在Europe爆发的直接导火索。\n\n随后Soviet Union也从东部进入Poland；不到五周，Poland被两面进攻的军队击败。考试只问Germany首先入侵的国家，答案是Poland。",
+        "answer_summary_zh": "正确选项：Poland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Germany",
+          "1939"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "iwm-poland-1939"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which country was invaded by Germany in 1939?”及正确答案“Poland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "iwm-poland-1939"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St David"
+        },
+        {
+          "id": "r1",
+          "text": "St George"
+        },
+        {
+          "id": "r2",
+          "text": "St Patrick"
+        },
+        {
+          "id": "r3",
+          "text": "St Andrew"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.14.Who-is-the-patron-saint-of-wales-st-david.m4a",
+      "question": "Who is the patron Saint of Wales?",
+      "explanation": "The patron Saint of Wales is St David.",
+      "id": "exam-03-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "St David"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "St David, or Dewi Sant, is the patron saint of Wales. He was a sixth-century Welsh monk and church leader who founded a monastic community near today's St Davids. A famous legend says the ground rose beneath him while he preached; his remembered teaching to 'do the little things' remains closely associated with Welsh identity.",
+        "why_correct_zh": "Wales的守护神是St David，Welsh称Dewi Sant。他是6世纪的Welsh修士和宗教领袖，在今日St Davids一带建立修道团体，并在Wales传播基督教。\n\n关于他最著名的传说是讲道时脚下土地升高，使人群都能看见和听见他。他被传为最后教导追随者“do the little things”，这句话至今仍与Welsh身份和St David's Day相连。",
+        "answer_summary_zh": "正确选项：St David。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "patron Saint"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "st-davids-cathedral-who"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who is the patron Saint of Wales?”及正确答案“St David”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "st-davids-cathedral-who"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r1",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.15.Lake-district-is-the-largest-national-park-of-england.m4a",
+      "question": "Lake District is the largest national park of England.",
+      "explanation": "This statement is true.",
+      "id": "exam-03-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "True. The Lake District in north-west England is England's largest National Park and a UNESCO World Heritage Site. It contains England's highest mountain, Scafell Pike, and deepest lake, Wast Water. The wording is limited to England, not all parts of the UK.",
+        "why_correct_zh": "答案是True。Lake District位于England西北部，是England面积最大的National Park，也是UNESCO World Heritage Site；这里有England最高峰Scafell Pike和最深湖Wast Water。\n\n有趣的是，区内许多水域名为mere、water或tarn；名称中真正带“Lake”的只有Bassenthwaite Lake。题目限定England，不要与Wales或Scotland的国家公园比较。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Lake District",
+          "national park",
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "lake-district-faq"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Lake District is the largest national park of England.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "lake-district-faq"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Soho"
+        },
+        {
+          "id": "r1",
+          "text": "Theatreland"
+        },
+        {
+          "id": "r2",
+          "text": "Westminster"
+        },
+        {
+          "id": "r3",
+          "text": "Hyde Park"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.16.What-is-the-name-of-the-area-in-London-where-famous-theatres-are-located-theatreland.m4a",
+      "question": "What is the name of the area in London where famous theatres are located?",
+      "explanation": "London’s west end, also known as ‘Theatreland’, is particularly well known for its theatres.",
+      "id": "exam-03-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Theatreland"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Theatreland is the familiar name for the concentration of commercial theatres in London's West End, particularly around Shaftesbury Avenue, Covent Garden and Leicester Square. It is not a borough with a fixed administrative boundary. The Society of West End Theatre was founded in 1908 and helped establish Theatreland's modern industry identity.",
+        "why_correct_zh": "答案是Theatreland，通常指London West End密集分布商业剧院的区域，主要围绕Shaftesbury Avenue、Covent Garden和Leicester Square一带。它不是有严格行政边界的borough。\n\n“West End theatre”常被拿来与New York的Broadway类比。London自17世纪已有West End剧院；1908年成立的Society of West End Theatre帮助Theatreland形成今天的行业身份。",
+        "answer_summary_zh": "正确选项：Theatreland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "London"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "official-london-theatre-centenary"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the area in London where famous theatres are located?”及正确答案“Theatreland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "official-london-theatre-centenary"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Monitoring student’s behaviour"
+        },
+        {
+          "id": "r1",
+          "text": "Monitoring and evaluating school performance"
+        },
+        {
+          "id": "r2",
+          "text": "Setting the strategic direction of the school"
+        },
+        {
+          "id": "r3",
+          "text": "Giving awards to the best students of the school"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.17.Which-two-of-the-following-are-key-roles-of-school-governors.m4a",
+      "question": "Which two of the following are key roles of school governors?",
+      "explanation": "Governors and school boards have an important part to play in raising school standards. They have three key roles: setting the strategic direction of the school, ensuring accountability and monitoring and evaluating school performance.",
+      "id": "exam-03-q17",
+      "number": 17,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r2"
+      ],
+      "correct_answers": [
+        "Monitoring and evaluating school performance",
+        "Setting the strategic direction of the school"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The correct roles are setting the school's strategic direction and monitoring and evaluating performance. Governors provide vision, accountability and financial oversight; they do not run lessons or manage everyday staffing. For maintained schools, the three core functions cover strategy, holding the headteacher to account, and overseeing financial performance.",
+        "why_correct_zh": "正确答案是设定学校战略方向，以及监督和评估学校表现。School governors是学校治理成员，负责愿景、战略、问责和资源监督，而不是管理每天的课堂与人员安排。\n\n在maintained schools，治理委员会的三项核心职能是：确定愿景、文化和战略方向；监督headteacher及学校表现；监督财务表现，确保资金使用得当。",
+        "answer_summary_zh": "正确选项：Monitoring and evaluating school performance；Setting the strategic direction of the school。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "governors"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-maintained-governance-guide"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of the following are key roles of school governors?”及正确答案“Monitoring and evaluating school performance；Setting the strategic direction of the school”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-maintained-governance-guide"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The British government wanted to control their borders"
+        },
+        {
+          "id": "r1",
+          "text": "They were running out of resources"
+        },
+        {
+          "id": "r2",
+          "text": "The British government wanted to tax them"
+        },
+        {
+          "id": "r3",
+          "text": "There were not enough jobs for the local people"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.18.What-led-the-american-colonies-to-want-their-independence-from-britain.m4a",
+      "question": "What led the American colonies to want their independence from Britain?",
+      "explanation": "The British government wanted to tax the colonies.",
+      "id": "exam-03-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The British government wanted to tax them"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The British government wanted the American colonies to contribute taxes after the Seven Years War. Colonists objected because they had no elected representatives in the British Parliament, producing the slogan 'No taxation without representation'. The Stamp Act, tea duties and the 1773 Boston Tea Party helped drive the colonies towards the 1776 Declaration of Independence.",
+        "why_correct_zh": "British government希望American colonies为Seven Years War后的国防和帝国开支缴税。殖民者反对由Westminster直接征税，因为他们没有选出代表进入British Parliament，于是形成“No taxation without representation”的口号。\n\n1765年的Stamp Act和茶税不断激化冲突；1773年Boston Tea Party成为关键抗议事件，十三殖民地最终于1776年宣布独立。",
+        "answer_summary_zh": "正确选项：The British government wanted to tax them。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "American",
+          "Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-american-revolution"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What led the American colonies to want their independence from Britain?”及正确答案“The British government wanted to tax them”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-american-revolution"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Golden Age"
+        },
+        {
+          "id": "r1",
+          "text": "The Stone Age"
+        },
+        {
+          "id": "r2",
+          "text": "The Middle Ages"
+        },
+        {
+          "id": "r3",
+          "text": "The Iron Age"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.19.When-did-the-black-death-take-place.m4a",
+      "question": "When did the Black Death take place?",
+      "explanation": "In 1348 (Middle Ages) the Black Death came to Britain.",
+      "id": "exam-03-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Middle Ages"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Black Death reached Britain in 1348, during the Middle Ages. It was plague caused by Yersinia pestis; people at the time did not know the cause or have effective treatment. More than half of London's population may have died, and the resulting labour shortage increased surviving workers' bargaining power and wages.",
+        "why_correct_zh": "Black Death在1348年抵达Britain，属于Middle Ages。它是由Yersinia pestis细菌引起的瘟疫；当时人们不知道病因，也缺乏有效治疗。London在1348至1352年间可能有超过一半人口死亡。\n\n大量死亡造成劳动力短缺，幸存工人能要求更高工资并选择雇主，改变了中世纪社会的权力关系。政府后来试图限制工资，这也加深了社会冲突。",
+        "answer_summary_zh": "正确选项：The Middle Ages。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Black Death"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "london-museum-black-death"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did the Black Death take place?”及正确答案“The Middle Ages”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "london-museum-black-death"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Queen Victoria"
+        },
+        {
+          "id": "r1",
+          "text": "Oliver Cromwell"
+        },
+        {
+          "id": "r2",
+          "text": "Florence Nightingale"
+        },
+        {
+          "id": "r3",
+          "text": "Emmeline Pankhurst"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.20.leader-of-the-suffragettes-the-group-that-campaigned-for-womens-rights-to-vote-emmeline-pankhurst.m4a",
+      "question": "Who was the leader of the suffragettes, the group that campaigned for women’s rights to vote?",
+      "explanation": "Emmeline Pankhurst was the leader of the suffragettes.",
+      "id": "exam-03-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Emmeline Pankhurst"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Emmeline Pankhurst was one of the best-known leaders of the suffragette movement. In 1903 she and others founded the Women's Social and Political Union in Manchester with the motto 'Deeds not words'. She was repeatedly imprisoned and joined hunger strikes while campaigning for women's voting rights.",
+        "why_correct_zh": "Emmeline Pankhurst是suffragette运动最著名的领导人之一。1903年，她与其他人在Manchester成立Women's Social and Political Union，口号是“Deeds not words”，主张以更直接、有时激进的行动争取女性投票权。\n\n她多次被捕并参加绝食抗议。WSPU于1918年解散；同年部分30岁以上女性首次取得议会选举权，1928年女性才在21岁门槛上与男性平等。",
+        "answer_summary_zh": "正确选项：Emmeline Pankhurst。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "women’s rights"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-suffragette-start",
+        "focus-suffragette-pankhurst"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-03-q20.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：Who was the leader of the suffragettes, the group that campaigned for women’s rights to vote?；正确答案：Emmeline Pankhurst",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-suffragette-start",
+          "focus-suffragette-pankhurst"
+        ]
+      },
+      "film_connection": {
+        "title": "Suffragette",
+        "year": 2015,
+        "relationship": "background",
+        "poster_src": "/images/media/suffragette-2015-poster.jpg",
+        "poster_alt_en": "The theatrical poster for Suffragette (2015).",
+        "poster_alt_zh": "电影《Suffragette》（2015）的正式海报。",
+        "fun_fact_en": "In Suffragette (2015), the historical Emmeline Pankhurst is played by Meryl Streep. She appears only briefly, delivering a balcony speech that inspires the fictional composite character Maud Watts and other campaigners. The speech was assembled from Pankhurst's real speeches rather than reproducing one event word for word.",
+        "fun_fact_zh": "电影《Suffragette》（2015）中，真实历史人物Emmeline Pankhurst由Meryl Streep饰演。她出场很短，主要在阳台演讲，鼓舞虚构的综合角色Maud Watts及其他争取选举权的女性。影片中的演说综合改编自Pankhurst的多篇真实演讲，并非逐字复原某一次演说。",
+        "source_title": "Suffragette (2015) — BFI",
+        "source_url": "https://www.bfi.org.uk/film/7a9dc7f9-58d2-57a7-b70e-8b1b81d4566f/suffragette",
+        "poster_provider": "TMDB",
+        "poster_provider_url": "https://www.themoviedb.org/movie/245168-suffragette",
+        "poster_credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+      }
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "Northern Ireland"
+        },
+        {
+          "id": "r2",
+          "text": "Ireland"
+        },
+        {
+          "id": "r3",
+          "text": "Wales"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.21.Cardiff-is-the-capital-city-of-wales.m4a",
+      "question": "Cardiff is the capital city of which country?",
+      "explanation": "The capital city of Wales is Cardiff.",
+      "id": "exam-03-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Wales"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Cardiff is the capital and largest city of Wales. It was formally recognised as the Welsh capital in 1955. The Senedd building in Cardiff Bay makes the city a central location for Wales's devolved political institutions.",
+        "why_correct_zh": "Cardiff是Wales的首都，也是该国最大城市。它在1955年被正式承认为Welsh capital；今天Senedd议会大楼位于Cardiff Bay，城市因此也是Wales政治治理的重要中心。\n\n记忆对应：Cardiff—Wales，Edinburgh—Scotland，Belfast—Northern Ireland，London—England及UK。",
+        "answer_summary_zh": "正确选项：Wales。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Cardiff",
+          "capital city"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "cardiff-capital"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Cardiff is the capital city of which country?”及正确答案“Wales”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "cardiff-capital"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Housing construction"
+        },
+        {
+          "id": "r1",
+          "text": "Shipbuilding"
+        },
+        {
+          "id": "r2",
+          "text": "Automobile"
+        },
+        {
+          "id": "r3",
+          "text": "Aviation"
+        }
+      ],
+      "audio_url": "ttps://ahorrativa.es/audios/BCT3/Q-3.22.During-the-Great-Depression-in-the-1930s-which-industry-was-badly-affected-shipbuilding.m4a",
+      "question": "During the Great Depression in the 1930s which industry was badly affected?",
+      "explanation": "During the ‘Great Depression’ in the 1930s the traditional heavy industries such as shipbuilding were badly affected.",
+      "id": "exam-03-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Shipbuilding"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Shipbuilding was one of the traditional heavy industries badly affected during the Great Depression. Coal, steel and textiles also suffered as world trade contracted. Jarrow became a symbol of the crisis after Palmer's shipyard closed in 1931 and unemployed residents marched to London in 1936 to petition for work.",
+        "why_correct_zh": "答案是Shipbuilding。1929年Wall Street Crash之后，世界贸易萎缩，Britain的传统重工业——尤其coal、steel、textiles和shipbuilding——受到严重打击，失业集中在North East、Scotland低地和Wales矿区。\n\nJarrow是典型例子：Palmer's shipyard于1931年关闭。1936年失业者从Jarrow步行到London请愿，这场Jarrow March后来成为大萧条时期失业与工业衰退的象征。",
+        "answer_summary_zh": "正确选项：Shipbuilding。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "During the Great Depression"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-thirties",
+        "national-archives-jarrow"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During the Great Depression in the 1930s which industry was badly affected?”及正确答案“Shipbuilding”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-thirties",
+          "national-archives-jarrow"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sir Chris Hoy"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Roger Bannister"
+        },
+        {
+          "id": "r2",
+          "text": "David Weir"
+        },
+        {
+          "id": "r3",
+          "text": "Mo Farah"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q-3.23.Who-was-the-first-man-in-the-world-to-run-1-mile-in-under-4-minutes-sir-roge-banister.m4a",
+      "question": "Who was the first man in the world to run 1 mile in under 4 minutes?",
+      "explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954.",
+      "id": "exam-03-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Sir Roger Bannister"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Sir Roger Bannister became the first person to run a mile in under four minutes on 6 May 1954 at Oxford's Iffley Road, recording 3:59.4. Chris Brasher and Chris Chataway paced him. Bannister was then a medical student; he retired from competition later that year and became a neurologist.",
+        "why_correct_zh": "Sir Roger Bannister于1954年5月6日在Oxford的Iffley Road跑出3分59.4秒，成为第一位一英里跑进4分钟的运动员。Chris Brasher和Chris Chataway担任领跑员，帮助他控制配速。\n\n当时Bannister还是medical student，并利用医学知识设计训练。他的世界纪录只保持45天；同年年底他退出竞技体育，后来成为neurologist。",
+        "answer_summary_zh": "正确选项：Sir Roger Bannister。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "1",
+          "4"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "world-athletics-bannister"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the first man in the world to run 1 mile in under 4 minutes?”及正确答案“Sir Roger Bannister”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "world-athletics-bannister"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Hannukah"
+        },
+        {
+          "id": "r1",
+          "text": "Vaisakhi"
+        },
+        {
+          "id": "r2",
+          "text": "Eid ul Adha"
+        },
+        {
+          "id": "r3",
+          "text": "Eid al-Fitr"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT3/Q24.festival-celebrates-ramadan-muslims-fasted-month.m4a",
+      "question": "Which festival celebrates the end of Ramadan, when Muslims have fasted for a month?",
+      "explanation": "Eid al-Fitr celebrates the end of Ramadan, when Muslims have fasted for a month.",
+      "id": "exam-03-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Eid al-Fitr"
+      ],
+      "exam_number": 3,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-3/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Eid al-Fitr marks the end of Ramadan and means the festival of breaking the fast. It begins in the Islamic month of Shawwal, with the date varying by the lunar calendar and moon sighting. Customs include Eid prayer, family gatherings, gifts and Zakat al-Fitr for people in need. It is distinct from Eid al-Adha, associated with sacrifice and the Hajj period.",
+        "why_correct_zh": "Eid al-Fitr庆祝Ramadan斋月结束，名称意为“开斋的节日”。它在伊斯兰历Shawwal月开始，具体公历日期随阴历和月相确认而变化。\n\n常见活动包括清晨Eid prayer、与亲友聚会、穿新衣、互赠礼物和说“Eid Mubarak”。穆斯林通常在礼拜前缴纳Zakat al-Fitr，帮助有需要的人；不要与纪念献祭及Hajj时期的Eid al-Adha混淆。",
+        "answer_summary_zh": "正确选项：Eid al-Fitr。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Ramadan",
+          "Muslims"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "mcb-ramadan-guide"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which festival celebrates the end of Ramadan, when Muslims have fasted for a month?”及正确答案“Eid al-Fitr”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "mcb-ramadan-guide"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

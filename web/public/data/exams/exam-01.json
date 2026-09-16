@@ -1,0 +1,1964 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 1,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "bank-holidays-act-1871": {
+      "title": "Bank Holidays Act 1871",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/Vict/34-35/17/pdfs/ukpga_18710017_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "1871年法案规定银行在指定日期停业，并将当日到期的汇票和本票顺延至下一工作日处理。"
+    },
+    "british-nationality-act-1981": {
+      "title": "British Nationality Act 1981",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/61/pdfs/ukpga_19810061_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "《1981年英国国籍法》在国籍事项中把Channel Islands和Isle of Man纳入相关UK定义，并规定出生取得英国公民身份的条件。"
+    },
+    "bsb-barrister-fees": {
+      "title": "Barristers' Fees and Costs",
+      "publisher": "Bar Standards Board",
+      "url": "https://www.barstandardsboard.org.uk/for-the-public/using-a-barrister/barristers-and-their-fees.html",
+      "authority": "legal_services_regulator",
+      "note_zh": "英格兰和威尔士大律师监管委员会说明barrister没有统一标准价，可按固定费用、小时费率或条件收费。"
+    },
+    "church-england-countdown-easter": {
+      "title": "Countdown to Easter",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/life-events/christenings/after-christening/things-do-children-spring/countdown-easter",
+      "authority": "established_church",
+      "note_zh": "英格兰教会介绍Shrove Tuesday、Pancake Day、Ash Wednesday及四旬期传统。"
+    },
+    "church-england-lent-easter": {
+      "title": "The significance of Lent, Holy Week and Easter",
+      "publisher": "The Church of England",
+      "url": "https://www.churchofengland.org/faith-life/what-we-believe/lent-holy-week-and-easter/significance-lent-and-easter",
+      "authority": "established_church",
+      "note_zh": "英格兰教会说明四旬期从Ash Wednesday至Easter Eve，并解释40天与耶稣在旷野禁食受试探的关系。"
+    },
+    "college-policing-chief-constable": {
+      "title": "Chief constable",
+      "publisher": "College of Policing",
+      "url": "https://www.college.police.uk/career-learning/support-for-career-development/policing-professional-profiles/core-rank-profiles/chief-constable",
+      "authority": "official_policing_body",
+      "note_zh": "英国警务学院说明Chief Constable是领导警队、负责警务行动指挥与整体方向的最高级警官。"
+    },
+    "communications-act-2003-impartiality": {
+      "title": "Communications Act 2003 — sections 319 and 320",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/pdfs/ukpga_20030021_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "《2003年通信法》第319和320条规定广播标准及政治争议、公共政策事项的适当公正性要求。"
+    },
+    "electoral-commission-anonymous-voting": {
+      "title": "How to vote anonymously",
+      "publisher": "Electoral Commission",
+      "url": "https://www.electoralcommission.org.uk/voting-and-elections/ways-vote/how-vote-anonymously",
+      "authority": "official_elections_regulator",
+      "note_zh": "英国选举委员会说明匿名登记选民的投票卡只显示选民编号，并且现场投票时必须携带该卡。"
+    },
+    "english-heritage-cenotaph": {
+      "title": "The Cenotaph",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/places/the-cenotaph/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage给出的准确地址为The Cenotaph, Whitehall, Westminster, London, SW1A 2ET。"
+    },
+    "english-heritage-cenotaph-history": {
+      "title": "History of the Cenotaph",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/places/the-cenotaph/history/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage说明cenotaph意为“空墓”，并介绍白厅The Cenotaph的国家纪念地位、建造历史及碑内没有遗体。"
+    },
+    "english-heritage-rose-symbols": {
+      "title": "Blooming marvellous: roses through time",
+      "publisher": "English Heritage",
+      "url": "https://www.english-heritage.org.uk/visit/inspire-me/roses-through-time-a-history-of-rose-gardens-and-roses-as-a-symbol-in-english-culture/",
+      "authority": "official_heritage_body",
+      "note_zh": "English Heritage介绍玫瑰在纹章中的使用、约克白玫瑰、兰开斯特红玫瑰及Tudor Rose。"
+    },
+    "fa-bobby-moore-captain": {
+      "title": "England's greatest leaders: The top ten captains",
+      "publisher": "The Football Association",
+      "url": "https://www.thefa.com/news/2014/jul/21/steven-gerrard-england-greatest-leaders",
+      "authority": "official_sports_governing_body",
+      "note_zh": "英足总资料说明Bobby Moore司职中后卫，并记录他首次担任英格兰队长时的年龄、国家队出场次数、队长场次、胜场和世界杯成就。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-crown-dependencies-factsheet": {
+      "title": "Fact sheet on the UK's relationship with the Crown Dependencies",
+      "publisher": "Ministry of Justice",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/863381/crown-dependencies-factsheet-february-2020.pdf",
+      "authority": "official_government",
+      "note_zh": "英国政府资料说明Crown Dependencies的自治地位、国籍制度、立法关系以及Common Travel Area安排。"
+    },
+    "govuk-jury-service": {
+      "title": "Jury service: How jury service works",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/jury-service",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明陪审员从选民登记册随机选出，并在英格兰和威尔士由12人组成陪审团决定刑事审判结果。"
+    },
+    "govuk-margaret-thatcher": {
+      "title": "History of Baroness Thatcher",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+      "authority": "official_government",
+      "note_zh": "英国政府首相历史资料确认撒切尔夫人的任期、第一位女首相身份、化学教育及研究化学师背景。"
+    },
+    "govuk-solicitor-guideline-hourly-rates": {
+      "title": "Solicitors' guideline hourly rates",
+      "publisher": "HM Courts & Tribunals Service",
+      "url": "https://www.gov.uk/guidance/solicitors-guideline-hourly-rates",
+      "authority": "official_court_guidance",
+      "note_zh": "英格兰和威尔士法院用于简易评定诉讼费用的2026年指导时薪；这是法院评估基准，不是律所市场平均价或强制零售价。"
+    },
+    "govuk-test-rules": {
+      "title": "Life in the UK Test",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/life-in-the-uk-test",
+      "authority": "official_government",
+      "note_zh": "确认考试内容仅来自官方 Guide for New Residents。"
+    },
+    "govuk-voting-in-person": {
+      "title": "How to vote: Voting in person",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/how-to-vote/voting-in-person",
+      "authority": "official_government",
+      "note_zh": "GOV.UK说明投票卡会告知投票日期和指定投票站，普通选民即使遗失或未携带投票卡仍可投票。"
+    },
+    "iopc-complaints-process": {
+      "title": "A guide to the complaints process",
+      "publisher": "Independent Office for Police Conduct",
+      "url": "https://www.policeconduct.gov.uk/complaints/guide-to-complaints-process",
+      "authority": "official_police_oversight_body",
+      "note_zh": "IOPC说明英格兰和威尔士的警察投诉提交方式、警队初步处理、严重案件转介以及复核流程。"
+    },
+    "iwm-cenotaph-register": {
+      "title": "The Cenotaph",
+      "publisher": "Imperial War Museums War Memorials Register",
+      "url": "https://memorials.iwm.org.uk/memorial/104",
+      "authority": "official_museum_register",
+      "note_zh": "帝国战争博物馆的战争纪念碑登记记录，说明其名称、位置、设计者及“空墓”的象征含义。"
+    },
+    "jersey-child-passport-nationality": {
+      "title": "Get a passport for your child — establishing British identity",
+      "publisher": "Government of Jersey",
+      "url": "https://www.gov.je/Travel/Passports/GetAPassport/pages/getapassportforyourchild.aspx",
+      "authority": "crown_dependency_government",
+      "note_zh": "泽西政府说明1983年1月1日以后在英国、Channel Islands或Isle of Man出生者，并非只凭出生地点自动成为英国公民；通常取决于父母的英国公民或定居身份。"
+    },
+    "jersey-relationship-uk": {
+      "title": "Jersey's relationship with the United Kingdom",
+      "publisher": "Government of Jersey",
+      "url": "https://www.gov.je/Government/Departments/JerseyWorld/Pages/RelationshipEUandUK.aspx",
+      "authority": "crown_dependency_government",
+      "note_zh": "泽西政府说明Jersey是自治的Crown Dependency，不属于英国；英国代表王室负责防务及部分国际关系。"
+    },
+    "judiciary-criminal-jurisdiction": {
+      "title": "Criminal jurisdiction",
+      "publisher": "Courts and Tribunals Judiciary",
+      "url": "https://www.judiciary.uk/about-the-judiciary/our-justice-system/jurisdictions/criminal-jurisdiction/",
+      "authority": "official_judiciary",
+      "note_zh": "英格兰和威尔士司法机构说明法官负责法律与审判程序，陪审团负责判断事实并作出有罪或无罪裁决。"
+    },
+    "legislation-sample-poll-card": {
+      "title": "Official poll card — prescribed sample form",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukdsi/2012/9780111519035/pdfs/ukdsi_9780111519035_en.pdf",
+      "authority": "official_legislation_form",
+      "note_zh": "法定投票卡样表展示选举名称、投票日期与时间、投票站、选民姓名和地址、选民编号及投票说明等字段。"
+    },
+    "national-archives-cromwell-protector": {
+      "title": "Christmas is cancelled!",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/christmas-is-cancelled/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆介绍Rump Parliament和Nominated Assembly失败后建立护国公制度，以及Cromwell于1653年就任、后来拒绝王位的经过。"
+    },
+    "national-archives-declaration-of-rights": {
+      "title": "James II and the Declaration of Rights",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/declaration-of-rights/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆以原始文件说明1689年权利宣言的十三项申诉及对王权的对应限制。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-archives-spanish-armada": {
+      "title": "God blew and they were scattered — the Spanish Armada",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/god-blew-they-were-scattered/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆利用原始文件解释西班牙无敌舰队的入侵计划、未能与陆军会合、英军行动及天气造成的损失。"
+    },
+    "national-archives-wars-of-roses": {
+      "title": "Spotlight On: Wars of the Roses — video transcript",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/students/videos/spotlight-on/spotlight-on-wars-of-the-roses/transcript/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明“玫瑰战争”之名来自战争不同阶段由王位竞争者使用的玫瑰徽记。"
+    },
+    "ofcom-due-impartiality": {
+      "title": "Broadcasting Code Section Five: Due impartiality and due accuracy",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-five-due-impartiality-accuracy",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom明确说明due impartiality不等于给每个观点完全相同的播出时间，而是根据节目主题、性质和语境给予适当权重。"
+    },
+    "ofcom-elections-referendums": {
+      "title": "Broadcasting Code Section Six: Elections and referendums",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-six-elections-referendums",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom选举规则要求根据过去或当前支持度给予政党和独立候选人适当权重，并考虑具有重要意义的观点。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-bank-holidays-history": {
+      "title": "Bank holidays — parliamentary debate, 13 May 2011",
+      "publisher": "UK Parliament",
+      "url": "https://publications.parliament.uk/pa/cm201011/cmhansrd/chan157.pdf",
+      "authority": "official_parliamentary_record",
+      "note_zh": "议会记录介绍Sir John Lubbock推动1871年法案，以及新增假日一度被昵称为St Lubbock’s Days的历史。"
+    },
+    "parliament-big-ben-construction": {
+      "title": "Constructing the most accurate clock in the world",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/building-clock-tower/constructing-the-most-accurate-clock-in-the-world/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会关于大本钟建造过程及其昵称由来的官方历史资料。"
+    },
+    "parliament-bill-of-rights-1689": {
+      "title": "1689 Bill of Rights",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/get-involved1/2015-banners-exhibition/ross-sinclair/1689-bill-of-rights-gallery/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会概述《权利法案》对君主改变法律、征税和维持军队的限制，以及自由选举和议会言论保障。"
+    },
+    "parliament-commons-chamber-guide": {
+      "title": "The House of Commons — a brief guide",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/globalassets/documents/commons-information-office/hofcbgenglish.pdf",
+      "authority": "official_parliament",
+      "note_zh": "英国议会的议场指南标明Speaker’s Chair位于Table of the House尽头，并说明政府与反对党的相对座位。"
+    },
+    "parliament-commons-speaker": {
+      "title": "The Speaker of the House of Commons",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/business/commons/the-speaker/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明下议院议长由其他议员从议员中选举产生，并确认现任议长为Sir Lindsay Hoyle。"
+    },
+    "parliament-protectorate-parliaments": {
+      "title": "The Protectorate Parliaments",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/protectorate-parliaments/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明1653年《Instrument of Government》创设Protector和Council of State组成的行政权力，并介绍Cromwell拒绝王位及护国公时期的议会。"
+    },
+    "parliament-thatcher-booklet": {
+      "title": "Margaret Thatcher — official booklet for the Parliamentary statue",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/documents/upload/baroness-thatcher-booklet.pdf",
+      "authority": "official_parliament",
+      "note_zh": "英国议会概述Thatcherism、私有化、工会改革、经济政策、福克兰群岛战争及其国内外影响和争议。"
+    },
+    "parliament-thatcher-tributes": {
+      "title": "Tributes to Baroness Thatcher",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://hansard.parliament.uk/Commons/2013-04-10/debates/1304104000001/TributesToBaronessThatcher",
+      "authority": "official_parliament",
+      "note_zh": "英国议会记录说明“Iron Lady”最初由苏联方面作为讽刺称呼提出，撒切尔夫人随后把它当作自豪的称号。"
+    },
+    "prado-rubens-saint-andrew": {
+      "title": "Saint Andrew",
+      "publisher": "Museo Nacional del Prado",
+      "url": "https://www.museodelprado.es/en/the-collection/art-work/saint-andrew/3b512d00-0e07-47f9-944e-159058552dbf/",
+      "authority": "official_museum_collection",
+      "note_zh": "普拉多博物馆藏鲁本斯《圣安德鲁》（约1610至1612年）；画中可见象征其殉道的X形十字架。"
+    },
+    "raf-museum-meteor-1944": {
+      "title": "British military aviation in 1944",
+      "publisher": "Royal Air Force Museum",
+      "url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1944-2/",
+      "authority": "official_museum",
+      "note_zh": "英国皇家空军博物馆记录Gloster Meteor于1944年7月服役，并执行RAF喷气式战斗机首次针对V-1飞行炸弹的作战巡逻。"
+    },
+    "raf-museum-whittle-engine": {
+      "title": "Prepare — RAF Museum large print guide",
+      "publisher": "Royal Air Force Museum",
+      "url": "https://www.rafmuseum.org.uk/documents/LargePrintGuides/Prepare.pdf",
+      "authority": "official_museum",
+      "note_zh": "英国皇家空军博物馆说明Whittle的WU、W.1、W.2系列与Rolls-Royce Welland和Gloster Meteor之间的发展关系。"
+    },
+    "royal-collection-medieval-palace": {
+      "title": "The medieval palace — podcast transcript",
+      "publisher": "Royal Collection Trust",
+      "url": "https://media.rct.uk/sites/default/files/Transcript%20-%20The%20medieval%20palace.pdf",
+      "authority": "official_royal_collection",
+      "note_zh": "Royal Collection Trust资料说明兰利的埃德蒙把白玫瑰作为个人徽记。"
+    },
+    "royal-family-interregnum": {
+      "title": "Interregnum (1649–1660)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/interregnum-1649-1660",
+      "authority": "official_royal_history",
+      "note_zh": "英国王室历史资料说明Interregnum期间的宪制实验、Cromwell在《Instrument of Government》下成为Lord Protector及其拒绝王位。"
+    },
+    "rubens-saint-andrew-image": {
+      "title": "Saint Andrew by Peter Paul Rubens",
+      "publisher": "Museo Nacional del Prado via Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rubens_-_RKDimages,_237565.jpg",
+      "authority": "public_domain_museum_image",
+      "note_zh": "鲁本斯《圣安德鲁》的公共领域馆藏图像。"
+    },
+    "science-museum-whittle-jet-engine": {
+      "title": "Coventry City of Culture 2021: Driving innovation",
+      "publisher": "Science Museum",
+      "url": "https://blog.sciencemuseum.org.uk/coventry-city-of-culture-2021-driving-innovation/",
+      "authority": "official_museum",
+      "note_zh": "英国科学博物馆说明Whittle的喷气发动机研发、1941年Gloster-Whittle E.28/39首次飞行，以及喷气推进提高飞行速度和高度的历史意义。"
+    },
+    "scotland-st-andrew": {
+      "title": "Who Was St Andrew?",
+      "publisher": "Scotland.org",
+      "url": "https://www.scotland.org/events/st-andrews-day/who-was-st-andrew",
+      "authority": "official_national_information",
+      "note_zh": "苏格兰国家门户关于圣安德鲁、苏格兰守护神与圣安德鲁十字的背景资料。"
+    },
+    "spanish-navy-gran-armada-name": {
+      "title": "Geoffrey Parker presents La Gran Armada at Spain's Naval Museum",
+      "publisher": "Armada Española, Ministerio de Defensa",
+      "url": "https://armada.defensa.gob.es/ArmadaPortal/page/Portal/ArmadaEspannola/conocenosnoticias/prefLang-es/00noticias--2011--09--NT-199-P-LIBRO-es?_pageAction=selectItem&_pageNum=333&_selectedNodeID=554015&paramNo=000000",
+      "authority": "official_military_history",
+      "note_zh": "西班牙海军资料说明该舰队在西班牙称Gran Armada；“Invincible Armada”并非西班牙正式自称，而是英格兰方面传播的名称。"
+    },
+    "sra-price-transparency": {
+      "title": "Transparency in price and service",
+      "publisher": "Solicitors Regulation Authority",
+      "url": "https://www.sra.org.uk/solicitors/guidance/transparency-in-price-and-service/",
+      "authority": "legal_services_regulator",
+      "note_zh": "SRA说明律所对部分常见服务公开价格、收费基础、VAT、额外支出及服务范围的义务。"
+    },
+    "thatcher-foundation-britain-awake": {
+      "title": "Speech at Kensington Town Hall — Britain Awake",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102939",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月19日“Britain Awake”演讲档案，并记录苏联军方报纸Red Star于1月24日首次使用“Iron Lady”称号。"
+    },
+    "thatcher-foundation-iron-lady-response": {
+      "title": "Speech to Finchley Conservatives — admits to being an Iron Lady",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102947",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月31日演讲档案，记录撒切尔夫人如何以幽默方式接受并重新定义“Iron Lady”称号。"
+    },
+    "wordsworth-grasmere-daffodils": {
+      "title": "Daffodils — the inspiration, the poem, the place",
+      "publisher": "Wordsworth Grasmere",
+      "url": "https://wordsworth.org.uk/daffodils/",
+      "authority": "author_museum_and_archive",
+      "note_zh": "Wordsworth Grasmere介绍《I Wandered Lonely as a Cloud》（通常称为《Daffodils》）的诗文、创作背景、版本及William和Dorothy Wordsworth在Ullswater湖畔看到水仙花的经历。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "76",
+      "options": [
+        {
+          "id": "r0",
+          "text": "To look after the area in which you live and the environment"
+        },
+        {
+          "id": "r1",
+          "text": "To look after yourself and your family"
+        },
+        {
+          "id": "r2",
+          "text": "To stay in the UK forever"
+        },
+        {
+          "id": "r3",
+          "text": "To promote work in your local community"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-1.responsibilities-british-citizen.m4a",
+      "question": "What are two responsibilities that you will have as a British citizen or permanent resident of the UK?",
+      "explanation": "If you wish to be a permanent resident or citizen of the UK, you should: look after yourself and your family, look after the area in which you live and the environment, respect and obey the law, respect the rights of others, including their right to their own opinions and treat others with fairness.",
+      "id": "exam-01-q01",
+      "number": 1,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r1"
+      ],
+      "correct_answers": [
+        "To look after the area in which you live and the environment",
+        "To look after yourself and your family"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "1.2 The values and principles of the UK",
+      "handbook_locator": "Chapter 1: The values and principles of the UK",
+      "learning": {
+        "why_correct_en": "If you wish to be a permanent resident or citizen of the UK, you should: look after yourself and your family, look after the area in which you live and the environment, respect and obey the law, respect the rights of others, including their right to their own opinions and treat others with fairness.",
+        "why_correct_zh": "如果您希望成为英国永久居民或公民，您应该：照顾好自己和家人，照顾好您居住的地区和环境，尊重和遵守法律，尊重他人的权利，包括他们表达自己意见的权利，并公平对待他人。",
+        "answer_summary_zh": "正确选项：To look after the area in which you live and the environment；To look after yourself and your family。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "two"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-test-rules"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What are two responsibilities that you will have as a British citizen or permanent resident of the UK?”及正确答案“To look after the area in which you live and the environment；To look after yourself and your family”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-test-rules"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Buckingham Palace"
+        },
+        {
+          "id": "r1",
+          "text": "The Tower of London"
+        },
+        {
+          "id": "r2",
+          "text": "Trafalgar Square"
+        },
+        {
+          "id": "r3",
+          "text": "The Houses of the Parliament"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-2.big-ben-location.m4a",
+      "question": "Where is Big Ben located?",
+      "explanation": "Big Ben is the nickname for the great bell of the clock at the Houses of Parliament in London.",
+      "id": "exam-01-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Houses of the Parliament"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Big Ben is the nickname of the Great Bell in the Elizabeth Tower at the Houses of Parliament in London. UK Parliament says the name was probably a playful reference to Sir Benjamin Hall MP, the tall First Commissioner of Works who oversaw the later stages of the tower; the exact origin is not certain.",
+        "why_correct_zh": "Big Ben（大本钟）最初是伦敦英国议会大厦伊丽莎白塔内“大钟”（Great Bell）的昵称。英国议会资料认为，这个名字很可能是以负责钟楼后期工程的第一工程专员、本杰明·霍尔爵士（Sir Benjamin Hall MP）开玩笑命名的，因为他身材高大；但昵称的确切来源并无定论。",
+        "answer_summary_zh": "正确选项：The Houses of the Parliament。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Big Ben"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-big-ben-construction"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-01-q02.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：Where is Big Ben located?；正确答案：The Houses of the Parliament",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-big-ben-construction"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1918"
+        },
+        {
+          "id": "r1",
+          "text": "1903"
+        },
+        {
+          "id": "r2",
+          "text": "1928"
+        },
+        {
+          "id": "r3",
+          "text": "1923"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-3.men-women-given-right-to-vote-age-21-1928.m4a",
+      "question": "When were men and women given the right to vote at the age of 21?",
+      "explanation": "In 1928, women were given the right to vote at the age of 21, the same as men.",
+      "id": "exam-01-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "1928"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1928, women were given the right to vote at the age of 21, the same as men.",
+        "why_correct_zh": "1928年，女性在21岁时获得了与男性相同的选举权。",
+        "answer_summary_zh": "正确选项：1928。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "men and women",
+          "right to vote",
+          "age of 21"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-01-q03.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：When were men and women given the right to vote at the age of 21?；正确答案：1928",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": {
+        "title": "Suffragette",
+        "year": 2015,
+        "relationship": "background",
+        "poster_src": "/images/media/suffragette-2015-poster.jpg",
+        "poster_alt_en": "The theatrical poster for Suffragette (2015).",
+        "poster_alt_zh": "电影《Suffragette》（2015）的正式海报。",
+        "fun_fact_en": "Suffragette (2015) follows ordinary British women fighting for the vote in the early 1910s. It helps explain the campaign behind this topic, but it does not dramatise the 1928 Act that finally gave women the vote at 21 on the same terms as men.",
+        "fun_fact_zh": "《Suffragette》（2015）讲述20世纪10年代初普通英国女性争取选举权的经历。它适合帮助理解这道题背后的运动，但电影并没有直接重现1928年女性最终以21岁、与男性同等条件获得投票权的法案。",
+        "source_title": "Suffragette (2015) — BFI",
+        "source_url": "https://www.bfi.org.uk/film/7a9dc7f9-58d2-57a7-b70e-8b1b81d4566f/suffragette",
+        "poster_provider": "TMDB",
+        "poster_provider_url": "https://www.themoviedb.org/movie/245168-suffragette",
+        "poster_credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+      }
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "South west of Europe"
+        },
+        {
+          "id": "r1",
+          "text": "North east of Europe"
+        },
+        {
+          "id": "r2",
+          "text": "North west of Europe"
+        },
+        {
+          "id": "r3",
+          "text": "South east of Europe"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-4.where-is-the-uk-geographically-located.m4a",
+      "question": "Where is the UK geographically located?",
+      "explanation": "The UK is located in the north west of Europe.",
+      "id": "exam-01-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "North west of Europe"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The UK is located in the north west of Europe.",
+        "why_correct_zh": "英国位于欧洲西北部。",
+        "answer_summary_zh": "正确选项：North west of Europe。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the UK geographically located?”及正确答案“North west of Europe”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St David"
+        },
+        {
+          "id": "r1",
+          "text": "St Patrick"
+        },
+        {
+          "id": "r2",
+          "text": "St George"
+        },
+        {
+          "id": "r3",
+          "text": "St Andrew"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-5.Who-is-the-patron-saint-of-Scotland.m4a",
+      "question": "Who is the patron Saint of Scotland?",
+      "explanation": "The patron Saint of Scotland is St Andrew.",
+      "id": "exam-01-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "St Andrew"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The patron Saint of Scotland is St Andrew. Several legends connect him with Scotland; the best known says that St Rule brought some of his relics to the place now called St Andrews. He had been honoured in Scotland for more than a thousand years, and the 1320 Declaration of Arbroath invoked him as Scotland's protector, strengthening his status as the national patron saint. The X-shaped cross in Rubens's painting is the symbol of his martyrdom and became the Saltire on Scotland's flag.",
+        "why_correct_zh": "圣安德鲁成为苏格兰守护神，并不是因为他出生或生活在苏格兰，而是宗教传说与国家认同长期结合的结果：\n\n- 传说圣鲁尔（St Rule）把圣安德鲁的部分遗骨带到苏格兰东海岸，所在地后来成为重要宗教中心 St Andrews。\n- 另一传说称，苏格兰军队作战前在天空看见X形白色十字并获得胜利，于是把象征圣安德鲁殉道的斜十字视为国家标志。\n- 中世纪时，对圣安德鲁的敬奉已遍及苏格兰。1320年的《阿布罗斯宣言》明确把他称为苏格兰的守护者，进一步确立其国家守护神地位。\n- 这个X形十字后来成为苏格兰国旗 Saltire。",
+        "answer_summary_zh": "正确选项：St Andrew。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "patron Saint"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "scotland-st-andrew",
+        "prado-rubens-saint-andrew",
+        "rubens-saint-andrew-image"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-01-q05.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：Who is the patron Saint of Scotland?；正确答案：St Andrew",
+        "fact_source_ids": [
+          "official-handbook",
+          "scotland-st-andrew",
+          "prado-rubens-saint-andrew",
+          "rubens-saint-andrew-image"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The House of Chester"
+        },
+        {
+          "id": "r1",
+          "text": "The House of York"
+        },
+        {
+          "id": "r2",
+          "text": "The House of Lancaster"
+        },
+        {
+          "id": "r3",
+          "text": "The House of Newcastle"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-6.which-two-houses-fought-in-the-war-of-the-roses.m4a",
+      "question": "Which two houses fought in the Wars of the Roses?",
+      "explanation": "The Wars of the Roses were fought between the supporters of two families: the House of Lancaster and the House of York.",
+      "id": "exam-01-q06",
+      "number": 6,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r2"
+      ],
+      "correct_answers": [
+        "The House of York",
+        "The House of Lancaster"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answers are the House of York and the House of Lancaster, rival branches of the Plantagenet royal family whose supporters fought for the English Crown.\n\nIt is called the Wars of the Roses because rose badges became linked with the rival causes: York's white rose and Lancaster's red rose. These were heraldic badges used to show allegiance, not the families' complete coats of arms.\n\nRoses were already common in medieval heraldry. The white rose came from Edmund of Langley, first Duke of York; Lancaster adopted the red rose. After 1485, Henry VII combined them as the Tudor Rose to present the two houses as reconciled.",
+        "why_correct_zh": "正确答案是约克家族（House of York）和兰开斯特家族（House of Lancaster）。他们都是金雀花王朝的支系，支持者为争夺英格兰王位而战。\n\n之所以叫“玫瑰战争”，是因为后世把双方与玫瑰徽记联系起来：约克派是白玫瑰，兰开斯特派是红玫瑰。它们是表示阵营归属的 heraldic badges（纹章徽记），并不是两家的完整盾徽。\n\n玫瑰在中世纪纹章中本来就很常见。第一代约克公爵兰利的埃德蒙（Edmund of Langley）把白玫瑰作为个人徽记，约克派继承了它；兰开斯特派采用红玫瑰。1485年后，亨利七世把两朵花合成 Tudor Rose，象征两家和解。",
+        "answer_summary_zh": "正确选项：The House of York；The House of Lancaster。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Wars of the Roses"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-wars-of-roses",
+        "english-heritage-rose-symbols",
+        "royal-collection-medieval-palace"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two houses fought in the Wars of the Roses?”及正确答案“The House of York；The House of Lancaster”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-wars-of-roses",
+          "english-heritage-rose-symbols",
+          "royal-collection-medieval-palace"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-7.the-bill-of-rights-1689-confirmed-the-rights-of-parliament-and-the-limits-kings-power.m4a",
+      "question": "The Bill of Rights of 1689 confirmed the right to vote for all adult men.",
+      "explanation": "False. The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king’s power.",
+      "id": "exam-01-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The statement is false. The Bill of Rights did not give every adult man the vote; it defined limits on the Crown and protected the rights of Parliament and subjects.\n\nThe Crown could not suspend or dispense with laws, levy taxes, or keep a standing army in peacetime without Parliament's consent. Subjects also had the right to petition the monarch.\n\nParliamentary elections were to be free, parliamentary speech protected, and Parliaments held frequently. Excessive bail and fines and cruel or unusual punishments were barred. These controls limited royal power; they did not create universal suffrage.",
+        "why_correct_zh": "这道题是 False。《权利法案》没有赋予所有成年男性投票权；它规定了王权的界限，并保障议会和臣民的权利。\n\n对君主的主要限制是：未经议会同意，王室不得暂停或免除法律、不得征税，也不得在和平时期维持常备军。臣民还有向君主请愿的权利。\n\n议会选举应当自由，议会内的言论不受议会外法院追究，议会应经常召开；法案还禁止过高保释金、过高罚款以及残酷或非常刑罚。这些规定让王权受到法律和议会约束，但并不等于实行成年男性普选。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Bill of Rights of",
+          "1689",
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-bill-of-rights-1689",
+        "national-archives-declaration-of-rights"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The Bill of Rights of 1689 confirmed the right to vote for all adult men.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-bill-of-rights-1689",
+          "national-archives-declaration-of-rights"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A flower"
+        },
+        {
+          "id": "r1",
+          "text": "A Christian church"
+        },
+        {
+          "id": "r2",
+          "text": "A war memorial"
+        },
+        {
+          "id": "r3",
+          "text": "A theatre"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-8.what-is-the-cenotaph-war-memorial.m4a",
+      "question": "What is the Cenotaph?",
+      "explanation": "The Cenotaph is a war memorial and it is the site of the annual Remembrance Day service attended by the King, politicians and foreign ambassadors.",
+      "id": "exam-01-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "A war memorial"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The correct answer is a war memorial. A cenotaph is not one unique monument: it is a type of memorial for people whose remains are buried elsewhere. The word comes from Greek and means 'empty tomb'.\n\nIn this question, the capital letter and 'the' point to the Cenotaph on Whitehall in Westminster, central London, close to Parliament Square and the Houses of Parliament. Its address is Whitehall, London SW1A 2ET.\n\nEdwin Lutyens first designed it as a temporary memorial in 1919; the permanent stone version was unveiled in 1920. No body is buried inside it. The Unknown Warrior's tomb is nearby in Westminster Abbey.\n\nIt does not commemorate one named person and carries no individual names. Its inscription, 'THE GLORIOUS DEAD', collectively honours the dead of the two World Wars and later conflicts; national remembrance also includes British and Commonwealth military and civilian service.",
+        "why_correct_zh": "正确答案是“一座战争纪念碑”。cenotaph并不是全球唯一一座碑的专名，而是一类纪念碑：用来纪念遗体安葬在别处、失踪或没有已知墓地的死者。这个词源自希腊语，意思是“空墓”（empty tomb）。\n\n但题目写的是大写并带定冠词的the Cenotaph，这里特指伦敦市中心Westminster的Whitehall道路中央、靠近Parliament Square和Houses of Parliament的那一座。准确地址是Whitehall, London SW1A 2ET。\n\n它由Edwin Lutyens设计，1919年先建临时版本，1920年换成永久石碑。碑内没有安葬遗体；同一天安葬于西敏寺的是Unknown Warrior，所以两者不要混淆。\n\n它不是为某一位具名人物修建的，碑上也没有个人姓名，只有THE GLORIOUS DEAD。它集体纪念两次世界大战及后来冲突中的死者；国家纪念仪式也纪念为这些冲突作出贡献的英国和英联邦军人及平民。",
+        "answer_summary_zh": "正确选项：A war memorial。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Cenotaph"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "english-heritage-cenotaph",
+        "english-heritage-cenotaph-history",
+        "iwm-cenotaph-register"
+      ],
+      "visual": {
+        "src": "/images/featured/the-cenotaph-whitehall.jpg",
+        "kind": "licensed_real_photo",
+        "display_after_answer": true,
+        "alt_zh": "伦敦白厅道路中央的The Cenotaph实景照片，碑前摆放着纪念花圈。",
+        "fact_source_ids": [
+          "official-handbook",
+          "english-heritage-cenotaph",
+          "english-heritage-cenotaph-history",
+          "iwm-cenotaph-register"
+        ],
+        "credit": "Photo: Paul the Archivist / Wikimedia Commons (CC BY-SA 4.0)",
+        "credit_url": "https://commons.wikimedia.org/wiki/File:The_Cenotaph,_Whitehall,_London.jpg"
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Mary Stuart"
+        },
+        {
+          "id": "r1",
+          "text": "Theresa May"
+        },
+        {
+          "id": "r2",
+          "text": "Margaret Thatcher"
+        },
+        {
+          "id": "r3",
+          "text": "Florence Nightingale"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-9.who-was-the-first-female-prime-minister-of-the-uk-margaret-thatcher.m4a",
+      "question": "Who was the first female Prime Minister of the UK?",
+      "explanation": "Margaret Thatcher was the first woman Prime Minister of the UK.",
+      "id": "exam-01-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Margaret Thatcher"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Margaret Thatcher became Prime Minister on 4 May 1979, making her the UK's first woman Prime Minister. She served until November 1990 and won three consecutive general elections.\n\nThe nickname has a precise origin. On 19 January 1976, while Leader of the Opposition, Thatcher's 'Britain Awake' speech warned about Soviet military expansion and called for stronger Western defence.\n\nOn 24 January, the Soviet Army newspaper Red Star called her the 'Iron Lady'. It was intended as a hostile Cold War caricature: uncompromising, anti-Soviet and militaristic.\n\nShe turned the attack into a brand. On 31 January she jokingly presented herself as the 'Iron Lady of the Western world' and said the label suited her defence of Western values and freedoms.",
+        "why_correct_zh": "玛格丽特·撒切尔于1979年5月4日就任，成为英国第一位女首相。她任职至1990年11月，并连续赢得三次大选。\n\n“Iron Lady”有明确的起点。1976年1月19日，仍是反对党领袖的撒切尔发表“Britain Awake”演讲，警告苏联扩张和军力增长，主张英国及西方加强防务。\n\n1月24日，苏联军方报纸Red Star称她为“Iron Lady”。这个称呼原本是冷战宣传中的负面标签，把她描绘成不妥协、反苏和好战的西方政客。\n\n她没有回避，而是主动重新定义。1月31日，她在Finchley的演讲中幽默地称自己是“西方世界的Iron Lady”，并把“强硬”解释为捍卫西方价值、自由和国防决心。",
+        "answer_summary_zh": "正确选项：Margaret Thatcher。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Prime Minister of the UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-margaret-thatcher",
+        "parliament-thatcher-tributes",
+        "thatcher-foundation-britain-awake",
+        "thatcher-foundation-iron-lady-response",
+        "parliament-thatcher-booklet"
+      ],
+      "visual": {
+        "src": "/images/featured/margaret-thatcher-1983.jpg",
+        "kind": "licensed_real_photo",
+        "display_after_answer": true,
+        "alt_zh": "玛格丽特·撒切尔1983年的黑白肖像照片。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-margaret-thatcher",
+          "parliament-thatcher-tributes",
+          "thatcher-foundation-britain-awake",
+          "thatcher-foundation-iron-lady-response",
+          "parliament-thatcher-booklet"
+        ],
+        "credit": "Photo: Rob Bogaerts / Anefo / Nationaal Archief (CC0)",
+        "credit_url": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_(1983).jpg"
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A bishop"
+        },
+        {
+          "id": "r1",
+          "text": "The Prime Minister"
+        },
+        {
+          "id": "r2",
+          "text": "The Speaker"
+        },
+        {
+          "id": "r3",
+          "text": "The archbishop of Canterbury"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-10.who-chairs-the-debates-at-the-house-of-commons.m4a",
+      "question": "Who chairs the debates at the House of Commons?",
+      "explanation": "Debates in the House of Commons are chaired by the Speaker.",
+      "id": "exam-01-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Speaker"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Speaker chairs debates in the House of Commons, keeps order, applies the House's rules and decides which MPs may speak.\n\nThe Speaker is not appointed by the Prime Minister. The office is held by an MP elected by the other MPs; after election, the Speaker must act politically impartially. As of August 2026, the Speaker is Sir Lindsay Hoyle, MP for Chorley, who has held the office since 4 November 2019.\n\nDuring debates, the Speaker sits on the raised Speaker's Chair at the north end of the Commons Chamber, at the end of the Table of the House, facing the opposing rows of green benches. From the Speaker's point of view, the Government sits on the right and the Opposition on the left.",
+        "why_correct_zh": "下议院议长（Speaker）主持辩论、维持秩序、执行议院规则，并决定由哪些议员发言。\n\n议长不是由首相任命，而是由下议院议员从议员中选举产生。当选后，议长必须保持政治中立。截至2026年8月，现任议长是Chorley选区议员Sir Lindsay Hoyle；他自2019年11月4日起担任此职。\n\n辩论时，议长坐在下议院议场北端、Table of the House尽头略微升高的Speaker’s Chair上，面对两排相向的绿色长椅。从议长的视角看，政府议员坐在右侧，反对党坐在左侧。",
+        "answer_summary_zh": "正确选项：The Speaker。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "House of Commons"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-commons-speaker",
+        "parliament-commons-chamber-guide"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who chairs the debates at the House of Commons?”及正确答案“The Speaker”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-commons-speaker",
+          "parliament-commons-chamber-guide"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sir Roger Bannister"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Jackie Stewart"
+        },
+        {
+          "id": "r2",
+          "text": "Sir Ian Botham"
+        },
+        {
+          "id": "r3",
+          "text": "Bobby Moore"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-11.who-was-the-captain-of-the-english-football-team-that-won-the-world-cup-in-1966-bobby-moore.m4a",
+      "question": "Who was the captain of the English football team that won the World Cup in 1966?",
+      "explanation": "Bobby Moore captained the English football team that won the World Cup in 1966.",
+      "id": "exam-01-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Bobby Moore"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Bobby Moore captained England when they won the 1966 FIFA World Cup. He played as a central defender, a position commonly called centre-half in his era.\n\nHe first captained England at the age of 22. Across 108 international appearances, he wore the captain's armband 90 times and won 57 of those matches. He remains the only England captain to have lifted the men's World Cup.",
+        "why_correct_zh": "Bobby Moore是英格兰1966年世界杯冠军队长。他主要踢中后卫（central defender；当时也常称centre-half）。\n\n他22岁便首次担任英格兰队长。在108次国家队出场中，他有90次戴上队长袖标，其中57场获胜。他仍是唯一举起男足世界杯的英格兰队长。",
+        "answer_summary_zh": "正确选项：Bobby Moore。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "English",
+          "World Cup",
+          "1966"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "fa-bobby-moore-captain"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the captain of the English football team that won the World Cup in 1966?”及正确答案“Bobby Moore”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "fa-bobby-moore-captain"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1466"
+        },
+        {
+          "id": "r1",
+          "text": "1066"
+        },
+        {
+          "id": "r2",
+          "text": "1254"
+        },
+        {
+          "id": "r3",
+          "text": "1588"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-12.when-did-the-english-defeat-the-spanish-armada-1588.m4a",
+      "question": "When did the English defeat the Spanish Armada?",
+      "explanation": "In 1588 the English defeated the Spanish Armada.",
+      "id": "exam-01-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "1588"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Spanish Armada was the large invasion fleet sent by King Philip II of Spain in 1588.\n\nArmada is a Spanish word for an armed fleet or navy. In Spain the force is usually called the Gran Armada; 'Invincible Armada' was not an official name chosen by Philip II. Spanish naval-history material says the label was coined and spread in England, becoming especially ironic after the fleet's defeat. The Chinese name '西班牙无敌舰队' follows that traditional label.\n\nThis happened during the reign of Elizabeth I, Queen of England and Ireland from 1558 to 1603. Philip II's invasion was intended to overthrow her and restore a Catholic ruler in England.",
+        "why_correct_zh": "Spanish Armada（西班牙无敌舰队）是西班牙国王Philip II于1588年派出的大型入侵舰队。\n\nArmada是西班牙语，意思是武装舰队或海军。西班牙通常把这支舰队称为Gran Armada；“Invincible Armada”并不是Philip II制定的正式名称。西班牙海军史资料指出，这个称呼由英格兰方面提出并传播，舰队战败后便具有强烈的反讽意味。中文“西班牙无敌舰队”沿用了这个传统名称。\n\n这件事发生在Elizabeth I统治期间；她于1558年至1603年担任英格兰和爱尔兰女王。Philip II的入侵目标包括推翻Elizabeth I，并在英格兰恢复天主教君主。",
+        "answer_summary_zh": "正确选项：1588。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "English",
+          "Spanish Armada"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-spanish-armada",
+        "spanish-navy-gran-armada-name"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did the English defeat the Spanish Armada?”及正确答案“1588”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-spanish-armada",
+          "spanish-navy-gran-armada-name"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-13.anyone-can-make-a-complaint-about-the-police-by-writing-to-the-chief-constable-of-the-police-force-involved.m4a",
+      "question": "Anyone can make a complaint about the police by writing to the Chief Constable of the police force involved.",
+      "explanation": "This statement is TRUE.",
+      "id": "exam-01-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The statement is true: writing to the Chief Constable is a way to complain to the police force involved. A Chief Constable is the most senior officer who leads a local police force; this does not mean that they personally handle each complaint. Complaints are usually managed by the force's Professional Standards Department.\n\nIn England and Wales, you can complain directly to the force online, by calling 101, at a police station or in writing. You can also use the IOPC form, which normally forwards the complaint to the relevant force. The force assesses and records it; the most serious matters must be referred to the IOPC. After the outcome, the notice explains whether and where you can request a review, normally within 28 days.",
+        "why_correct_zh": "这个说法是正确的：写信给涉事警队的Chief Constable，是向该警队投诉的一种方式。Chief Constable是地方警队的最高级警官，负责领导整支警队；但这不表示每封投诉都由本人处理，实际通常由警队的Professional Standards Department（专业标准部门）负责。\n\n以英格兰和威尔士为例，可以通过警队网站、101电话、前往警察局或书面方式投诉，也可以使用IOPC的表格；IOPC一般会把投诉转给相关警队。警队随后评估并记录投诉，最严重的案件必须转交IOPC。收到处理结果后，通知会说明能否以及向哪个机构申请review（复核），通常须在28天内提出。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Chief Constable of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "college-policing-chief-constable",
+        "iopc-complaints-process"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Anyone can make a complaint about the police by writing to the Chief Constable of the police force involved.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "college-policing-chief-constable",
+          "iopc-complaints-process"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "16"
+        },
+        {
+          "id": "r1",
+          "text": "18"
+        },
+        {
+          "id": "r2",
+          "text": "21"
+        },
+        {
+          "id": "r3",
+          "text": "25"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-14.what-is-the-minimum-age-required-to-serve-on-a-jury-18.m4a",
+      "question": "What is the minimum age required to serve on a jury?",
+      "explanation": "Anyone who is on the electoral register and is aged 18 to 70 can be asked to serve on a jury.",
+      "id": "exam-01-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "18"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The minimum age in the exam answer is 18. Jury service gives ordinary members of the public a direct role in the justice system. In an England and Wales Crown Court trial, 12 jurors listen to the evidence and decide whether the defendant is guilty.\n\nThe judge and jury have different jobs: the judge explains the law and manages the trial, while the jury weighs the evidence, decides the facts and returns the verdict. If the verdict is guilty, the judge—not the jury—decides the sentence. Jury rules differ in Scotland and Northern Ireland.",
+        "why_correct_zh": "本题的最低年龄答案是18岁。serve on a jury（担任陪审员）的作用，是让普通公众直接参与司法。以英格兰和威尔士的Crown Court为例，12名陪审员听取庭审证据，并判断被告是否有罪。\n\n法官和陪审团分工不同：法官解释法律、主持审判；陪审团衡量证据、判断事实并作出verdict（裁决）。如果裁决有罪，由法官而不是陪审团决定sentence（刑罚）。苏格兰和北爱尔兰的陪审制度有所不同。",
+        "answer_summary_zh": "正确选项：18。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "minimum age"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-jury-service",
+        "judiciary-criminal-jurisdiction"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the minimum age required to serve on a jury?”及正确答案“18”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-jury-service",
+          "judiciary-criminal-jurisdiction"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "From the NHS registration system"
+        },
+        {
+          "id": "r1",
+          "text": "Randomly from the electoral register"
+        },
+        {
+          "id": "r2",
+          "text": "Alphabetically from the telephone directory"
+        },
+        {
+          "id": "r3",
+          "text": "From a postcode selection"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-15.how-is-a-jury-selected-randomly-from-the-electoral-register.m4a",
+      "question": "How is a jury selected?",
+      "explanation": "As well as getting the right to vote, people on the electoral register are randomly selected to serve on a jury. Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this.",
+      "id": "exam-01-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Randomly from the electoral register"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Jurors are selected at random from the electoral register. This is why being registered to vote can also lead to a jury summons.\n\nJury service gives ordinary members of the public a direct role in the justice system. In an England and Wales Crown Court trial, 12 jurors listen to the evidence, decide what facts have been proved and return the verdict. The judge explains the law and, after a guilty verdict, decides the sentence. Jury rules differ in Scotland and Northern Ireland.",
+        "why_correct_zh": "陪审员从electoral register（选民登记册）中随机选出；因此，登记投票也意味着可能收到jury summons（陪审团传票）。\n\nserve on a jury（担任陪审员）的作用，是让普通公众直接参与司法。以英格兰和威尔士的Crown Court为例，12名陪审员听取证据、判断哪些事实已被证明并作出verdict（裁决）。法官负责解释法律；如果裁决有罪，则由法官决定sentence（刑罚）。苏格兰和北爱尔兰的规则有所不同。",
+        "answer_summary_zh": "正确选项：Randomly from the electoral register。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "selected"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-jury-service",
+        "judiciary-criminal-jurisdiction"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How is a jury selected?”及正确答案“Randomly from the electoral register”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-jury-service",
+          "judiciary-criminal-jurisdiction"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A public holiday when banks are open all day"
+        },
+        {
+          "id": "r1",
+          "text": "A public holiday for people working in banks"
+        },
+        {
+          "id": "r2",
+          "text": "An additional day off that every worker in the UK is entitled to"
+        },
+        {
+          "id": "r3",
+          "text": "A public holiday when banks and many other businesses are closed for the day"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-16.what-is-a-bank-holiday.m4a",
+      "question": "What is a bank holiday?",
+      "explanation": "There are public holidays each year called bank holidays, when banks and many other businesses are closed for the day.",
+      "id": "exam-01-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "A public holiday when banks and many other businesses are closed for the day"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Bank holidays are public holidays when banks and many other businesses close, although employees do not automatically have a legal right to paid leave on these dates.\n\nThe name comes from the Bank Holidays Act 1871. It made specified days closing days for banks and allowed bills and promissory notes due on those days to be dealt with on the next working day. The Act was promoted by the banker, scientist and MP Sir John Lubbock. People were so pleased with the new holidays that they briefly nicknamed them 'St Lubbock's Days'. What began as bank closures gradually became holidays observed much more widely.",
+        "why_correct_zh": "Bank holiday是银行及许多企业停业的公共假日。不过一个容易误解的地方是：法律并不自动保证雇员在bank holiday获得带薪休假。\n\n这个名称来自1871年的Bank Holidays Act。法案最初规定银行在指定日期停业，当天到期的汇票和本票可以顺延至下一工作日处理。推动法案的是银行家、科学家兼议员Sir John Lubbock。人们很喜欢新增的假期，曾一度把它们戏称为“St Lubbock’s Days”。所以记忆方法是：它最初真的是“银行的假日”，后来才逐渐成为社会广泛采用的公共假日。",
+        "answer_summary_zh": "正确选项：A public holiday when banks and many other businesses are closed for the day。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "bank holiday"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays",
+        "bank-holidays-act-1871",
+        "parliament-bank-holidays-history"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is a bank holiday?”及正确答案“A public holiday when banks and many other businesses are closed for the day”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays",
+          "bank-holidays-act-1871",
+          "parliament-bank-holidays-history"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A ballot slip"
+        },
+        {
+          "id": "r1",
+          "text": "A poll card"
+        },
+        {
+          "id": "r2",
+          "text": "A voting slip"
+        },
+        {
+          "id": "r3",
+          "text": "A poll tax relief"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-1-17.poll-card.m4a",
+      "question": "What will you be given to vote before a general election takes place?",
+      "explanation": "Before the election you will be sent a poll card.",
+      "id": "exam-01-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "A poll card"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Before an election, a registered voter is sent a poll card. It is an information notice, not the ballot paper, so you do not write your vote on it.\n\nA poll card normally shows your name and address, elector number, the election and polling date, polling hours, your assigned polling station and information about how you are registered to vote. It may also remind you about voter ID or important deadlines. For most voters it is helpful but not required at the polling station; an anonymous elector must take their poll card. The actual vote is marked later on a ballot paper.",
+        "why_correct_zh": "登记选民会在选举前收到poll card（投票卡）。它是一张投票信息通知，不是ballot paper（选票），因此不需要在上面填写候选人或写下你的选择。\n\n投票卡通常已经印好选民姓名和地址、elector number（选民编号）、选举名称与日期、投票时间、指定polling station（投票站），以及你的投票方式；还可能提醒需要携带的身份证件或相关截止日期。普通选民通常不带投票卡也可以投票，但匿名登记选民必须携带。真正投票时，工作人员会另外发给你ballot paper，由你在选票上作出选择。",
+        "answer_summary_zh": "正确选项：A poll card。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "general election"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-voting-in-person",
+        "legislation-sample-poll-card",
+        "electoral-commission-anonymous-voting"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "英国投票卡AI学习插图，标有选举日期、投票时间、指定投票站、选民姓名、地址和选民编号；所有个人资料均为虚构样例。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-voting-in-person",
+          "legislation-sample-poll-card",
+          "electoral-commission-anonymous-voting"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Solicitors’ charges are usually based on how much time they spend on a case"
+        },
+        {
+          "id": "r1",
+          "text": "Solicitors’ charges are usually based on the nature of a case and its importance"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-18.Solicitors-charges-are-usually-based-on-how-much-time-they-spend-on-a-case.m4a",
+      "question": "Which of the following statements is correct?",
+      "explanation": "Solicitors’ charges are usually based on how much time they spend of a case.",
+      "id": "exam-01-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Solicitors’ charges are usually based on how much time they spend on a case"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The statement is correct because solicitors and barristers may charge by the hour, although fixed fees and conditional arrangements are also used. There is no standard UK-wide market average: price varies by work, region, experience and complexity.\n\nFor scale, the 2026 England and Wales court-cost guidelines range from £288–£579 an hour for lawyers with over eight years' experience, £247–£393 for over four years, £200–£305 for other qualified fee earners, and £142–£210 for trainees or paralegals. London commercial work is highest.\n\nThese figures help courts assess recoverable costs; they are not compulsory retail prices. VAT and expenses may be extra. The SRA requires published prices for certain common solicitor services, while each barrister sets their own fees.",
+        "why_correct_zh": "这句话正确，因为solicitor（事务律师）和barrister（出庭律师）都可能按小时收费；也可能采用固定费用或“胜诉才收费”等方式。英国没有统一的律师市场平均价，案件类型、地区、资历和复杂程度都会影响收费。\n\n可参考英格兰和威尔士法院2026年诉讼费用指导时薪：8年以上资历者约£288–£579，4年以上约£247–£393，其他合资格办案人员约£200–£305，实习律师或paralegal约£142–£210。伦敦尤其是大型商业案件通常最高。\n\n这些数字用于法院评估可追回的诉讼费用，并不是律所必须采用的零售价；VAT、法院费、专家费等也可能另算。SRA要求律所为部分常见服务公开总价、平均价或区间；barrister则自行定价，没有标准统一收费。",
+        "answer_summary_zh": "正确选项：Solicitors’ charges are usually based on how much time they spend on a case。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-solicitor-guideline-hourly-rates",
+        "sra-price-transparency",
+        "bsb-barrister-fees"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following statements is correct?”及正确答案“Solicitors’ charges are usually based on how much time they spend on a case”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-solicitor-guideline-hourly-rates",
+          "sra-price-transparency",
+          "bsb-barrister-fees"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Television"
+        },
+        {
+          "id": "r1",
+          "text": "Internet"
+        },
+        {
+          "id": "r2",
+          "text": "Newspapers"
+        },
+        {
+          "id": "r3",
+          "text": "Radio"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-19.By-law-television-and-radio-have-to-give-a-balanced-coverage-of-all-political-parties-and-equal-time-to-rival-viewpoints-before-an-election.m4a",
+      "question": "By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?",
+      "explanation": "By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.",
+      "id": "exam-01-q19",
+      "number": 19,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r3"
+      ],
+      "correct_answers": [
+        "Television",
+        "Radio"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The exam answer is Television and Radio because these broadcast services are subject to statutory impartiality rules. Sections 319 and 320 of the Communications Act 2003 require Ofcom to set standards for due impartiality; Ofcom applies them through Sections Five and Six of the Broadcasting Code.\n\nThe wording 'equal time' in the question is an oversimplification. Ofcom expressly says that due impartiality does not require an equal division of airtime for every view. During an election, broadcasters must give parties and independent candidates due weight, considering evidence of past and current support, and must consider significant perspectives. The amount of coverage may therefore differ, but it must not unfairly favour one side. Newspapers and ordinary internet publishers are not governed by these same broadcast-impartiality provisions.",
+        "why_correct_zh": "本题答案是Television和Radio，因为这两类广播服务受到法定公正性规则约束。《Communications Act 2003》第319和320条要求Ofcom制定due impartiality（适当公正性）标准，Ofcom再通过《Broadcasting Code》第5和第6部分落实。\n\n不过，题干中的“equal time”是过度简化的说法。Ofcom明确指出，due impartiality不等于给每个观点完全相同的播出时间。选举期间，广播机构应根据政党和独立候选人过去及当前的支持度给予due weight（适当权重），并考虑具有重要意义的观点。因此，各方报道时长可以不同，但不能不公正地偏向一方。报纸和普通互联网出版者不受这一套广播公正性条款的同等约束。",
+        "answer_summary_zh": "正确选项：Television；Radio。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "TWO"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "communications-act-2003-impartiality",
+        "ofcom-due-impartiality",
+        "ofcom-elections-referendums"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?”及正确答案“Television；Radio”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "communications-act-2003-impartiality",
+          "ofcom-due-impartiality",
+          "ofcom-elections-referendums"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Northern Ireland"
+        },
+        {
+          "id": "r1",
+          "text": "Wales"
+        },
+        {
+          "id": "r2",
+          "text": "The Channel Islands"
+        },
+        {
+          "id": "r3",
+          "text": "Scotland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-20.Channel-islands-is-a-british-overseas-territory-linked-to-the-uk-but-it-is-not-part-of-it.m4a",
+      "question": "Which of the following territories is a Crown dependency but is NOT part of the UK?",
+      "explanation": "The Channel Islands is a British overseas territory linked to the UK, but it is not part of it.",
+      "id": "exam-01-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Channel Islands"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "The Channel Islands lie in the English Channel off Normandy. They comprise two Crown Dependencies: Jersey and Guernsey, the latter including Alderney and Sark.\n\nThey are neither part of the United Kingdom nor British Overseas Territories. They are self-governing possessions of the Crown with their own institutions and laws. The UK is responsible for defence and some international relations.\n\nThere is no separate Channel Islands citizenship. British nationality law applies, but birth there after 1 January 1983 does not by itself confer British citizenship; a parent's citizenship or settled status will normally matter.",
+        "why_correct_zh": "Channel Islands（海峡群岛）位于英吉利海峡、法国Normandy近海，包括两个Crown Dependencies：Jersey辖区和包含Guernsey、Alderney、Sark等岛的Guernsey辖区。\n\n它们不属于United Kingdom，也不是British Overseas Territories，而是隶属英国王室的自治领地，拥有自己的议会、政府、法院、法律和税制。国王是国家元首；英国政府负责防务及部分国际关系。\n\n岛上没有独立的“Channel Islands citizenship”。英国国籍法适用，但1983年1月1日以后仅在当地出生并不会自动成为British citizen；通常还取决于父母的英国公民或定居身份。Jerseyman或Guernseywoman等只是地方身份称呼。",
+        "answer_summary_zh": "正确选项：The Channel Islands。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Crown dependency",
+          "NOT"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "jersey-relationship-uk",
+        "govuk-crown-dependencies-factsheet",
+        "british-nationality-act-1981",
+        "jersey-child-passport-nationality"
+      ],
+      "visual": {
+        "src": "/images/featured/channel-islands-map.svg",
+        "kind": "original_location_map",
+        "display_after_answer": true,
+        "alt_zh": "海峡群岛位置图：Jersey、Guernsey、Alderney和Sark位于英吉利海峡、法国诺曼底近海，英格兰在其北方。",
+        "fact_source_ids": [
+          "official-handbook",
+          "jersey-relationship-uk",
+          "govuk-crown-dependencies-factsheet",
+          "british-nationality-act-1981",
+          "jersey-child-passport-nationality"
+        ],
+        "credit": "Original schematic map based on Government of Jersey location information",
+        "credit_url": "https://www.londonoffice.gov.je/about-jersey/"
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Radar"
+        },
+        {
+          "id": "r1",
+          "text": "Hovercraft"
+        },
+        {
+          "id": "r2",
+          "text": "Jet engine"
+        },
+        {
+          "id": "r3",
+          "text": "Ballpoint pen"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-21.What-did-sir-frank-whittle-invent-in-the-1930s-jet-engine.m4a",
+      "question": "What did Sir Frank Whittle invent in the 1930s?",
+      "explanation": "The jet engine was developed in Britain in the 1930s by Sir Frank Whittle.",
+      "id": "exam-01-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Jet engine"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The jet engine is the correct answer. RAF officer and engineer Sir Frank Whittle developed Britain's first practical turbojet. An early Power Jets experimental engine ran successfully in 1937, and the Whittle W.1 then powered the Gloster E.28/39 on the first flight by a British jet aircraft in May 1941.\n\nWhittle's work helped open the jet age. Jet propulsion ultimately allowed aircraft to fly faster and higher than piston-engine, propeller-driven aircraft, transforming military aviation and later long-distance passenger travel. Whittle developed his turbojet independently in Britain while Hans von Ohain pursued a separate jet-engine design in Germany.",
+        "why_correct_zh": "正确答案是喷气发动机。英国皇家空军（RAF）军官兼工程师 Frank Whittle 爵士开发了英国第一种实用涡轮喷气发动机。Power Jets 的早期实验发动机于 1937 年成功运转；后续的 Whittle W.1 发动机则装在 Gloster E.28/39 实验机上，使它于 1941 年 5 月完成英国喷气式飞机的首次飞行。\n\n它的历史意义在于开启了喷气时代：喷气推进最终使飞机能够比活塞发动机和螺旋桨飞机飞得更快、更高，先改变军事航空，后来又改变长途民航。Whittle 在英国独立发展涡轮喷气技术；与此同时，Hans von Ohain 在德国走的是另一条独立研发路线。",
+        "answer_summary_zh": "正确选项：Jet engine。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Sir Frank Whittle"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "science-museum-whittle-jet-engine",
+        "raf-museum-whittle-engine",
+        "raf-museum-meteor-1944"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did Sir Frank Whittle invent in the 1930s?”及正确答案“Jet engine”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "science-museum-whittle-jet-engine",
+          "raf-museum-whittle-engine",
+          "raf-museum-meteor-1944"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "William Blake"
+        },
+        {
+          "id": "r1",
+          "text": "Robert Browning"
+        },
+        {
+          "id": "r2",
+          "text": "Lord Byron"
+        },
+        {
+          "id": "r3",
+          "text": "William Wordsworth"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-22.Who-wrote-the-daffodils-william-wordsworth.m4a",
+      "question": "Who wrote ‘The Daffodils’?",
+      "explanation": "The British poet William Wordsworth wrote ‘The Daffodils’.",
+      "id": "exam-01-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "William Wordsworth"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "William Wordsworth wrote the poem commonly called 'Daffodils', whose title is 'I Wandered Lonely as a Cloud'. Some of its best-known lines are:\n\n'I wandered lonely as a cloud ...\nA host, of golden daffodils;\nAnd then my heart with pleasure fills,\nAnd dances with the daffodils.'",
+        "why_correct_zh": "英国诗人 William Wordsworth 写下了通常被称为《Daffodils》的诗，正式标题是《I Wandered Lonely as a Cloud》。其中最著名的几句是：\n\n“I wandered lonely as a cloud ...\nA host, of golden daffodils;\nAnd then my heart with pleasure fills,\nAnd dances with the daffodils.”\n\n大意是：我独自漫游如一朵云……眼前是一大片金黄水仙；后来回忆起这幅景象，心便充满快乐，也随水仙起舞。",
+        "answer_summary_zh": "正确选项：William Wordsworth。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Daffodils"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "wordsworth-grasmere-daffodils"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who wrote ‘The Daffodils’?”及正确答案“William Wordsworth”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "wordsworth-grasmere-daffodils"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Charles I"
+        },
+        {
+          "id": "r1",
+          "text": "Charles II"
+        },
+        {
+          "id": "r2",
+          "text": "Winston Churchill"
+        },
+        {
+          "id": "r3",
+          "text": "Oliver Cromwell"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-23.who-was-given-the-title-of-lord-protector.oliver-cromwell.m4a",
+      "question": "Who was given the title of Lord Protector?",
+      "explanation": "Oliver Cromwell was given the title of Lord Protector and ruled until his death in 1658.",
+      "id": "exam-01-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Oliver Cromwell"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Oliver Cromwell is correct. After Charles I was executed in 1649, England became a Commonwealth. Failed republican experiments left government increasingly dependent on the army.\n\nThe 1653 Instrument of Government created Lord Protector as head of state and named the army-backed Cromwell for life. It was a constitutional office, not a noble title granted by a king.\n\nThere is no Lord Protector today. Cromwell's son Richard briefly succeeded him but resigned in 1659. Charles II restored the monarchy in 1660, ending the Protectorate.",
+        "why_correct_zh": "正确答案是Oliver Cromwell。Charles I于1649年被处决后，英格兰成为Commonwealth；几次共和政府实验未能建立稳定统治，国家越来越依赖军队。\n\n1653年的《Instrument of Government》创设Lord Protector作为国家元首，并指定得到军队支持的Cromwell终身任职。这是共和时期替代君主的宪制职位，不是国王授予的贵族头衔。\n\n现在没有Lord Protector。Cromwell死后，其子Richard短暂继任，1659年辞职；Charles II于1660年复辟，Protectorate随之结束，此后英国国家元首仍是君主。",
+        "answer_summary_zh": "正确选项：Oliver Cromwell。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Lord Protector"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-protectorate-parliaments",
+        "national-archives-cromwell-protector",
+        "royal-family-interregnum"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was given the title of Lord Protector?”及正确答案“Oliver Cromwell”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-protectorate-parliaments",
+          "national-archives-cromwell-protector",
+          "royal-family-interregnum"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Diwali"
+        },
+        {
+          "id": "r1",
+          "text": "Lent"
+        },
+        {
+          "id": "r2",
+          "text": "Hannukah"
+        },
+        {
+          "id": "r3",
+          "text": "Vaisakhi"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT1/Q-24.What-are-the-40-days-before-easter-called-lent.m4a",
+      "question": "What are the 40 days before Easter called?",
+      "explanation": "The 40 days before Easter are known as Lent.",
+      "id": "exam-01-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Lent"
+      ],
+      "exam_number": 1,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-1/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Lent is the Christian season of reflection, penitence and preparation for Easter. It runs from Ash Wednesday to Easter Eve.\n\nIts forty days recall Jesus fasting and being tempted in the wilderness for forty days before beginning his public ministry. Western churches exclude Sundays from the count, so the calendar span is forty-six days.\n\nTraditional observance includes fasting, prayer, study and charity. The day before Lent is Shrove Tuesday; using up eggs, milk and fat before the fast helped create the British Pancake Day tradition.",
+        "why_correct_zh": "Lent（四旬期／大斋期）是基督徒在复活节前反省、祈祷、克己并为复活节作准备的时期，从Ash Wednesday开始，到Easter Eve结束。\n\n“四十天”纪念耶稣开始公开传道前在旷野禁食并受试探40天。西方教会的算法不把星期日计入40天，因为每个星期日都纪念复活；因此这段日历时间实际跨越46天。\n\n传统上，信徒会禁食或暂时放弃某种食物与享受，也会祈祷、读经和行善。四旬期前一天是Shrove Tuesday；过去人们会用掉鸡蛋、牛奶和油脂，所以英国也称这天为Pancake Day。",
+        "answer_summary_zh": "正确选项：Lent。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "40",
+          "Easter"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "church-england-lent-easter",
+        "church-england-countdown-easter"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What are the 40 days before Easter called?”及正确答案“Lent”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "church-england-lent-easter",
+          "church-england-countdown-easter"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

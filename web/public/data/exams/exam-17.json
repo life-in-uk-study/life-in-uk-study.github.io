@@ -1,0 +1,1737 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 17,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "cambridge-medieval-plague-dna": {
+      "title": "Plague in Medieval Cambridge",
+      "publisher": "University of Cambridge Department of Archaeology",
+      "url": "https://www.arch.cam.ac.uk/news/plague-medieval-cambridge",
+      "authority": "academic_research_institution",
+      "note_zh": "剑桥大学考古研究人员从中世纪死者牙齿中识别出Yersinia pestis DNA，为黑死病病原提供直接证据。"
+    },
+    "commons-armed-forces-act": {
+      "title": "What is the Armed Forces Act?",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10065/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "House of Commons Library说明Armed Forces Act提供军队的法律、纪律和司法框架，并落实和平时期维持常备军须经Parliament同意的宪制要求。"
+    },
+    "govuk-crown-dependencies-factsheet": {
+      "title": "Fact sheet on the UK's relationship with the Crown Dependencies",
+      "publisher": "Ministry of Justice",
+      "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/863381/crown-dependencies-factsheet-february-2020.pdf",
+      "authority": "official_government",
+      "note_zh": "英国政府资料说明Crown Dependencies的自治地位、国籍制度、立法关系以及Common Travel Area安排。"
+    },
+    "govuk-margaret-thatcher": {
+      "title": "History of Baroness Thatcher",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+      "authority": "official_government",
+      "note_zh": "英国政府首相历史资料确认撒切尔夫人的任期、第一位女首相身份、化学教育及研究化学师背景。"
+    },
+    "govuk-mod-about": {
+      "title": "About us — Ministry of Defence",
+      "publisher": "Ministry of Defence",
+      "url": "https://www.gov.uk/government/organisations/ministry-of-defence/about",
+      "authority": "official_government",
+      "note_zh": "Ministry of Defence说明其通过武装部队保卫UK、Crown Dependencies及Overseas Territories，并维护国家安全和利益。"
+    },
+    "govuk-mod-governance": {
+      "title": "Our governance — Ministry of Defence",
+      "publisher": "Ministry of Defence",
+      "url": "https://www.gov.uk/government/organisations/ministry-of-defence/about/our-governance",
+      "authority": "official_government",
+      "note_zh": "Ministry of Defence说明Defence Council由Secretary of State for Defence领导，并通过Service Boards管理和指挥武装部队。"
+    },
+    "heritage-ireland-battle-boyne": {
+      "title": "Battle of the Boyne Visitor Centre — Oldbridge Estate",
+      "publisher": "Heritage Ireland — Office of Public Works",
+      "url": "https://heritageireland.ie/places-to-visit/battle-of-the-boyne-visitor-centre-oldbridge-estate/",
+      "authority": "official_heritage_body",
+      "note_zh": "爱尔兰国家遗产机构确认战场位于County Meath的Oldbridge、River Boyne河畔，并提供交战日期、双方兵力和历史背景。"
+    },
+    "national-archives-battle-boyne": {
+      "title": "Glorious Revolution — Battle of the Boyne",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/glorious-revolution/glorious-revolution-source-5a/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆说明James II在爱尔兰继续争夺王位、Boyne战败后离开爱尔兰，以及William随后巩固统治。"
+    },
+    "national-archives-black-death-arrival": {
+      "title": "Living in the 14th century",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/currency-converter/living-in-the-14th-century/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆记载Black Death于1348年可能随一艘从Gascony驶来的船抵达Melcombe Regis，并在1349年前后造成巨大人口损失。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-archives-glorious-revolution": {
+      "title": "Glorious Revolution 1688",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/significant-events/glorious-revolution-1688/",
+      "authority": "official_archive",
+      "note_zh": "英国国家档案馆展示Immortal Seven邀请信，并解释James II的宗教政策、天主教男性继承人的出生以及William受邀介入的背景。"
+    },
+    "national-army-museum-battle-boyne": {
+      "title": "Battle of the Boyne",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/battle-boyne",
+      "authority": "national_museum",
+      "note_zh": "英国国家陆军博物馆分析Oldbridge渡河点、双方部署、Jacobite撤退，并指出战役在军事上并未消灭James的军队但具有长期政治意义。"
+    },
+    "nidirect-youth-justice": {
+      "title": "Youth justice",
+      "publisher": "nidirect — Northern Ireland Government",
+      "url": "https://www.nidirect.gov.uk/articles/youth-justice",
+      "authority": "official_government",
+      "note_zh": "北爱尔兰政府说明Youth Court由一名District Judge担任主席并与两名Lay Magistrates共同审理，三人听取证据并作出裁决。"
+    },
+    "nijac-district-judge-qualification": {
+      "title": "District Judge (Magistrates' Courts)",
+      "publisher": "Northern Ireland Judicial Appointments Commission",
+      "url": "https://www.nijac.gov.uk/news/district-judge-magistrates-courts-x-1",
+      "authority": "official_judicial_body",
+      "note_zh": "NIJAC说明北爱尔兰District Judge (Magistrates’ Courts)处理刑事和家庭案件，申请人须具有至少七年大律师或事务律师资历。"
+    },
+    "nijac-lay-magistrate-role": {
+      "title": "What is a Lay Magistrate?",
+      "publisher": "Northern Ireland Judicial Appointments Commission",
+      "url": "https://www.nijac.gov.uk/what-lay-magistrate",
+      "authority": "official_judicial_body",
+      "note_zh": "NIJAC说明Lay Magistrates无需法律专业背景，但须接受培训，并与District Judges共同处理Youth Court及Family Proceedings Court案件。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "parliament-glorious-revolution-invasion": {
+      "title": "Invasion and desertion",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/invasiondesertion/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍Immortal Seven的邀请、William of Orange登陆、James II失去支持并逃亡，以及Convention Parliament安排王位继承的过程。"
+    },
+    "parliament-great-famine": {
+      "title": "The Great Famine",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/the-great-famine/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍1845至1852年爱尔兰Great Famine、马铃薯疫病、饥荒、疾病和移民。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "parliament-shadow-cabinet": {
+      "title": "Shadow Cabinet",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/site-information/glossary/shadow-cabinet/",
+      "authority": "official_parliament",
+      "note_zh": "UK Parliament说明Shadow Cabinet由反对党领袖选择，其成员分别对应政府Cabinet的政策领域，监督和挑战相应部长，并把反对党呈现为alternative government-in-waiting。"
+    },
+    "parliament-thatcher-booklet": {
+      "title": "Margaret Thatcher — official booklet for the Parliamentary statue",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/documents/upload/baroness-thatcher-booklet.pdf",
+      "authority": "official_parliament",
+      "note_zh": "英国议会概述Thatcherism、私有化、工会改革、经济政策、福克兰群岛战争及其国内外影响和争议。"
+    },
+    "parliament-thatcher-tributes": {
+      "title": "Tributes to Baroness Thatcher",
+      "publisher": "UK Parliament Hansard",
+      "url": "https://hansard.parliament.uk/Commons/2013-04-10/debates/1304104000001/TributesToBaronessThatcher",
+      "authority": "official_parliament",
+      "note_zh": "英国议会记录说明“Iron Lady”最初由苏联方面作为讽刺称呼提出，撒切尔夫人随后把它当作自豪的称号。"
+    },
+    "royal-crown-dependencies": {
+      "title": "Crown Dependencies",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/crown-dependencies",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室官网说明君主是皇家属地的国家元首，在Isle of Man称Lord of Mann，在Channel Islands传统上称Duke of Normandy，并由Lieutenant Governor代表。"
+    },
+    "royal-james-ii": {
+      "title": "James II (r.1685–1688)",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/james-ii",
+      "authority": "official_royal_household",
+      "note_zh": "英国王室官网说明James II的宗教和任命政策、Seven Bishops事件、男性继承人出生以及William登陆后James逃往法国。"
+    },
+    "thatcher-foundation-britain-awake": {
+      "title": "Speech at Kensington Town Hall — Britain Awake",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102939",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月19日“Britain Awake”演讲档案，并记录苏联军方报纸Red Star于1月24日首次使用“Iron Lady”称号。"
+    },
+    "thatcher-foundation-iron-lady-response": {
+      "title": "Speech to Finchley Conservatives — admits to being an Iron Lady",
+      "publisher": "Margaret Thatcher Foundation / Churchill Archive Centre",
+      "url": "https://www.margaretthatcher.org/document/102947",
+      "authority": "primary_archive",
+      "note_zh": "1976年1月31日演讲档案，记录撒切尔夫人如何以幽默方式接受并重新定义“Iron Lady”称号。"
+    },
+    "ukhsa-plague-guidance": {
+      "title": "Plague: epidemiology, outbreaks and guidance",
+      "publisher": "UK Health Security Agency",
+      "url": "https://www.gov.uk/guidance/plague-epidemiology-outbreaks-and-guidance",
+      "authority": "official_public_health_body",
+      "note_zh": "UKHSA确认鼠疫由Yersinia pestis引起，并说明受感染啮齿动物的跳蚤、动物组织和呼吸道飞沫等传播途径。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Parliament"
+        },
+        {
+          "id": "r1",
+          "text": "The cabinet"
+        },
+        {
+          "id": "r2",
+          "text": "The armed forces"
+        },
+        {
+          "id": "r3",
+          "text": "The police"
+        }
+      ],
+      "audio_url": null,
+      "question": "Which of the following is not a constitutional institution?",
+      "explanation": "Constitutional institutions in the UK include: the monarchy, the Parliament (the House of Commons and the House of Lords), the Prime Minister, the cabinet, the judiciary (courts), the police, the civil service and the local government. The armed forces are not a constitutional institution.",
+      "id": "exam-17-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The armed forces"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The correct answer is the armed forces. In this question, a constitutional institution means a body directly involved in the operation of the constitution and the exercise of public government, such as the Monarch, Parliament, government, courts, the civil service and local government.\n\nThe armed forces are instead the state's defence forces and a public institution. The Royal Navy, British Army and Royal Air Force sit within the Ministry of Defence system and defend the country and carry out defence policy; they do not make constitutional rules or administer ordinary civilian government.\n\nThey are nevertheless subject to constitutional and legal control. The Monarch is formally Head of the Armed Forces, while ministers administer and command them through the Defence Council. The government exercises deployment powers on behalf of the Crown. Parliament approves defence funding and must consent to maintaining armed forces in peacetime by renewing the Armed Forces Act, which also supplies the system of service law and discipline. Thus, 'not a constitutional institution' does not mean 'outside the constitution'.",
+        "why_correct_zh": "正确答案是The armed forces。这里的constitutional institution指直接参与国家宪制运作和行使公共权力的机构，例如Monarch、Parliament、government、courts、civil service和local government。\n\n武装部队是国家的国防力量和公共机构，包括Royal Navy、British Army和Royal Air Force，纳入Ministry of Defence体系。它们负责保卫国家和执行国防政策，而不制定宪法规则或治理一般民政事务。\n\n它们仍受宪制和法律控制：Monarch名义上是Head of the Armed Forces；实际行政和指挥权由国防部长等通过Defence Council行使。政府以Crown的名义决定部署，Parliament批准经费，并通过延续Armed Forces Act同意和平时期维持常备军；该法也规定军纪和service justice。因此，“不是宪法机构”不等于“不受宪法约束”。",
+        "answer_summary_zh": "正确选项：The armed forces。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-mod-about",
+        "govuk-mod-governance",
+        "commons-armed-forces-act"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is not a constitutional institution?”及正确答案“The armed forces”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-mod-about",
+          "govuk-mod-governance",
+          "commons-armed-forces-act"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Corn"
+        },
+        {
+          "id": "r1",
+          "text": "Potato"
+        },
+        {
+          "id": "r2",
+          "text": "Wheat"
+        },
+        {
+          "id": "r3",
+          "text": "Oats"
+        }
+      ],
+      "audio_url": null,
+      "question": "What food shortage caused the famine in Ireland?",
+      "explanation": "In the middle of the century the potato crop failed, and Ireland suffered a famine. A million people died from disease and starvation.",
+      "id": "exam-17-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Potato"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In the middle of the century the potato crop failed, and Ireland suffered a famine. A million people died from disease and starvation.",
+        "why_correct_zh": "正确答案是potato。19世纪中叶，马铃薯晚疫病连续破坏爱尔兰的主要粮食作物，引发Great Famine。约一百万人死于饥饿和疾病，另有大量人口移民。",
+        "answer_summary_zh": "正确选项：Potato。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-great-famine"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What food shortage caused the famine in Ireland?”及正确答案“Potato”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-great-famine"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Shadow Cabinet"
+        },
+        {
+          "id": "r1",
+          "text": "Lobby groups"
+        },
+        {
+          "id": "r2",
+          "text": "Civil servants"
+        },
+        {
+          "id": "r3",
+          "text": "Support peers"
+        }
+      ],
+      "audio_url": null,
+      "question": "The leader of the opposition appoints senior opposition MPs. They form a group whose role is to challenge the government and put forward alternative policies. What are they called?",
+      "explanation": "The leader of the opposition appoints senior opposition MPs to be ‘shadow ministers’. Their role is to challenge the government and put forward alternative policies. They form the shadow cabinet.",
+      "id": "exam-17-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Shadow Cabinet"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Leader of the Opposition appoints senior opposition parliamentarians as shadow ministers; together they form the Shadow Cabinet.\n\nIt is called 'shadow' because the team mirrors and follows the government Cabinet. For example, the Shadow Chancellor faces the Chancellor of the Exchequer, while the Shadow Home Secretary faces the Home Secretary. Each shadow minister scrutinises the corresponding department, questions its minister, challenges policy and proposes the opposition party's alternative.\n\nThe Shadow Cabinet therefore presents a mirror team and an alternative government-in-waiting. If the opposition wins an election, its shadow ministers are often leading candidates for Cabinet jobs, but they must still be formally appointed by the new Prime Minister. 'Shadow' means counterpart and scrutiny, not secrecy.",
+        "why_correct_zh": "反对党领袖任命高级反对党议员为shadow ministers，他们共同组成Shadow Cabinet。\n\n之所以叫“shadow”，是因为这套团队像影子一样对应并跟随政府Cabinet：例如Shadow Chancellor对应Chancellor of the Exchequer，Shadow Home Secretary对应Home Secretary。每位影子部长专门监督相应政府部门，质询部长、批评政策，并提出本党的替代方案。\n\n因此Shadow Cabinet相当于Cabinet的一套“镜像班底”，让Official Opposition展示自己能够成为alternative government-in-waiting。如果反对党赢得大选，这些人常是新内阁职位的重要人选，但首相仍须正式任命，他们不会自动原职转正。“shadow”表示对应监督，并不表示秘密或没有正式作用。",
+        "answer_summary_zh": "正确选项：Shadow Cabinet。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "They"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-shadow-cabinet"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The leader of the opposition appoints senior opposition MPs. They form a group whose role is to challenge the government and put forward alternative policies. What are they called?”及正确答案“Shadow Cabinet”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-shadow-cabinet"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Protect life and property"
+        },
+        {
+          "id": "r1",
+          "text": "Represent everyone in their constituency"
+        },
+        {
+          "id": "r2",
+          "text": "Help to create new laws"
+        },
+        {
+          "id": "r3",
+          "text": "Scrutinise and comment on what the monarch is doing"
+        }
+      ],
+      "audio_url": null,
+      "question": "Which of the following are TWO responsibilities of the MPs?",
+      "explanation": "MPs responsibilities include: to represent everyone in their constituency, to help to create new laws, to scrutinise and comment on what the government is doing and to debate important national issues.",
+      "id": "exam-17-q04",
+      "number": 4,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r2"
+      ],
+      "correct_answers": [
+        "Represent everyone in their constituency",
+        "Help to create new laws"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "MPs responsibilities include: to represent everyone in their constituency, to help to create new laws, to scrutinise and comment on what the government is doing and to debate important national issues.",
+        "why_correct_zh": "议员的职责包括：代表选区的每个人、帮助制定新法律、审查和评论政府正在做的事情以及辩论重要的国家问题。",
+        "answer_summary_zh": "正确选项：Represent everyone in their constituency；Help to create new laws。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "TWO"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following are TWO responsibilities of the MPs?”及正确答案“Represent everyone in their constituency；Help to create new laws”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "John Major"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Alec Douglas-Home"
+        },
+        {
+          "id": "r2",
+          "text": "Robert Walpole"
+        },
+        {
+          "id": "r3",
+          "text": "Margaret Thatcher"
+        }
+      ],
+      "audio_url": null,
+      "question": "Who was the longest serving PM in the 20th century?",
+      "explanation": "Margaret Thatcher was the first woman Prime Minister of the UK. She was the longest-serving Prime Minister of the 20th century, remaining in office from 1979 until 1990.",
+      "id": "exam-17-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Margaret Thatcher"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Margaret Thatcher was the first woman Prime Minister of the UK. She was the longest-serving Prime Minister of the 20th century, remaining in office from 1979 until 1990.",
+        "why_correct_zh": "玛格丽特·撒切尔是20世纪任职时间最长的英国首相。她从1979年5月任职至1990年11月，并连续赢得三次大选。\n\n“Iron Lady”有明确的起点。1976年1月19日，仍是反对党领袖的撒切尔发表“Britain Awake”演讲，警告苏联扩张和军力增长，主张英国及西方加强防务。\n\n1月24日，苏联军方报纸Red Star称她为“Iron Lady”。这个称呼原本是冷战宣传中的负面标签，把她描绘成不妥协、反苏和好战的西方政客。\n\n她没有回避，而是主动重新定义。1月31日，她在Finchley的演讲中幽默地称自己是“西方世界的Iron Lady”，并把“强硬”解释为捍卫西方价值、自由和国防决心。",
+        "answer_summary_zh": "正确选项：Margaret Thatcher。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "PM",
+          "20th century"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-margaret-thatcher",
+        "parliament-thatcher-tributes",
+        "thatcher-foundation-britain-awake",
+        "thatcher-foundation-iron-lady-response",
+        "parliament-thatcher-booklet"
+      ],
+      "visual": {
+        "src": "/images/featured/margaret-thatcher-1983.jpg",
+        "kind": "licensed_real_photo",
+        "display_after_answer": true,
+        "alt_zh": "玛格丽特·撒切尔1983年的黑白肖像照片。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-margaret-thatcher",
+          "parliament-thatcher-tributes",
+          "thatcher-foundation-britain-awake",
+          "thatcher-foundation-iron-lady-response",
+          "parliament-thatcher-booklet"
+        ],
+        "credit": "Photo: Rob Bogaerts / Anefo / Nationaal Archief (CC0)",
+        "credit_url": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_(1983).jpg"
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Crown Dependencies"
+        },
+        {
+          "id": "r1",
+          "text": "Offshore Territories"
+        },
+        {
+          "id": "r2",
+          "text": "Crown Independencies"
+        },
+        {
+          "id": "r3",
+          "text": "British Colonies"
+        }
+      ],
+      "audio_url": null,
+      "question": "What name is given to the territories which are linked to the UK but not part of it?",
+      "explanation": "There are several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called ‘Crown dependencies’.",
+      "id": "exam-17-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Crown Dependencies"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "The correct answer is Crown Dependencies: the Bailiwick of Jersey, the Bailiwick of Guernsey and the Isle of Man. They are not independent countries, part of the UK or British Overseas Territories. They are self-governing dependencies of the Crown.\n\nHere, the Crown describes a constitutional legal relationship centred on the Monarch; it does not mean that the Royal Family privately owns the islands. The King is head of state of all three dependencies. He is known as Lord of Mann in the Isle of Man and, traditionally, as the Duke of Normandy in the Channel Islands. A Lieutenant Governor represents the Sovereign in each dependency, while its elected legislature, government, courts and legal system handle domestic affairs.\n\nThe UK Government acts on behalf of the Crown in defence and international relations, while the Crown acts through the Privy Council in its ultimate constitutional responsibility for good government. Some local laws also require Royal Assent. A useful summary is: the same Monarch, outside the UK, internally self-governing, with defence and foreign affairs handled by the UK.",
+        "why_correct_zh": "正确答案是Crown Dependencies（皇家属地），包括Bailiwick of Jersey、Bailiwick of Guernsey和Isle of Man。它们不是独立国家，不属于UK，也不是British Overseas Territories，而是Crown的自治属地。\n\n这里的Crown是以君主为核心的宪制法律关系，并不是王室家庭私人拥有岛屿。King是三个属地的国家元首；在Isle of Man称Lord of Mann，在Channel Islands传统上称Duke of Normandy。每个属地都有Lieutenant Governor代表君主，但日常事务由当地民选议会、政府、法院和法律体系管理。\n\nUK Government代表Crown负责国防和国际关系，Crown通过Privy Council对good government承担最终宪制责任；当地部分法律还须取得Royal Assent。可以记成：效忠同一位Monarch，不加入UK，内部自治，国防和外交由UK负责。",
+        "answer_summary_zh": "正确选项：Crown Dependencies。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-crown-dependencies-factsheet",
+        "royal-crown-dependencies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What name is given to the territories which are linked to the UK but not part of it?”及正确答案“Crown Dependencies”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-crown-dependencies-factsheet",
+          "royal-crown-dependencies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Architecture"
+        },
+        {
+          "id": "r1",
+          "text": "Poetry"
+        },
+        {
+          "id": "r2",
+          "text": "Cinema"
+        },
+        {
+          "id": "r3",
+          "text": "Philosophy"
+        }
+      ],
+      "audio_url": null,
+      "question": "What area did David Hume contribute to during the Enlightenment?",
+      "explanation": "David Hume was a famous philosopher who developed ideas about human nature during the 18th century and that have continued to influence philosophers over the years.",
+      "id": "exam-17-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Philosophy"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "David Hume was a famous philosopher who developed ideas about human nature during the 18th century and that have continued to influence philosophers over the years.",
+        "why_correct_zh": "大卫·休谟是一位著名的哲学家，他在 18 世纪提出了关于人性的思想，并多年来继续影响着哲学家。",
+        "answer_summary_zh": "正确选项：Philosophy。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "David Hume",
+          "Enlightenment"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What area did David Hume contribute to during the Enlightenment?”及正确答案“Philosophy”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Half of the population"
+        },
+        {
+          "id": "r1",
+          "text": "One third of the population"
+        },
+        {
+          "id": "r2",
+          "text": "55% of the population"
+        },
+        {
+          "id": "r3",
+          "text": "One quarter of the population"
+        }
+      ],
+      "audio_url": null,
+      "question": "What proportion of the population died as a result of the Black Death in England?",
+      "explanation": "As a result of the Black Death, one third of the population of England died and a similar proportion in Scotland and Wales.",
+      "id": "exam-17-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "One third of the population"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is that about one third of England's population died, with similar proportions in Scotland and Wales.\n\nThe immediate cause of the Black Death was the bacterium Yersinia pestis. Ancient-DNA research has identified the bacterium in teeth belonging to people who died during the epidemic. It was most commonly transmitted when fleas fed on infected rodents and then bit humans; pneumonic plague could also spread between people through respiratory droplets at close range.\n\nIn the fourteenth century the epidemic moved along Eurasian trade routes, and ships carrying rodents and fleas helped it travel between ports. It probably reached Melcombe Regis, now Weymouth, in 1348 aboard a ship from Gascony. Crowded settlements, poor sanitation and the absence of germ theory, effective public-health controls or antibiotics allowed it to spread rapidly. Medieval explanations such as bad air or divine punishment were not its biological cause.",
+        "why_correct_zh": "正确答案是英格兰约三分之一的人口死亡，苏格兰和威尔士也有相近比例。\n\n黑死病的直接病因是鼠疫杆菌Yersinia pestis。古DNA研究已在黑死病时期死者的牙齿中发现这种细菌。最常见的传播方式是跳蚤吸食受感染的啮齿动物后再叮咬人；肺鼠疫还可通过近距离飞沫在人与人之间传播。\n\n14世纪，疫情沿欧亚贸易路线扩散，载有老鼠和跳蚤的船只帮助它跨越港口。1348年，它可能随一艘从Gascony驶来的船抵达英格兰Melcombe Regis（今Weymouth）。城市拥挤、卫生条件差，加上当时没有细菌理论、有效防疫和抗生素，使疫情迅速蔓延。中世纪人曾归因于“坏空气”或神罚，但这些并非真正病因。",
+        "answer_summary_zh": "正确选项：One third of the population。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Black Death",
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ukhsa-plague-guidance",
+        "national-archives-black-death-arrival",
+        "cambridge-medieval-plague-dna"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What proportion of the population died as a result of the Black Death in England?”及正确答案“One third of the population”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ukhsa-plague-guidance",
+          "national-archives-black-death-arrival",
+          "cambridge-medieval-plague-dna"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "He moved to Spain"
+        },
+        {
+          "id": "r1",
+          "text": "He became a priest"
+        },
+        {
+          "id": "r2",
+          "text": "He escaped to France"
+        },
+        {
+          "id": "r3",
+          "text": "He was executed"
+        }
+      ],
+      "audio_url": null,
+      "question": "What happened to Charles I after he was in prison?",
+      "explanation": "Charles I’s army was defeated at the Battles of Marston Moor and Naseby. Charles was held prisoner by the parliamentary army. As he was unwilling to reach any agreement with the Parliament, in 1649 he was executed.",
+      "id": "exam-17-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "He was executed"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Charles I’s army was defeated at the Battles of Marston Moor and Naseby. Charles was held prisoner by the parliamentary army. As he was unwilling to reach any agreement with the Parliament, in 1649 he was executed.",
+        "why_correct_zh": "查理一世的军队在马斯顿荒原和内斯比战役中被击败。查尔斯被议会军俘虏。由于他不愿意与议会达成任何协议，1649年他被处决。",
+        "answer_summary_zh": "正确选项：He was executed。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Charles I"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What happened to Charles I after he was in prison?”及正确答案“He was executed”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "To appoint the members of the cabinet"
+        },
+        {
+          "id": "r1",
+          "text": "To advise, warn and encourage the Prime Minister‘s decisions on government policies"
+        },
+        {
+          "id": "r2",
+          "text": "To debate important national issues"
+        },
+        {
+          "id": "r3",
+          "text": "To appoint the government"
+        }
+      ],
+      "audio_url": null,
+      "question": "What are TWO responsibilities of the monarch?",
+      "explanation": "The monarch does not rule the country but appoints the government, which the people have chosen in a democratic election. The monarch also has regular meetings with the Prime Minister and can advise, warn and encourage, but the decisions on government policies are made by the Prime Minister and cabinet.",
+      "id": "exam-17-q10",
+      "number": 10,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r3"
+      ],
+      "correct_answers": [
+        "To advise, warn and encourage the Prime Minister‘s decisions on government policies",
+        "To appoint the government"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The monarch does not rule the country but appoints the government, which the people have chosen in a democratic election. The monarch also has regular meetings with the Prime Minister and can advise, warn and encourage, but the decisions on government policies are made by the Prime Minister and cabinet.",
+        "why_correct_zh": "君主并不统治国家，而是任命人民通过民主选举选出的政府。君主还定期与首相会面，可以提出建议、警告和鼓励，但政府政策的决定由首相和内阁决定。",
+        "answer_summary_zh": "正确选项：To advise, warn and encourage the Prime Minister‘s decisions on government policies；To appoint the government。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "TWO"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What are TWO responsibilities of the monarch?”及正确答案“To advise, warn and encourage the Prime Minister‘s decisions on government policies；To appoint the government”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A plague"
+        },
+        {
+          "id": "r1",
+          "text": "An earthquake"
+        },
+        {
+          "id": "r2",
+          "text": "A famine"
+        },
+        {
+          "id": "r3",
+          "text": "A civil war"
+        }
+      ],
+      "audio_url": null,
+      "question": "What kind of disaster was the Black Death?",
+      "explanation": "The Black Death was a disease, probably a form of plague, that came to Britain in 1348.",
+      "id": "exam-17-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "A plague"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Black Death was a disease, probably a form of plague, that came to Britain in 1348.",
+        "why_correct_zh": "黑死病是一种疾病，可能是鼠疫的一种形式，于 1348 年传入英国。",
+        "answer_summary_zh": "正确选项：A plague。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Black Death"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What kind of disaster was the Black Death?”及正确答案“A plague”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Andorra"
+        },
+        {
+          "id": "r1",
+          "text": "Germany"
+        },
+        {
+          "id": "r2",
+          "text": "France"
+        },
+        {
+          "id": "r3",
+          "text": "Luxembourg"
+        }
+      ],
+      "audio_url": null,
+      "question": "What country was in conflict with the UK for trading reasons during the 18th century?",
+      "explanation": "During the 18th century, trading and settlements overseas sometimes brought Britain into conflict with other countries, particularly France, which was expanding and trading in a similar way in many of the same areas of the world.",
+      "id": "exam-17-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "France"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "During the 18th century, trading and settlements overseas sometimes brought Britain into conflict with other countries, particularly France, which was expanding and trading in a similar way in many of the same areas of the world.",
+        "why_correct_zh": "在 18 世纪，海外贸易和定居点有时会让英国与其他国家发生冲突，特别是法国，法国在世界许多相同地区以类似的方式扩张和贸易。",
+        "answer_summary_zh": "正确选项：France。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK",
+          "18th century"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What country was in conflict with the UK for trading reasons during the 18th century?”及正确答案“France”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": null,
+      "question": "The Speaker is an MP, he or she represents a constituency and deals with the constituents.",
+      "explanation": "This statement is true.",
+      "id": "exam-17-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Speaker must first be an MP and therefore continues to represent a constituency and handle constituents' casework. After election as Speaker, however, the office-holder withdraws from party-political activity and remains impartial when presiding over the House of Commons.",
+        "why_correct_zh": "本题答案是True。下议院Speaker首先必须是一名MP，因此仍代表自己的constituency并处理选民事务；但当选议长后必须在议会工作中保持政治中立，不再参与党派活动或通常的议会投票。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Speaker",
+          "MP"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The Speaker is an MP, he or she represents a constituency and deals with the constituents.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "Wales"
+        },
+        {
+          "id": "r2",
+          "text": "England"
+        },
+        {
+          "id": "r3",
+          "text": "Northern Ireland"
+        }
+      ],
+      "audio_url": null,
+      "question": "Where is Skara Brae, the best preserved prehistoric village in northern Europe, located?",
+      "explanation": "Skara Brae on Orkney, off the north coast of Scotland, is the best preserved prehistoric village in northern Europe.",
+      "id": "exam-17-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Scotland"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Skara Brae on Orkney, off the north coast of Scotland, is the best preserved prehistoric village in northern Europe.",
+        "why_correct_zh": "位于苏格兰北海岸奥克尼群岛的斯卡拉布雷 (Skara Brae) 是北欧保存最完好的史前村庄。",
+        "answer_summary_zh": "正确选项：Scotland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Skara Brae",
+          "Europe"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is Skara Brae, the best preserved prehistoric village in northern Europe, located?”及正确答案“Scotland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "MacBeth"
+        },
+        {
+          "id": "r1",
+          "text": "The Canterbury Tales"
+        },
+        {
+          "id": "r2",
+          "text": "Doctor Faustus"
+        },
+        {
+          "id": "r3",
+          "text": "The Mikado"
+        }
+      ],
+      "audio_url": null,
+      "question": "Which of the following plays was written by William Shakespeare?",
+      "explanation": "William Shakespeare’s most famous plays include MacBeth.",
+      "id": "exam-17-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "MacBeth"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William Shakespeare’s most famous plays include MacBeth.",
+        "why_correct_zh": "威廉·莎士比亚最著名的戏剧包括《麦克白》。",
+        "answer_summary_zh": "正确选项：MacBeth。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "William Shakespeare"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following plays was written by William Shakespeare?”及正确答案“MacBeth”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Italy"
+        },
+        {
+          "id": "r1",
+          "text": "Portugal"
+        },
+        {
+          "id": "r2",
+          "text": "France"
+        },
+        {
+          "id": "r3",
+          "text": "Ireland"
+        }
+      ],
+      "audio_url": null,
+      "question": "Where was William the Conqueror from?",
+      "explanation": "William the Conqueror was the Duke of Normandy (now northern France). He defeated Harold, the Saxon king of England, at the Battle of Hastings in 1066.",
+      "id": "exam-17-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "France"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William the Conqueror was the Duke of Normandy (now northern France). He defeated Harold, the Saxon king of England, at the Battle of Hastings in 1066.",
+        "why_correct_zh": "征服者威廉是诺曼底（现法国北部）公爵。 1066年，他在黑斯廷斯战役中击败了英格兰撒克逊国王哈罗德。",
+        "answer_summary_zh": "正确选项：France。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "William the Conqueror"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where was William the Conqueror from?”及正确答案“France”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Blacksmiths"
+        },
+        {
+          "id": "r1",
+          "text": "Boers"
+        },
+        {
+          "id": "r2",
+          "text": "Conquistadors"
+        },
+        {
+          "id": "r3",
+          "text": "Beefeaters"
+        }
+      ],
+      "audio_url": null,
+      "question": "How do you call the settlers from the Netherlands who went to war with the British in South Africa?",
+      "explanation": "The British went to war in South Africa with settlers from the Netherlands called the Boers. The Boers fought fiercely and the war went on for over three years.",
+      "id": "exam-17-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Boers"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The British went to war in South Africa with settlers from the Netherlands called the Boers. The Boers fought fiercely and the war went on for over three years.",
+        "why_correct_zh": "英国人在南非与来自荷兰的布尔人定居者进行了战争。布尔人战斗激烈，战争持续了三年多。",
+        "answer_summary_zh": "正确选项：Boers。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Netherlands",
+          "British",
+          "South Africa"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How do you call the settlers from the Netherlands who went to war with the British in South Africa?”及正确答案“Boers”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": null,
+      "question": "In Northern Ireland, up to three specially trained magistrates or a District Judge are required for Youth Court cases.",
+      "explanation": "This statement is true.",
+      "id": "exam-17-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The recorded answer for this question is True. Current official Northern Ireland guidance, however, describes the Youth Court as being chaired by one District Judge (Magistrates' Courts) sitting with two Lay Magistrates, rather than presenting them as alternatives. The question may reflect older handbook wording, so distinguish the recorded test answer from the current arrangement.\n\nA District Judge is a salaried, legally qualified professional judge. The judge chairs the hearing, deals with questions of law and procedure, hears the evidence, and participates in deciding guilt and sentence. Appointment in Northern Ireland normally requires at least seven years' standing as a barrister or solicitor.\n\nLay Magistrates are trained judicial office-holders who do not need to have been lawyers. Sitting with the District Judge, they hear evidence, apply the law as directed and participate in decisions, bringing community experience to Youth Court and Family Proceedings Court cases. Northern Ireland Lay Magistrates receive fees for sittings; this differs from the generally unpaid volunteer magistrates in England and Wales.",
+        "why_correct_zh": "按本题题库，答案是True；但北爱尔兰当前官方资料显示，Youth Court通常由一名District Judge (Magistrates’ Courts)主持，并与两名Lay Magistrates共同审理，而不是两者任选其一。题库表述可能沿用了旧版教材，复习时应同时记住考试答案与现行安排的区别。\n\nDistrict Judge是具备法律资格、领取薪酬的职业法官，负责主持庭审、处理法律和程序问题、听取证据，并参与裁定是否有罪及判刑。北爱尔兰这一职位通常要求至少七年执业资历。\n\nLay Magistrates是经过培训的非职业司法人员，不要求原本是律师。他们与District Judge一起听取证据、按照法律作出决定，并把社区经验带入Youth Court和Family Proceedings Court。北爱尔兰的Lay Magistrates按出庭领取费用；这与英格兰和威尔士通常无薪的volunteer magistrates不同。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "In Northern Ireland",
+          "District Judge",
+          "Youth Court"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "nidirect-youth-justice",
+        "nijac-lay-magistrate-role",
+        "nijac-district-judge-qualification"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In Northern Ireland, up to three specially trained magistrates or a District Judge are required for Youth Court cases.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "nidirect-youth-justice",
+          "nijac-lay-magistrate-role",
+          "nijac-district-judge-qualification"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "He was the first man in the world to run a mile in under four minutes."
+        },
+        {
+          "id": "r1",
+          "text": "He won gold medals for ice dancing at the Olympic Games in 1984."
+        },
+        {
+          "id": "r2",
+          "text": "He won gold medals in rowing in five consecutive Olympic Games."
+        },
+        {
+          "id": "r3",
+          "text": "He was the first British to climb Mount Everest."
+        }
+      ],
+      "audio_url": null,
+      "question": "What made Roger Bannister famous?",
+      "explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954.",
+      "id": "exam-17-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "He was the first man in the world to run a mile in under four minutes."
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954.",
+        "why_correct_zh": "1954 年，罗杰·班尼斯特爵士 (Sir Roger Bannister) 成为世界上第一个在四分钟内跑完一英里的人。",
+        "answer_summary_zh": "正确选项：He was the first man in the world to run a mile in under four minutes.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Roger Bannister"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What made Roger Bannister famous?”及正确答案“He was the first man in the world to run a mile in under four minutes.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Duke of Medina Sidonia"
+        },
+        {
+          "id": "r1",
+          "text": "Napoleon"
+        },
+        {
+          "id": "r2",
+          "text": "King Philip II of Spain"
+        },
+        {
+          "id": "r3",
+          "text": "William of Orange"
+        }
+      ],
+      "audio_url": null,
+      "question": "Who was invited to invade and rule England in 1688?",
+      "explanation": "In 1688, important Protestants in England asked William of Orange to invade England and proclaim himself king.",
+      "id": "exam-17-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "William of Orange"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "James II was openly Catholic. He tried to relax restrictions on Catholics by exercising royal powers without Parliament, appointed Catholics to military, political and university offices, maintained a standing army, prorogued Parliament and prosecuted the Seven Bishops after they opposed his religious policy. Many Anglicans, Whigs and Tories feared that he was building a Catholic absolute monarchy.\n\nJames's Protestant daughter Mary had previously been expected to inherit. The birth of a Catholic male heir in June 1688 created the prospect of a continuing Catholic dynasty. Seven leading figures, remembered as the Immortal Seven, invited Mary's husband, the Protestant Dutch ruler William of Orange, to intervene with an army, protect religion, liberty and property, and secure a free Parliament. William also wanted England as an ally against the France of Louis XIV.\n\nWilliam landed in November 1688, many of James's officers and leading supporters defected, and James fled to France. William did not simply proclaim himself king on landing. The Convention Parliament treated James as having vacated the throne and offered it jointly to William III and Mary II in 1689, subject to their acceptance of the Declaration of Rights, later enacted as the Bill of Rights. This transfer of power became known as the Glorious Revolution.",
+        "why_correct_zh": "James II公开信奉Catholicism。他绕过Parliament放宽对天主教徒的限制、任命天主教徒担任要职、保留常备军，并起诉反对其宗教政策的Seven Bishops。许多人因此担心他正在建立Catholic absolute monarchy。\n\n人们原本预计他的Protestant女儿Mary继位；但1688年6月，James的天主教妻子生下男性继承人，意味着可能形成天主教世袭王朝。“Immortal Seven”于是邀请Mary的丈夫William of Orange带兵保护宗教、自由和财产，并召开free Parliament。William也希望英国加入对抗法国的联盟。\n\nWilliam于1688年11月登陆，许多军官和贵族倒戈，James逃往法国。他并非直接“自立为王”；Convention Parliament认定James放弃王位，1689年把王位共同授予William III和Mary II。他们接受后来成为Bill of Rights的权利声明。这场政权更替称为Glorious Revolution。",
+        "answer_summary_zh": "正确选项：William of Orange。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "1688"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-glorious-revolution-invasion",
+        "national-archives-glorious-revolution",
+        "royal-james-ii"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was invited to invade and rule England in 1688?”及正确答案“William of Orange”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-glorious-revolution-invasion",
+          "national-archives-glorious-revolution",
+          "royal-james-ii"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "James I"
+        },
+        {
+          "id": "r1",
+          "text": "James II"
+        },
+        {
+          "id": "r2",
+          "text": "Richard I"
+        },
+        {
+          "id": "r3",
+          "text": "Richard II"
+        }
+      ],
+      "audio_url": null,
+      "question": "Who was defeated at the Battle of the Boyne?",
+      "explanation": "William of Orange defeated James II at the Battle of the Boyne in Ireland in 1690.",
+      "id": "exam-17-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "James II"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Battle of the Boyne was fought beside the River Boyne at Oldbridge in County Meath, near Drogheda in today's Republic of Ireland, about 50 kilometres north of Dublin. On 1 July 1690 under the calendar then in use, William III personally commanded about 36,000 Williamite troops against approximately 25,000 Jacobites led by his father-in-law, James II.\n\nThe river was a natural obstacle on William's advance south towards Dublin. James defended its southern bank, but the Boyne was fordable in several places and the position around Oldbridge was vulnerable to being outflanked. William's forces crossed and compelled the Jacobites to retreat.\n\nThe battle did not destroy James's army and the war did not end immediately. Its strategic effect was nevertheless substantial: James left Ireland, William secured Dublin and consolidated his crown, and James's attempt to use Ireland as a base for recovering the British thrones suffered a decisive setback. The Williamite War continued until Limerick surrendered in 1691. In the longer term, the victory strengthened the Protestant Ascendancy in Ireland and became an important, politically sensitive symbol in Unionist and Orange Order traditions in Northern Ireland.",
+        "why_correct_zh": "Battle of the Boyne发生在今天Republic of Ireland的River Boyne河畔，主战场位于County Meath的Oldbridge，靠近Drogheda，约在Dublin以北50公里。1690年7月1日（旧历；现代历法为7月12日），William III亲率Williamite军队与其岳父James II的Jacobite军队交战。\n\nBoyne河是William向Dublin推进时必须突破的天然屏障。James在南岸防守，但Oldbridge附近有多处浅滩，阵地容易被侧翼包围；William的军队渡河并迫使Jacobites撤退。\n\n此战没有消灭James的主力，战争也未立即结束；但James随后离开爱尔兰，William取得Dublin并巩固王位，使James借爱尔兰恢复王位的计划遭受决定性挫折。战争直到1691年Limerick投降才结束。长期来看，胜利强化了爱尔兰的Protestant Ascendancy，并成为北爱尔兰Unionist和Orange Order传统的重要象征，纪念活动至今仍具政治敏感性。",
+        "answer_summary_zh": "正确选项：James II。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Battle of the Boyne"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "heritage-ireland-battle-boyne",
+        "national-archives-battle-boyne",
+        "national-army-museum-battle-boyne"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was defeated at the Battle of the Boyne?”及正确答案“James II”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "heritage-ireland-battle-boyne",
+          "national-archives-battle-boyne",
+          "national-army-museum-battle-boyne"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "It limited the number of hours that everybody could work to 10 hours per day."
+        },
+        {
+          "id": "r1",
+          "text": "It increased the number of hours that women and children could work to 12 hours per day."
+        },
+        {
+          "id": "r2",
+          "text": "It increased the number of hours that men could work to 12 hours per day."
+        },
+        {
+          "id": "r3",
+          "text": "It limited the number of hours that women and children could work to 10 hours per day."
+        }
+      ],
+      "audio_url": null,
+      "question": "What did the Factories Act of 1847 introduce?",
+      "explanation": "The Factories Act of 1847 limited the number of hours that women and children could work to 10 hours per day.",
+      "id": "exam-17-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "It limited the number of hours that women and children could work to 10 hours per day."
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Factories Act of 1847 limited the number of hours that women and children could work to 10 hours per day.",
+        "why_correct_zh": "1847 年的《工厂法》将妇女和儿童每天的工作时间限制为 10 小时。",
+        "answer_summary_zh": "正确选项：It limited the number of hours that women and children could work to 10 hours per day.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Factories Act of",
+          "1847"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did the Factories Act of 1847 introduce?”及正确答案“It limited the number of hours that women and children could work to 10 hours per day.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Roundheads"
+        },
+        {
+          "id": "r1",
+          "text": "Cavaliers"
+        },
+        {
+          "id": "r2",
+          "text": "Shadow Cabinet"
+        },
+        {
+          "id": "r3",
+          "text": "Quakers"
+        }
+      ],
+      "audio_url": null,
+      "question": "What name is given to the group of MPs from the opposition?",
+      "explanation": "Opposition MPs form the shadow cabinet and their role is to challenge the government and put forward alternative policies.",
+      "id": "exam-17-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Shadow Cabinet"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The correct answer is to challenge the government and put forward alternative policies. Senior members of the Official Opposition form the Shadow Cabinet.\n\nThe word 'shadow' describes how its members mirror government Cabinet posts. The Shadow Chancellor follows the work of the Chancellor of the Exchequer, for example, and each shadow minister scrutinises the matching department, questions its minister and explains what the opposition would do differently.\n\nTogether they present an alternative government-in-waiting. Shadow ministers are often leading candidates for Cabinet office if their party wins an election, but they must still be formally appointed by the new Prime Minister; they do not automatically inherit the corresponding jobs.",
+        "why_correct_zh": "正确答案是挑战政府并提出替代政策。Official Opposition的高级议员组成Shadow Cabinet。\n\n“shadow”表示这套团队像影子一样对应政府Cabinet：例如Shadow Chancellor对应Chancellor of the Exchequer，Shadow Home Secretary对应Home Secretary。每位影子部长跟进相应部门，质询政府部长、审查政策，并说明本党会采取什么不同做法。\n\n整套团队是Cabinet的“镜像班底”，使反对党能够以alternative government-in-waiting的形象接受公众检验。如果该党赢得大选，影子部长常是新内阁的重要人选，但仍须由新首相正式任命。“shadow”不是秘密的意思。",
+        "answer_summary_zh": "正确选项：Shadow Cabinet。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "opposition"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-shadow-cabinet"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What name is given to the group of MPs from the opposition?”及正确答案“Shadow Cabinet”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-shadow-cabinet"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Education"
+        },
+        {
+          "id": "r1",
+          "text": "Immigration"
+        },
+        {
+          "id": "r2",
+          "text": "Security"
+        },
+        {
+          "id": "r3",
+          "text": "Defence"
+        }
+      ],
+      "audio_url": null,
+      "question": "In which of the following matters can the Scottish Parliament legislate?",
+      "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and additional tax-raising powers.",
+      "id": "exam-17-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Education"
+      ],
+      "exam_number": 17,
+      "source_url": "https://lifeintheuktestweb.co.uk/exam-17/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and additional tax-raising powers.",
+        "why_correct_zh": "苏格兰议会可以就以下事项进行立法：民法和刑法、卫生、教育、规划和其他征税权力。",
+        "answer_summary_zh": "正确选项：Education。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scottish Parliament"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-17-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In which of the following matters can the Scottish Parliament legislate?”及正确答案“Education”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

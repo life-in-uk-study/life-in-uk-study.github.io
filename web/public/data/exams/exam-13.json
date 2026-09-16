@@ -1,0 +1,1550 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 13,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-religion": {
+      "title": "Religion",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion",
+      "authority": "official_statistics",
+      "note_zh": "英国宗教人口数据和分析。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "wordsworth-grasmere-daffodils": {
+      "title": "Daffodils — the inspiration, the poem, the place",
+      "publisher": "Wordsworth Grasmere",
+      "url": "https://wordsworth.org.uk/daffodils/",
+      "authority": "author_museum_and_archive",
+      "note_zh": "Wordsworth Grasmere介绍《I Wandered Lonely as a Cloud》（通常称为《Daffodils》）的诗文、创作背景、版本及William和Dorothy Wordsworth在Ullswater湖畔看到水仙花的经历。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "17th March"
+        },
+        {
+          "id": "r1",
+          "text": "30th November"
+        },
+        {
+          "id": "r2",
+          "text": "1st March"
+        },
+        {
+          "id": "r3",
+          "text": "23rd April"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q1.st-georges-day.m4a",
+      "question": "When is St George’s day?",
+      "explanation": "St George’s day, patron of England is celebrated on the 23rd of April.",
+      "id": "exam-13-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "23rd April"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "St George’s day, patron of England is celebrated on the 23rd of April.",
+        "why_correct_zh": "4 月 23 日是英格兰守护神圣乔治日。",
+        "answer_summary_zh": "正确选项：23rd April。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St George’s"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-religion"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is St George’s day?”及正确答案“23rd April”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-religion"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Snowdonia"
+        },
+        {
+          "id": "r1",
+          "text": "Loch Lomond and the Trossachs National Park"
+        },
+        {
+          "id": "r2",
+          "text": "The Giant’s Causeway"
+        },
+        {
+          "id": "r3",
+          "text": "The Lake District"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q2.largest-national-park-in-england.m4a",
+      "question": "Which is the largest National Park in England?",
+      "explanation": "The Lake District is England’s largest national park.",
+      "id": "exam-13-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Lake District"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Lake District is England’s largest national park.",
+        "why_correct_zh": "湖区是英格兰最大的国家公园。",
+        "answer_summary_zh": "正确选项：The Lake District。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "National Park",
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which is the largest National Park in England?”及正确答案“The Lake District”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Normands"
+        },
+        {
+          "id": "r1",
+          "text": "The Vikings"
+        },
+        {
+          "id": "r2",
+          "text": "The Anglo-Saxons"
+        },
+        {
+          "id": "r3",
+          "text": "The Romans"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q3.boudicca-tribal-leader.m4a",
+      "question": "Boudicca, was a tribal leader who fought against which foreign invaders?",
+      "explanation": "One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni.",
+      "id": "exam-13-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Romans"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni.",
+        "why_correct_zh": "与罗马人作战的部落首领之一是艾西尼女王布狄卡。",
+        "answer_summary_zh": "正确选项：The Romans。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Boudicca"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Boudicca, was a tribal leader who fought against which foreign invaders?”及正确答案“The Romans”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Canterbury Tales"
+        },
+        {
+          "id": "r1",
+          "text": "All the world’s a stage"
+        },
+        {
+          "id": "r2",
+          "text": "A Midsummer Night’s dream"
+        },
+        {
+          "id": "r3",
+          "text": "Great Expectations"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q4.poems-about-a-group-of-people-going-on-a-pilgrimage.m4a",
+      "question": "Which of the following poems is about a group of people going on a pilgrimage?",
+      "explanation": "Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales.",
+      "id": "exam-13-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Canterbury Tales"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales.",
+        "why_correct_zh": "杰弗里·乔叟用英语写了一系列诗歌，讲述一群人前往坎特伯雷朝圣的故事。人们决定互相讲述旅途中的故事，诗歌描述了旅行者和他们讲述的一些故事。这本诗集叫做《坎特伯雷故事集》。",
+        "answer_summary_zh": "正确选项：The Canterbury Tales。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following poems is about a group of people going on a pilgrimage?”及正确答案“The Canterbury Tales”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Bank Holidays"
+        },
+        {
+          "id": "r1",
+          "text": "Workers Holidays"
+        },
+        {
+          "id": "r2",
+          "text": "Business Holidays"
+        },
+        {
+          "id": "r3",
+          "text": "Summer Holidays"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q5.how-are-public-holidays-called.m4a",
+      "question": "How are public holidays called?",
+      "explanation": "There are public holidays each year called bank holidays, when banks and many other businesses are closed for the day.",
+      "id": "exam-13-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Bank Holidays"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "There are public holidays each year called bank holidays, when banks and many other businesses are closed for the day.",
+        "why_correct_zh": "每年都有公共假期，称为银行假期，银行和许多其他企业在这一天休息。",
+        "answer_summary_zh": "正确选项：Bank Holidays。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "public holiday"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How are public holidays called?”及正确答案“Bank Holidays”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Hiding in a farmer’s house"
+        },
+        {
+          "id": "r1",
+          "text": "Riding a horse"
+        },
+        {
+          "id": "r2",
+          "text": "Hiding in an oak tree"
+        },
+        {
+          "id": "r3",
+          "text": "Swimming"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q6.charles-the-second-manage-to-escape-to-europe-civil-war.m4a",
+      "question": "How did Charles II manage to escape to Europe after his defeat in the Civil War?",
+      "explanation": "Charles II escaped from Worcester, famously hiding in an oak tree on one occasion, and eventually fled to Europe.",
+      "id": "exam-13-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Hiding in an oak tree"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Charles II escaped from Worcester, famously hiding in an oak tree on one occasion, and eventually fled to Europe.",
+        "why_correct_zh": "查理二世逃离伍斯特，有一次躲在一棵橡树里，并最终逃往欧洲。",
+        "answer_summary_zh": "正确选项：Hiding in an oak tree。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Charles II",
+          "Europe",
+          "Civil War"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How did Charles II manage to escape to Europe after his defeat in the Civil War?”及正确答案“Hiding in an oak tree”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Harold"
+        },
+        {
+          "id": "r1",
+          "text": "Edward I of England"
+        },
+        {
+          "id": "r2",
+          "text": "King Arthur"
+        },
+        {
+          "id": "r3",
+          "text": "King Alfred the Great"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q7.who-defeated-the-vikings.m4a",
+      "question": "Who defeated the Vikings?",
+      "explanation": "The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings.",
+      "id": "exam-13-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "King Alfred the Great"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings.",
+        "why_correct_zh": "英格兰的盎格鲁-撒克逊王国在阿尔弗雷德大帝的领导下联合起来，击败了维京人。",
+        "answer_summary_zh": "正确选项：King Alfred the Great。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Vikings"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who defeated the Vikings?”及正确答案“King Alfred the Great”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A poet who wrote about a group of people going to Canterbury on a pilgrimage"
+        },
+        {
+          "id": "r1",
+          "text": "The first person in England to print books using a printing press"
+        },
+        {
+          "id": "r2",
+          "text": "The first person to sail singlehanded around the world"
+        },
+        {
+          "id": "r3",
+          "text": "The inventor of the television"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q8.who-was-william-caxton.m4a",
+      "question": "Who was William Caxton?",
+      "explanation": "William Caxton was the first person in England to print books using a printing press.",
+      "id": "exam-13-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The first person in England to print books using a printing press"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William Caxton was the first person in England to print books using a printing press.",
+        "why_correct_zh": "威廉·卡克斯顿是英国第一个使用印刷机印刷书籍的人。",
+        "answer_summary_zh": "正确选项：The first person in England to print books using a printing press。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "William Caxton"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was William Caxton?”及正确答案“The first person in England to print books using a printing press”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Houses of the Parliament"
+        },
+        {
+          "id": "r1",
+          "text": "The Tower of London"
+        },
+        {
+          "id": "r2",
+          "text": "The O2"
+        },
+        {
+          "id": "r3",
+          "text": "The Big Ben"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q9.where-do-beefeaters-serve-as-tour-guides.m4a",
+      "question": "Where do Beefeaters serve as tour guides?",
+      "explanation": "Beefeaters serve as tour guides at the Tower of London.",
+      "id": "exam-13-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Tower of London"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Beefeaters serve as tour guides at the Tower of London.",
+        "why_correct_zh": "伦敦塔的卫兵担任导游。",
+        "answer_summary_zh": "正确选项：The Tower of London。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Beefeaters"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where do Beefeaters serve as tour guides?”及正确答案“The Tower of London”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Glasgow"
+        },
+        {
+          "id": "r1",
+          "text": "Galloway"
+        },
+        {
+          "id": "r2",
+          "text": "The Highlands"
+        },
+        {
+          "id": "r3",
+          "text": "Edinburgh"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q10.rebellion-of-the-clans-in-scotland-bonnie-prince-charlie-was-supported-by-clansmen.m4a",
+      "question": "During the rebellion of the clans in Scotland, Bonnie Prince Charlie was supported by clansmen from which Scottish region?",
+      "explanation": "Charles Edward Stuart (Bonnie Prince Charlie) was supported by clansmen from the Scottish Highlands.",
+      "id": "exam-13-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Highlands"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Charles Edward Stuart (Bonnie Prince Charlie) was supported by clansmen from the Scottish Highlands.",
+        "why_correct_zh": "正确答案是The Highlands。1745年，Charles Edward Stuart（Bonnie Prince Charlie）在苏格兰高地氏族支持下组织军队，发动Jacobite uprising，试图让Stuart王朝重新取得王位。",
+        "answer_summary_zh": "正确选项：The Highlands。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "During the",
+          "Scotland",
+          "Bonnie Prince Charlie"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During the rebellion of the clans in Scotland, Bonnie Prince Charlie was supported by clansmen from which Scottish region?”及正确答案“The Highlands”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "She was a Protestant"
+        },
+        {
+          "id": "r2",
+          "text": "She was a Catholic"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q11.religion-elizabeth-the-first-follow.m4a",
+      "question": "What religion did Elizabeth I follow?",
+      "explanation": "Elizabeth the I was a protestant.",
+      "id": "exam-13-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "She was a Protestant"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Elizabeth the I was a protestant.",
+        "why_correct_zh": "伊丽莎白一世是一名新教徒。",
+        "answer_summary_zh": "正确选项：She was a Protestant。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Elizabeth I"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What religion did Elizabeth I follow?”及正确答案“She was a Protestant”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sir Rex Harrison"
+        },
+        {
+          "id": "r1",
+          "text": "David Niven"
+        },
+        {
+          "id": "r2",
+          "text": "Richard Burton"
+        },
+        {
+          "id": "r3",
+          "text": "Charlie Chaplin"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q12.famous-for-his-tramp-character-in-silent-movies.m4a",
+      "question": "Who became famous for his tramp character in silent movies?",
+      "explanation": "Charlie Chaplin became famous in silent movies for his tramp character.",
+      "id": "exam-13-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Charlie Chaplin"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Charlie Chaplin became famous in silent movies for his tramp character.",
+        "why_correct_zh": "查理·卓别林因其流浪汉角色而在无声电影中出名。",
+        "answer_summary_zh": "正确选项：Charlie Chaplin。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "character"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who became famous for his tramp character in silent movies?”及正确答案“Charlie Chaplin”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Royal Navy"
+        },
+        {
+          "id": "r1",
+          "text": "The Police Force"
+        },
+        {
+          "id": "r2",
+          "text": "The Naval Service"
+        },
+        {
+          "id": "r3",
+          "text": "The Royal Air Force"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q13.armed-force-used-in-the-battle-of-britain.m4a",
+      "question": "Which armed force was used in the Battle of Britain?",
+      "explanation": "The correct answer is the Royal Air Force.",
+      "id": "exam-13-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Royal Air Force"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the Royal Air Force.",
+        "why_correct_zh": "正确答案是英国皇家空军。",
+        "answer_summary_zh": "正确选项：The Royal Air Force。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Battle of Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which armed force was used in the Battle of Britain?”及正确答案“The Royal Air Force”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q14.you-have-to-be-21-years-old-to-be-able-to-vote-in-a-general-election.m4a",
+      "question": "In the UK, you have to be 21 years old to be able to vote in a general election.",
+      "explanation": "False. The present voting age of 18 was set in 1969 and (with a few exceptions) all UK-born and naturalised adult citizens have the right to vote.",
+      "id": "exam-13-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. The present voting age of 18 was set in 1969 and (with a few exceptions) all UK-born and naturalised adult citizens have the right to vote.",
+        "why_correct_zh": "错误的。目前的投票年龄为 18 岁，该年龄是 1969 年设定的，（除少数例外）所有在英国出生和入籍的成年公民都有权投票。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "In the UK",
+          "21",
+          "general election"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In the UK, you have to be 21 years old to be able to vote in a general election.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "John Masefield"
+        },
+        {
+          "id": "r1",
+          "text": "Wilfred Owen"
+        },
+        {
+          "id": "r2",
+          "text": "Siegfried Sassoon"
+        },
+        {
+          "id": "r3",
+          "text": "William Wordsworth"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q15.poet-inspired-by-nature.m4a",
+      "question": "Which of the following poets was inspired by nature?",
+      "explanation": "British poets, including William Wordsworth, were inspired by nature.",
+      "id": "exam-13-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "William Wordsworth"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "British poets, including William Wordsworth, were inspired by nature.",
+        "why_correct_zh": "William Wordsworth 深受自然景色启发。他那首通常被称为《Daffodils》的诗，正式标题是《I Wandered Lonely as a Cloud》。其中最著名的几句是：\n\n“I wandered lonely as a cloud ...\nA host, of golden daffodils;\nAnd then my heart with pleasure fills,\nAnd dances with the daffodils.”\n\n水仙花的自然景象即使在诗人独处室内时，仍能通过回忆给他带来快乐。",
+        "answer_summary_zh": "正确选项：William Wordsworth。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "wordsworth-grasmere-daffodils"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following poets was inspired by nature?”及正确答案“William Wordsworth”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "wordsworth-grasmere-daffodils"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Germany"
+        },
+        {
+          "id": "r1",
+          "text": "Italy"
+        },
+        {
+          "id": "r2",
+          "text": "France"
+        },
+        {
+          "id": "r3",
+          "text": "Spain"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q16.against-which-country-did-britain-fight-at-the-battle-of-waterloo.m4a",
+      "question": "Against which country did Britain fight at the Battle of Waterloo?",
+      "explanation": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo.",
+      "id": "exam-13-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "France"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo.",
+        "why_correct_zh": "1815年，法国战争以拿破仑皇帝在滑铁卢战役中被威灵顿公爵击败而结束。",
+        "answer_summary_zh": "正确选项：France。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Against",
+          "Britain",
+          "Battle of Waterloo"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Against which country did Britain fight at the Battle of Waterloo?”及正确答案“France”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A poet"
+        },
+        {
+          "id": "r1",
+          "text": "A sportsman"
+        },
+        {
+          "id": "r2",
+          "text": "A politician"
+        },
+        {
+          "id": "r3",
+          "text": "A musician"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q17.who-was-william-wilberforce.m4a",
+      "question": "Who was William Wilberforce?",
+      "explanation": "William Wilberforce, an evangelical Christian and a member of Parliament, also played an important part in changing the law. Along with other abolitionists (people who supported the abolition of slavery), he succeeded in turning public opinion against the slave trade.",
+      "id": "exam-13-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "A politician"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "William Wilberforce, an evangelical Christian and a member of Parliament, also played an important part in changing the law. Along with other abolitionists (people who supported the abolition of slavery), he succeeded in turning public opinion against the slave trade.",
+        "why_correct_zh": "福音派基督徒兼议会议员威廉·威尔伯福斯（William Wilberforce）也在修改法律方面发挥了重要作用。与其他废奴主义者（支持废除奴隶制的人）一起，他成功地扭转了公众舆论反对奴隶贸易。",
+        "answer_summary_zh": "正确选项：A politician。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "William Wilberforce"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was William Wilberforce?”及正确答案“A politician”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Archbishop of Canterbury"
+        },
+        {
+          "id": "r1",
+          "text": "The Archbishop of London"
+        },
+        {
+          "id": "r2",
+          "text": "The Archbishop of Birmingham"
+        },
+        {
+          "id": "r3",
+          "text": "The Archbishop of Manchester"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q18.who-is-the-spiritual-leader-of-the-church-of-england.m4a",
+      "question": "Who is the spiritual leader of the Church of England?",
+      "explanation": "The spiritual leader of the Church of England is the Archbishop of Canterbury.",
+      "id": "exam-13-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Archbishop of Canterbury"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The spiritual leader of the Church of England is the Archbishop of Canterbury.",
+        "why_correct_zh": "英国国教的精神领袖是坎特伯雷大主教。",
+        "answer_summary_zh": "正确选项：The Archbishop of Canterbury。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Church of England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-religion"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who is the spiritual leader of the Church of England?”及正确答案“The Archbishop of Canterbury”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-religion"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Wales"
+        },
+        {
+          "id": "r1",
+          "text": "Ireland"
+        },
+        {
+          "id": "r2",
+          "text": "France"
+        },
+        {
+          "id": "r3",
+          "text": "Scotland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q19.james-the-first-was-king-of-which-country-before-becoming-king-of-great-britain.m4a",
+      "question": "James I was King of which country before becoming King of England?",
+      "explanation": "When Elizabeth I died, her cousin James VI of Scotland became King James I of England, Wales and Ireland and Scotland remained a separate country.",
+      "id": "exam-13-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Scotland"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "When Elizabeth I died, her cousin James VI of Scotland became King James I of England, Wales and Ireland and Scotland remained a separate country.",
+        "why_correct_zh": "伊丽莎白一世去世后，她的表弟苏格兰詹姆斯六世成为英格兰、威尔士和爱尔兰国王詹姆斯一世，苏格兰仍然是一个独立的国家。",
+        "answer_summary_zh": "正确选项：Scotland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "James I",
+          "King of",
+          "King of England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“James I was King of which country before becoming King of England?”及正确答案“Scotland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r1",
+          "text": "Most shops in the UK open seven days a week."
+        },
+        {
+          "id": "r2",
+          "text": "All shops in the UK close on Sundays and bank holidays."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q20.which-of-the-following-statements-is-correct.m4a",
+      "question": "Which of the following statements is correct?",
+      "explanation": "Most shops in the UK are open seven days a week, although trading hours on Sundays and public holidays are generally reduced.",
+      "id": "exam-13-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Most shops in the UK open seven days a week."
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Most shops in the UK are open seven days a week, although trading hours on Sundays and public holidays are generally reduced.",
+        "why_correct_zh": "英国的大多数商店每周营业 7 天，但周日和公共假期的营业时间通常会缩短。",
+        "answer_summary_zh": "正确选项：Most shops in the UK open seven days a week.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following statements is correct?”及正确答案“Most shops in the UK open seven days a week.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "France"
+        },
+        {
+          "id": "r1",
+          "text": "Germany"
+        },
+        {
+          "id": "r2",
+          "text": "Spain"
+        },
+        {
+          "id": "r3",
+          "text": "Italy"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q21.which-country-sent-a-fleet-of-ships-to-britain-in-1588.m4a",
+      "question": "Which country sent a fleet of ships to England in 1588?",
+      "explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.",
+      "id": "exam-13-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Spain"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.",
+        "why_correct_zh": "伊丽莎白成为英国历史上最受欢迎的君主之一，特别是在 1588 年之后，当时英国击败了西班牙派来征服英格兰并恢复天主教的西班牙无敌舰队（一支大型舰队）。",
+        "answer_summary_zh": "正确选项：Spain。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "1588"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which country sent a fleet of ships to England in 1588?”及正确答案“Spain”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Edinburgh, Scotland"
+        },
+        {
+          "id": "r1",
+          "text": "Newmarket, Suffolk"
+        },
+        {
+          "id": "r2",
+          "text": "St Andrews, Scotland"
+        },
+        {
+          "id": "r3",
+          "text": "Aintree near Liverpool"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q22.where-is-the-national-horseracing-museum-located.m4a",
+      "question": "Where is the National Horseracing Museum located?",
+      "explanation": "There is a National Horseracing Museum in Newmarket, Suffolk.",
+      "id": "exam-13-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Newmarket, Suffolk"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "There is a National Horseracing Museum in Newmarket, Suffolk.",
+        "why_correct_zh": "萨福克郡纽马基特有一座国家赛马博物馆。",
+        "answer_summary_zh": "正确选项：Newmarket, Suffolk。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "National Horseracing Museum"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the National Horseracing Museum located?”及正确答案“Newmarket, Suffolk”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Crathes Castle"
+        },
+        {
+          "id": "r1",
+          "text": "Caernarfon Castle"
+        },
+        {
+          "id": "r2",
+          "text": "Bodiam Castle"
+        },
+        {
+          "id": "r3",
+          "text": "Powis Castle"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q23.which-of-the-following-castles-is-located-in-scotland.m4a",
+      "question": "Which of the following castles is located in Scotland?",
+      "explanation": "Crathes Castle is located in Scotland.",
+      "id": "exam-13-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Crathes Castle"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Crathes Castle is located in Scotland.",
+        "why_correct_zh": "克拉斯城堡位于苏格兰。",
+        "answer_summary_zh": "正确选项：Crathes Castle。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following castles is located in Scotland?”及正确答案“Crathes Castle”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Alexander McQueen"
+        },
+        {
+          "id": "r1",
+          "text": "Thomas Chippendale"
+        },
+        {
+          "id": "r2",
+          "text": "Clarice Cliff"
+        },
+        {
+          "id": "r3",
+          "text": "Mary Quant"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT13/Q24.famous-art-deco-ceramic-designer.m4a",
+      "question": "Who was a famous Art Deco ceramic designer?",
+      "explanation": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer).",
+      "id": "exam-13-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Clarice Cliff"
+      ],
+      "exam_number": 13,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-13/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer).",
+        "why_correct_zh": "英国诞生了许多伟大的设计师，从托马斯·齐彭代尔（Thomas Chippendale）（18世纪的家具设计者）到克拉丽斯·克里夫（Clarice Cliff）（设计装饰艺术陶瓷）再到特伦斯·康兰爵士（Sir Terence Conran）（20世纪的室内设计师）。",
+        "answer_summary_zh": "正确选项：Clarice Cliff。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Art Deco"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-13-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was a famous Art Deco ceramic designer?”及正确答案“Clarice Cliff”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

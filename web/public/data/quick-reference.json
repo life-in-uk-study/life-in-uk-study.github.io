@@ -1,0 +1,6114 @@
+{
+  "dataset": "life-in-the-uk-quick-reference",
+  "source_question_count": 408,
+  "group_count": 353,
+  "sections": [
+    {
+      "id": "history",
+      "title_en": "History",
+      "title_zh": "历史",
+      "question_count": 149,
+      "rows": [
+        {
+          "prompts": [
+            "Which of the following monuments is located in Wiltshire?"
+          ],
+          "answers": [
+            "Stonehenge"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-14-q13"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "Who were the first people to live in Britain in what we call the Stone Age?"
+          ],
+          "answers": [
+            "Hunter-gatherers"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-07-q18"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "Where is Skara Brae, the best preserved prehistoric village in northern Europe, located?"
+          ],
+          "answers": [
+            "Scotland"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-17-q14"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "When did the first farmers come to Britain?"
+          ],
+          "answers": [
+            "6,000 years ago"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-15-q05"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "Where did the first farmers come from?"
+          ],
+          "answers": [
+            "South-east Europe"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-02-q07"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "What was inscribed in the first coins to be minted in Britain during the Iron Age?"
+          ],
+          "answers": [
+            "The names of Iron Age kings"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-12-q05"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "Who made the first coins to be minted in Britain?"
+          ],
+          "answers": [
+            "The people of the Iron Age"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q02",
+            "exam-11-q21"
+          ],
+          "topic_id": "prehistoric-era",
+          "topic_en": "Prehistoric Britain",
+          "topic_zh": "史前英国",
+          "topic_period_sort": -10000,
+          "topic_period_en": "before AD 43",
+          "topic_period_zh": "公元43年以前"
+        },
+        {
+          "prompts": [
+            "Which two of these forts were part of Hadrian's wall?"
+          ],
+          "answers": [
+            "Vindolanda",
+            "Housesteads"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-15-q15"
+          ],
+          "topic_id": "roman-era",
+          "topic_en": "Roman invasion & rule",
+          "topic_zh": "罗马入侵与统治",
+          "topic_period_sort": -55,
+          "topic_period_en": "55 BC-AD 410",
+          "topic_period_zh": "公元前55年-公元410年"
+        },
+        {
+          "prompts": [
+            "Who was the tribal leader who fought against the Romans?"
+          ],
+          "answers": [
+            "Boudicca"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-04-q08",
+            "exam-13-q03",
+            "exam-14-q24"
+          ],
+          "topic_id": "roman-era",
+          "topic_en": "Roman invasion & rule",
+          "topic_zh": "罗马入侵与统治",
+          "topic_period_sort": -55,
+          "topic_period_en": "55 BC-AD 410",
+          "topic_period_zh": "公元前55年-公元410年"
+        },
+        {
+          "prompts": [
+            "Who built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)?"
+          ],
+          "answers": [
+            "Emperor Hadrian"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-10-q22"
+          ],
+          "topic_id": "roman-era",
+          "topic_en": "Roman invasion & rule",
+          "topic_zh": "罗马入侵与统治",
+          "topic_period_sort": -55,
+          "topic_period_en": "55 BC-AD 410",
+          "topic_period_zh": "公元前55年-公元410年"
+        },
+        {
+          "prompts": [
+            "Who led the first invasion of Britain?"
+          ],
+          "answers": [
+            "Julius Caesar"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-02-q10"
+          ],
+          "topic_id": "roman-era",
+          "topic_en": "Roman invasion & rule",
+          "topic_zh": "罗马入侵与统治",
+          "topic_period_sort": -55,
+          "topic_period_en": "55 BC-AD 410",
+          "topic_period_zh": "公元前55年-公元410年"
+        },
+        {
+          "prompts": [
+            "Who was the first Archbishop of Canterbury?"
+          ],
+          "answers": [
+            "St Augustine"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-14-q14"
+          ],
+          "topic_id": "early-medieval-era",
+          "topic_en": "Anglo-Saxons & Vikings",
+          "topic_zh": "盎格鲁-撒克逊与维京",
+          "topic_period_sort": 410,
+          "topic_period_en": "AD 410-1066",
+          "topic_period_zh": "410-1066年"
+        },
+        {
+          "prompts": [
+            "Under which king did the Anglo-Saxon kingdoms in England unite to defeat the Vikings?"
+          ],
+          "answers": [
+            "King Alfred the Great"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-02-q11",
+            "exam-13-q07"
+          ],
+          "topic_id": "early-medieval-era",
+          "topic_en": "Anglo-Saxons & Vikings",
+          "topic_zh": "盎格鲁-撒克逊与维京",
+          "topic_period_sort": 410,
+          "topic_period_en": "AD 410-1066",
+          "topic_period_zh": "410-1066年"
+        },
+        {
+          "prompts": [
+            "Which tribe came to Britain from northern Europe after the Romans left in AD 410?"
+          ],
+          "answers": [
+            "The Jutes"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-16-q04"
+          ],
+          "topic_id": "early-medieval-era",
+          "topic_en": "Anglo-Saxons & Vikings",
+          "topic_zh": "盎格鲁-撒克逊与维京",
+          "topic_period_sort": 410,
+          "topic_period_en": "AD 410-1066",
+          "topic_period_zh": "410-1066年"
+        },
+        {
+          "prompts": [
+            "What battle is commemorated in the Bayeux Tapestry?"
+          ],
+          "answers": [
+            "The Battle of Hastings"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-04-q17"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "norman-conquest-english",
+          "detail_topic_en": "Norman Conquest & English",
+          "detail_topic_zh": "诺曼征服与英语",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which was the last successful foreign invasion of England that took place in 1066?"
+          ],
+          "answers": [
+            "The Norman Conquest"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-02-q19"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "norman-conquest-english",
+          "detail_topic_en": "Norman Conquest & English",
+          "detail_topic_zh": "诺曼征服与英语",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "When was the last successful foreign invasion of England?"
+          ],
+          "answers": [
+            "1066"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-07-q24"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "norman-conquest-english",
+          "detail_topic_en": "Norman Conquest & English",
+          "detail_topic_zh": "诺曼征服与英语",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Where was William the Conqueror from?"
+          ],
+          "answers": [
+            "France"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-17-q16"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "norman-conquest-english",
+          "detail_topic_en": "Norman Conquest & English",
+          "detail_topic_zh": "诺曼征服与英语",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which two languages were used across England during the Middle Ages?"
+          ],
+          "answers": [
+            "Norman French",
+            "Anglo-Saxon"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-15-q01"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "norman-conquest-english",
+          "detail_topic_en": "Norman Conquest & English",
+          "detail_topic_zh": "诺曼征服与英语",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which two languages combined to become one English language?"
+          ],
+          "answers": [
+            "Anglo-Saxon",
+            "Norman French"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q09"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "norman-conquest-english",
+          "detail_topic_en": "Norman Conquest & English",
+          "detail_topic_zh": "诺曼征服与英语",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "What English King introduced the Domesday Book?"
+          ],
+          "answers": [
+            "William the Conqueror"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-09-q20"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "domesday-book-detail",
+          "detail_topic_en": "Domesday Book",
+          "detail_topic_zh": "Domesday Book",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which of the following tells us about how people lived in England just after the Norman Conquest?"
+          ],
+          "answers": [
+            "The Domesday Book"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-15-q11"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "domesday-book-detail",
+          "detail_topic_en": "Domesday Book",
+          "detail_topic_zh": "Domesday Book",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which two of the following records give us information about England during the reign of William I?"
+          ],
+          "answers": [
+            "The Domesday Book",
+            "The Bayeux Tapestry"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-06-q21"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "domesday-book-detail",
+          "detail_topic_en": "Domesday Book",
+          "detail_topic_zh": "Domesday Book",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "When was the Domesday Book written?"
+          ],
+          "answers": [
+            "After the Norman conquest"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-11-q15"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "domesday-book-detail",
+          "detail_topic_en": "Domesday Book",
+          "detail_topic_zh": "Domesday Book",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "During the Middle Ages, who were the serfs?"
+          ],
+          "answers": [
+            "Peasants who had a small area of their lord's agricultural land"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-09-q16"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "medieval-society-magna-carta",
+          "detail_topic_en": "Society & Magna Carta",
+          "detail_topic_zh": "社会与Magna Carta",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "What was achieved with the Magna Carta?"
+          ],
+          "answers": [
+            "It restricted the King's power"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-08-q14"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "medieval-society-magna-carta",
+          "detail_topic_en": "Society & Magna Carta",
+          "detail_topic_zh": "社会与Magna Carta",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "When was the Magna Carta created?"
+          ],
+          "answers": [
+            "1215"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-02-q12"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "medieval-society-magna-carta",
+          "detail_topic_en": "Society & Magna Carta",
+          "detail_topic_zh": "社会与Magna Carta",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which Scottish king defeated the English at the Battle of Bannockburn?"
+          ],
+          "answers": [
+            "Robert the Bruce"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-12-q14"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "medieval-wars",
+          "detail_topic_en": "Medieval wars",
+          "detail_topic_zh": "中世纪战争",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the battle of Bannockburn, and Scotland remained unconquered by the English."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-07-q06"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "medieval-wars",
+          "detail_topic_en": "Medieval wars",
+          "detail_topic_zh": "中世纪战争",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "What is the name of the long war that English kings fought with France in the middle ages?"
+          ],
+          "answers": [
+            "The Hundred Years War"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-03-q05"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "medieval-wars",
+          "detail_topic_en": "Medieval wars",
+          "detail_topic_zh": "中世纪战争",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which two houses fought in the Wars of the Roses?"
+          ],
+          "answers": [
+            "The House of York",
+            "The House of Lancaster"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q06"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "medieval-wars",
+          "detail_topic_en": "Medieval wars",
+          "detail_topic_zh": "中世纪战争",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "What kind of disaster was the Black Death?"
+          ],
+          "answers": [
+            "A plague"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-17-q11"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "black-death-detail",
+          "detail_topic_en": "Black Death",
+          "detail_topic_zh": "黑死病",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "When did the Black Death take place?"
+          ],
+          "answers": [
+            "The Middle Ages"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q19"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "black-death-detail",
+          "detail_topic_en": "Black Death",
+          "detail_topic_zh": "黑死病",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Which disease killed about one third of England's population in 1348?"
+          ],
+          "answers": [
+            "The Black Death"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-06-q18",
+            "exam-17-q08"
+          ],
+          "topic_id": "medieval-era",
+          "topic_en": "The Middle Ages",
+          "topic_zh": "中世纪",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "black-death-detail",
+          "detail_topic_en": "Black Death",
+          "detail_topic_zh": "黑死病",
+          "topic_period_sort": 1066,
+          "topic_period_en": "1066-1485",
+          "topic_period_zh": "1066-1485年"
+        },
+        {
+          "prompts": [
+            "Who established the Church of England?"
+          ],
+          "answers": [
+            "Henry VIII"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q17"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "henry-viii-reformation-detail",
+          "detail_topic_en": "Henry VIII & Reformation",
+          "detail_topic_zh": "Henry VIII与宗教改革",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Why did Henry VIII establish the church of England?"
+          ],
+          "answers": [
+            "Because the Pope didn't let him divorce his first wife, Catherine of Aragon"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-03-q04"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "henry-viii-reformation-detail",
+          "detail_topic_en": "Henry VIII & Reformation",
+          "detail_topic_zh": "Henry VIII与宗教改革",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Where was Anne Boleyn, the wife of Henry VIII, executed?"
+          ],
+          "answers": [
+            "Tower of London"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q18"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "henry-viii-reformation-detail",
+          "detail_topic_en": "Henry VIII & Reformation",
+          "detail_topic_zh": "Henry VIII与宗教改革",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "What movement challenged the authority of the Pope during Henry VIII's reign?"
+          ],
+          "answers": [
+            "The Reformation"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-07-q19",
+            "exam-09-q19",
+            "exam-16-q22"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "henry-viii-reformation-detail",
+          "detail_topic_en": "Henry VIII & Reformation",
+          "detail_topic_zh": "Henry VIII与宗教改革",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Which of the following statements is TRUE:"
+          ],
+          "answers": [
+            "Mary Stuart ('Mary, Queen of Scots') was a Catholic"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-05-q15"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "mary-queen-scots-detail",
+          "detail_topic_en": "Mary, Queen of Scots",
+          "detail_topic_zh": "苏格兰女王Mary",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "What happened to Mary, Queen of Scots, after 20 years in prison?"
+          ],
+          "answers": [
+            "She was executed"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q06",
+            "exam-16-q03"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "mary-queen-scots-detail",
+          "detail_topic_en": "Mary, Queen of Scots",
+          "detail_topic_zh": "苏格兰女王Mary",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "The version of the Bible created by King James I is known as:"
+          ],
+          "answers": [
+            "Authorised version"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-12-q08"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "protestant-britain-detail",
+          "detail_topic_en": "Protestant Britain",
+          "detail_topic_zh": "新教英国",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "What kind of church did Scotland establish in 1560?"
+          ],
+          "answers": [
+            "A Protestant church"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-11-q14"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "protestant-britain-detail",
+          "detail_topic_en": "Protestant Britain",
+          "detail_topic_zh": "新教英国",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "What was the religion of the Puritans?"
+          ],
+          "answers": [
+            "Protestant"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q16"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "protestant-britain-detail",
+          "detail_topic_en": "Protestant Britain",
+          "detail_topic_zh": "新教英国",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Who did the English defeat in 1588?"
+          ],
+          "answers": [
+            "The Spanish Armada"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-01-q12",
+            "exam-08-q18"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "elizabeth-spanish-armada",
+          "detail_topic_en": "Elizabeth I & Spanish Armada",
+          "detail_topic_zh": "Elizabeth I与西班牙无敌舰队",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Which of the following statements is true:"
+          ],
+          "answers": [
+            "Elizabeth I was a Protestant and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants."
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-06-q23"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "elizabeth-spanish-armada",
+          "detail_topic_en": "Elizabeth I & Spanish Armada",
+          "detail_topic_zh": "Elizabeth I与西班牙无敌舰队",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Who was reigning in England when English settlers first began to colonise the eastern coast of America?"
+          ],
+          "answers": [
+            "Elizabeth I"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-06-q11"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "elizabeth-spanish-armada",
+          "detail_topic_en": "Elizabeth I & Spanish Armada",
+          "detail_topic_zh": "Elizabeth I与西班牙无敌舰队",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Who was the father of Queen Elizabeth I?"
+          ],
+          "answers": [
+            "Henry VIII"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-05-q11"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "elizabeth-spanish-armada",
+          "detail_topic_en": "Elizabeth I & Spanish Armada",
+          "detail_topic_zh": "Elizabeth I与西班牙无敌舰队",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "What religion did Elizabeth I follow?"
+          ],
+          "answers": [
+            "She was a Protestant"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-13-q11"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "elizabeth-spanish-armada",
+          "detail_topic_en": "Elizabeth I & Spanish Armada",
+          "detail_topic_zh": "Elizabeth I与西班牙无敌舰队",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "Which country sent the Spanish Armada to England in 1588?"
+          ],
+          "answers": [
+            "Spain"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-10-q16",
+            "exam-11-q11",
+            "exam-13-q21"
+          ],
+          "topic_id": "tudor-era",
+          "topic_en": "The Tudors",
+          "topic_zh": "都铎时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "elizabeth-spanish-armada",
+          "detail_topic_en": "Elizabeth I & Spanish Armada",
+          "detail_topic_zh": "Elizabeth I与西班牙无敌舰队",
+          "topic_period_sort": 1485,
+          "topic_period_en": "1485-1603",
+          "topic_period_zh": "1485-1603年"
+        },
+        {
+          "prompts": [
+            "James I was King of which country before becoming King of England?"
+          ],
+          "answers": [
+            "Scotland"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-13-q19"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "james-i-detail",
+          "detail_topic_en": "James I",
+          "detail_topic_zh": "James I",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Which king was executed in 1649?"
+          ],
+          "answers": [
+            "Charles I"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-06-q08"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Which two of the following are Civil War Battles?"
+          ],
+          "answers": [
+            "The Battle of Marston Moor",
+            "The Battle of Naseby"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-07-q15"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who was given the title of Lord Protector?"
+          ],
+          "answers": [
+            "Oliver Cromwell"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-01-q23"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Charles I believed in the 'Divine Right of Kings' so he tried:"
+          ],
+          "answers": [
+            "To rule without the Parliament"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-12-q21"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "What happened to Charles I after he was in prison?"
+          ],
+          "answers": [
+            "He was executed"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-17-q09"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "What king was defeated by Oliver Cromwell during the Civil War and hid in an oak tree before escaping to Europe?"
+          ],
+          "answers": [
+            "Charles II"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-05-q10"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who fought in the English Civil war of 1642?"
+          ],
+          "answers": [
+            "The Cavaliers and the Roundheads"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-15-q14"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who supported King Charles I during the Civil War?"
+          ],
+          "answers": [
+            "Cavaliers"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-04-q16"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "When was England ruled by a republic and not by a monarch?"
+          ],
+          "answers": [
+            "When Charles I was executed"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-15-q03"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "civil-war-cromwell-detail",
+          "detail_topic_en": "Civil War & Cromwell",
+          "detail_topic_zh": "内战与Cromwell",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "How did Charles II manage to escape to Europe after his defeat in the Civil War?"
+          ],
+          "answers": [
+            "Hiding in an oak tree"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-13-q06"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "restoration-great-fire",
+          "detail_topic_en": "Restoration & Great Fire",
+          "detail_topic_zh": "王政复辟与伦敦大火",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who came from the Netherlands to become the British monarch?"
+          ],
+          "answers": [
+            "Charles II"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-16-q07"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "restoration-great-fire",
+          "detail_topic_en": "Restoration & Great Fire",
+          "detail_topic_zh": "王政复辟与伦敦大火",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who was the architect that rebuilt Saint Paul's cathedral after the Great Fire in 1666?"
+          ],
+          "answers": [
+            "Sir Christopher Wren"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q20"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "restoration-great-fire",
+          "detail_topic_en": "Restoration & Great Fire",
+          "detail_topic_zh": "王政复辟与伦敦大火",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "During the reign of Charles II parts of London were destroyed, what was the cause of this destruction?"
+          ],
+          "answers": [
+            "A fire"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-04-q03"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "restoration-great-fire",
+          "detail_topic_en": "Restoration & Great Fire",
+          "detail_topic_zh": "王政复辟与伦敦大火",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "What did the Habeas Corpus Act introduce?"
+          ],
+          "answers": [
+            "That every prisoner has a right to a court hearing"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q17"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who was defeated at the Battle of the Boyne?"
+          ],
+          "answers": [
+            "James II"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-17-q21"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Who was invited to invade and rule England in 1688?"
+          ],
+          "answers": [
+            "William of Orange"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-17-q20"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "The laws passed after the Glorious Revolution marked the beginning of the ______."
+          ],
+          "answers": [
+            "Constitutional monarchy"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-10-q15"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "William of Orange was asked by Protestants to invade England and proclaim himself king. But, when William reached England, there was no resistance and he took over the throne. This event was later known as:"
+          ],
+          "answers": [
+            "The 'Glorious Revolution'"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-05-q18"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "The Bill of Rights of 1689 confirmed the right to vote for all adult men."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-01-q07"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Which Scottish clan was killed for not taking the oath?"
+          ],
+          "answers": [
+            "The MacDonalds of Glencoe"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-07-q08"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "rights-glorious-revolution",
+          "detail_topic_en": "Rights & Glorious Revolution",
+          "detail_topic_zh": "权利与光荣革命",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "Between 1680 and 1720 many refugees called Huguenots came to England, which country did they come from?"
+          ],
+          "answers": [
+            "France"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-12-q10"
+          ],
+          "topic_id": "stuart-era",
+          "topic_en": "Stuarts & Civil War",
+          "topic_zh": "斯图亚特与内战",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "huguenots-detail",
+          "detail_topic_en": "Huguenots",
+          "detail_topic_zh": "Huguenots",
+          "topic_period_sort": 1603,
+          "topic_period_en": "1603-1714",
+          "topic_period_zh": "1603-1714年"
+        },
+        {
+          "prompts": [
+            "What is the Enlightenment?"
+          ],
+          "answers": [
+            "A period when new ideas about politics, philosophy and science were developed"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-05-q14",
+            "exam-11-q05"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "enlightenment-detail",
+          "detail_topic_en": "Enlightenment",
+          "detail_topic_zh": "启蒙运动",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "During the Enlightenment, Adam Smith developed ideas about:"
+          ],
+          "answers": [
+            "Economics"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-14-q05"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "enlightenment-detail",
+          "detail_topic_en": "Enlightenment",
+          "detail_topic_zh": "启蒙运动",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "What area did David Hume contribute to during the Enlightenment?"
+          ],
+          "answers": [
+            "Philosophy"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-17-q07"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 0,
+          "detail_topic_id": "enlightenment-detail",
+          "detail_topic_en": "Enlightenment",
+          "detail_topic_zh": "启蒙运动",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Who raised an army with support from clansmen of the Scottish Highlands in 1745?"
+          ],
+          "answers": [
+            "Bonnie Prince Charlie"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q06",
+            "exam-13-q10"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "jacobites-highlands",
+          "detail_topic_en": "Jacobites & Highlands",
+          "detail_topic_zh": "Jacobites与苏格兰高地",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "What is the name of the process by which many Scottish landlords destroyed individual small farms (known as 'crofts') to make space for large flocks of sheep and cattle?"
+          ],
+          "answers": [
+            "The Highland Clearances"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-07-q13"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 1,
+          "detail_topic_id": "jacobites-highlands",
+          "detail_topic_en": "Jacobites & Highlands",
+          "detail_topic_zh": "Jacobites与苏格兰高地",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Isambard Kingdom Brunel was responsible for:"
+          ],
+          "answers": [
+            "The construction of the Great Western Railway."
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-16-q20"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "industrial-revolution-detail",
+          "detail_topic_en": "Industrial Revolution",
+          "detail_topic_zh": "工业革命",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Which invention drove Britain's industrial development during the Industrial Revolution?"
+          ],
+          "answers": [
+            "Steam power"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-09-q17",
+            "exam-14-q23"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "industrial-revolution-detail",
+          "detail_topic_en": "Industrial Revolution",
+          "detail_topic_zh": "工业革命",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Why were canals built during the Industrial Revolution?"
+          ],
+          "answers": [
+            "To link the factories to towns and cities and to the ports"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-14-q20"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 2,
+          "detail_topic_id": "industrial-revolution-detail",
+          "detail_topic_en": "Industrial Revolution",
+          "detail_topic_zh": "工业革命",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "What country was in conflict with the UK for trading reasons during the 18th century?"
+          ],
+          "answers": [
+            "France"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-17-q12"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "exploration-global-rivalry",
+          "detail_topic_en": "Exploration & global rivalry",
+          "detail_topic_zh": "探索与全球竞争",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Who mapped the coast of Australia?"
+          ],
+          "answers": [
+            "James Cook"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q11"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "exploration-global-rivalry",
+          "detail_topic_en": "Exploration & global rivalry",
+          "detail_topic_zh": "探索与全球竞争",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Which colonies declared independence in 1776 after opposing British taxation without representation?"
+          ],
+          "answers": [
+            "The North American colonies"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q18",
+            "exam-15-q02"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 3,
+          "detail_topic_id": "exploration-global-rivalry",
+          "detail_topic_en": "Exploration & global rivalry",
+          "detail_topic_zh": "探索与全球竞争",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Who was Admiral Nelson?"
+          ],
+          "answers": [
+            "A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-09-q15",
+            "exam-12-q04"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "trafalgar-waterloo",
+          "detail_topic_en": "Trafalgar & Waterloo",
+          "detail_topic_zh": "Trafalgar与Waterloo",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "In which battle did Admiral Nelson die?"
+          ],
+          "answers": [
+            "The Battle of Trafalgar"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-05-q17",
+            "exam-14-q06"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "trafalgar-waterloo",
+          "detail_topic_en": "Trafalgar & Waterloo",
+          "detail_topic_zh": "Trafalgar与Waterloo",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "What was the last battle between Britain and France?"
+          ],
+          "answers": [
+            "The Battle of Waterloo"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-04-q01",
+            "exam-09-q02"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "trafalgar-waterloo",
+          "detail_topic_en": "Trafalgar & Waterloo",
+          "detail_topic_zh": "Trafalgar与Waterloo",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Against which country did Britain fight at the Battle of Waterloo?"
+          ],
+          "answers": [
+            "France"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-13-q16"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 4,
+          "detail_topic_id": "trafalgar-waterloo",
+          "detail_topic_en": "Trafalgar & Waterloo",
+          "detail_topic_zh": "Trafalgar与Waterloo",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Who was William Wilberforce?"
+          ],
+          "answers": [
+            "A politician"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-13-q17"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 5,
+          "detail_topic_id": "slavery-abolition-detail",
+          "detail_topic_en": "Abolition of slavery",
+          "detail_topic_zh": "废除奴隶制",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "When did the Emancipation Act abolish slavery throughout the British Empire?"
+          ],
+          "answers": [
+            "1833"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-07-q12",
+            "exam-15-q21"
+          ],
+          "topic_id": "hanoverian-era",
+          "topic_en": "Hanoverian Britain",
+          "topic_zh": "汉诺威时期",
+          "detail_topic_sort": 5,
+          "detail_topic_id": "slavery-abolition-detail",
+          "detail_topic_en": "Abolition of slavery",
+          "detail_topic_zh": "废除奴隶制",
+          "topic_period_sort": 1714,
+          "topic_period_en": "1714-1837",
+          "topic_period_zh": "1714-1837年"
+        },
+        {
+          "prompts": [
+            "Who was Florence Nightingale?"
+          ],
+          "answers": [
+            "A nurse"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-09-q24"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "How did the Government promote policies of free trade during the Victorian Age?"
+          ],
+          "answers": [
+            "Abolishing a number of taxes on imported goods"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-09-q14"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What building was constructed in Hyde Park to hold the Great Exhibition of 1851?"
+          ],
+          "answers": [
+            "The Crystal Palace"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-09-q23"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What did the Factories Act of 1847 introduce?"
+          ],
+          "answers": [
+            "It limited the number of hours that women and children could work to 10 hours per day."
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-17-q22"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What was the biggest source of employment during the 18th century?"
+          ],
+          "answers": [
+            "Manufacturing"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-07-q05"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What is the name of Irish people who favoured complete independence from the UK in the 19th century?"
+          ],
+          "answers": [
+            "Fenians"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-15-q17"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What food shortage caused the famine in Ireland?"
+          ],
+          "answers": [
+            "Potato"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-17-q02"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What was the first war to be extensively covered by the media?"
+          ],
+          "answers": [
+            "The Crimean War"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-14-q12"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "Who did Britain fight against in the Crimean War?"
+          ],
+          "answers": [
+            "Russia"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q23"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "Which war took place in South Africa from 1899 to 1902?"
+          ],
+          "answers": [
+            "The Boer War"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-05-q21",
+            "exam-09-q10"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "How do you call the settlers from the Netherlands who went to war with the British in South Africa?"
+          ],
+          "answers": [
+            "Boers"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-17-q17"
+          ],
+          "topic_id": "victorian-empire-era",
+          "topic_en": "Victorian Britain & Empire",
+          "topic_zh": "维多利亚与帝国",
+          "topic_period_sort": 1837,
+          "topic_period_en": "1837-1902",
+          "topic_period_zh": "1837-1902年"
+        },
+        {
+          "prompts": [
+            "What did Emmeline Pankhurst fight for?"
+          ],
+          "answers": [
+            "The right for women to vote"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-10-q18"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "What was the name of the activist group who fought for the women's right to vote?"
+          ],
+          "answers": [
+            "Suffragettes"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-07-q16"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "What year were women given the right to vote?"
+          ],
+          "answers": [
+            "1918"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-08-q16"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "Why were women given the right to vote?"
+          ],
+          "answers": [
+            "In recognition of the contribution women made to the war effort during the First World War"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-10-q07"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "Women over the age of 30 were given the right to vote as a result of their contribution towards the war effort. Which war was that?"
+          ],
+          "answers": [
+            "The First World War"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-02-q05"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "When were men and women given the right to vote at the age of 21?"
+          ],
+          "answers": [
+            "1928"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-01-q03",
+            "exam-04-q11",
+            "exam-09-q07"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "The Bill of Rights in 1689 gave women the right to vote."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 9,
+          "question_ids": [
+            "exam-07-q03"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "Who led the suffragettes campaigning for women's voting rights?"
+          ],
+          "answers": [
+            "Emmeline Pankhurst"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q20",
+            "exam-11-q22"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "In 1913, the British government promised 'Home Rule' for Ireland, why were changes in Ireland delayed until 1921?"
+          ],
+          "answers": [
+            "Due to the outbreak of the First World War"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q22"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "The assassination of the Archduke Franz Ferdinand of Austria in 1914 led to which of the following wars?"
+          ],
+          "answers": [
+            "The First World War"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-07-q10"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "When did the First World War end?"
+          ],
+          "answers": [
+            "At 11.00 am on 11th November 1918"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q06"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "When did the WWI come to an end?"
+          ],
+          "answers": [
+            "In 1918"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q21"
+          ],
+          "topic_id": "democracy-ww1-era",
+          "topic_en": "Democratic reform & WWI",
+          "topic_zh": "民主改革与一战",
+          "topic_period_sort": 1903,
+          "topic_period_en": "1903-1928",
+          "topic_period_zh": "1903-1928年"
+        },
+        {
+          "prompts": [
+            "During the Great Depression in the 1930s which industry was badly affected?"
+          ],
+          "answers": [
+            "Shipbuilding"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-03-q22"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "Which country did Germany invade in 1939, starting the Second World War?"
+          ],
+          "answers": [
+            "Poland"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-03-q13",
+            "exam-05-q24",
+            "exam-08-q01"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "What is known as the \"Dunkirk spirit\"?"
+          ],
+          "answers": [
+            "The evacuation of Allied soldiers from France during World War II"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-12-q17"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "Who was voted the greatest Briton of all time in 2002?"
+          ],
+          "answers": [
+            "Winston Churchill"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-04-q09",
+            "exam-12-q23"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "Who became Prime Minister and was an inspirational leader to the British people during WWII?"
+          ],
+          "answers": [
+            "Winston Churchill"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-02-q09"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "When was the United Nations set up?"
+          ],
+          "answers": [
+            "After the Second World War."
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-16-q01"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "Which crucial aerial battle was fought between Germany and Britain during the Second World War?"
+          ],
+          "answers": [
+            "The Battle of Britain"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-06-q14",
+            "exam-11-q07"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "Which armed force was used in the Battle of Britain?"
+          ],
+          "answers": [
+            "The Royal Air Force"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-13-q13"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "What did 'the Butler Act' introduce in 1944?"
+          ],
+          "answers": [
+            "Free secondary education in England and Wales"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-09-q21"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "Who was elected as British Prime Minister in 1945?"
+          ],
+          "answers": [
+            "Clement Attlee"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q18"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        },
+        {
+          "prompts": [
+            "When did Ireland become a republic?"
+          ],
+          "answers": [
+            "1949"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-02-q06"
+          ],
+          "topic_id": "ww2-era",
+          "topic_en": "Second World War era",
+          "topic_zh": "二战前后",
+          "topic_period_sort": 1930,
+          "topic_period_en": "1930-1949",
+          "topic_period_zh": "1930-1949年"
+        }
+      ]
+    },
+    {
+      "id": "government",
+      "title_en": "Politics",
+      "title_zh": "政治",
+      "question_count": 54,
+      "rows": [
+        {
+          "prompts": [
+            "Does Britain have a written constitution?"
+          ],
+          "answers": [
+            "No"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q24"
+          ],
+          "topic_id": "constitution-monarch",
+          "topic_en": "Constitution & monarch",
+          "topic_zh": "宪法与君主"
+        },
+        {
+          "prompts": [
+            "Which of the following is not a constitutional institution?"
+          ],
+          "answers": [
+            "The armed forces"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-17-q01"
+          ],
+          "topic_id": "constitution-monarch",
+          "topic_en": "Constitution & monarch",
+          "topic_zh": "宪法与君主"
+        },
+        {
+          "prompts": [
+            "The system of government in the UK is a parliamentary democracy."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q16"
+          ],
+          "topic_id": "constitution-monarch",
+          "topic_en": "Constitution & monarch",
+          "topic_zh": "宪法与君主"
+        },
+        {
+          "prompts": [
+            "What are TWO responsibilities of the monarch?"
+          ],
+          "answers": [
+            "To advise, warn and encourage the Prime Minister's decisions on government policies",
+            "To appoint the government"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-17-q10"
+          ],
+          "topic_id": "constitution-monarch",
+          "topic_en": "Constitution & monarch",
+          "topic_zh": "宪法与君主"
+        },
+        {
+          "prompts": [
+            "How often are 'Prime Minister's Questions' held in the parliament?"
+          ],
+          "answers": [
+            "Every week"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-06-q07"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Which two houses form the UK Parliament?"
+          ],
+          "answers": [
+            "The House of Lords",
+            "House of Commons"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-04-q10"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Who chairs the debates at the House of Commons?"
+          ],
+          "answers": [
+            "The Speaker"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-01-q10"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "MPs can only be contacted at their office in the House of Commons."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-12-q12"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "The Speaker is an MP, he or she represents a constituency and deals with the constituents."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-17-q13"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Who appoints life peers in the House of Lords?"
+          ],
+          "answers": [
+            "The monarch"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-14-q10"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Several Church of England bishops sit in the House of Lords."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-02-q03"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "The members of the House of Lords, known as peers, are elected by the people."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q20"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Which of the following are TWO responsibilities of the MPs?"
+          ],
+          "answers": [
+            "Represent everyone in their constituency",
+            "Help to create new laws"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-17-q04"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "A responsibility of the MPs is to represent everyone in their _______."
+          ],
+          "answers": [
+            "Constituency"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-08-q13"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "How often are general elections held in the UK?"
+          ],
+          "answers": [
+            "Every 5 years"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-04-q04"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "MPs can only be contacted by post."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-09-q18"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Proceedings in Parliament are broadcast on television and published in official reports known as:"
+          ],
+          "answers": [
+            "Hansard"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q08"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "What is the group of senior opposition MPs who challenge the government called?"
+          ],
+          "answers": [
+            "The Shadow Cabinet"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-17-q03",
+            "exam-17-q23"
+          ],
+          "topic_id": "parliament-mps",
+          "topic_en": "Parliament & MPs",
+          "topic_zh": "议会与议员"
+        },
+        {
+          "prompts": [
+            "Who is responsible for crime, policing and immigration?"
+          ],
+          "answers": [
+            "The Home Secretary"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-02-q01",
+            "exam-08-q04",
+            "exam-15-q22"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "How are civil servants appointed and what political party do they belong to?"
+          ],
+          "answers": [
+            "They are chosen on merit and are politically neutral"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-12-q16"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Are civil servants appointed by the government?"
+          ],
+          "answers": [
+            "No"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-14-q21"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Where is the official home of the Prime Minister?"
+          ],
+          "answers": [
+            "10 Downing Street"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-04-q23"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Who was the first British Prime Minister?"
+          ],
+          "answers": [
+            "Sir Robert Walpole"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q03"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Who was the first female Prime Minister of the UK?"
+          ],
+          "answers": [
+            "Margaret Thatcher"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-01-q09"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Who was the longest serving PM in the 20th century?"
+          ],
+          "answers": [
+            "Margaret Thatcher"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-17-q05"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "What was Margaret Thatcher famous for?"
+          ],
+          "answers": [
+            "She was the first woman Prime Minister of the UK"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-11-q08"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Who became Prime Minister after Margaret Thatcher and played an important part in the Northern Ireland peace process?"
+          ],
+          "answers": [
+            "John Major"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-16-q16"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "Which two political parties formed a coalition in 2010?"
+          ],
+          "answers": [
+            "The Conservative Party",
+            "The Liberal Democrats Party"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-06-q16"
+          ],
+          "topic_id": "government-pm",
+          "topic_en": "Government & Prime Minister",
+          "topic_zh": "政府与首相"
+        },
+        {
+          "prompts": [
+            "How old do citizens of the UK, the Irish Republic or the Commonwealth have to be to stand for public office?"
+          ],
+          "answers": [
+            "18"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-09-q13"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "In the UK, you have to be 21 years old to be able to vote in a general election."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-13-q14"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "You have to be at least 21 years old to stand as MP."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q21"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "Northern Ireland uses a system called 'individual registration' and all those entitled to vote must complete their own registration form."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-09-q11"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "Scotland and Wales use a system called 'individual registration' where all those entitled to vote must complete their own registration form."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-06-q12"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "What sort of election takes place when a member of the Parliament (MP) dies or resigns?"
+          ],
+          "answers": [
+            "By-election"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-08-q23"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "What will you be given to vote before a general election takes place?"
+          ],
+          "answers": [
+            "A poll card"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q17"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?"
+          ],
+          "answers": [
+            "Television",
+            "Radio"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-01-q19",
+            "exam-04-q24"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-11-q10"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "Is the BBC controlled by the government?"
+          ],
+          "answers": [
+            "No"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-12-q02"
+          ],
+          "topic_id": "elections-media",
+          "topic_en": "Elections & media",
+          "topic_zh": "选举与媒体"
+        },
+        {
+          "prompts": [
+            "Who was the leader of the Labour Party who introduced a Scottish Parliament and a Welsh Assembly?"
+          ],
+          "answers": [
+            "Tony Blair"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-16-q13"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "How many members does the Northern Ireland Assembly have?"
+          ],
+          "answers": [
+            "90"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-12-q03"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "In which of the following matters can the Scottish Parliament legislate?"
+          ],
+          "answers": [
+            "Education"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-17-q24"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "Which two issues can the devolved administrations pass laws on?"
+          ],
+          "answers": [
+            "Health",
+            "Education"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-07-q09"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "The UK government has never suspended the Northern Ireland Assembly."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-11-q13"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "Which two policies are not controlled by the devolved administrations?"
+          ],
+          "answers": [
+            "Defence",
+            "Immigration"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-09-q12",
+            "exam-11-q16"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "How many members does the Welsh government have?"
+          ],
+          "answers": [
+            "60"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-10-q10"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "How often are the members of the Welsh government elected?"
+          ],
+          "answers": [
+            "Every 4 years"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-08-q20"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "How are the members of the Northern Ireland Parliament elected?"
+          ],
+          "answers": [
+            "By a system of proportional representation"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q02"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "Towns, cities and rural areas in the UK are governed by government appointed officials."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-12-q06"
+          ],
+          "topic_id": "central-local-government",
+          "topic_en": "Central & local government",
+          "topic_zh": "中央与地方"
+        },
+        {
+          "prompts": [
+            "What is the Commonwealth?"
+          ],
+          "answers": [
+            "An association of countries that support each other and work together towards shared goals in democracy and development."
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-16-q21"
+          ],
+          "topic_id": "international-organisations",
+          "topic_en": "International organisations",
+          "topic_zh": "国际组织"
+        }
+      ]
+    },
+    {
+      "id": "culture-inventions",
+      "title_en": "Culture & inventions",
+      "title_zh": "文化与发明",
+      "question_count": 52,
+      "rows": [
+        {
+          "prompts": [
+            "What is one of the highest-grossing film franchises produced in the UK?"
+          ],
+          "answers": [
+            "James Bond"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-16-q05"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "Which film produced in the UK was one of the most commercially successful films of all time and one of the highest-grossing film franchises?"
+          ],
+          "answers": [
+            "Harry Potter"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q04"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "Which of the following actresses has not won an Oscar?"
+          ],
+          "answers": [
+            "Emily Watson"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-14-q04"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "Nick Park has won four Oscars for his animated films, including three for films featuring:"
+          ],
+          "answers": [
+            "Wallace and Gromit"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-16-q09"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "What kind of genre was the film Wallace and Gromit created by Nick Park?"
+          ],
+          "answers": [
+            "An animated film"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q23"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "What kind of movies did Academy Award winner Nick Park specialise in?"
+          ],
+          "answers": [
+            "Animated movies"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-16-q24"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "Who became famous for playing a tramp in silent movies?"
+          ],
+          "answers": [
+            "Charlie Chaplin"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-04-q20",
+            "exam-13-q12"
+          ],
+          "topic_id": "film",
+          "topic_en": "Film",
+          "topic_zh": "电影"
+        },
+        {
+          "prompts": [
+            "What is the Turner Prize?"
+          ],
+          "answers": [
+            "A contemporary art award"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-08-q24"
+          ],
+          "topic_id": "visual-art",
+          "topic_en": "Visual art",
+          "topic_zh": "美术"
+        },
+        {
+          "prompts": [
+            "Who was a famous Art Deco ceramic designer?"
+          ],
+          "answers": [
+            "Clarice Cliff"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-13-q24"
+          ],
+          "topic_id": "visual-art",
+          "topic_en": "Visual art",
+          "topic_zh": "美术"
+        },
+        {
+          "prompts": [
+            "Who was an important contributor to the 'pop art' movement of the 1960's?"
+          ],
+          "answers": [
+            "David Hockney"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-02-q08"
+          ],
+          "topic_id": "visual-art",
+          "topic_en": "Visual art",
+          "topic_zh": "美术"
+        },
+        {
+          "prompts": [
+            "Where is the Tate Art Gallery located?"
+          ],
+          "answers": [
+            "London"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-12-q07"
+          ],
+          "topic_id": "visual-art",
+          "topic_en": "Visual art",
+          "topic_zh": "美术"
+        },
+        {
+          "prompts": [
+            "What is \"the Proms\"?"
+          ],
+          "answers": [
+            "An eight-week summer season of daily orchestral classical music concerts"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-10-q19"
+          ],
+          "topic_id": "classical-music",
+          "topic_en": "Classical music",
+          "topic_zh": "古典音乐"
+        },
+        {
+          "prompts": [
+            "What was Edward Elgar famous for?"
+          ],
+          "answers": [
+            "He was a musician"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-10-q12"
+          ],
+          "topic_id": "classical-music",
+          "topic_en": "Classical music",
+          "topic_zh": "古典音乐"
+        },
+        {
+          "prompts": [
+            "What is the period of the 1960s known for?"
+          ],
+          "answers": [
+            "A growth in British fashion and pop music"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-12-q09"
+          ],
+          "topic_id": "rock-music",
+          "topic_en": "Rock & pop music",
+          "topic_zh": "摇滚音乐"
+        },
+        {
+          "prompts": [
+            "Which two British pop music groups were famous during the Swinging Sixties?"
+          ],
+          "answers": [
+            "The Rolling Stones",
+            "The Beatles"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q18"
+          ],
+          "topic_id": "rock-music",
+          "topic_en": "Rock & pop music",
+          "topic_zh": "摇滚音乐"
+        },
+        {
+          "prompts": [
+            "During which period did the Beatles become popular and social laws were liberalised?"
+          ],
+          "answers": [
+            "1960s"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q21"
+          ],
+          "topic_id": "rock-music",
+          "topic_en": "Rock & pop music",
+          "topic_zh": "摇滚音乐"
+        },
+        {
+          "prompts": [
+            "Who wrote a famous poem about daffodils?"
+          ],
+          "answers": [
+            "William Wordsworth"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-01-q22",
+            "exam-11-q18"
+          ],
+          "topic_id": "poetry",
+          "topic_en": "Poetry",
+          "topic_zh": "诗歌"
+        },
+        {
+          "prompts": [
+            "Which of the following poets was inspired by nature?"
+          ],
+          "answers": [
+            "William Wordsworth"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-13-q15"
+          ],
+          "topic_id": "poetry",
+          "topic_en": "Poetry",
+          "topic_zh": "诗歌"
+        },
+        {
+          "prompts": [
+            "Which novel written by JRR Tolkien was voted the country's best-loved novel in 2003?"
+          ],
+          "answers": [
+            "The Lord of the Rings"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-05-q23"
+          ],
+          "topic_id": "literature",
+          "topic_en": "Literature",
+          "topic_zh": "文学"
+        },
+        {
+          "prompts": [
+            "The Man Booker Prize is awarded in which of the following categories?"
+          ],
+          "answers": [
+            "Literature"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q22"
+          ],
+          "topic_id": "literature",
+          "topic_en": "Literature",
+          "topic_zh": "文学"
+        },
+        {
+          "prompts": [
+            "Who wrote Sherlock Holmes?"
+          ],
+          "answers": [
+            "Sir Arthur Conan Doyle"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-03-q12"
+          ],
+          "topic_id": "literature",
+          "topic_en": "Literature",
+          "topic_zh": "文学"
+        },
+        {
+          "prompts": [
+            "Which of the following poems is about a group of people going on a pilgrimage?"
+          ],
+          "answers": [
+            "The Canterbury Tales"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-13-q04"
+          ],
+          "topic_id": "literature",
+          "topic_en": "Literature",
+          "topic_zh": "文学"
+        },
+        {
+          "prompts": [
+            "What stories are associated with Geoffrey Chaucer?"
+          ],
+          "answers": [
+            "The Canterbury Tales"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-10-q04"
+          ],
+          "topic_id": "literature",
+          "topic_en": "Literature",
+          "topic_zh": "文学"
+        },
+        {
+          "prompts": [
+            "What type of literature are the Canterbury Tales?"
+          ],
+          "answers": [
+            "Poems"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q14"
+          ],
+          "topic_id": "literature",
+          "topic_en": "Literature",
+          "topic_zh": "文学"
+        },
+        {
+          "prompts": [
+            "What was invented by Alan Turing in the 1930s?"
+          ],
+          "answers": [
+            "The Turing machine"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-15-q10"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "Who developed the radar?"
+          ],
+          "answers": [
+            "Sir Robert Watson-Watt"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q22"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "Who invented the World Wide Web?"
+          ],
+          "answers": [
+            "Sir Tim Berners-Lee"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-12-q15"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "Who was the first person in England to print books using a printing press?"
+          ],
+          "answers": [
+            "William Caxton"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-02-q22",
+            "exam-13-q08"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "What did the Scottish John Logie Baird develop?"
+          ],
+          "answers": [
+            "Television"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-02-q24"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "What did Sir Frank Whittle invent in the 1930s?"
+          ],
+          "answers": [
+            "Jet engine"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q21"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "Which of the following countries helped Britain to develop the Concorde?"
+          ],
+          "answers": [
+            "France"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-14-q22"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "Which two countries developed the Concorde, the world's only supersonic commercial airliner?"
+          ],
+          "answers": [
+            "Britain",
+            "France"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q10"
+          ],
+          "topic_id": "inventions",
+          "topic_en": "Inventions",
+          "topic_zh": "发明"
+        },
+        {
+          "prompts": [
+            "What is the Cenotaph?"
+          ],
+          "answers": [
+            "A war memorial"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-01-q08"
+          ],
+          "topic_id": "architecture",
+          "topic_en": "Architecture",
+          "topic_zh": "建筑"
+        },
+        {
+          "prompts": [
+            "What is the name of the War Memorial located in Whitehall?"
+          ],
+          "answers": [
+            "Cenotaph"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-11-q12"
+          ],
+          "topic_id": "architecture",
+          "topic_en": "Architecture",
+          "topic_zh": "建筑"
+        },
+        {
+          "prompts": [
+            "Who designed the Cenotaph?"
+          ],
+          "answers": [
+            "Sir Edwin Lutyens"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q19"
+          ],
+          "topic_id": "architecture",
+          "topic_en": "Architecture",
+          "topic_zh": "建筑"
+        },
+        {
+          "prompts": [
+            "Who was the British scientist who co-discovered the structure of DNA in the 1950s?"
+          ],
+          "answers": [
+            "Francis Crick"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-08-q07",
+            "exam-16-q10"
+          ],
+          "topic_id": "science",
+          "topic_en": "Science",
+          "topic_zh": "科学"
+        },
+        {
+          "prompts": [
+            "What did Isaac Newton discover?"
+          ],
+          "answers": [
+            "Gravity"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-16-q23"
+          ],
+          "topic_id": "science",
+          "topic_en": "Science",
+          "topic_zh": "科学"
+        },
+        {
+          "prompts": [
+            "What was Isaac Newton known for?"
+          ],
+          "answers": [
+            "The discovery of gravity"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-10-q20"
+          ],
+          "topic_id": "science",
+          "topic_en": "Science",
+          "topic_zh": "科学"
+        },
+        {
+          "prompts": [
+            "Who led a team of scientists to 'split the atom' for the first time?"
+          ],
+          "answers": [
+            "Ernest Rutherford"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-15-q12"
+          ],
+          "topic_id": "science",
+          "topic_en": "Science",
+          "topic_zh": "科学"
+        },
+        {
+          "prompts": [
+            "Which of the following plays was written by William Shakespeare?"
+          ],
+          "answers": [
+            "A Midsummer Night's dream"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-02-q14"
+          ],
+          "topic_id": "theatre",
+          "topic_en": "Theatre",
+          "topic_zh": "戏剧"
+        },
+        {
+          "prompts": [
+            "Which of the following plays was written by William Shakespeare?"
+          ],
+          "answers": [
+            "MacBeth"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-17-q15"
+          ],
+          "topic_id": "theatre",
+          "topic_en": "Theatre",
+          "topic_zh": "戏剧"
+        },
+        {
+          "prompts": [
+            "Where was William Shakespeare born?"
+          ],
+          "answers": [
+            "Stratford-upon-Avon"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-06-q09",
+            "exam-09-q06"
+          ],
+          "topic_id": "theatre",
+          "topic_en": "Theatre",
+          "topic_zh": "戏剧"
+        },
+        {
+          "prompts": [
+            "What is the name of the area in London where famous theatres are located?"
+          ],
+          "answers": [
+            "Theatreland"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q16"
+          ],
+          "topic_id": "theatre",
+          "topic_en": "Theatre",
+          "topic_zh": "戏剧"
+        },
+        {
+          "prompts": [
+            "Where is Theatreland?"
+          ],
+          "answers": [
+            "London's West End"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q02"
+          ],
+          "topic_id": "theatre",
+          "topic_en": "Theatre",
+          "topic_zh": "戏剧"
+        },
+        {
+          "prompts": [
+            "What is the traditional food of Northern Ireland?"
+          ],
+          "answers": [
+            "Ulster Fry"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-14-q17"
+          ],
+          "topic_id": "food",
+          "topic_en": "Food",
+          "topic_zh": "食物"
+        },
+        {
+          "prompts": [
+            "Haggis is a traditional food from which area?"
+          ],
+          "answers": [
+            "Scotland"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-06-q19"
+          ],
+          "topic_id": "food",
+          "topic_en": "Food",
+          "topic_zh": "食物"
+        },
+        {
+          "prompts": [
+            "Where does \"the Fringe\" festival take place?"
+          ],
+          "answers": [
+            "Edinburgh"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q09"
+          ],
+          "topic_id": "cultural-festivals",
+          "topic_en": "Cultural festivals",
+          "topic_zh": "文化节"
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "title_en": "Geography",
+      "title_zh": "地理",
+      "question_count": 46,
+      "rows": [
+        {
+          "prompts": [
+            "Which three territories form Great Britain?"
+          ],
+          "answers": [
+            "Wales",
+            "England",
+            "Scotland"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q06"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "Great Britain refers only to England, Wales and Scotland."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q07"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "Is Northern Ireland part of Great Britain?"
+          ],
+          "answers": [
+            "No"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q10"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "Where is the UK geographically located?"
+          ],
+          "answers": [
+            "North west of Europe"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q04"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "What percentage of the UK population has a parent or grandparent born outside of the UK?"
+          ],
+          "answers": [
+            "Around 10%"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-16-q11"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "What is the capital city of Northern Ireland?"
+          ],
+          "answers": [
+            "Belfast"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-09-q09"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "What is the capital city of Scotland?"
+          ],
+          "answers": [
+            "Edinburgh"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-07-q11"
+          ],
+          "topic_id": "uk-overview",
+          "topic_en": "UK overview",
+          "topic_zh": "英国概况"
+        },
+        {
+          "prompts": [
+            "Which two of the following are British overseas territories?"
+          ],
+          "answers": [
+            "St Helena",
+            "The Falkland Islands"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-08-q17"
+          ],
+          "topic_id": "territories-dependencies",
+          "topic_en": "Territories & dependencies",
+          "topic_zh": "领土与属地"
+        },
+        {
+          "prompts": [
+            "St Helena and the Falkland Islands are part of Great Britain."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 5,
+          "question_ids": [
+            "exam-02-q02",
+            "exam-05-q04",
+            "exam-07-q14",
+            "exam-11-q01"
+          ],
+          "topic_id": "territories-dependencies",
+          "topic_en": "Territories & dependencies",
+          "topic_zh": "领土与属地"
+        },
+        {
+          "prompts": [
+            "Which of the following is a Crown Dependency but not part of the UK?"
+          ],
+          "answers": [
+            "Isle of Man"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-12-q01"
+          ],
+          "topic_id": "territories-dependencies",
+          "topic_en": "Territories & dependencies",
+          "topic_zh": "领土与属地"
+        },
+        {
+          "prompts": [
+            "Which of the following territories is a Crown dependency but is NOT part of the UK?"
+          ],
+          "answers": [
+            "The Channel Islands"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-01-q20"
+          ],
+          "topic_id": "territories-dependencies",
+          "topic_en": "Territories & dependencies",
+          "topic_zh": "领土与属地"
+        },
+        {
+          "prompts": [
+            "What name is given to the territories which are linked to the UK but not part of it?"
+          ],
+          "answers": [
+            "Crown Dependencies"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-17-q06"
+          ],
+          "topic_id": "territories-dependencies",
+          "topic_en": "Territories & dependencies",
+          "topic_zh": "领土与属地"
+        },
+        {
+          "prompts": [
+            "How many national parks are there in England, Wales and Scotland?"
+          ],
+          "answers": [
+            "15"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q09"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "There are 15 national parks in England, Wales and Scotland. What are national parks?"
+          ],
+          "answers": [
+            "Areas of protected countryside"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q04"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "Where is Loch Lomond and the Trossachs National Park located?"
+          ],
+          "answers": [
+            "Scotland"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-10-q02"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "Which is the largest national park in England?"
+          ],
+          "answers": [
+            "The Lake District"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q15",
+            "exam-13-q02"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "What UK landmark was voted as Britain's favourite view in 2007?"
+          ],
+          "answers": [
+            "Lake District"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-07-q17"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "Where is the Lake District National Park located?"
+          ],
+          "answers": [
+            "England"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-09-q04"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "Where is the Giant's Causeway located?"
+          ],
+          "answers": [
+            "Northern Ireland"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-16-q02"
+          ],
+          "topic_id": "landscapes-parks",
+          "topic_en": "Landscapes & parks",
+          "topic_zh": "自然与公园"
+        },
+        {
+          "prompts": [
+            "Cardiff is the capital city of which country?"
+          ],
+          "answers": [
+            "Wales"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-03-q21"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Where is Snowdonia located?"
+          ],
+          "answers": [
+            "Wales"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-03-q11"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Where is Swansea located?"
+          ],
+          "answers": [
+            "Wales"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q15"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Which historical monument did William the Conqueror build?"
+          ],
+          "answers": [
+            "The White Tower"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-16-q15"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Who built the Tower of London?"
+          ],
+          "answers": [
+            "William the Conqueror"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q03"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Where are the Crown Jewels kept?"
+          ],
+          "answers": [
+            "At the Tower of London"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-02-q20"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "What are the Tower of London tour guides called?"
+          ],
+          "answers": [
+            "Beefeaters"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q09",
+            "exam-13-q09"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Where is Big Ben located?"
+          ],
+          "answers": [
+            "The Houses of the Parliament"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q02"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Which of the following castles is located in Scotland?"
+          ],
+          "answers": [
+            "Crathes Castle"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-13-q23"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Where is the Eden Project located?"
+          ],
+          "answers": [
+            "Cornwall"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-05-q03"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "What charity works to preserve important buildings, coastline and countryside in the UK?"
+          ],
+          "answers": [
+            "The National Trust"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-04-q06"
+          ],
+          "topic_id": "places-landmarks",
+          "topic_en": "Places & landmarks",
+          "topic_zh": "地点与名胜"
+        },
+        {
+          "prompts": [
+            "Which flower is associated with Scotland?"
+          ],
+          "answers": [
+            "The Thistle"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q02"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "Which flower is associated with Wales?"
+          ],
+          "answers": [
+            "Daffodil"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q02"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "Each of the UK countries is associated with a flower symbol, which country is associated with the rose?"
+          ],
+          "answers": [
+            "England"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-16-q19"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "What is the Union Jack?"
+          ],
+          "answers": [
+            "The Flag of the United Kingdom"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-12-q22"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "Scotland and Northern Ireland have their own banknotes, valid everywhere in the UK."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-02-q13",
+            "exam-04-q05",
+            "exam-08-q08"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "What is the name of the UK currency?"
+          ],
+          "answers": [
+            "Pound Sterling"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-11-q03"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "Which of the following is not a British banknote?"
+          ],
+          "answers": [
+            "£25"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-10-q13"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "£100 is the highest value note in circulation in the UK."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-09-q03"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        },
+        {
+          "prompts": [
+            "Which of the following is not a valid UK coin?"
+          ],
+          "answers": [
+            "25p"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-05-q02"
+          ],
+          "topic_id": "symbols-currency",
+          "topic_en": "Symbols & currency",
+          "topic_zh": "象征与货币"
+        }
+      ]
+    },
+    {
+      "id": "law-life",
+      "title_en": "Law & everyday life",
+      "title_zh": "法律与生活",
+      "question_count": 39,
+      "rows": [
+        {
+          "prompts": [
+            "What is the minimum age required to serve on a jury?"
+          ],
+          "answers": [
+            "18"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-01-q14"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "How is a jury selected?"
+          ],
+          "answers": [
+            "Randomly from the electoral register"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-01-q15"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "How many members does a jury have in England, Wales and Northern Ireland?"
+          ],
+          "answers": [
+            "12"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-02-q15"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "How many members form a jury in Scotland?"
+          ],
+          "answers": [
+            "15"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-07-q22"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "Where should you register if you want to become part of a jury?"
+          ],
+          "answers": [
+            "The electoral register"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-05-q06"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "You have to be at least 21 years old to serve on a jury."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 6,
+          "question_ids": [
+            "exam-12-q18"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "In England, Wales and Northern Ireland Youth Court cases are normally heard by (choose TWO answers)?"
+          ],
+          "answers": [
+            "Up to 3 specially trained magistrates",
+            "A District Judge"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-15-q09"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "Which court deals with minor criminal cases in England, Wales and Northern Ireland?"
+          ],
+          "answers": [
+            "Magistrates' Court"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-02-q23"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "Who can hear cases in Youth Courts in England, Wales and Northern Ireland (two answers)?"
+          ],
+          "answers": [
+            "Specially trained magistrates.",
+            "District judges."
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-16-q06"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "In Northern Ireland, up to three specially trained magistrates or a District Judge are required for Youth Court cases."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-17-q18"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "Which court deals with minor criminal offences in Scotland?"
+          ],
+          "answers": [
+            "The Justice of the Peace Court"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-06-q20"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "What is the maximum amount you can claim through the small claims procedure in Scotland and Northern Ireland?"
+          ],
+          "answers": [
+            "£5,000"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-16-q14"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "What is the small claims procedure?"
+          ],
+          "answers": [
+            "An informal way of helping people to settle minor disputes without spending a lot of time and money using a lawyer"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-09-q22"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "Which of the following statements is correct?"
+          ],
+          "answers": [
+            "Solicitors' charges are usually based on how much time they spend on a case"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q18"
+          ],
+          "topic_id": "courts-juries",
+          "topic_en": "Courts & juries",
+          "topic_zh": "法院与陪审团"
+        },
+        {
+          "prompts": [
+            "Which of the following is an example of civil law?"
+          ],
+          "answers": [
+            "Discrimination in the workplace"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-05-q16"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "Which of the following is an example of criminal offence?"
+          ],
+          "answers": [
+            "Smoking in public places where it is not allowed"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-07-q07"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "Racial crime and smoking in public places are examples of:"
+          ],
+          "answers": [
+            "Criminal offences"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q19"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "Anyone who is violent towards their partner - whether they are a man or a woman, married or living together - can be prosecuted."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-15-q24"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "Can court orders be obtained to protect a person from being forced into a marriage?"
+          ],
+          "answers": [
+            "Yes"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-15-q07"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "Female genital mutilation (FGM) or taking a girl or woman abroad for FGM is illegal in the UK and it is a criminal offence."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-08-q15"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "If a husband forces his wife to have sex he can be charged with rape."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-05-q20"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "Who should you contact about extremist or terrorist activity?"
+          ],
+          "answers": [
+            "Your local police force"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q07",
+            "exam-16-q17"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "The names or photographs of young people found guilty of a crime can be published in newspapers or used by the media."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q11"
+          ],
+          "topic_id": "crime-protection",
+          "topic_en": "Crime & protection",
+          "topic_zh": "犯罪与保护"
+        },
+        {
+          "prompts": [
+            "What should you do to make a complaint about the police (choose two answers)?"
+          ],
+          "answers": [
+            "Go to the Police station directly",
+            "Write to the Chief Constable of the police force involved"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-11-q17"
+          ],
+          "topic_id": "police-complaints",
+          "topic_en": "Police complaints",
+          "topic_zh": "警察投诉"
+        },
+        {
+          "prompts": [
+            "Anyone can make a complaint about the police by writing to the Chief Constable of the police force involved."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-01-q13"
+          ],
+          "topic_id": "police-complaints",
+          "topic_en": "Police complaints",
+          "topic_zh": "警察投诉"
+        },
+        {
+          "prompts": [
+            "Complaints against the police can ONLY be made by writing to the Police Complaints Commissioner."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-05-q12"
+          ],
+          "topic_id": "police-complaints",
+          "topic_en": "Police complaints",
+          "topic_zh": "警察投诉"
+        },
+        {
+          "prompts": [
+            "Police complaints can only be made by writing to the Chief Constable of the police force involved."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-08-q03"
+          ],
+          "topic_id": "police-complaints",
+          "topic_en": "Police complaints",
+          "topic_zh": "警察投诉"
+        },
+        {
+          "prompts": [
+            "What is the minimum age required to drive a motorcycle?"
+          ],
+          "answers": [
+            "17 years old"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-15-q19"
+          ],
+          "topic_id": "driving-rules",
+          "topic_en": "Driving rules",
+          "topic_zh": "驾驶规则"
+        },
+        {
+          "prompts": [
+            "How old do you have to be to drive a moped in the UK?"
+          ],
+          "answers": [
+            "16 years old"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-16-q12"
+          ],
+          "topic_id": "driving-rules",
+          "topic_en": "Driving rules",
+          "topic_zh": "驾驶规则"
+        },
+        {
+          "prompts": [
+            "What do you need to drive in the UK?"
+          ],
+          "answers": [
+            "A valid driving licence"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q08"
+          ],
+          "topic_id": "driving-rules",
+          "topic_en": "Driving rules",
+          "topic_zh": "驾驶规则"
+        },
+        {
+          "prompts": [
+            "If you are a dog owner, which two things should your dog's collar have when you go out for a walk?"
+          ],
+          "answers": [
+            "The owner's address",
+            "The owner's name"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-08-q11"
+          ],
+          "topic_id": "everyday-rules",
+          "topic_en": "Everyday rules",
+          "topic_zh": "日常规定"
+        },
+        {
+          "prompts": [
+            "When walking your dog in a public place, you must ensure:"
+          ],
+          "answers": [
+            "That your dog wears a collar showing the name and address of the owner"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-02-q04"
+          ],
+          "topic_id": "everyday-rules",
+          "topic_en": "Everyday rules",
+          "topic_zh": "日常规定"
+        },
+        {
+          "prompts": [
+            "How old do you have to be to buy alcohol in the UK?"
+          ],
+          "answers": [
+            "18"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q24"
+          ],
+          "topic_id": "everyday-rules",
+          "topic_en": "Everyday rules",
+          "topic_zh": "日常规定"
+        },
+        {
+          "prompts": [
+            "How old do you have to be to go into betting shops or gambling clubs?"
+          ],
+          "answers": [
+            "18"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-14-q15"
+          ],
+          "topic_id": "everyday-rules",
+          "topic_en": "Everyday rules",
+          "topic_zh": "日常规定"
+        },
+        {
+          "prompts": [
+            "Which of the following statements is correct?"
+          ],
+          "answers": [
+            "Most shops in the UK open seven days a week."
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-13-q20"
+          ],
+          "topic_id": "everyday-rules",
+          "topic_en": "Everyday rules",
+          "topic_zh": "日常规定"
+        },
+        {
+          "prompts": [
+            "What do you need to do to apply for a National Insurance Number?"
+          ],
+          "answers": [
+            "Contact the Department for Work and Pensions (DWP)"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-07-q20"
+          ],
+          "topic_id": "work-documents",
+          "topic_en": "Work & documents",
+          "topic_zh": "工作与证件"
+        },
+        {
+          "prompts": [
+            "Which two documents do you need to apply for a National Insurance number?"
+          ],
+          "answers": [
+            "Documents that prove that you have permission to work in the UK",
+            "Documents that prove your identity"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-06-q24"
+          ],
+          "topic_id": "work-documents",
+          "topic_en": "Work & documents",
+          "topic_zh": "工作与证件"
+        },
+        {
+          "prompts": [
+            "Which of the following statements is true:"
+          ],
+          "answers": [
+            "Women in Britain today make up about half of the workforce."
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-12-q24"
+          ],
+          "topic_id": "work-documents",
+          "topic_en": "Work & documents",
+          "topic_zh": "工作与证件"
+        }
+      ]
+    },
+    {
+      "id": "religion-holidays",
+      "title_en": "Religion & holidays",
+      "title_zh": "宗教与节日",
+      "question_count": 37,
+      "rows": [
+        {
+          "prompts": [
+            "Which flower is associated with Northern Ireland?"
+          ],
+          "answers": [
+            "The shamrock"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-09-q01"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "Who is the patron Saint of Northern Ireland?"
+          ],
+          "answers": [
+            "St Patrick"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-05-q13"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "When is St Patrick's day celebrated?"
+          ],
+          "answers": [
+            "17th March"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-14-q01"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "St Patrick's day is a public holiday in Northern Ireland."
+          ],
+          "answers": [
+            "True"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-02-q18"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "Who is the patron Saint of Scotland?"
+          ],
+          "answers": [
+            "St Andrew"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-01-q05"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "When is St Andrew's day celebrated?"
+          ],
+          "answers": [
+            "30th November"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q19"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "Who is the patron Saint of Wales?"
+          ],
+          "answers": [
+            "St David"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q14"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "When is St David's day celebrated?"
+          ],
+          "answers": [
+            "1st March"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-08-q05"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "Who is the patron Saint of England?"
+          ],
+          "answers": [
+            "St George"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-10-q01"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "When is St George's day?"
+          ],
+          "answers": [
+            "23rd April"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-13-q01"
+          ],
+          "topic_id": "patron-saints",
+          "topic_en": "Patron saints",
+          "topic_zh": "守护神"
+        },
+        {
+          "prompts": [
+            "Wales and Northern Ireland have their own established churches."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-03-q02",
+            "exam-06-q05",
+            "exam-10-q03"
+          ],
+          "topic_id": "churches",
+          "topic_en": "Churches",
+          "topic_zh": "教会"
+        },
+        {
+          "prompts": [
+            "Who is the head of the Church of England?"
+          ],
+          "answers": [
+            "The monarch"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-04-q12"
+          ],
+          "topic_id": "churches",
+          "topic_en": "Churches",
+          "topic_zh": "教会"
+        },
+        {
+          "prompts": [
+            "Who is the spiritual leader of the Church of England?"
+          ],
+          "answers": [
+            "The Archbishop of Canterbury"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-13-q18"
+          ],
+          "topic_id": "churches",
+          "topic_en": "Churches",
+          "topic_zh": "教会"
+        },
+        {
+          "prompts": [
+            "What sort of church is the Church of Scotland?"
+          ],
+          "answers": [
+            "Presbyterian"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-05-q07"
+          ],
+          "topic_id": "churches",
+          "topic_en": "Churches",
+          "topic_zh": "教会"
+        },
+        {
+          "prompts": [
+            "On what day is the birth of Jesus Christ celebrated?"
+          ],
+          "answers": [
+            "Christmas Day"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-06-q13"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "When is Boxing Day celebrated?"
+          ],
+          "answers": [
+            "26th December"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-10-q05"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "When is Christmas Day?"
+          ],
+          "answers": [
+            "25th of December"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-04-q15"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "What are the 40 days before Easter called?"
+          ],
+          "answers": [
+            "Lent"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-01-q24",
+            "exam-07-q23"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "What is Good Friday?"
+          ],
+          "answers": [
+            "The day when Jesus Christ died"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-02-q17"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "What day relates to the death of Jesus Christ?"
+          ],
+          "answers": [
+            "Good Friday"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-08-q12"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "When does Easter take place?"
+          ],
+          "answers": [
+            "March or April"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-05-q01"
+          ],
+          "topic_id": "christian-festivals",
+          "topic_en": "Christian festivals",
+          "topic_zh": "基督教节日"
+        },
+        {
+          "prompts": [
+            "What other name is given to Diwali?"
+          ],
+          "answers": [
+            "The Festival of Lights"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-11-q04"
+          ],
+          "topic_id": "other-religious-festivals",
+          "topic_en": "Other religious festivals",
+          "topic_zh": "其他宗教节日"
+        },
+        {
+          "prompts": [
+            "Which two of the following religious communities celebrate Diwali?"
+          ],
+          "answers": [
+            "Hindus",
+            "Sikhs"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-02-q16"
+          ],
+          "topic_id": "other-religious-festivals",
+          "topic_en": "Other religious festivals",
+          "topic_zh": "其他宗教节日"
+        },
+        {
+          "prompts": [
+            "Which festival celebrates the end of Ramadan, when Muslims have fasted for a month?"
+          ],
+          "answers": [
+            "Eid al-Fitr"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-03-q24"
+          ],
+          "topic_id": "other-religious-festivals",
+          "topic_en": "Other religious festivals",
+          "topic_zh": "其他宗教节日"
+        },
+        {
+          "prompts": [
+            "How is New Year's Eve called in Scotland?"
+          ],
+          "answers": [
+            "Hogmanay"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-03-q03"
+          ],
+          "topic_id": "traditional-festivals",
+          "topic_en": "Traditional festivals",
+          "topic_zh": "传统节日"
+        },
+        {
+          "prompts": [
+            "What does Hogmanay refer to?"
+          ],
+          "answers": [
+            "New Year's Eve in Scotland"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-09-q08"
+          ],
+          "topic_id": "traditional-festivals",
+          "topic_en": "Traditional festivals",
+          "topic_zh": "传统节日"
+        },
+        {
+          "prompts": [
+            "What song is sung by people in the UK and other countries when they are celebrating the New Year?"
+          ],
+          "answers": [
+            "Auld Lang Syne"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-15-q13"
+          ],
+          "topic_id": "traditional-festivals",
+          "topic_en": "Traditional festivals",
+          "topic_zh": "传统节日"
+        },
+        {
+          "prompts": [
+            "When is Hogmanay celebrated?"
+          ],
+          "answers": [
+            "31st of December"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-14-q07"
+          ],
+          "topic_id": "traditional-festivals",
+          "topic_en": "Traditional festivals",
+          "topic_zh": "传统节日"
+        },
+        {
+          "prompts": [
+            "On which day do television and newspapers publish jokes until midday?"
+          ],
+          "answers": [
+            "April Fool's Day"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-05-q09",
+            "exam-12-q13"
+          ],
+          "topic_id": "traditional-festivals",
+          "topic_en": "Traditional festivals",
+          "topic_zh": "传统节日"
+        },
+        {
+          "prompts": [
+            "When is Halloween celebrated?"
+          ],
+          "answers": [
+            "31st of October"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-07-q02"
+          ],
+          "topic_id": "traditional-festivals",
+          "topic_en": "Traditional festivals",
+          "topic_zh": "传统节日"
+        },
+        {
+          "prompts": [
+            "What is a bank holiday?"
+          ],
+          "answers": [
+            "A public holiday when banks and many other businesses are closed for the day"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q16"
+          ],
+          "topic_id": "public-holidays",
+          "topic_en": "Public holidays",
+          "topic_zh": "公共假日"
+        },
+        {
+          "prompts": [
+            "What are public holidays called in the UK?"
+          ],
+          "answers": [
+            "Bank Holidays"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-10-q06",
+            "exam-13-q05"
+          ],
+          "topic_id": "public-holidays",
+          "topic_en": "Public holidays",
+          "topic_zh": "公共假日"
+        }
+      ]
+    },
+    {
+      "id": "sport-leisure",
+      "title_en": "Sport & leisure",
+      "title_zh": "体育与休闲",
+      "question_count": 18,
+      "rows": [
+        {
+          "prompts": [
+            "Which two of the following are famous British Paralympians?"
+          ],
+          "answers": [
+            "Baroness Tanni Grey-Thompson",
+            "Ellie Simmonds"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-06-q10"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "Which Paralympic athlete has won gold medals for swimming at the 2008, 2012 and 2016 Paralympic Games?"
+          ],
+          "answers": [
+            "Ellie Simmonds"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-16-q18"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "How many times has the UK hosted the Olympic games?"
+          ],
+          "answers": [
+            "3"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-14-q19"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "Which of the following major sports event took place in the UK in 2012?"
+          ],
+          "answers": [
+            "The Olympic games"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-12-q20"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "Who was the first man in the world to run 1 mile in under 4 minutes?"
+          ],
+          "answers": [
+            "Sir Roger Bannister"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q23"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "What made Roger Bannister famous?"
+          ],
+          "answers": [
+            "He was the first man in the world to run a mile in under four minutes."
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-17-q19"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "What medal did Mary Peters win in the 1972 Olympics?"
+          ],
+          "answers": [
+            "Gold"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-15-q08"
+          ],
+          "topic_id": "olympics-athletics",
+          "topic_en": "Olympics & athletics",
+          "topic_zh": "奥运与田径"
+        },
+        {
+          "prompts": [
+            "Who was the captain of the English football team that won the World Cup in 1966?"
+          ],
+          "answers": [
+            "Bobby Moore"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-01-q11"
+          ],
+          "topic_id": "ball-sports",
+          "topic_en": "Ball sports",
+          "topic_zh": "球类运动"
+        },
+        {
+          "prompts": [
+            "Which of the following is a rugby competition?"
+          ],
+          "answers": [
+            "The Six Nations Championship"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-14-q09"
+          ],
+          "topic_id": "ball-sports",
+          "topic_en": "Ball sports",
+          "topic_zh": "球类运动"
+        },
+        {
+          "prompts": [
+            "What is the name of the most famous cricket competition played between England and Australia?"
+          ],
+          "answers": [
+            "The Ashes"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-07-q04"
+          ],
+          "topic_id": "ball-sports",
+          "topic_en": "Ball sports",
+          "topic_zh": "球类运动"
+        },
+        {
+          "prompts": [
+            "What is the most famous tennis tournament played in the UK?"
+          ],
+          "answers": [
+            "Wimbledon"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-12-q11"
+          ],
+          "topic_id": "ball-sports",
+          "topic_en": "Ball sports",
+          "topic_zh": "球类运动"
+        },
+        {
+          "prompts": [
+            "Which sport can be traced to 15th-century Scotland?"
+          ],
+          "answers": [
+            "Golf"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-02-q21",
+            "exam-05-q08"
+          ],
+          "topic_id": "ball-sports",
+          "topic_en": "Ball sports",
+          "topic_zh": "球类运动"
+        },
+        {
+          "prompts": [
+            "Which of the following is a major horse-racing event in England?"
+          ],
+          "answers": [
+            "Royal Ascot"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-07-q21"
+          ],
+          "topic_id": "horse-racing",
+          "topic_en": "Horse racing",
+          "topic_zh": "赛马"
+        },
+        {
+          "prompts": [
+            "What sort of event is the Grand National?"
+          ],
+          "answers": [
+            "Horse Racing"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-04-q13"
+          ],
+          "topic_id": "horse-racing",
+          "topic_en": "Horse racing",
+          "topic_zh": "赛马"
+        },
+        {
+          "prompts": [
+            "Where does the Scottish Grand National take place?"
+          ],
+          "answers": [
+            "Ayr"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-10-q14"
+          ],
+          "topic_id": "horse-racing",
+          "topic_en": "Horse racing",
+          "topic_zh": "赛马"
+        },
+        {
+          "prompts": [
+            "Where is the National Horseracing Museum located?"
+          ],
+          "answers": [
+            "Newmarket, Suffolk"
+          ],
+          "frequency": 4,
+          "question_ids": [
+            "exam-13-q22"
+          ],
+          "topic_id": "horse-racing",
+          "topic_en": "Horse racing",
+          "topic_zh": "赛马"
+        },
+        {
+          "prompts": [
+            "Which two universities participate in an annual rowing race that takes place on the River Thames?"
+          ],
+          "answers": [
+            "The University of Oxford",
+            "The University of Cambridge"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-10-q23"
+          ],
+          "topic_id": "rowing",
+          "topic_en": "Rowing",
+          "topic_zh": "划船"
+        }
+      ]
+    },
+    {
+      "id": "civic-responsibility",
+      "title_en": "Civic responsibility",
+      "title_zh": "公民责任",
+      "question_count": 13,
+      "rows": [
+        {
+          "prompts": [
+            "What responsibilities will you have as a British citizen or permanent resident?"
+          ],
+          "answers": [
+            "Respect and obey the law",
+            "Look after yourself and your family",
+            "Look after the area in which you live and the environment"
+          ],
+          "frequency": 3,
+          "question_ids": [
+            "exam-01-q01",
+            "exam-06-q01",
+            "exam-07-q01"
+          ],
+          "topic_id": "values-responsibilities",
+          "topic_en": "Values & responsibilities",
+          "topic_zh": "公民价值与责任"
+        },
+        {
+          "prompts": [
+            "Which of the following is a fundamental principle of British life?"
+          ],
+          "answers": [
+            "Individual liberty"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q01"
+          ],
+          "topic_id": "values-responsibilities",
+          "topic_en": "Values & responsibilities",
+          "topic_zh": "公民价值与责任"
+        },
+        {
+          "prompts": [
+            "Which two of the following are fundamental principles of British life?"
+          ],
+          "answers": [
+            "The rule of law",
+            "Democracy"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-05-q05"
+          ],
+          "topic_id": "values-responsibilities",
+          "topic_en": "Values & responsibilities",
+          "topic_zh": "公民价值与责任"
+        },
+        {
+          "prompts": [
+            "Which two responsibilities will you have as a British citizen or permanent resident?"
+          ],
+          "answers": [
+            "Look after yourself and your family",
+            "Respect the rights of others, including their right to their own opinions"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-09-q05",
+            "exam-12-q19"
+          ],
+          "topic_id": "values-responsibilities",
+          "topic_en": "Values & responsibilities",
+          "topic_zh": "公民价值与责任"
+        },
+        {
+          "prompts": [
+            "Who can apply for the National Citizen Service programme?"
+          ],
+          "answers": [
+            "16- and 17-year-olds"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-16-q08"
+          ],
+          "topic_id": "community-participation",
+          "topic_en": "Community participation",
+          "topic_zh": "社区参与"
+        },
+        {
+          "prompts": [
+            "It is compulsory for 16 and 17-year-olds to join the National Citizen Service programme."
+          ],
+          "answers": [
+            "False"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-03-q08"
+          ],
+          "topic_id": "community-participation",
+          "topic_en": "Community participation",
+          "topic_zh": "社区参与"
+        },
+        {
+          "prompts": [
+            "Which of the following actions is known as \"canvassing\"?"
+          ],
+          "answers": [
+            "Persuading people to vote for a political party"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-05-q22"
+          ],
+          "topic_id": "community-participation",
+          "topic_en": "Community participation",
+          "topic_zh": "社区参与"
+        },
+        {
+          "prompts": [
+            "Which two of the following are key roles of school governors?"
+          ],
+          "answers": [
+            "Monitoring and evaluating school performance",
+            "Setting the strategic direction of the school"
+          ],
+          "frequency": 1,
+          "question_ids": [
+            "exam-03-q17"
+          ],
+          "topic_id": "community-participation",
+          "topic_en": "Community participation",
+          "topic_zh": "社区参与"
+        },
+        {
+          "prompts": [
+            "Which environmental charity is called 'Friends of the Earth'?"
+          ],
+          "answers": [
+            "Friends of the Earth"
+          ],
+          "frequency": 2,
+          "question_ids": [
+            "exam-05-q19",
+            "exam-11-q06"
+          ],
+          "topic_id": "charity-environment",
+          "topic_en": "Charity & environment",
+          "topic_zh": "慈善与环保"
+        }
+      ]
+    }
+  ]
+}

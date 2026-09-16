@@ -1,0 +1,1568 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 10,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "church-in-wales-centenary": {
+      "title": "100 years serving Wales",
+      "publisher": "Church in Wales",
+      "url": "https://www.churchinwales.org.uk/en/news-and-events/100-years-serving-wales/",
+      "authority": "national_church",
+      "note_zh": "Church in Wales说明其于1920年正式脱离国教地位并成为独立教省。"
+    },
+    "commons-library-church-state-2025": {
+      "title": "The relationship between church and state in the United Kingdom",
+      "publisher": "House of Commons Library",
+      "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8886/CBP-8886.pdf",
+      "authority": "official_parliamentary_research",
+      "note_zh": "House of Commons Library介绍英国各地教会与国家的现行关系，并说明Church of Ireland取消国教地位后继续作为覆盖整个爱尔兰岛的自治教会。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-religion": {
+      "title": "Religion",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion",
+      "authority": "official_statistics",
+      "note_zh": "英国宗教人口数据和分析。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-ireland-disestablishment": {
+      "title": "Disestablishment",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliamentandireland/overview/disestablishment/",
+      "authority": "official_parliamentary_history",
+      "note_zh": "UK Parliament说明爱尔兰多数人口为Catholic，对Anglican Church of Ireland的国教地位长期不满；Irish Church Act 1869使其自1871年起不再是国教。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St George"
+        },
+        {
+          "id": "r1",
+          "text": "St Patrick"
+        },
+        {
+          "id": "r2",
+          "text": "St David"
+        },
+        {
+          "id": "r3",
+          "text": "St Andrew"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-1.patron-saint-england-george.m4a",
+      "question": "Who is the patron Saint of England?",
+      "explanation": "The patron Saint of England is St George.",
+      "id": "exam-10-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "St George"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The patron Saint of England is St George.",
+        "why_correct_zh": "英格兰的守护神是圣乔治。",
+        "answer_summary_zh": "正确选项：St George。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "patron Saint"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-religion"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who is the patron Saint of England?”及正确答案“St George”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-religion"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "England"
+        },
+        {
+          "id": "r1",
+          "text": "Wales"
+        },
+        {
+          "id": "r2",
+          "text": "Scotland"
+        },
+        {
+          "id": "r3",
+          "text": "Northern Ireland"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-2.Loch-lomond-and-the-trossachs-national-park-located-scotland.m4a",
+      "question": "Where is Loch Lomond and the Trossachs National Park located?",
+      "explanation": "Loch Lomond and the Trossachs National Park is located in the west of Scotland.",
+      "id": "exam-10-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Scotland"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Loch Lomond and the Trossachs National Park is located in the west of Scotland.",
+        "why_correct_zh": "洛蒙德湖和特罗萨克斯山国家公园位于苏格兰西部。",
+        "answer_summary_zh": "正确选项：Scotland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Loch Lomond and the Trossachs",
+          "National Park"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is Loch Lomond and the Trossachs National Park located?”及正确答案“Scotland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-3.wales-has-own-established-chuch.m4a",
+      "question": "Wales has its own established church.",
+      "explanation": "False. There is no established Church in Wales or Northern Ireland.",
+      "id": "exam-10-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "False. An established church is a church given a special constitutional and legal relationship with the state; this does not mean that Wales or Northern Ireland has no Christian churches. Wales was once part of the Church of England's diocesan structure. By the nineteenth century, however, many Welsh Christians belonged to Nonconformist churches while the Anglican Church retained its official position. The Welsh Church Act 1914 took effect in 1920, when the Church in Wales was disestablished and became a self-governing Anglican province. In Ireland, the established Protestant Church of Ireland was widely resented because most of the population was Roman Catholic. The Irish Church Act 1869 disestablished it from 1871, and it was not re-established in Northern Ireland after partition.",
+        "why_correct_zh": "错误。这里的 established church 指由国家依法确立、享有特殊法律地位的国教，并不是说当地没有基督教会。\n\n威尔士原属 Church of England 的教区体系。到19世纪，多数威尔士基督徒属于 Methodist、Baptist 等 Nonconformist 教会，却仍需支持具有官方地位的 Anglican Church，因此被认为不能反映当地的宗教和民族特点。Welsh Church Act 1914 于1920年生效后，Church in Wales 脱离国教地位，成为自治的 Anglican 教会。\n\n北爱尔兰的情况源于整个爱尔兰。过去具有国教地位的 Church of Ireland 属于 Protestant 传统，而爱尔兰多数人口信奉 Roman Catholicism，因此国教被视为宗教不平等及英国统治的象征。Irish Church Act 1869 使其自1871年起不再是国教；爱尔兰分治后也没有在北爱尔兰重新设立国教。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Wales"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "church-in-wales-centenary",
+        "parliament-ireland-disestablishment",
+        "commons-library-church-state-2025"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-03-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Wales has its own established church.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "church-in-wales-centenary",
+          "parliament-ireland-disestablishment",
+          "commons-library-church-state-2025"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Cambridge Tales"
+        },
+        {
+          "id": "r1",
+          "text": "The Eastbourne Tales"
+        },
+        {
+          "id": "r2",
+          "text": "The Canterbury Tales"
+        },
+        {
+          "id": "r3",
+          "text": "The London Tales"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-4.stories-associated-geoffrey-chaucer-canterbuty-tales.m4a",
+      "question": "What stories are associated with Geoffrey Chaucer?",
+      "explanation": "Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. This collection of poems is called The Canterbury Tales.",
+      "id": "exam-10-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Canterbury Tales"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. This collection of poems is called The Canterbury Tales.",
+        "why_correct_zh": "杰弗里·乔叟用英语写了一系列诗歌，讲述一群人前往坎特伯雷朝圣的故事。这本诗集叫做《坎特伯雷故事集》。",
+        "answer_summary_zh": "正确选项：The Canterbury Tales。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Geoffrey Chaucer"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What stories are associated with Geoffrey Chaucer?”及正确答案“The Canterbury Tales”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "31st October"
+        },
+        {
+          "id": "r1",
+          "text": "26th December"
+        },
+        {
+          "id": "r2",
+          "text": "24th December"
+        },
+        {
+          "id": "r3",
+          "text": "01st January"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-5.boxing-day-celebrated-26-december.m4a",
+      "question": "When is Boxing Day celebrated?",
+      "explanation": "Boxing Day is the day after Christmas Day (26th December) and is a public holiday.",
+      "id": "exam-10-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "26th December"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Boxing Day is the day after Christmas Day (26th December) and is a public holiday.",
+        "why_correct_zh": "节礼日是圣诞节（12 月 26 日）的第二天，是公共假期。",
+        "answer_summary_zh": "正确选项：26th December。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Boxing Day"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is Boxing Day celebrated?”及正确答案“26th December”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Credit Holidays"
+        },
+        {
+          "id": "r1",
+          "text": "Branch Holidays"
+        },
+        {
+          "id": "r2",
+          "text": "Bank Holidays"
+        },
+        {
+          "id": "r3",
+          "text": "Business Holidays"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-6.bank-holidays.m4a",
+      "question": "What is the name of the holiday when banks and many other businesses are closed for the day?",
+      "explanation": "There are public holidays each year called bank holidays, when banks and many other businesses are closed for the day.",
+      "id": "exam-10-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Bank Holidays"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "There are public holidays each year called bank holidays, when banks and many other businesses are closed for the day.",
+        "why_correct_zh": "每年都有公共假期，称为银行假期，银行和许多其他企业在这一天休息。",
+        "answer_summary_zh": "正确选项：Bank Holidays。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "businesses"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the holiday when banks and many other businesses are closed for the day?”及正确答案“Bank Holidays”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "In recognition of the contribution women made to the war effort during the First World War"
+        },
+        {
+          "id": "r1",
+          "text": "In recognition of the contribution women made to the war effort during the Second World War"
+        },
+        {
+          "id": "r2",
+          "text": "In recognition of the contribution women made to the war effort during the Crimean War"
+        },
+        {
+          "id": "r3",
+          "text": "In recognition of the contribution women made to the war effort during the Civil War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-7.why-were-women-given-right-to-vote.m4a",
+      "question": "Why were women given the right to vote?",
+      "explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+      "id": "exam-10-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "In recognition of the contribution women made to the war effort during the First World War"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+        "why_correct_zh": "1918年，30岁以上的女性被赋予投票权和代表议会的权利，部分是为了表彰女性在第一次世界大战期间为战争做出的贡献。",
+        "answer_summary_zh": "正确选项：In recognition of the contribution women made to the war effort during the First World War。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Why were women given the right to vote?”及正确答案“In recognition of the contribution women made to the war effort during the First World War”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "An ‘L’ plate"
+        },
+        {
+          "id": "r1",
+          "text": "A National Insurance Number"
+        },
+        {
+          "id": "r2",
+          "text": "A valid driving licence"
+        },
+        {
+          "id": "r3",
+          "text": "An ‘R’ plate"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-8.what-do-you-need-to-drive-in-uk-valid-driving-licence.m4a",
+      "question": "What do you need to drive in the UK?",
+      "explanation": "In the UK, you must have a driving licence to drive on public roads.",
+      "id": "exam-10-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "A valid driving licence"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In the UK, you must have a driving licence to drive on public roads.",
+        "why_correct_zh": "在英国，您必须拥有驾驶执照才能在公共道路上驾驶。",
+        "answer_summary_zh": "正确选项：A valid driving licence。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What do you need to drive in the UK?”及正确答案“A valid driving licence”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Fraserburgh"
+        },
+        {
+          "id": "r1",
+          "text": "Edinburgh"
+        },
+        {
+          "id": "r2",
+          "text": "Inverness"
+        },
+        {
+          "id": "r3",
+          "text": "St Andrews"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-9.where-does-fringe-festival-take-place-edinburgh.m4a",
+      "question": "Where does “the Fringe” festival take place?",
+      "explanation": "The Edinburgh Festival takes place in Edinburgh, Scotland, every summer. It is a series of different arts and cultural festivals, with the biggest and most well-known being the Edinburgh Festival Fringe (‘the Fringe’).",
+      "id": "exam-10-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Edinburgh"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Edinburgh Festival takes place in Edinburgh, Scotland, every summer. It is a series of different arts and cultural festivals, with the biggest and most well-known being the Edinburgh Festival Fringe (‘the Fringe’).",
+        "why_correct_zh": "爱丁堡艺术节每年夏天在苏格兰爱丁堡举行。它是一系列不同的艺术和文化节日，其中最大和最著名的是爱丁堡边缘艺术节（“边缘”）。",
+        "answer_summary_zh": "正确选项：Edinburgh。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "the Fringe"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where does “the Fringe” festival take place?”及正确答案“Edinburgh”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "150"
+        },
+        {
+          "id": "r1",
+          "text": "120"
+        },
+        {
+          "id": "r2",
+          "text": "90"
+        },
+        {
+          "id": "r3",
+          "text": "60"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-10.how-many-members-does-welsh-government-have-60.m4a",
+      "question": "How many members does the Welsh government have?",
+      "explanation": "There are 60 members of the Welsh government or members of the Senedd (SMs) and elections are held every four years using a form of proportional representation.",
+      "id": "exam-10-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "60"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "There are 60 members of the Welsh government or members of the Senedd (SMs) and elections are held every four years using a form of proportional representation.",
+        "why_correct_zh": "威尔士政府有 60 名成员或参议院 (SM) 成员，每四年举行一次选举，采用比例代表制形式。",
+        "answer_summary_zh": "正确选项：60。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Welsh"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How many members does the Welsh government have?”及正确答案“60”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-11.names-or-photographs-young-people-found-guilty-crime-cannot-be-published-in-newspapers-or-used-by-the-media.m4a",
+      "question": "The names or photographs of young people found guilty of a crime can be published in newspapers or used by the media.",
+      "explanation": "False. Members of the public are not allowed in Youth Courts, and the name or photographs of the accused young person cannot be published in newspapers or used by the media.",
+      "id": "exam-10-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. Members of the public are not allowed in Youth Courts, and the name or photographs of the accused young person cannot be published in newspapers or used by the media.",
+        "why_correct_zh": "错误的。公众不得进入青少年法庭，被告青少年的姓名或照片不得在报纸上发表或被媒体使用。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "photographs"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The names or photographs of young people found guilty of a crime can be published in newspapers or used by the media.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "He was a musician"
+        },
+        {
+          "id": "r1",
+          "text": "He was a tennis player"
+        },
+        {
+          "id": "r2",
+          "text": "He was a comedian"
+        },
+        {
+          "id": "r3",
+          "text": "He was an actor"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-12.who-was-Edward-Elgar.m4a",
+      "question": "What was Edward Elgar famous for?",
+      "explanation": "Sir Edward Elgar (1857-1934) was a musician. His best known work is probably the Pomp and Circumstance Marches. March No1 (Land of Hope and Glory) is usually played at the Last Night of the Proms at the Royal Albert Hall.",
+      "id": "exam-10-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "He was a musician"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Sir Edward Elgar (1857-1934) was a musician. His best known work is probably the Pomp and Circumstance Marches. March No1 (Land of Hope and Glory) is usually played at the Last Night of the Proms at the Royal Albert Hall.",
+        "why_correct_zh": "爱德华·埃尔加爵士（1857-1934）是一位音乐家。他最著名的作品可能是《盛况与环境进行曲》。 March No1（希望与荣耀之地）通常在皇家阿尔伯特音乐厅的逍遥音乐节最后一晚演奏。",
+        "answer_summary_zh": "正确选项：He was a musician。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Edward Elgar"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was Edward Elgar famous for?”及正确答案“He was a musician”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "£50"
+        },
+        {
+          "id": "r1",
+          "text": "£25"
+        },
+        {
+          "id": "r2",
+          "text": "£20"
+        },
+        {
+          "id": "r3",
+          "text": "£5"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-13.not-british-bank-note-25-pounds.m4a",
+      "question": "Which of the following is not a British banknote?",
+      "explanation": "There are no £25 notes in the UK.",
+      "id": "exam-10-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "£25"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "There are no £25 notes in the UK.",
+        "why_correct_zh": "英国没有 25 英镑的纸币。",
+        "answer_summary_zh": "正确选项：£25。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "British"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is not a British banknote?”及正确答案“£25”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Fife"
+        },
+        {
+          "id": "r1",
+          "text": "Edinburgh"
+        },
+        {
+          "id": "r2",
+          "text": "Ayr"
+        },
+        {
+          "id": "r3",
+          "text": "St Andrews"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-14.scottish-grand-national-ayr.m4a",
+      "question": "Where does the Scottish Grand National take place?",
+      "explanation": "The Scottish Grand National takes place at Ayr.",
+      "id": "exam-10-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Ayr"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Scottish Grand National takes place at Ayr.",
+        "why_correct_zh": "苏格兰国家大赛在艾尔举行。",
+        "answer_summary_zh": "正确选项：Ayr。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scottish Grand National"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where does the Scottish Grand National take place?”及正确答案“Ayr”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Constitutional monarchy"
+        },
+        {
+          "id": "r2",
+          "text": "Constitutional republic"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/Q.15.laws-passed-after-glorious-revolution-beginning-constitutional-monarchy.m4a",
+      "question": "The laws passed after the Glorious Revolution marked the beginning of the ______.",
+      "explanation": "The laws passed after the Glorious Revolution marked the beginning of the constitutional monarchy.",
+      "id": "exam-10-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Constitutional monarchy"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The laws passed after the Glorious Revolution marked the beginning of the constitutional monarchy.",
+        "why_correct_zh": "光荣革命后通过的法律标志着君主立宪制的开始。",
+        "answer_summary_zh": "正确选项：Constitutional monarchy。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Glorious Revolution"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The laws passed after the Glorious Revolution marked the beginning of the ______.”及正确答案“Constitutional monarchy”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "France"
+        },
+        {
+          "id": "r1",
+          "text": "Portugal"
+        },
+        {
+          "id": "r2",
+          "text": "Spain"
+        },
+        {
+          "id": "r3",
+          "text": "Italy"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-16.fleet-sent-england-to-restore-catholicism-from-spain.m4a",
+      "question": "During the reign of Elizabeth I, a large fleet of ships was sent to England to conquer the country and to restore Catholicism, where did this fleet come from?",
+      "explanation": "Elizabeth I became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.",
+      "id": "exam-10-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Spain"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Elizabeth I became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism.",
+        "why_correct_zh": "伊丽莎白一世成为英国历史上最受欢迎的君主之一，特别是在 1588 年之后，当时英国击败了西班牙派来征服英格兰并恢复天主教的西班牙无敌舰队（一支大型舰队）。",
+        "answer_summary_zh": "正确选项：Spain。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "During the",
+          "Elizabeth I",
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During the reign of Elizabeth I, a large fleet of ships was sent to England to conquer the country and to restore Catholicism, where did this fleet come from?”及正确答案“Spain”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "That every prisoner has a right to a court hearing"
+        },
+        {
+          "id": "r1",
+          "text": "A salary for members of Parliament (MPs)"
+        },
+        {
+          "id": "r2",
+          "text": "Financial help for the unemployed, old-age pensions and free school meals"
+        },
+        {
+          "id": "r3",
+          "text": "Measures to improve the conditions of workers"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-17.what-did-habeas-act-introduce.m4a",
+      "question": "What did the Habeas Corpus Act introduce?",
+      "explanation": "The Habeas Corpus Act became law in 1679. This was a very important piece of legislation which remains relevant today. Habeas corpus is Latin for ‘you must present the person in court’. The Act guaranteed that no one could be held prisoner unlawfully. Every prisoner has a right to a court hearing.",
+      "id": "exam-10-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "That every prisoner has a right to a court hearing"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Habeas Corpus Act became law in 1679. This was a very important piece of legislation which remains relevant today. Habeas corpus is Latin for ‘you must present the person in court’. The Act guaranteed that no one could be held prisoner unlawfully. Every prisoner has a right to a court hearing.",
+        "why_correct_zh": "《人身保护令法》于 1679 年成为法律。这是一项非常重要的立法，至今仍然具有现实意义。人身保护令是拉丁语，意思是“你必须将人带上法庭”。该法案保证任何人都不会被非法监禁。每个囚犯都有权参加法庭听证会。",
+        "answer_summary_zh": "正确选项：That every prisoner has a right to a court hearing。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Habeas Corpus Act"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did the Habeas Corpus Act introduce?”及正确答案“That every prisoner has a right to a court hearing”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The right to liberty and security"
+        },
+        {
+          "id": "r1",
+          "text": "The right for women to vote"
+        },
+        {
+          "id": "r2",
+          "text": "Freedom of expression"
+        },
+        {
+          "id": "r3",
+          "text": "The right to a fair trial"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-18.what-did-Emmeline-Pankhurst-fight-for.m4a",
+      "question": "What did Emmeline Pankhurst fight for?",
+      "explanation": "Emmeline Pankhurst she set up the women’s Franchise League in 1889, which fought to get the vote in local elections for married women. In 1903 she helped found the Women’s Social and Political Union (WSPU). This was the first group whose members were called ‘suffragettes’. The group used civil disobedience as part of their protest to gain the vote for women. In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+      "id": "exam-10-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The right for women to vote"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Emmeline Pankhurst she set up the women’s Franchise League in 1889, which fought to get the vote in local elections for married women. In 1903 she helped found the Women’s Social and Political Union (WSPU). This was the first group whose members were called ‘suffragettes’. The group used civil disobedience as part of their protest to gain the vote for women. In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+        "why_correct_zh": "Emmeline Pankhurst于1889年成立Women's Franchise League，为已婚妇女争取地方选举投票权。1903年，她又参与创建Women's Social and Political Union（WSPU）；其成员被称为suffragettes，并以公民不服从等方式争取女性选举权。\n\n1918年，30岁以上且符合财产条件的女性获得议会选举权；1928年，女性才在21岁这一年龄条件上与男性取得同等选举权。",
+        "answer_summary_zh": "正确选项：The right for women to vote。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Emmeline Pankhurst"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did Emmeline Pankhurst fight for?”及正确答案“The right for women to vote”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "An annual event that gives awards in a range of categories, such as best British group and best British solo artist"
+        },
+        {
+          "id": "r1",
+          "text": "An annual cultural festival which includes music, dance, art and original performances largely in Welsh"
+        },
+        {
+          "id": "r2",
+          "text": "An eight-week summer season of daily orchestral classical music concerts"
+        },
+        {
+          "id": "r3",
+          "text": "Light-hearted plays with music and comedy"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-19.what-is-the-proms.m4a",
+      "question": "What is “the Proms”?",
+      "explanation": "The Proms is an eight-week summer season of orchestral classical music that takes place in various venues, including the Royal Albert Hall in London.",
+      "id": "exam-10-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "An eight-week summer season of daily orchestral classical music concerts"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Proms is an eight-week summer season of orchestral classical music that takes place in various venues, including the Royal Albert Hall in London.",
+        "why_correct_zh": "逍遥音乐节是为期八周的夏季管弦乐古典音乐季，在多个场地举行，包括伦敦皇家阿尔伯特音乐厅。",
+        "answer_summary_zh": "正确选项：An eight-week summer season of daily orchestral classical music concerts。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "the Proms"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is “the Proms”?”及正确答案“An eight-week summer season of daily orchestral classical music concerts”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The discovery of insulin"
+        },
+        {
+          "id": "r1",
+          "text": "The discovery of gravity"
+        },
+        {
+          "id": "r2",
+          "text": "The discovery of penicillin"
+        },
+        {
+          "id": "r3",
+          "text": "The discovery of steam power"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-20.isaac-newton-famous-discovery-gravity.m4a",
+      "question": "What was Isaac Newton known for?",
+      "explanation": "Newton‘s most famous published work was Philosophiae Naturalis Principia Mathematica (‘Mathematical Principle of Natural Philosophy’), which showed how gravity applied to the whole universe.",
+      "id": "exam-10-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The discovery of gravity"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Newton‘s most famous published work was Philosophiae Naturalis Principia Mathematica (‘Mathematical Principle of Natural Philosophy’), which showed how gravity applied to the whole universe.",
+        "why_correct_zh": "牛顿最著名的著作是《Philosophiae Naturalis Principia Mathematica》（《自然哲学的数学原理》），它展示了引力如何应用于整个宇宙。",
+        "answer_summary_zh": "正确选项：The discovery of gravity。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Isaac Newton"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was Isaac Newton known for?”及正确答案“The discovery of gravity”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "In 1922"
+        },
+        {
+          "id": "r1",
+          "text": "In 1918"
+        },
+        {
+          "id": "r2",
+          "text": "In 1945"
+        },
+        {
+          "id": "r3",
+          "text": "In 1943"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-21.when-did-world-war-one-come-to-an-end.m4a",
+      "question": "When did the WWI come to an end?",
+      "explanation": "The World War I ended in 1918.",
+      "id": "exam-10-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "In 1918"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The World War I ended in 1918.",
+        "why_correct_zh": "第一次世界大战于 1918 年结束。",
+        "answer_summary_zh": "正确选项：In 1918。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "WWI"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When did the WWI come to an end?”及正确答案“In 1918”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Boudicca"
+        },
+        {
+          "id": "r1",
+          "text": "Emperor Hadrian"
+        },
+        {
+          "id": "r2",
+          "text": "Emperor Claudius"
+        },
+        {
+          "id": "r3",
+          "text": "Julius Caesar"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-22.who-built-wall-to-keep-out-picts.m4a",
+      "question": "Who built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)?",
+      "explanation": "The Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people).",
+      "id": "exam-10-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Emperor Hadrian"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people).",
+        "why_correct_zh": "哈德良皇帝在英格兰北部修建了一堵墙，以阻挡皮克特人（苏格兰人的祖先）。",
+        "answer_summary_zh": "正确选项：Emperor Hadrian。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England",
+          "Picts",
+          "Scottish"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)?”及正确答案“Emperor Hadrian”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The University of Oxford"
+        },
+        {
+          "id": "r1",
+          "text": "The University of Cambridge"
+        },
+        {
+          "id": "r2",
+          "text": "The University of Manchester"
+        },
+        {
+          "id": "r3",
+          "text": "The University of Warwick"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-23.two-universities-participate-annual-rowing-race-takes-place-on-River-Thames.m4a",
+      "question": "Which two universities participate in an annual rowing race that takes place on the River Thames?",
+      "explanation": "Rowing is also popular, both as a leisure activity and as a competitive sport. There is a popular yearly race on the Thames between Oxford and Cambridge Universities.",
+      "id": "exam-10-q23",
+      "number": 23,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r1"
+      ],
+      "correct_answers": [
+        "The University of Oxford",
+        "The University of Cambridge"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Rowing is also popular, both as a leisure activity and as a competitive sport. There is a popular yearly race on the Thames between Oxford and Cambridge Universities.",
+        "why_correct_zh": "赛艇作为一项休闲活动和竞技运动也很受欢迎。每年，牛津大学和剑桥大学之间都会在泰晤士河上举办一场颇受欢迎的比赛。",
+        "answer_summary_zh": "正确选项：The University of Oxford；The University of Cambridge。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "River Thames"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two universities participate in an annual rowing race that takes place on the River Thames?”及正确答案“The University of Oxford；The University of Cambridge”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Yes"
+        },
+        {
+          "id": "r2",
+          "text": "No"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT10/BCT10.Q-24.does-england-have-a-written-constitution-no.m4a",
+      "question": "Does Britain have a written constitution?",
+      "explanation": "The British constitution is not written down in any single document, and therefore it is described as ‘unwritten’.",
+      "id": "exam-10-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "No"
+      ],
+      "exam_number": 10,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-naturalization-test-10/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The British constitution is not written down in any single document, and therefore it is described as ‘unwritten’.",
+        "why_correct_zh": "英国宪法没有写在任何单一文件中，因此被称为“不成文”。",
+        "answer_summary_zh": "正确选项：No。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Does Britain",
+          "written constitution"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-10-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Does Britain have a written constitution?”及正确答案“No”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

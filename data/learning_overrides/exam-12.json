@@ -1,0 +1,89 @@
+{
+  "exam-12-q01": {
+    "why_correct_en": "The Channel Islands and the Isle of Man are closely linked with the UK but are not part of it. They have their own governments and are called ‘Crown dependencies‘."
+  },
+  "exam-12-q02": {
+    "why_correct_en": "The BBC is the largest broadcaster in the world. It is the only wholly state-funded media organisation that is independent of government."
+  },
+  "exam-12-q03": {
+    "why_correct_en": "The Northern Ireland Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly)."
+  },
+  "exam-12-q04": {
+    "why_correct_en": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle."
+  },
+  "exam-12-q05": {
+    "why_correct_en": "The people of the Iron Age made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings."
+  },
+  "exam-12-q06": {
+    "why_correct_en": "False.Towns, cities and rural areas in the UK are governed by democratically elected councils, often called ‘local authorities‘."
+  },
+  "exam-12-q07": {
+    "why_correct_en": "The Tate Britain and Tate Modern are in London."
+  },
+  "exam-12-q08": {
+    "why_correct_en": "One achievement of King James‘ reign was a new translation of the Bible into English. This translation is known as the ‘King James Version‘ or the ‘Authorised Version‘."
+  },
+  "exam-12-q09": {
+    "why_correct_en": "The decade of the 1960s was a period of significant social change. It was known as the ‘Swinging Sixties’. There was growth in British fashion, cinema and popular music."
+  },
+  "exam-12-q10": {
+    "why_correct_en": "Between 1680 and 1720 many refugees called Huguenots came from France."
+  },
+  "exam-12-q11": {
+    "why_correct_en": "The most famous tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club."
+  },
+  "exam-12-q12": {
+    "why_correct_en": "False. You can contact MPs by letter or telephone at their constituency office, or at their office in the House of Commons. In addition, many MPs, SMs and MSPs hold regular local ‘surgeries‘, where constituents can go in person to talk about issues that are of concern to them."
+  },
+  "exam-12-q13": {
+    "why_correct_en": "April Fool‘s Day, 1 April, is a day when people play jokes on each other until midday. The television and newspapers often have stories that are April Fool jokes."
+  },
+  "exam-12-q14": {
+    "why_correct_en": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English."
+  },
+  "exam-12-q15": {
+    "why_correct_en": "The inventor of the World Wide Web was Sir Tim Berners-Lee."
+  },
+  "exam-12-q16": {
+    "why_correct_en": "Civil servants are chosen on merit and are politically neutral – they are not political appointees."
+  },
+  "exam-12-q17": {
+    "why_correct_en": "During WWII as France fell, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk."
+  },
+  "exam-12-q18": {
+    "why_correct_en": "False. Anyone who is on the electoral register and is aged 18 to 70 can serve on a jury."
+  },
+  "exam-12-q19": {
+    "why_correct_en": "If you wish to be a permanent resident or citizen of the UK, you should: respect the rights of others, including their right to their own opinions, look after yourself and your family, respect and obey the law, treat others with fairness and look after the area in which you live and the environment."
+  },
+  "exam-12-q20": {
+    "why_correct_en": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012."
+  },
+  "exam-12-q21": {
+    "why_correct_en": "Charles I became king in 1625 and believed in the Divine Right of Kings: that his authority to rule came from God. In 1628 Parliament issued the Petition of Right against taxation without parliamentary consent and arbitrary imprisonment. As conflict intensified, Charles dissolved Parliament in March 1629. He summoned no Parliament from 1629 to 1640, a period called the Personal Rule and by opponents the Eleven Years' Tyranny. He raised revenue through measures such as ship money and pursued disputed religious policies. The Bishops' Wars against Scotland left him needing funds, so he recalled Parliament in 1640. The confrontation continued and helped lead to the English Civil War in 1642.",
+    "source_ids": [
+      "official-handbook",
+      "parliament-personal-rule",
+      "parliament-petition-of-right"
+    ]
+  },
+  "exam-12-q22": {
+    "why_correct_en": "The Union Jack is the UK's Union Flag. 'Union' reflects the combination of national emblems: the 1606 design joined England's red Cross of St George with Scotland's white Saltire of St Andrew; the red Saltire associated with St Patrick was added in 1801 after union with Ireland. Wales had already been legally united with England and received no separate element. The origin of 'Jack' is uncertain. A common explanation links it to the naval jack, a small flag flown on a ship; another links it to Jacobus, the Latin form of James, who ordered the first Union Flag. It is a myth that the flag may be called the Union Jack only at sea: both Union Flag and Union Jack are accepted names.",
+    "source_ids": [
+      "official-handbook",
+      "commons-library-union-flag",
+      "royal-union-jack"
+    ]
+  },
+  "exam-12-q23": {
+    "why_correct_en": "In 2002 Winston Churchill was voted the greatest Briton of all time by the public."
+  },
+  "exam-12-q24": {
+    "why_correct_en": "The correct statement is that women make up about half of Britain's workforce. This means women as a share of all people in employment; it does not mean that only half of British women work. The wording comes from the third edition of Life in the United Kingdom, published in January 2013, which gives no separate statistical date for this sentence. It should therefore be understood as a summary of the position around 2013 rather than a live statistic. For comparison, ONS recorded about 13.4 million employed women and 15.3 million employed men aged 16 to 64 in April to June 2013, making women about 46.7% of that employed group—reasonably summarised as 'about half'.",
+    "source_ids": [
+      "official-handbook",
+      "official-life-handbook-third-edition",
+      "ons-women-labour-market-2013"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+# Operating-system files
+.DS_Store
+**/.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.dev.vars
+.vercel/
+.wrangler/
+/credentials*.json
+/service-account*.json
+
+# Dependencies and generated builds
+web/node_modules/
+web/dist/
+coverage/
+*.log
+
+# Temporary render and visual-QA output
+tmp/
+qa/*
+!qa/*.md
+
+# Personal publishing draft: keep locally, do not include in the code repository
+notes/xiaohongshu-life-in-the-uk-test-experience.md

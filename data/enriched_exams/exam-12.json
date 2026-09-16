@@ -1,0 +1,1596 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 12,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "commons-library-union-flag": {
+      "title": "Flags: the Union Flag and flags of the United Kingdom",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn04474/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "下议院图书馆说明Union Flag的历史、海军使用背景及Union Jack作为通用名称的沿革。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-test-rules": {
+      "title": "Life in the UK Test",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/life-in-the-uk-test",
+      "authority": "official_government",
+      "note_zh": "确认考试内容仅来自官方 Guide for New Residents。"
+    },
+    "govuk-volunteering": {
+      "title": "Volunteer opportunities, rights and expenses",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/volunteering",
+      "authority": "official_government",
+      "note_zh": "社区志愿服务的官方信息。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "official-life-handbook-third-edition": {
+      "title": "Official Guide for New Residents book — 3rd edition",
+      "publisher": "Official Life in the UK Learning Zone",
+      "url": "https://www.officiallifeintheuk.co.uk/node/17",
+      "authority": "official_exam_publisher",
+      "note_zh": "官方学习网站确认Life in the United Kingdom第三版出版日期为2013年1月28日。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "ons-women-labour-market-2013": {
+      "title": "Women in the labour market: 2013",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/womeninthelabourmarket/latest",
+      "authority": "official_statistics",
+      "note_zh": "ONS记录2013年4至6月英国16至64岁就业女性约1,340万、就业男性约1,530万，为教材的about half提供同期统计背景。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    },
+    "parliament-personal-rule": {
+      "title": "The Personal Rule of Charles I",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/personal-rule/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会说明Charles I从1629年3月至1640年4月不召集议会、以ship money筹款，以及Bishops’ Wars迫使他重新召集议会。"
+    },
+    "parliament-petition-of-right": {
+      "title": "The Petition of Right",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/collections/petition-of-right/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会介绍1628年Petition of Right对未经议会同意征税和任意监禁的反对，以及它与Personal Rule的关系。"
+    },
+    "royal-union-jack": {
+      "title": "Union Jack",
+      "publisher": "The Royal Family",
+      "url": "https://www.royal.uk/union-jack",
+      "authority": "official_royal_household",
+      "note_zh": "王室官网介绍现行Union Jack的构成、Wales未单列的原因及Jack一词的不同来源理论。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Shetland"
+        },
+        {
+          "id": "r1",
+          "text": "Isle of Wight"
+        },
+        {
+          "id": "r2",
+          "text": "Isle of Man"
+        },
+        {
+          "id": "r3",
+          "text": "Anglesey"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q1.crown-dependencies.m4a",
+      "question": "Which of the following is a Crown Dependency but not part of the UK?",
+      "explanation": "The Channel Islands and the Isle of Man are closely linked with the UK but are not part of it. They have their own governments and are called ‘Crown dependencies‘.",
+      "id": "exam-12-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Isle of Man"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "The Channel Islands and the Isle of Man are closely linked with the UK but are not part of it. They have their own governments and are called ‘Crown dependencies‘.",
+        "why_correct_zh": "海峡群岛和马恩岛与英国联系密切，但不属于英国。他们有自己的政府，被称为“皇家属地”。",
+        "answer_summary_zh": "正确选项：Isle of Man。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Crown Dependency",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is a Crown Dependency but not part of the UK?”及正确答案“Isle of Man”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Yes"
+        },
+        {
+          "id": "r2",
+          "text": "No"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q2.BBC-not-controlled-by-government.m4a",
+      "question": "Is the BBC controlled by the government?",
+      "explanation": "The BBC is the largest broadcaster in the world. It is the only wholly state-funded media organisation that is independent of government.",
+      "id": "exam-12-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "No"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The BBC is the largest broadcaster in the world. It is the only wholly state-funded media organisation that is independent of government.",
+        "why_correct_zh": "BBC 是世界上最大的广播公司。它是唯一一家完全由国家资助、独立于政府的媒体机构。",
+        "answer_summary_zh": "正确选项：No。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Is the BBC"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Is the BBC controlled by the government?”及正确答案“No”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "12"
+        },
+        {
+          "id": "r1",
+          "text": "60"
+        },
+        {
+          "id": "r2",
+          "text": "90"
+        },
+        {
+          "id": "r3",
+          "text": "108"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q3.members-northern-ireland-assembly.m4a",
+      "question": "How many members does the Northern Ireland Assembly have?",
+      "explanation": "The Northern Ireland Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly).",
+      "id": "exam-12-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "90"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Northern Ireland Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly).",
+        "why_correct_zh": "北爱尔兰议会有 90 名民选议员，称为 MLA（立法议会成员）。",
+        "answer_summary_zh": "正确选项：90。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland Assembly"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How many members does the Northern Ireland Assembly have?”及正确答案“90”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Oliver Cromwell"
+        },
+        {
+          "id": "r1",
+          "text": "The Duke of Wellington"
+        },
+        {
+          "id": "r2",
+          "text": "Robert the Bruce"
+        },
+        {
+          "id": "r3",
+          "text": "Admiral Nelson"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q4.in-carge-battle-trafalgar.m4a",
+      "question": "Who was in charge of the British fleet at the Battle of Trafalgar?",
+      "explanation": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle.",
+      "id": "exam-12-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Admiral Nelson"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle.",
+        "why_correct_zh": "纳尔逊海军上将在特拉法加指挥英国舰队，并在战斗中阵亡。",
+        "answer_summary_zh": "正确选项：Admiral Nelson。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British",
+          "Battle of Trafalgar"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was in charge of the British fleet at the Battle of Trafalgar?”及正确答案“Admiral Nelson”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The names of Iron Age kings"
+        },
+        {
+          "id": "r1",
+          "text": "The names of Iron Age Gods"
+        },
+        {
+          "id": "r2",
+          "text": "The names of trees"
+        },
+        {
+          "id": "r3",
+          "text": "The names of animals"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q5.first-coins-minted-in-britain-during-the-iron-age.m4a",
+      "question": "What was inscribed in the first coins to be minted in Britain during the Iron Age?",
+      "explanation": "The people of the Iron Age made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings.",
+      "id": "exam-12-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The names of Iron Age kings"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The people of the Iron Age made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings.",
+        "why_correct_zh": "铁器时代的人们在英国铸造了第一批硬币，其中一些刻有铁器时代国王的名字。",
+        "answer_summary_zh": "正确选项：The names of Iron Age kings。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain",
+          "Iron Age"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was inscribed in the first coins to be minted in Britain during the Iron Age?”及正确答案“The names of Iron Age kings”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q6.towns-cities-rural-areas-in-uk-governed-government-appointed-officials.m4a",
+      "question": "Towns, cities and rural areas in the UK are governed by government appointed officials.",
+      "explanation": "False.Towns, cities and rural areas in the UK are governed by democratically elected councils, often called ‘local authorities‘.",
+      "id": "exam-12-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False.Towns, cities and rural areas in the UK are governed by democratically elected councils, often called ‘local authorities‘.",
+        "why_correct_zh": "错误。英国的城镇和农村地区由民主选举产生的委员会（通常称为“地方当局”）管理。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Towns",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Towns, cities and rural areas in the UK are governed by government appointed officials.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Glasgow"
+        },
+        {
+          "id": "r1",
+          "text": "Cardiff"
+        },
+        {
+          "id": "r2",
+          "text": "London"
+        },
+        {
+          "id": "r3",
+          "text": "Belfast"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q7.tate-gallery-location.m4a",
+      "question": "Where is the Tate Art Gallery located?",
+      "explanation": "The Tate Britain and Tate Modern are in London.",
+      "id": "exam-12-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "London"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Tate Britain and Tate Modern are in London.",
+        "why_correct_zh": "泰特英国美术馆和泰特现代美术馆位于伦敦。",
+        "answer_summary_zh": "正确选项：London。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Tate Art Gallery"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the Tate Art Gallery located?”及正确答案“London”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Authorised version"
+        },
+        {
+          "id": "r1",
+          "text": "Reformed version"
+        },
+        {
+          "id": "r2",
+          "text": "Approved version"
+        },
+        {
+          "id": "r3",
+          "text": "Unique version"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q8.version-of-the-bible-created-by-king-james-the-first.m4a",
+      "question": "The version of the Bible created by King James I is known as:",
+      "explanation": "One achievement of King James‘ reign was a new translation of the Bible into English. This translation is known as the ‘King James Version‘ or the ‘Authorised Version‘.",
+      "id": "exam-12-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Authorised version"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "One achievement of King James‘ reign was a new translation of the Bible into English. This translation is known as the ‘King James Version‘ or the ‘Authorised Version‘.",
+        "why_correct_zh": "詹姆斯国王统治时期的一项成就是将《圣经》重新翻译成英文。该译本被称为“詹姆斯国王版”或“授权版”。",
+        "answer_summary_zh": "正确选项：Authorised version。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Bible",
+          "King James I"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The version of the Bible created by King James I is known as:”及正确答案“Authorised version”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A downgrade in manufacturing"
+        },
+        {
+          "id": "r1",
+          "text": "A growth in British fashion and pop music"
+        },
+        {
+          "id": "r2",
+          "text": "A shortage of water"
+        },
+        {
+          "id": "r3",
+          "text": "A blockage of social laws"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q9.period-1960s-swinging-sixties.m4a",
+      "question": "What is the period of the 1960s known for?",
+      "explanation": "The decade of the 1960s was a period of significant social change. It was known as the ‘Swinging Sixties’. There was growth in British fashion, cinema and popular music.",
+      "id": "exam-12-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "A growth in British fashion and pop music"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The decade of the 1960s was a period of significant social change. It was known as the ‘Swinging Sixties’. There was growth in British fashion, cinema and popular music.",
+        "why_correct_zh": "20世纪60年代是社会发生重大变革的时期。它被称为“摇摆的六十年代”。英国时尚、电影和流行音乐都有增长。",
+        "answer_summary_zh": "正确选项：A growth in British fashion and pop music。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "period"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the period of the 1960s known for?”及正确答案“A growth in British fashion and pop music”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Pakistan"
+        },
+        {
+          "id": "r1",
+          "text": "Germany"
+        },
+        {
+          "id": "r2",
+          "text": "India"
+        },
+        {
+          "id": "r3",
+          "text": "France"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q10.where-did-huguenots-come-from-france.m4a",
+      "question": "Between 1680 and 1720 many refugees called Huguenots came to England, which country did they come from?",
+      "explanation": "Between 1680 and 1720 many refugees called Huguenots came from France.",
+      "id": "exam-12-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "France"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Between 1680 and 1720 many refugees called Huguenots came from France.",
+        "why_correct_zh": "1680 年至 1720 年间，许多被称为胡格诺派的难民来自法国。",
+        "answer_summary_zh": "正确选项：France。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Between",
+          "1680",
+          "1720"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Between 1680 and 1720 many refugees called Huguenots came to England, which country did they come from?”及正确答案“France”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Queen’s Club Championships"
+        },
+        {
+          "id": "r1",
+          "text": "Wimbledon"
+        },
+        {
+          "id": "r2",
+          "text": "Roland Garros"
+        },
+        {
+          "id": "r3",
+          "text": "The Aegon Championships"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q11.most-famous-tennis-tournament-in-the-uk.m4a",
+      "question": "What is the most famous tennis tournament played in the UK?",
+      "explanation": "The most famous tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club.",
+      "id": "exam-12-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Wimbledon"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The most famous tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club.",
+        "why_correct_zh": "英国最著名的赛事是温布尔登锦标赛，每年在全英草地网球和槌球俱乐部举行。",
+        "answer_summary_zh": "正确选项：Wimbledon。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the most famous tennis tournament played in the UK?”及正确答案“Wimbledon”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q12.MPs-contacted-at-their-office-in-house-commons.m4a",
+      "question": "MPs can only be contacted at their office in the House of Commons.",
+      "explanation": "False. You can contact MPs by letter or telephone at their constituency office, or at their office in the House of Commons. In addition, many MPs, SMs and MSPs hold regular local ‘surgeries‘, where constituents can go in person to talk about issues that are of concern to them.",
+      "id": "exam-12-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. You can contact MPs by letter or telephone at their constituency office, or at their office in the House of Commons. In addition, many MPs, SMs and MSPs hold regular local ‘surgeries‘, where constituents can go in person to talk about issues that are of concern to them.",
+        "why_correct_zh": "错误的。您可以通过信函或电话联系议员的选区办公室或下议院办公室。此外，许多议员、议员和议员定期举行当地“手术”，选民可以亲自去讨论他们关心的问题。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "House of Commons"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“MPs can only be contacted at their office in the House of Commons.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "April Fool‘s Day"
+        },
+        {
+          "id": "r1",
+          "text": "Boxing Day"
+        },
+        {
+          "id": "r2",
+          "text": "Halloween"
+        },
+        {
+          "id": "r3",
+          "text": "Valentine‘s Day"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q13. jokes-published-in-newspapers-and-telecasted-on-tv.m4a",
+      "question": "What is the day when jokes are published in newspapers and telecast on TV?",
+      "explanation": "April Fool‘s Day, 1 April, is a day when people play jokes on each other until midday. The television and newspapers often have stories that are April Fool jokes.",
+      "id": "exam-12-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "April Fool‘s Day"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "April Fool‘s Day, 1 April, is a day when people play jokes on each other until midday. The television and newspapers often have stories that are April Fool jokes.",
+        "why_correct_zh": "愚人节，4 月 1 日，人们互相开玩笑直到中午。电视和报纸上经常有愚人节笑话的故事。",
+        "answer_summary_zh": "正确选项：April Fool‘s Day。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "TV"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the day when jokes are published in newspapers and telecast on TV?”及正确答案“April Fool‘s Day”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "King Charles I"
+        },
+        {
+          "id": "r1",
+          "text": "King James I"
+        },
+        {
+          "id": "r2",
+          "text": "Admiral Nelson"
+        },
+        {
+          "id": "r3",
+          "text": "Robert the Bruce"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q14.scottish-king-defeated-English-at-the-battle of-bannockburn.m4a",
+      "question": "Which Scottish king defeated the English at the Battle of Bannockburn?",
+      "explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English.",
+      "id": "exam-12-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Robert the Bruce"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English.",
+        "why_correct_zh": "1314年，罗伯特·布鲁斯领导的苏格兰人在班诺克本战役中击败了英国人，苏格兰至今仍未被英国人征服。",
+        "answer_summary_zh": "正确选项：Robert the Bruce。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which Scottish",
+          "English",
+          "Battle of Bannockburn"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which Scottish king defeated the English at the Battle of Bannockburn?”及正确答案“Robert the Bruce”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sir Tim Berners-Lee"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Peter Mansfield"
+        },
+        {
+          "id": "r2",
+          "text": "Sir Ian Wilmot"
+        },
+        {
+          "id": "r3",
+          "text": "Sir Robert Edwards"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q15.who-invented-the-world-wide-web.m4a",
+      "question": "Who invented the World Wide Web?",
+      "explanation": "The inventor of the World Wide Web was Sir Tim Berners-Lee.",
+      "id": "exam-12-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Sir Tim Berners-Lee"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The inventor of the World Wide Web was Sir Tim Berners-Lee.",
+        "why_correct_zh": "万维网的发明者是蒂姆·伯纳斯·李爵士。",
+        "answer_summary_zh": "正确选项：Sir Tim Berners-Lee。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "World Wide Web"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who invented the World Wide Web?”及正确答案“Sir Tim Berners-Lee”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "They are chosen on merit and form part of the Liberal Democrats party"
+        },
+        {
+          "id": "r1",
+          "text": "They are chosen randomly and form part of the Conservative party"
+        },
+        {
+          "id": "r2",
+          "text": "They are chosen randomly and are politically neutral"
+        },
+        {
+          "id": "r3",
+          "text": "They are chosen on merit and are politically neutral"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q16.how-are-civil-servants-appointed.m4a",
+      "question": "How are civil servants appointed and what political party do they belong to?",
+      "explanation": "Civil servants are chosen on merit and are politically neutral – they are not political appointees.",
+      "id": "exam-12-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "They are chosen on merit and are politically neutral"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Civil servants are chosen on merit and are politically neutral – they are not political appointees.",
+        "why_correct_zh": "公务员是根据业绩选拔的，并且在政治上保持中立——他们不是政治任命者。",
+        "answer_summary_zh": "正确选项：They are chosen on merit and are politically neutral。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "civil servants"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How are civil servants appointed and what political party do they belong to?”及正确答案“They are chosen on merit and are politically neutral”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "When the German air force bombed London and other British cities at night-time"
+        },
+        {
+          "id": "r1",
+          "text": "The evacuation of Allied soldiers from France during World War II"
+        },
+        {
+          "id": "r2",
+          "text": "When new social classes appeared after the Black Death"
+        },
+        {
+          "id": "r3",
+          "text": "The period when many refugees called Huguenots came from France"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q17.what-is-the-dunkirk-spirit.m4a",
+      "question": "What is known as the “Dunkirk spirit”?",
+      "explanation": "During WWII as France fell, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk.",
+      "id": "exam-12-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The evacuation of Allied soldiers from France during World War II"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "During WWII as France fell, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk.",
+        "why_correct_zh": "第二次世界大战期间，法国陷落，英国决定通过大规模海军行动从法国撤离英国和法国士兵。来自英国的小型游船和渔船上的许多平民志愿者帮助海军从敦刻尔克周围的海滩营救了超过 30 万名人员。",
+        "answer_summary_zh": "正确选项：The evacuation of Allied soldiers from France during World War II。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Dunkirk spirit"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-12-q17.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：What is known as the “Dunkirk spirit”?；正确答案：The evacuation of Allied soldiers from France during World War II",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": {
+        "title": "Dunkirk",
+        "year": 2017,
+        "relationship": "direct",
+        "poster_src": "/images/media/dunkirk-2017-poster.jpg",
+        "poster_alt_en": "The theatrical poster for Dunkirk (2017).",
+        "poster_alt_zh": "电影《Dunkirk》（2017）的正式海报。",
+        "fun_fact_en": "Dunkirk (2017) directly dramatises the 1940 evacuation behind the phrase ‘Dunkirk spirit’, including the role of civilian boats.",
+        "fun_fact_zh": "《Dunkirk》（2017）直接取材于1940年的敦刻尔克大撤退，也呈现了民用小船参与救援的历史背景，这正是“Dunkirk spirit”的来源。",
+        "source_title": "Dunkirk (2017) — BFI",
+        "source_url": "https://www.bfi.org.uk/film/1ab19d70-c33f-510c-9612-8af2e27fa459/dunkirk",
+        "poster_provider": "TMDB",
+        "poster_provider_url": "https://www.themoviedb.org/movie/374720-dunkirk",
+        "poster_credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+      }
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "101",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q18.age-to-serve-on-a-jury.m4a",
+      "question": "You have to be at least 21 years old to serve on a jury.",
+      "explanation": "False. Anyone who is on the electoral register and is aged 18 to 70 can serve on a jury.",
+      "id": "exam-12-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "5.7 Your role in the community",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. Anyone who is on the electoral register and is aged 18 to 70 can serve on a jury.",
+        "why_correct_zh": "错误的。任何登记在册且年龄在 18 岁至 70 岁之间的人都可以担任陪审团成员。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "You",
+          "21"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-volunteering"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“You have to be at least 21 years old to serve on a jury.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-volunteering"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "77",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Respect the rights of others, including their right to their own opinions"
+        },
+        {
+          "id": "r1",
+          "text": "Buy a house in the UK"
+        },
+        {
+          "id": "r2",
+          "text": "Look after yourself and your family"
+        },
+        {
+          "id": "r3",
+          "text": "Marry a British citizen"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q19.permanent-resident-uk.m4a",
+      "question": "If you wish to be a permanent resident or citizen of the UK, you should (choose TWO answers):",
+      "explanation": "If you wish to be a permanent resident or citizen of the UK, you should: respect the rights of others, including their right to their own opinions, look after yourself and your family, respect and obey the law, treat others with fairness and look after the area in which you live and the environment.",
+      "id": "exam-12-q19",
+      "number": 19,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r2"
+      ],
+      "correct_answers": [
+        "Respect the rights of others, including their right to their own opinions",
+        "Look after yourself and your family"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "1.1 Becoming a permanent resident",
+      "handbook_locator": "Chapter 1: The values and principles of the UK",
+      "learning": {
+        "why_correct_en": "If you wish to be a permanent resident or citizen of the UK, you should: respect the rights of others, including their right to their own opinions, look after yourself and your family, respect and obey the law, treat others with fairness and look after the area in which you live and the environment.",
+        "why_correct_zh": "如果您希望成为英国永久居民或公民，您应该：尊重他人的权利，包括他们发表自己意见的权利，照顾自己和家人，尊重和遵守法律，公平对待他人，并爱护您所居住的地区和环境。",
+        "answer_summary_zh": "正确选项：Respect the rights of others, including their right to their own opinions；Look after yourself and your family。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "If",
+          "permanent resident",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-test-rules"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“If you wish to be a permanent resident or citizen of the UK, you should (choose TWO answers):”及正确答案“Respect the rights of others, including their right to their own opinions；Look after yourself and your family”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-test-rules"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Football World Cup"
+        },
+        {
+          "id": "r1",
+          "text": "The Rugby World Cup"
+        },
+        {
+          "id": "r2",
+          "text": "The Olympic games"
+        },
+        {
+          "id": "r3",
+          "text": "The Eurocup Basketball"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q20.olympic-games-uk-2012.m4a",
+      "question": "Which of the following major sports event took place in the UK in 2012?",
+      "explanation": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012.",
+      "id": "exam-12-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Olympic games"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012.",
+        "why_correct_zh": "英国曾三次主办奥运会：1908年、1948年和2012年。",
+        "answer_summary_zh": "正确选项：The Olympic games。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "UK",
+          "2012"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following major sports event took place in the UK in 2012?”及正确答案“The Olympic games”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "To rule without the Parliament"
+        },
+        {
+          "id": "r1",
+          "text": "To rule with the approval of the Parliament"
+        },
+        {
+          "id": "r2",
+          "text": "To raise money for the Parliament"
+        },
+        {
+          "id": "r3",
+          "text": "To restore Catholicism in Britain"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q21.charles-the-first-divine-right-of-kings.m4a",
+      "question": "Charles I believed in the ’Divine Right of Kings’ so he tried:",
+      "explanation": "Charles I believed in the ’Divine Right of Kings’: the idea that the king was directly appointed by God to rule. He thought that the king should be able to act without having to seek approval from Parliament and he tried to rule without the Parliament.",
+      "id": "exam-12-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "To rule without the Parliament"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Charles I became king in 1625 and believed in the Divine Right of Kings: that his authority to rule came from God. In 1628 Parliament issued the Petition of Right against taxation without parliamentary consent and arbitrary imprisonment. As conflict intensified, Charles dissolved Parliament in March 1629. He summoned no Parliament from 1629 to 1640, a period called the Personal Rule and by opponents the Eleven Years' Tyranny. He raised revenue through measures such as ship money and pursued disputed religious policies. The Bishops' Wars against Scotland left him needing funds, so he recalled Parliament in 1640. The confrontation continued and helped lead to the English Civil War in 1642.",
+        "why_correct_zh": "Charles I于1625年即位并信奉Divine Right of Kings，认为君主的统治权来自上帝。1628年，Parliament以Petition of Right反对未经议会同意征税和任意监禁；冲突加剧后，Charles于1629年3月解散议会。\n\n他在1629至1640年间没有召集议会，这段时期称为Personal Rule，又被反对者称为Eleven Years’ Tyranny。他以ship money等方式筹款，并推行引起争议的宗教政策。与Scotland发生Bishops’ Wars后，他因缺乏军费于1640年重新召集议会。双方矛盾继续恶化，最终在1642年引发English Civil War。",
+        "answer_summary_zh": "正确选项：To rule without the Parliament。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Charles I",
+          "Divine Right of Kings"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-personal-rule",
+        "parliament-petition-of-right"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Charles I believed in the ’Divine Right of Kings’ so he tried:”及正确答案“To rule without the Parliament”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-personal-rule",
+          "parliament-petition-of-right"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Flag of the Commonwealth"
+        },
+        {
+          "id": "r1",
+          "text": "The Flag of the United Kingdom"
+        },
+        {
+          "id": "r2",
+          "text": "The shield used by British Knights"
+        },
+        {
+          "id": "r3",
+          "text": "A trade union to protect workers rights"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q22.what-is-the-union-jack.m4a",
+      "question": "What is the Union Jack?",
+      "explanation": "The Union Flag, the Flag of the United Kingdom is also known as the Union Jack.",
+      "id": "exam-12-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Flag of the United Kingdom"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Union Jack is the UK's Union Flag. 'Union' reflects the combination of national emblems: the 1606 design joined England's red Cross of St George with Scotland's white Saltire of St Andrew; the red Saltire associated with St Patrick was added in 1801 after union with Ireland. Wales had already been legally united with England and received no separate element. The origin of 'Jack' is uncertain. A common explanation links it to the naval jack, a small flag flown on a ship; another links it to Jacobus, the Latin form of James, who ordered the first Union Flag. It is a myth that the flag may be called the Union Jack only at sea: both Union Flag and Union Jack are accepted names.",
+        "why_correct_zh": "Union Jack就是UK的Union Flag。Union表示旗帜结合了不同王国的标志：1606年的设计合并England的St George红十字和Scotland的St Andrew白色斜十字；1801年又加入代表Ireland的St Patrick红色斜十字。Wales当时已在法律上与England合并，所以没有单独图案。\n\nJack的词源没有定论。常见解释是英国海军把舰首的小旗称为jack，早期Union Flag主要用于海上，名称因而流传；也有人认为它与下令设计第一面联合旗的James I之拉丁名Jacobus有关。“陆地只能叫Union Flag”是误解，Union Jack也是长期通用的正确名称。",
+        "answer_summary_zh": "正确选项：The Flag of the United Kingdom。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Union Jack"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "commons-library-union-flag",
+        "royal-union-jack"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the Union Jack?”及正确答案“The Flag of the United Kingdom”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "commons-library-union-flag",
+          "royal-union-jack"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Mo Farah"
+        },
+        {
+          "id": "r1",
+          "text": "Admiral Nelson"
+        },
+        {
+          "id": "r2",
+          "text": "Winston Churchill"
+        },
+        {
+          "id": "r3",
+          "text": "Clement Attlee"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q23.greatest-briton-of-all-time.m4a",
+      "question": "Who was voted the greatest Briton of all time in 2002?",
+      "explanation": "In 2002 Winston Churchill was voted the greatest Briton of all time by the public.",
+      "id": "exam-12-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Winston Churchill"
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 2002 Winston Churchill was voted the greatest Briton of all time by the public.",
+        "why_correct_zh": "2002年，温斯顿·丘吉尔被公众评选为有史以来最伟大的英国人。",
+        "answer_summary_zh": "正确选项：Winston Churchill。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Briton of",
+          "2002"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was voted the greatest Briton of all time in 2002?”及正确答案“Winston Churchill”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Women in Britain today make up about half of the workforce."
+        },
+        {
+          "id": "r2",
+          "text": "Women in Britain today make up about one quarter of the workforce."
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT12/Q24.woman-in-britain-workforce.m4a",
+      "question": "Which of the following statements is true:",
+      "explanation": "Women in Britain today make up about half of the workforce.",
+      "id": "exam-12-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Women in Britain today make up about half of the workforce."
+      ],
+      "exam_number": 12,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-practice-questions-12/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The correct statement is that women make up about half of Britain's workforce. This means women as a share of all people in employment; it does not mean that only half of British women work. The wording comes from the third edition of Life in the United Kingdom, published in January 2013, which gives no separate statistical date for this sentence. It should therefore be understood as a summary of the position around 2013 rather than a live statistic. For comparison, ONS recorded about 13.4 million employed women and 15.3 million employed men aged 16 to 64 in April to June 2013, making women about 46.7% of that employed group—reasonably summarised as 'about half'.",
+        "why_correct_zh": "正确选项是女性约占英国workforce的一半。这里是指全部就业人口中女性所占的比例，不是说英国女性只有一半参加工作。\n\n这句话来自2013年1月出版的《Life in the United Kingdom》第三版，教材没有为它标出单独的统计年份，应理解为约2013年前后的概括，而不是实时数据。ONS在2013年4至6月统计到，16至64岁就业者约有1,340万女性和1,530万男性，女性约占46.7%，因此可概括为about half。",
+        "answer_summary_zh": "正确选项：Women in Britain today make up about half of the workforce.。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "official-life-handbook-third-edition",
+        "ons-women-labour-market-2013"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-12-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following statements is true:”及正确答案“Women in Britain today make up about half of the workforce.”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "official-life-handbook-third-edition",
+          "ons-women-labour-market-2013"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

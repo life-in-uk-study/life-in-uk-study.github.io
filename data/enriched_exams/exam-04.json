@@ -1,0 +1,1720 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 4,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "bank-england-legal-tender": {
+      "title": "What is legal tender?",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行解释Scottish和Northern Ireland纸币、legal tender与商家接受付款之间的区别。"
+    },
+    "bbc-great-britons-annual-report": {
+      "title": "BBC Annual Report and Accounts 2002–03",
+      "publisher": "BBC",
+      "url": "https://downloads.bbc.co.uk/annualreport/pdf/2002-03/bbcannualreport_200203.pdf",
+      "authority": "public_service_broadcaster",
+      "note_zh": "BBC年度报告记录2002年Great Britons节目及其公众影响；考试教材给出Churchill位列第一的答案。"
+    },
+    "bfi-chaplin-tramp": {
+      "title": "Rare promotional images of Charlie Chaplin — and what they tell us about him",
+      "publisher": "British Film Institute",
+      "url": "https://www.bfi.org.uk/features/charlie-chaplin-promotional-photos",
+      "authority": "national_film_institute",
+      "note_zh": "BFI介绍Chaplin的Tramp服装、绅士符号与挑战社会权威的角色特点。"
+    },
+    "british-library-canterbury-tales": {
+      "title": "Geoffrey Chaucer, The Canterbury Tales (Haistwell Manuscript)",
+      "publisher": "British Library",
+      "url": "https://searcharchives.bl.uk/catalog/032-001984783",
+      "authority": "national_library",
+      "note_zh": "British Library手稿目录列出The Canterbury Tales的prologues、verse tales及prose tales。"
+    },
+    "british-museum-bayeux": {
+      "title": "A history of storytelling through pictures — Bayeux Tapestry",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/blog/history-storytelling-through-pictures",
+      "authority": "national_museum",
+      "note_zh": "说明Bayeux Tapestry描绘Norman Conquest和Hastings，实际上是羊毛线亚麻布刺绣并可能在England制作。"
+    },
+    "british-museum-boudicca": {
+      "title": "Who was Nero? — The Boudican revolt",
+      "publisher": "British Museum",
+      "url": "https://www.britishmuseum.org/blog/who-was-nero",
+      "authority": "national_museum",
+      "note_zh": "介绍Boudicca在AD 60–61领导Iceni反抗Romans、起义原因、受袭城市和最终失败。"
+    },
+    "church-england-archbishops": {
+      "title": "The Archbishops",
+      "publisher": "Church of England",
+      "url": "https://www.churchofengland.org/about/governance/archbishops",
+      "authority": "established_church",
+      "note_zh": "说明Archbishop of Canterbury与Archbishop of York在Church of England的实际领导地位。"
+    },
+    "church-england-supreme-governor": {
+      "title": "The Queen: her faith and the Church of England",
+      "publisher": "Church of England",
+      "url": "https://www.churchofengland.org/queen-her-faith-and-church-england",
+      "authority": "established_church",
+      "note_zh": "解释Sovereign的Supreme Governor正式称号及其从Henry VIII和Elizabeth I时期形成的历史。"
+    },
+    "communications-act-2003-impartiality": {
+      "title": "Communications Act 2003 — sections 319 and 320",
+      "publisher": "The National Archives — legislation.gov.uk",
+      "url": "https://www.legislation.gov.uk/ukpga/2003/21/pdfs/ukpga_20030021_en.pdf",
+      "authority": "primary_legislation",
+      "note_zh": "《2003年通信法》第319和320条规定广播标准及政治争议、公共政策事项的适当公正性要求。"
+    },
+    "cps-racially-aggravated-offences": {
+      "title": "Verbal abuse and harassment in public",
+      "publisher": "Crown Prosecution Service",
+      "url": "https://www.cps.gov.uk/types-crime/verbal-abuse-and-harassment-public",
+      "authority": "official_prosecution_service",
+      "note_zh": "CPS说明警方调查、charge决定及racially aggravated offences可能适用更重处罚。"
+    },
+    "electoral-commission-candidate-guide": {
+      "title": "UK Parliamentary general election media guide — Candidates",
+      "publisher": "Electoral Commission",
+      "url": "https://www.electoralcommission.org.uk/news-and-views/media-centre/uk-parliamentary-general-election-media-guide",
+      "authority": "official_electoral_regulator",
+      "note_zh": "说明候选人可独立参选，并列出提名文件和£500押金等要求。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-smoke-free-law": {
+      "title": "Smoking at work: the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/smoking-at-work-the-law",
+      "authority": "official_government",
+      "note_zh": "说明UK封闭工作场所、公共建筑和公共交通的禁烟规则与罚款。"
+    },
+    "govuk-ten-downing-street": {
+      "title": "10 Downing Street",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/government/history/10-downing-street",
+      "authority": "official_government",
+      "note_zh": "介绍Number 10作为Prime Minister官邸与办公室、Walpole及First Lord of the Treasury传统。"
+    },
+    "historic-royal-palaces-anne-boleyn": {
+      "title": "Anne Boleyn",
+      "publisher": "Historic Royal Palaces",
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/anne-boleyn/",
+      "authority": "official_heritage_body",
+      "note_zh": "介绍Anne Boleyn在Tower of London遭审判、于1536年在Tower Green被剑手斩首及埋葬地点。"
+    },
+    "jockey-club-grand-national-history": {
+      "title": "The History of the Grand National",
+      "publisher": "The Jockey Club — Aintree Racecourse",
+      "url": "https://int.thejockeyclub.co.uk/aintree/about/history/",
+      "authority": "official_sport_organiser",
+      "note_zh": "介绍Grand National始于1839年的steeplechase历史及Red Rum三次夺冠纪录。"
+    },
+    "london-fire-brigade-great-fire": {
+      "title": "The Great Fire of London",
+      "publisher": "London Fire Brigade",
+      "url": "https://www.london-fire.gov.uk/museum/history-and-stories/the-great-fire-of-london/",
+      "authority": "public_fire_authority",
+      "note_zh": "介绍1666年大火从Pudding Lane面包店开始、蔓延原因、损毁规模和London重建。"
+    },
+    "museum-wales-st-davids-symbols": {
+      "title": "St David’s Day in Wales: History, Traditions and Symbols",
+      "publisher": "Museum Wales",
+      "url": "https://museum.wales/blog/1183/St-Davids-Day-in-Wales-History-Traditions-and-Symbols/",
+      "authority": "national_museum",
+      "note_zh": "介绍St David’s Day、Welsh daffodil和leek象征及相关语言和传统背景。"
+    },
+    "national-archives-civil-war-people": {
+      "title": "Civil War People",
+      "publisher": "The National Archives",
+      "url": "https://cdn.nationalarchives.gov.uk/documents/education/civil-war-people.pdf",
+      "authority": "official_archive",
+      "note_zh": "国家档案馆的English Civil War人物与阵营学习资料。"
+    },
+    "national-army-museum-waterloo": {
+      "title": "Battle of Waterloo",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "authority": "national_museum",
+      "note_zh": "介绍1815年Waterloo战役的地点、日期、Wellington与Blücher联军、Napoleon战败及其后果。"
+    },
+    "national-trust-purpose": {
+      "title": "The history of the National Trust",
+      "publisher": "National Trust",
+      "url": "https://www.nationaltrust.org.uk/who-we-are/about-us/the-history-of-the-national-trust",
+      "authority": "national_conservation_charity",
+      "note_zh": "National Trust介绍1895年创立、保护范围、土地与海岸规模，以及National Trust for Scotland的独立地位。"
+    },
+    "ofcom-due-impartiality": {
+      "title": "Broadcasting Code Section Five: Due impartiality and due accuracy",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-five-due-impartiality-accuracy",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom明确说明due impartiality不等于给每个观点完全相同的播出时间，而是根据节目主题、性质和语境给予适当权重。"
+    },
+    "ofcom-elections-referendums": {
+      "title": "Broadcasting Code Section Six: Elections and referendums",
+      "publisher": "Ofcom",
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-six-elections-referendums",
+      "authority": "official_broadcast_regulator",
+      "note_zh": "Ofcom选举规则要求根据过去或当前支持度给予政党和独立候选人适当权重，并考虑具有重要意义的观点。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-dissolution": {
+      "title": "Dissolution of Parliament",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/elections-and-voting/general/dissolution/",
+      "authority": "official_parliament",
+      "note_zh": "说明Parliament最长五年、解散时Commons席位全部空缺及大选程序。"
+    },
+    "parliament-equal-franchise-1928": {
+      "title": "90th anniversary of the Equal Franchise Act 1928",
+      "publisher": "House of Commons Library",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8361/",
+      "authority": "official_parliamentary_research",
+      "note_zh": "说明1928年女性与男性取得同等投票资格及新增约500万女性选民。"
+    },
+    "parliament-mp-candidates": {
+      "title": "Who can stand as an MP?",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/mps-and-lords/members/electing-mps/candidates/",
+      "authority": "official_parliament",
+      "note_zh": "列出MP候选人最低年龄18岁、公民身份和主要不合资格群体。"
+    },
+    "parliament-two-house-system": {
+      "title": "The two-House system",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/role/system/",
+      "authority": "official_parliament",
+      "note_zh": "说明Commons与Lords在立法、监督政府、财政法案和相互制衡方面的职责。"
+    },
+    "raf-museum-watson-watt-radar": {
+      "title": "Robert Alexander Watson-Watt and Chain Home",
+      "publisher": "Royal Air Force Museum",
+      "url": "https://www.rafmuseum.org.uk/documents/LargePrintGuides/BoB_Guides/LPG_People_LondonPartII.pdf",
+      "authority": "national_military_museum",
+      "note_zh": "介绍Watson-Watt于1935年发展radio-wave aircraft detection、Chain Home网络及其在Battle of Britain的作用。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Battle of Trafalgar"
+        },
+        {
+          "id": "r1",
+          "text": "The Battle of Waterloo"
+        },
+        {
+          "id": "r2",
+          "text": "The Battle of Hastings"
+        },
+        {
+          "id": "r3",
+          "text": "Battle of Agincourt"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-1.What-was-the-last-battle-between-Great-Britain-and-France.m4a",
+      "question": "What was the last battle between Great Britain and France?",
+      "explanation": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo.",
+      "id": "exam-04-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The Battle of Waterloo"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Battle of Waterloo is the correct answer. It was fought on 18 June 1815 near Waterloo in present-day Belgium, then part of the United Kingdom of the Netherlands. Wellington's multinational allied army and Blücher's Prussians defeated Napoleon, who abdicated again and was exiled to St Helena. The question calls it the last battle between Britain and France; more precisely, it was the decisive final battle of the Napoleonic Wars and Britain fought as part of a coalition.",
+        "why_correct_zh": "正确答案是The Battle of Waterloo。战役于1815年6月18日在今天比利时Waterloo镇附近发生；当时当地属于United Kingdom of the Netherlands。Wellington公爵率领的多国联军与Blücher的普鲁士军队共同击败Napoleon。Napoleon随后再次退位并被流放到St Helena。\n\n题干把它称为英法之间的最后一战；更准确地说，它是Napoleonic Wars的决定性终战，而且英军只是联军的一部分。",
+        "answer_summary_zh": "正确选项：The Battle of Waterloo。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Great Britain and France"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-army-museum-waterloo"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was the last battle between Great Britain and France?”及正确答案“The Battle of Waterloo”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-army-museum-waterloo"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Daffodil"
+        },
+        {
+          "id": "r1",
+          "text": "Rose"
+        },
+        {
+          "id": "r2",
+          "text": "Shamrock"
+        },
+        {
+          "id": "r3",
+          "text": "Thistle"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-2.Which-flower-is-associated-with-Wales.m4a",
+      "question": "Which flower is associated with Wales?",
+      "explanation": "The flower associated with Wales is the daffodil.",
+      "id": "exam-04-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Daffodil"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The daffodil is associated with Wales and is commonly worn, together with the leek, on St David's Day on 1 March. Its national status is more recent than the leek's. A useful language link is that leek is cennin in Welsh, while daffodil is cennin Pedr; daffodils also flower around St David's Day.",
+        "why_correct_zh": "正确答案是Daffodil（水仙花）。每年3月1日St David’s Day，许多人会佩戴水仙花或leek（韭葱）庆祝Welsh文化。\n\n水仙花成为国家象征的时间比韭葱晚。一种常见记忆法是Welsh中leek为cennin，daffodil为cennin Pedr，名称相近；水仙又常在St David’s Day前后开花。",
+        "answer_summary_zh": "正确选项：Daffodil。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Wales"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "museum-wales-st-davids-symbols"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which flower is associated with Wales?”及正确答案“Daffodil”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "museum-wales-st-davids-symbols"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A war"
+        },
+        {
+          "id": "r1",
+          "text": "A flood"
+        },
+        {
+          "id": "r2",
+          "text": "A fire"
+        },
+        {
+          "id": "r3",
+          "text": "An earthquake"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-3.During-the-reign-of-Charles-II-caused-London-destruction.m4a",
+      "question": "During the reign of Charles II parts of London were destroyed, what was the cause of this destruction?",
+      "explanation": "During Charles II’s reign, a great fire destroyed much of the city, including many churches and St Paul’s Cathedral.",
+      "id": "exam-04-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "A fire"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The destruction was caused by the Great Fire of London in 1666, during Charles II's reign. It began on 2 September at Thomas Farriner's bakery in Pudding Lane and spread rapidly through a dry, densely packed, timber-built city. About 13,200 houses, 87 parish churches and the old St Paul's Cathedral were destroyed. The rebuilt cathedral was designed by Christopher Wren.",
+        "why_correct_zh": "正确答案是A fire，指1666年的Great Fire of London。当时在位的是Charles II。大火于9月2日从Pudding Lane的Thomas Farriner面包店开始，在干燥天气、强风及密集木结构房屋的作用下迅速蔓延。\n\n火灾烧毁约13,200座房屋、87座教堂及旧St Paul’s Cathedral。London后来重建，新St Paul’s由Christopher Wren设计。",
+        "answer_summary_zh": "正确选项：A fire。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "During the",
+          "Charles II",
+          "London"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "london-fire-brigade-great-fire"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During the reign of Charles II parts of London were destroyed, what was the cause of this destruction?”及正确答案“A fire”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "london-fire-brigade-great-fire"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Every 3 years"
+        },
+        {
+          "id": "r1",
+          "text": "Every 4 years"
+        },
+        {
+          "id": "r2",
+          "text": "Every 5 years"
+        },
+        {
+          "id": "r3",
+          "text": "Every 10 years"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-4.How-often-are-general-elections-held-in-the-UK.m4a",
+      "question": "How often are general elections held in the UK?",
+      "explanation": "MPs are elected at a General Election, which is held at least every five years.",
+      "id": "exam-04-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Every 5 years"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Every five years is the maximum interval implied by the life of a Parliament, not a promise that every election will be exactly five years after the previous one. Parliament may be dissolved earlier. At dissolution every Commons seat becomes vacant and MPs seeking to return must stand again; polling normally follows a 25-working-day timetable.",
+        "why_correct_zh": "正确答案是Every 5 years，表示一届Parliament最长持续五年，并非每次大选之间必定恰好相隔五年。政府可以较早请求解散Parliament并举行提前大选。\n\nDissolution（解散）发生时，House of Commons所有席位同时空缺，原MP若想继续任职也必须重新参选；投票通常在解散后25个工作日举行。",
+        "answer_summary_zh": "正确选项：Every 5 years。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "general election",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-dissolution"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How often are general elections held in the UK?”及正确答案“Every 5 years”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-dissolution"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-5.Scotland-own-banknotes-valid-everywhere-in-the-UK.m4a",
+      "question": "Scotland has its own banknotes, which are valid everywhere in the UK.",
+      "explanation": "This statement is true.",
+      "id": "exam-04-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "True. Authorised Scottish banks issue genuine pound sterling notes that can be used elsewhere in the UK. However, Scottish notes are not legal tender in either England or Scotland, and legal tender has only a narrow meaning concerning settlement of debts. A business may choose which payment methods to accept, so 'valid everywhere' does not mean every shop must take them.",
+        "why_correct_zh": "本题答案是True。获授权的Scottish banks可以发行以pound sterling计价的纸币，因此这些是真实有效的英镑纸币，可在UK其他地区使用。\n\n不过Scottish notes在England和Scotland都不是legal tender；而legal tender本身只涉及清偿债务的狭义法律规则。商家可以自行决定接受哪些付款方式，所以“valid everywhere”不等于每家商店都必须收取。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scotland",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "bank-england-legal-tender"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Scotland has its own banknotes, which are valid everywhere in the UK.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "bank-england-legal-tender"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Shelter"
+        },
+        {
+          "id": "r1",
+          "text": "Age UK"
+        },
+        {
+          "id": "r2",
+          "text": "Crisis"
+        },
+        {
+          "id": "r3",
+          "text": "The National Trust"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-6.What-charity-works-to-preserve-important-buildings-coastline-and-countryside-in-the-UK.m4a",
+      "question": "What charity works to preserve important buildings, coastline and countryside in the UK?",
+      "explanation": "The National Trust is a charity that works to preserve important buildings, coastline and countryside in the UK.",
+      "id": "exam-04-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The National Trust"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The National Trust is the conservation charity that protects historic buildings, gardens, archaeology, countryside and coastline. Founded in 1895, it now looks after roughly a quarter of a million hectares of land and 890 miles of coastline across England, Wales and Northern Ireland. Scotland has a separate organisation, the National Trust for Scotland.",
+        "why_correct_zh": "正确答案是The National Trust。它成立于1895年，是保护历史建筑、花园、考古遗址、自然景观和海岸线的conservation charity。会员费、捐款、遗赠和参观收入会用于持续维护这些地方。\n\nNational Trust主要在England、Wales和Northern Ireland开展工作；Scotland另有独立的National Trust for Scotland。前者现照管约25万公顷土地及890英里海岸线。",
+        "answer_summary_zh": "正确选项：The National Trust。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-trust-purpose"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What charity works to preserve important buildings, coastline and countryside in the UK?”及正确答案“The National Trust”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-trust-purpose"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-7.Great-Britain-refers-only-to-England-Wales-and-Scotland.m4a",
+      "question": "Great Britain refers only to England, Wales and Scotland.",
+      "explanation": "This statement is true.",
+      "id": "exam-04-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "True. Great Britain comprises England, Scotland and Wales and does not include Northern Ireland. The United Kingdom is Great Britain together with Northern Ireland. The British Isles is a wider geographical term that also includes Ireland, the Isle of Man and the Channel Islands, which are not all parts of the UK.",
+        "why_correct_zh": "本题答案是True。Great Britain由England、Scotland和Wales组成，不包括Northern Ireland；United Kingdom的完整名称则是United Kingdom of Great Britain and Northern Ireland。\n\n不要把British Isles与UK混为一谈：British Isles是地理用语，范围还包括Ireland、Isle of Man及Channel Islands，但这些地方并不都属于UK。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Great Britain",
+          "England",
+          "Wales and Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Great Britain refers only to England, Wales and Scotland.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Cleopatra"
+        },
+        {
+          "id": "r1",
+          "text": "Claudia"
+        },
+        {
+          "id": "r2",
+          "text": "Boudicca"
+        },
+        {
+          "id": "r3",
+          "text": "St Augustine"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCt4.Q-8.tribal-leader-who-fought-against-the-Romans.m4a",
+      "question": "Who was the tribal leader who fought against the Romans?",
+      "explanation": "One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni in what is now eastern England.",
+      "id": "exam-04-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Boudicca"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Boudicca, queen of the Iceni, led a major revolt against Roman rule in AD 60–61. Roman seizure of her late husband's kingdom and violence against Boudicca and her daughters were important causes. The rebels destroyed Colchester, London and St Albans before Roman troops defeated them. Boudicca later became a powerful symbol of resistance.",
+        "why_correct_zh": "正确答案是Boudicca。她是Iceni女王，在公元60–61年领导东部多个部族反抗Roman统治。导火索包括Romans侵占其丈夫Prasutagus的王国、鞭打Boudicca并伤害她的女儿。\n\n起义军摧毁了Camulodunum（Colchester）、Londinium（London）和Verulamium（St Albans），但最终被Roman军队击败。她后来成为英国反抗外来统治的著名历史象征。",
+        "answer_summary_zh": "正确选项：Boudicca。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Romans"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "british-museum-boudicca"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the tribal leader who fought against the Romans?”及正确答案“Boudicca”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "british-museum-boudicca"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Isaac Newton"
+        },
+        {
+          "id": "r1",
+          "text": "Winston Churchill"
+        },
+        {
+          "id": "r2",
+          "text": "Alexander Fleming"
+        },
+        {
+          "id": "r3",
+          "text": "Mo Farat"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-9.voted-the-greatest-Briton-of-all-time-in-2002.m4a",
+      "question": "Who was voted the greatest Briton of all time in 2002?",
+      "explanation": "Winston Churchill remains a much-admired figure to this day, and in 2002 was voted the greatest Briton of all time by the public.",
+      "id": "exam-04-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Winston Churchill"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Winston Churchill placed first in the BBC's 2002 Great Britons public poll. The main historical memory point is his wartime leadership: he became Prime Minister in May 1940, insisted that Britain continue fighting Nazi Germany, led a cross-party government, rallied the public through speeches and worked with Franklin D. Roosevelt and Joseph Stalin in the Allied coalition.",
+        "why_correct_zh": "正确答案是Winston Churchill。在BBC于2002年举办的Great Britons公众评选中，他位列第一。\n\n主要记忆点是他于1940年出任Prime Minister，在英国可能单独面对Nazi Germany时坚持继续作战，组建跨党派政府，并通过议会演说和广播鼓舞民众。他还与Franklin D. Roosevelt和Joseph Stalin协调战时同盟。",
+        "answer_summary_zh": "正确选项：Winston Churchill。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Briton of",
+          "2002"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "bbc-great-britons-annual-report"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was voted the greatest Briton of all time in 2002?”及正确答案“Winston Churchill”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "bbc-great-britons-annual-report"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The House of Lords"
+        },
+        {
+          "id": "r1",
+          "text": "House of Members"
+        },
+        {
+          "id": "r2",
+          "text": "House of Commons"
+        },
+        {
+          "id": "r3",
+          "text": "House of Fraser"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-10.Which-two-houses-form-the-UK-Parliament.m4a",
+      "question": "Which two houses form the UK Parliament?",
+      "explanation": "The UK Parliament is formed of the House of Commons and the House of Lords.",
+      "id": "exam-04-q10",
+      "number": 10,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r2"
+      ],
+      "correct_answers": [
+        "The House of Lords",
+        "House of Commons"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The two Houses are the House of Commons and the House of Lords. Both make laws, scrutinise government and debate public issues, and most Bills need approval from both before Royal Assent. The Commons is elected and has primacy over taxation and government confidence; the Lords revises legislation and provides further scrutiny.",
+        "why_correct_zh": "正确答案是House of Commons和House of Lords。两院都参与制定法律、审查政府及辩论公共事务；通常一项Bill需要两院通过并取得Royal Assent才能成为法律。\n\nCommons由公众选举产生，并在税收和政府存续方面居于核心地位；Lords主要由获任命的life peers等成员组成，负责进一步审议和修改法案。两院相互检查，因此称为two-chamber system。",
+        "answer_summary_zh": "正确选项：The House of Lords；House of Commons。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK Parliament"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-two-house-system"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two houses form the UK Parliament?”及正确答案“The House of Lords；House of Commons”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-two-house-system"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1918"
+        },
+        {
+          "id": "r1",
+          "text": "1928"
+        },
+        {
+          "id": "r2",
+          "text": "1938"
+        },
+        {
+          "id": "r3",
+          "text": "1948"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-11.when-did-women-get-right-to-vote-same-age-as-men.m4a",
+      "question": "When did women get the right to vote at the same age as men?",
+      "explanation": "In 1928, women were given the right to vote at the age of 21, the same as men.",
+      "id": "exam-04-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "1928"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1928 the Equal Franchise Act lowered women's voting age to 21 and removed the different property restrictions, giving women the vote on the same basis as men. About five million additional women became eligible. The 1918 reform had enfranchised only women aged 30 or over who met specified qualifications.",
+        "why_correct_zh": "正确答案是1928。Representation of the People (Equal Franchise) Act 1928把女性的投票年龄降至21岁，并取消此前对女性设置的不同财产条件，使其在投票资格上与男性相同。约500万名女性因此新增选举资格。\n\n1918年只是第一步：当时多数男性可从21岁投票，但女性通常须满30岁并符合财产条件。1929年大选是新规则下首次举行的大选。",
+        "answer_summary_zh": "正确选项：1928。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-equal-franchise-1928"
+      ],
+      "visual": {
+        "src": "/images/questions/exam-04-q11.svg",
+        "kind": "answer_memory_card",
+        "display_after_answer": true,
+        "alt_zh": "题目：When did women get the right to vote at the same age as men?；正确答案：1928",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-equal-franchise-1928"
+        ]
+      },
+      "film_connection": {
+        "title": "Suffragette",
+        "year": 2015,
+        "relationship": "background",
+        "poster_src": "/images/media/suffragette-2015-poster.jpg",
+        "poster_alt_en": "The theatrical poster for Suffragette (2015).",
+        "poster_alt_zh": "电影《Suffragette》（2015）的正式海报。",
+        "fun_fact_en": "Suffragette (2015) follows ordinary British women fighting for the vote in the early 1910s. It helps explain the campaign behind this topic, but it does not dramatise the 1928 Act that finally gave women the vote at 21 on the same terms as men.",
+        "fun_fact_zh": "《Suffragette》（2015）讲述20世纪10年代初普通英国女性争取选举权的经历。它适合帮助理解这道题背后的运动，但电影并没有直接重现1928年女性最终以21岁、与男性同等条件获得投票权的法案。",
+        "source_title": "Suffragette (2015) — BFI",
+        "source_url": "https://www.bfi.org.uk/film/7a9dc7f9-58d2-57a7-b70e-8b1b81d4566f/suffragette",
+        "poster_provider": "TMDB",
+        "poster_provider_url": "https://www.themoviedb.org/movie/245168-suffragette",
+        "poster_credit_notice": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+      }
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Prime Minister"
+        },
+        {
+          "id": "r1",
+          "text": "The Archbishop of Canterbury"
+        },
+        {
+          "id": "r2",
+          "text": "The Pope"
+        },
+        {
+          "id": "r3",
+          "text": "The monarch"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-12.Who-is-the-head-of-the-Church-of-England.m4a",
+      "question": "Who is the head of the Church of England?",
+      "explanation": "The monarch is the head of the Church of England.",
+      "id": "exam-04-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The monarch"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The monarch is the exam answer, but the precise title is Supreme Governor of the Church of England. The monarch does not manage everyday church teaching or worship. The Archbishops of Canterbury and York lead the Church's direction, with Canterbury as its most senior bishop. This role applies only to the Church of England, not every church in the UK.",
+        "why_correct_zh": "正确答案是The monarch。更准确的正式称号是Supreme Governor of the Church of England，而不是负责日常教务的宗教领袖。这个安排源自16世纪English Reformation，并由Elizabeth I时期确立。\n\nChurch的实际领导工作由bishops承担；Archbishop of Canterbury是最资深的主教，Archbishop of York居第二。这个答案只适用于Church of England，不代表君主领导UK境内所有教会。",
+        "answer_summary_zh": "正确选项：The monarch。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Church of England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "church-england-supreme-governor",
+        "church-england-archbishops"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who is the head of the Church of England?”及正确答案“The monarch”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "church-england-supreme-governor",
+          "church-england-archbishops"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Rugby"
+        },
+        {
+          "id": "r1",
+          "text": "Golf"
+        },
+        {
+          "id": "r2",
+          "text": "Horse Racing"
+        },
+        {
+          "id": "r3",
+          "text": "Tennis"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-13.What-sort-of-event-is-the-Grand-National.m4a",
+      "question": "What sort of event is the Grand National?",
+      "explanation": "The Grand National is a horse racing event.",
+      "id": "exam-04-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Horse Racing"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Grand National is a long-distance horse-racing steeplechase held at Aintree near Liverpool. Its early form began in 1839 as the Grand Liverpool Steeplechase. Red Rum is the memorable champion: it won in 1973, 1974 and 1977 and remains the only horse to have won the Grand National three times.",
+        "why_correct_zh": "正确答案是Horse Racing。Grand National是在Liverpool附近Aintree Racecourse举行的长距离steeplechase，马匹需要跨越著名障碍。比赛的早期形式始于1839年，当时名为Grand Liverpool Steeplechase。\n\n方便记忆的人物是Red Rum：它在1973、1974和1977年三次获胜，至今仍是唯一三夺Grand National冠军的赛马。",
+        "answer_summary_zh": "正确选项：Horse Racing。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Grand National"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "jockey-club-grand-national-history"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What sort of event is the Grand National?”及正确答案“Horse Racing”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "jockey-club-grand-national-history"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Poems"
+        },
+        {
+          "id": "r1",
+          "text": "Novels"
+        },
+        {
+          "id": "r2",
+          "text": "Jokes"
+        },
+        {
+          "id": "r3",
+          "text": "Fables"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-14.What-type-of-literature-are-the-Canterbury-Tales.m4a",
+      "question": "What type of literature are the Canterbury Tales?",
+      "explanation": "Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. This collection of poems is called The Canterbury Tales.",
+      "id": "exam-04-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Poems"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Poems is the exam answer. Geoffrey Chaucer's late-14th-century Canterbury Tales uses a pilgrimage to Canterbury as a frame in which travellers from different social groups tell stories. Most of the work is Middle English verse, although a few tales are in prose. Its literary importance includes demonstrating that English could carry major literature when French and Latin remained prestigious.",
+        "why_correct_zh": "正确答案是Poems。《The Canterbury Tales》是Geoffrey Chaucer在14世纪后期创作的故事集，以一群前往Canterbury朝圣的旅人为叙事框架；旅人沿途轮流讲故事，人物来自骑士、商人、磨坊主、修女等不同社会阶层。\n\n作品主要用Middle English韵文写成，虽然其中也有少数散文篇章。它的重要性之一，是在贵族常用French或Latin的时代证明英语也能承载重要文学。",
+        "answer_summary_zh": "正确选项：Poems。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Canterbury Tales"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "british-library-canterbury-tales"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What type of literature are the Canterbury Tales?”及正确答案“Poems”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "british-library-canterbury-tales"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "24th of December"
+        },
+        {
+          "id": "r1",
+          "text": "25th of December"
+        },
+        {
+          "id": "r2",
+          "text": "26th of December"
+        },
+        {
+          "id": "r3",
+          "text": "27th of December"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-15.When-is-Christmas-Day.m4a",
+      "question": "When is Christmas Day?",
+      "explanation": "Christmas Day is celebrated on the 25th of December.",
+      "id": "exam-04-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "25th of December"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Christmas Day is 25 December and commemorates the birth of Jesus Christ. It is a UK bank holiday. When 25 December falls at a weekend, a substitute weekday may be observed as the bank holiday, but Christmas Day itself remains 25 December. Boxing Day is the following day, 26 December.",
+        "why_correct_zh": "正确答案是25th of December。Christmas Day纪念Jesus Christ的诞生，在UK是bank holiday；若12月25日落在周末，通常会安排substitute day，但节日本身的日期仍是12月25日。\n\n常见英国习俗包括家庭聚餐、交换礼物、装饰Christmas tree及收看君主的Christmas message。Boxing Day则是次日12月26日，不要与Christmas Day混淆。",
+        "answer_summary_zh": "正确选项：25th of December。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Christmas Day"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is Christmas Day?”及正确答案“25th of December”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Roundheads"
+        },
+        {
+          "id": "r1",
+          "text": "Suffragettes"
+        },
+        {
+          "id": "r2",
+          "text": "Quakers"
+        },
+        {
+          "id": "r3",
+          "text": "Cavaliers"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-16.Who-supported-King-Charles-I-during-the-Civil-War.m4a",
+      "question": "Who supported King Charles I during the Civil War?",
+      "explanation": "During the civil war between the king and Parliament the country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+      "id": "exam-04-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Cavaliers"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Cavaliers were the Royalists who supported Charles I in the Civil Wars beginning in 1642; Parliament's supporters were called Roundheads. The conflicts concerned royal authority, Parliament's rights over taxation and government, and religion. Parliament's New Model Army prevailed, Charles I was executed in 1649, and the monarchy was restored in 1660.",
+        "why_correct_zh": "正确答案是Cavaliers，即English Civil Wars中支持King Charles I的Royalists。支持Parliament的一方通常被称为Roundheads。冲突从1642年开始，核心问题包括君主权力、Parliament征税和治理的权利以及宗教分歧。\n\nParliamentarian的New Model Army最终占优；Charles I于1649年被处决，英格兰随后经历共和国及Cromwell统治，直到1660年monarchy复辟。",
+        "answer_summary_zh": "正确选项：Cavaliers。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "King Charles I",
+          "Civil War"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-civil-war-people"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who supported King Charles I during the Civil War?”及正确答案“Cavaliers”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-civil-war-people"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Battle of Waterloo"
+        },
+        {
+          "id": "r1",
+          "text": "The Battle of Trafalgar"
+        },
+        {
+          "id": "r2",
+          "text": "The Battle of Hastings"
+        },
+        {
+          "id": "r3",
+          "text": "The Battle of Britain"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-17.What-battle-is-commemorated-in-the-Bayeux-Tapestry.m4a",
+      "question": "What battle is commemorated in the Bayeux Tapestry?",
+      "explanation": "The Battle of Hastings is commemorated in a great piece of embroidery, known as the Bayeux tapestry.",
+      "id": "exam-04-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Battle of Hastings"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Bayeux Tapestry depicts the events around the 1066 Norman Conquest, including the Battle of Hastings. Despite its name, it is an embroidery made with coloured wool on linen, roughly 70 metres long, and was probably made in England. It also preserves details of 11th-century ships, weapons, clothing and food.",
+        "why_correct_zh": "正确答案是The Battle of Hastings。Bayeux Tapestry描绘1066年Norman Conquest前后的事件，包括William of Normandy渡海、Harold Godwinson作战及Battle of Hastings。\n\n它虽然叫Tapestry，实际上是用彩色羊毛线绣在亚麻布上的embroidery，长约70米。作品很可能在England制作，既是征服叙事，也保存了11世纪船只、武器、服装和饮食等生活细节。",
+        "answer_summary_zh": "正确选项：The Battle of Hastings。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Bayeux Tapestry"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "british-museum-bayeux"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What battle is commemorated in the Bayeux Tapestry?”及正确答案“The Battle of Hastings”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "british-museum-bayeux"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Houses of the Parliament"
+        },
+        {
+          "id": "r1",
+          "text": "Stonehenge"
+        },
+        {
+          "id": "r2",
+          "text": "Tower of London"
+        },
+        {
+          "id": "r3",
+          "text": "Whitehall"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-18.Where-was-Anne-Boleyn-executed.m4a",
+      "question": "Where was Anne Boleyn, the wife of Henry VIII, executed?",
+      "explanation": "Anne Boleyn was unpopular in the country and was accused of taking lovers. She was executed at the Tower of London.",
+      "id": "exam-04-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Tower of London"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Anne Boleyn was executed inside the Tower of London. Henry VIII's second wife and Elizabeth I's mother was convicted after a trial Historic Royal Palaces describes as a sham. On 19 May 1536 she was beheaded by a French swordsman on Tower Green and buried in the Chapel Royal of St Peter ad Vincula.",
+        "why_correct_zh": "正确答案是Tower of London。Anne Boleyn是Henry VIII的第二任妻子，也是Elizabeth I的母亲。她于1536年被控通奸、乱伦及叛国；Historic Royal Palaces把审判描述为由敌对者组成的sham trial。\n\n她于1536年5月19日在Tower Green被法国剑手斩首，而不是在普通公开刑场受斧刑，随后葬于塔内Chapel Royal of St Peter ad Vincula。",
+        "answer_summary_zh": "正确选项：Tower of London。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Anne Boleyn",
+          "Henry VIII"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-royal-palaces-anne-boleyn"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where was Anne Boleyn, the wife of Henry VIII, executed?”及正确答案“Tower of London”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-royal-palaces-anne-boleyn"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Civil offences"
+        },
+        {
+          "id": "r1",
+          "text": "Criminal offences"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-19.Racial-crime-and-smoking-in-public-places-examples-of-criminal-offences.m4a",
+      "question": "Racial crime and smoking in public places are examples of:",
+      "explanation": "Racial crime and smoking in public places are examples of criminal offences.",
+      "id": "exam-04-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Criminal offences"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Criminal offences are prohibited by public law and may be investigated by police or another enforcement authority and prosecuted in a criminal court. Racially aggravated offending can attract more serious treatment, while smoking in prohibited enclosed public places can result in a fixed penalty or prosecution. These differ from private civil disputes such as contracts or compensation claims.",
+        "why_correct_zh": "正确答案是Criminal offences。这类行为被国家法律禁止，警方或其他执法机构可以调查，严重时由prosecution在刑事法院追究，法院可判罚款或其他刑罚。\n\nracially aggravated offences会因种族敌意而加重处理；在禁止吸烟的封闭公共场所吸烟也可能受到定额罚款或起诉。它们不同于合同纠纷或私人赔偿请求等civil matters。",
+        "answer_summary_zh": "正确选项：Criminal offences。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Racial"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "cps-racially-aggravated-offences",
+        "govuk-smoke-free-law"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Racial crime and smoking in public places are examples of:”及正确答案“Criminal offences”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "cps-racially-aggravated-offences",
+          "govuk-smoke-free-law"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A superhero"
+        },
+        {
+          "id": "r1",
+          "text": "A tramp"
+        },
+        {
+          "id": "r2",
+          "text": "A scientific genius"
+        },
+        {
+          "id": "r3",
+          "text": "A bandit"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-20.What-type-of-character-was-played-by-Charlie-Chaplin.m4a",
+      "question": "What type of character was played by Charlie Chaplin?",
+      "explanation": "Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character and was one of many British actors to make a career in Hollywood.",
+      "id": "exam-04-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "A tramp"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "A tramp is the correct answer: Charlie Chaplin's Little Tramp wore a bowler hat, toothbrush moustache and cane with a tight coat, baggy trousers and oversized shoes. Chaplin designed the costume as a set of contradictions. The poor character borrowed a gentleman's symbols and often outwitted authority, making the comedy understandable worldwide without spoken dialogue.",
+        "why_correct_zh": "正确答案是A tramp，指Charlie Chaplin创造的The Little Tramp。他戴bowler hat、留toothbrush moustache、持手杖，穿紧外套、宽裤和大鞋；Chaplin故意让服装各部分互相矛盾。\n\n这个衣着像绅士却处境贫困的角色常靠机智挑战权威，因此无声电影没有语言也能让全球观众理解。The Tramp于1914年形成，后来出现在《The Gold Rush》《City Lights》和《Modern Times》等电影中。",
+        "answer_summary_zh": "正确选项：A tramp。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Charlie Chaplin"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "bfi-chaplin-tramp"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What type of character was played by Charlie Chaplin?”及正确答案“A tramp”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "bfi-chaplin-tramp"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-21.You-have-to-be-at-least-21-years-old-to-stand-as-MP.m4a",
+      "question": "You have to be at least 21 years old to stand as MP.",
+      "explanation": "This statement is false. Anyone aged 18 or over can stand for election as an MP but they are unlikely to win unless they have been nominated to represent one of the major political parties. These are the Conservative Party, the Labour Party, the Liberal Democrats, or one of the parties representing Scottish, Welsh or Northern Irish interests.",
+      "id": "exam-04-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. A candidate for the UK House of Commons must be at least 18, not 21, and must have an eligible British, Irish or Commonwealth citizenship status and not be legally disqualified. Party membership is not required: independent candidates may stand. Formal nomination also normally requires specified paperwork and a £500 deposit.",
+        "why_correct_zh": "本题答案是False。竞选UK Parliament的MP候选人最低年龄是18岁，不是21岁；还必须是British、Irish或符合条件的Commonwealth citizen，并且不得属于法律规定的若干不合资格群体。\n\n候选人不必加入政党，也可以作为Independent参选。正式提名通常需要递交提名文件并缴纳£500押金；因此原解释中“必须依靠主要政党”的说法不是法律要求。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "You",
+          "21",
+          "MP"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-mp-candidates",
+        "electoral-commission-candidate-guide"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“You have to be at least 21 years old to stand as MP.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-mp-candidates",
+          "electoral-commission-candidate-guide"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "John Logie Baird"
+        },
+        {
+          "id": "r1",
+          "text": "Sir Frank Whittle"
+        },
+        {
+          "id": "r2",
+          "text": "Sir Christopher Cockrell"
+        },
+        {
+          "id": "r3",
+          "text": "Sir Robert Watson-Watt"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-22.Who-developed-the-radar.m4a",
+      "question": "Who developed the radar?",
+      "explanation": "Sir Robert Watson-Watt developed the radar.",
+      "id": "exam-04-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Sir Robert Watson-Watt"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Sir Robert Watson-Watt led the development of Britain's practical aircraft-detection radar rather than inventing every form of radar alone. A 1935 demonstration showed that reflected radio waves could locate aircraft. His work led to the Chain Home coastal early-warning network, which fed information into RAF Fighter Command during the Battle of Britain.",
+        "why_correct_zh": "正确答案是Sir Robert Watson-Watt。更准确地说，他领导开发了英国实用的aircraft detection radar，而不是独自发明所有雷达技术。1935年的实验显示，可以利用反射radio waves发现飞机。\n\n这项工作发展为沿英国海岸部署的Chain Home早期预警网络。1940年Battle of Britain期间，雷达信息与Observer Corps和Fighter Command控制系统结合，使RAF能及时调动有限的战斗机迎敌。",
+        "answer_summary_zh": "正确选项：Sir Robert Watson-Watt。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "developed"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "raf-museum-watson-watt-radar"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who developed the radar?”及正确答案“Sir Robert Watson-Watt”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "raf-museum-watson-watt-radar"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "18 Oxford Street"
+        },
+        {
+          "id": "r1",
+          "text": "Buckingham Palace"
+        },
+        {
+          "id": "r2",
+          "text": "Windsor Castle"
+        },
+        {
+          "id": "r3",
+          "text": "10 Downing Street"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-23.Where-is-the-official-home-of-the-Prime-Minister.m4a",
+      "question": "Where is the official home of the Prime Minister?",
+      "explanation": "The official home of the Prime Minister is 10 Downing Street.",
+      "id": "exam-04-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "10 Downing Street"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "10 Downing Street is both the Prime Minister's official residence and working office. In 1735 George II offered the property to Robert Walpole, who asked that it be assigned to future First Lords of the Treasury rather than given to him personally. The building is much larger than its façade suggests, and the door's letterbox still bears that formal title.",
+        "why_correct_zh": "正确答案是10 Downing Street。它既是Prime Minister的official residence，也是办公室和接待国内外宾客的场所。1735年George II把房产交给Robert Walpole；Walpole没有接受为私人礼物，而要求它供今后的First Lords of the Treasury使用。\n\n黑门后的建筑远比正面看起来大，并与后方及邻近房屋连接。门上的信箱至今仍写着First Lord of the Treasury，这是Prime Minister通常兼任的正式职位。",
+        "answer_summary_zh": "正确选项：10 Downing Street。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Prime Minister"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-ten-downing-street"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Where is the official home of the Prime Minister?”及正确答案“10 Downing Street”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-ten-downing-street"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Television"
+        },
+        {
+          "id": "r1",
+          "text": "Internet"
+        },
+        {
+          "id": "r2",
+          "text": "Newspapers"
+        },
+        {
+          "id": "r3",
+          "text": "Radio"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT4/BCT4.Q-24.types-of-media-have-to-give-a-balanced-coverage-of-all-political-parties-and-equal-time-to-rival-viewpoints-before-an-election.m4a",
+      "question": "By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?",
+      "explanation": "By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.",
+      "id": "exam-04-q24",
+      "number": 24,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r3"
+      ],
+      "correct_answers": [
+        "Television",
+        "Radio"
+      ],
+      "exam_number": 4,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-4/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Television and Radio are the exam answers because broadcasters are subject to statutory due-impartiality rules under the Communications Act 2003 and Ofcom's Broadcasting Code. The phrase 'equal time' is an oversimplification: due impartiality does not require identical airtime for every view. During elections broadcasters give parties, candidates and significant perspectives due weight; newspapers and ordinary online publishers are not governed by the same broadcast rules.",
+        "why_correct_zh": "本题答案是Television和Radio，因为这两类广播服务受到法定公正性规则约束。《Communications Act 2003》第319和320条要求Ofcom制定due impartiality（适当公正性）标准，Ofcom再通过《Broadcasting Code》第5和第6部分落实。\n\n不过题干中的equal time是简化说法。due impartiality不要求给每个观点完全相同的时长；选举期间应根据政党和独立候选人的既往及当前支持度给予due weight，并纳入重要观点。报纸和普通网络出版者不受同一套广播规则约束。",
+        "answer_summary_zh": "正确选项：Television；Radio。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "TWO"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "communications-act-2003-impartiality",
+        "ofcom-due-impartiality",
+        "ofcom-elections-referendums"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-01-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?”及正确答案“Television；Radio”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "communications-act-2003-impartiality",
+          "ofcom-due-impartiality",
+          "ofcom-elections-referendums"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

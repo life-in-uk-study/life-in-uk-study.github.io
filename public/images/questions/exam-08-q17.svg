@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Which two of the following are British overseas territories? Correct answer: St Helena  •  The Falkland Islands</title>
+<desc id="desc">Answer memory card shown after answering the question.</desc>
+<rect width="1200" height="675" rx="36" fill="#123C4A"/>
+<circle cx="320" cy="340" r="210" fill="#FFFFFF" opacity=".045"/>
+<circle cx="320" cy="340" r="126" fill="none" stroke="#75C9C8" stroke-width="10"/>
+<path d="M320 226l28 94-28 22-28-22zM320 454l-28-94 28-22 28 22z" fill="#75C9C8"/>
+<text x="320" y="195" text-anchor="middle" fill="#75C9C8" font-size="34" font-weight="700">N</text>
+<text x="590" y="82" fill="#75C9C8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2">ANSWER MEMORY CARD · EXAM-08-Q17</text>
+<text x="590" y="126" fill="#E8FAF7" opacity=".76" font-family="Arial, Helvetica, sans-serif" font-size="18">2.1 What is the UK?</text>
+<text x="590" y="172" fill="#E8FAF7" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="600"><tspan x="590" dy="0">Which two of the following</tspan><tspan x="590" dy="40">are British overseas</tspan><tspan x="590" dy="40">territories?</tspan></text>
+<line x1="590" y1="345" x2="1110" y2="345" stroke="#75C9C8" stroke-width="3" opacity=".55"/>
+<text x="590" y="392" fill="#75C9C8" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">CORRECT ANSWER</text>
+<text x="590" y="438" fill="#E8FAF7" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700"><tspan x="590" dy="0">St Helena  •  The</tspan><tspan x="590" dy="49">Falkland Islands</tspan></text>
+</svg>

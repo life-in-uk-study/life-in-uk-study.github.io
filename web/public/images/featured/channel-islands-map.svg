@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">EXAM-01-Q20 — The Channel Islands location map</title>
+  <desc id="desc">Schematic map showing Jersey, Guernsey, Alderney and Sark in the English Channel, close to the Normandy coast of France and south of England.</desc>
+  <rect width="1200" height="900" fill="#d9eef0"/>
+  <path d="M0 0H1200V112L1090 136L1000 124L900 162L780 147L680 188L570 174L450 215L330 198L230 238L120 220L0 256Z" fill="#f4e8c9" stroke="#12483b" stroke-width="4"/>
+  <path d="M0 900V830L92 800L150 770L238 760L322 700L422 690L515 650L620 640L714 690L820 620L932 520L1030 500L1120 430L1200 410V900Z" fill="#f4e8c9" stroke="#12483b" stroke-width="4"/>
+  <path d="M570 430l18-17 28 3 15 18-11 17-31 6-20-10z" fill="#d9a820" stroke="#12483b" stroke-width="4"/>
+  <path d="M454 520l15-28 33-12 27 16 2 35-24 30-34-4-22-18z" fill="#d9a820" stroke="#12483b" stroke-width="4"/>
+  <path d="M570 552l10-18 15 5 7 23-14 17-18-8z" fill="#d9a820" stroke="#12483b" stroke-width="4"/>
+  <path d="M635 594l18-31 48-17 44 17 11 34-26 38-54 9-40-19z" fill="#d9a820" stroke="#12483b" stroke-width="4"/>
+  <g fill="#12483b" font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="92" font-size="38" font-weight="700" letter-spacing="4">ENGLAND</text>
+    <text x="860" y="780" font-size="38" font-weight="700" letter-spacing="4">FRANCE</text>
+    <text x="860" y="824" font-size="24" letter-spacing="3">NORMANDY</text>
+    <text x="130" y="390" font-size="34" font-style="italic" opacity=".78">English Channel</text>
+    <text x="642" y="425" font-size="27" font-weight="700">Alderney</text>
+    <text x="300" y="510" font-size="27" font-weight="700">Guernsey</text>
+    <text x="610" y="558" font-size="27" font-weight="700">Sark</text>
+    <text x="775" y="610" font-size="30" font-weight="700">Jersey</text>
+  </g>
+  <g stroke="#12483b" stroke-width="3" fill="none">
+    <path d="M632 426h-18"/>
+    <path d="M420 512l43 4"/>
+    <path d="M606 551l-15 5"/>
+    <path d="M766 603l-26 4"/>
+  </g>
+  <g transform="translate(1080 110)" fill="#12483b">
+    <path d="M0 58L22 0l22 58-22-12z"/>
+    <text x="13" y="-10" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">N</text>
+  </g>
+  <g transform="translate(70 790)">
+    <rect width="480" height="70" rx="12" fill="#fffaf0" opacity=".94"/>
+    <circle cx="38" cy="35" r="12" fill="#d9a820" stroke="#12483b" stroke-width="3"/>
+    <text x="66" y="44" fill="#12483b" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">The Channel Islands — Crown Dependencies</text>
+  </g>
+</svg>

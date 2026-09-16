@@ -1,0 +1,1563 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 14,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "discover-ni-ulster-fry": {
+      "title": "Unique Northern Ireland Foods",
+      "publisher": "Tourism Northern Ireland",
+      "url": "https://discovernorthernireland.com/blog/post/unique-northern-ireland-foods/",
+      "authority": "official_tourism_body",
+      "note_zh": "北爱尔兰官方旅游资料介绍Ulster Fry以及其中具有代表性的soda bread和potato bread。"
+    },
+    "historic-environment-scotland-christmas-timeline": {
+      "title": "A timeline of Christmas in Scotland",
+      "publisher": "Historic Environment Scotland",
+      "url": "https://blog.historicenvironment.scot/2016/12/timeline-christmas-scotland/",
+      "authority": "official_heritage_body",
+      "note_zh": "Historic Environment Scotland说明1640年Yule禁令、Hogmanay兴盛和Christmas于1958年成为苏格兰公共假日的历史。"
+    },
+    "ireland-st-patrick-activity-pack": {
+      "title": "St Patrick Activity Pack",
+      "publisher": "Ireland.ie",
+      "url": "https://assets.ireland.ie/documents/StPatricksDayActivityPack.pdf",
+      "authority": "official_government",
+      "note_zh": "爱尔兰官方资料介绍St Patrick被掳到爱尔兰为奴、逃脱后返回传播基督教，以及3月17日作为其传统逝世纪念日的由来。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "national-army-museum-crimean-media": {
+      "title": "Faces of the Victorian Army",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/faces-victorian-army",
+      "authority": "national_museum",
+      "note_zh": "National Army Museum说明Crimean War是首次受到系统摄影记录的重大冲突，并介绍Roger Fenton、William Howard Russell和摄影技术限制。"
+    },
+    "national-army-museum-illustrated-press": {
+      "title": "Drawn on the spot: War artists and the illustrated press",
+      "publisher": "National Army Museum",
+      "url": "https://www.nam.ac.uk/explore/illustrated-press",
+      "authority": "national_museum",
+      "note_zh": "National Army Museum介绍报业、铁路、电报、插图报刊及William Howard Russell如何推动现代战地报道。"
+    },
+    "ni-assembly-stv-guide": {
+      "title": "A guide to the Single Transferable Vote",
+      "publisher": "Northern Ireland Assembly",
+      "url": "https://www.niassembly.gov.uk/visit-and-learning/assembly-elections/a-guide-to-the-single-transferable-vote-stv-or-how-your-vote-works-in-an-assembly-election/",
+      "authority": "official_devolved_legislature",
+      "note_zh": "Northern Ireland Assembly说明18个选区各选5名MLA、候选人偏好排序、quota、超额票转移和最低票候选人淘汰的STV流程。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "visitscotland-hogmanay": {
+      "title": "Hogmanay in Scotland",
+      "publisher": "VisitScotland",
+      "url": "https://www.visitscotland.com/things-to-do/events/christmas-winter-festivals/hogmanay",
+      "authority": "official_tourism_body",
+      "note_zh": "苏格兰官方旅游资料介绍Hogmanay、first-footing、Auld Lang Syne及其冬季节庆背景。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "23rd April"
+        },
+        {
+          "id": "r1",
+          "text": "30th November"
+        },
+        {
+          "id": "r2",
+          "text": "1st April"
+        },
+        {
+          "id": "r3",
+          "text": "17th March"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q1.st-patricks-day.m4a",
+      "question": "When is St Patrick’s day celebrated?",
+      "explanation": "St Patrick’s day, patron of Northern Ireland is celebrated on the 17th of March.",
+      "id": "exam-14-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "17th March"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "St Patrick's Day is celebrated on 17 March because tradition holds that St Patrick died on that date in the fifth century, so the Church observed it as his feast day; it is not his birthday. His exact birth and death dates are not established by contemporary records, so 17 March is best understood as a long-standing tradition rather than a fully documented date. Patrick was probably born in Roman Britain, was abducted to Ireland when young, escaped and trained as a cleric, then returned to spread Christianity. For the test he is associated with Northern Ireland; more broadly, he is the patron saint of Ireland.",
+        "why_correct_zh": "St Patrick’s Day在3月17日举行，因为宗教传统认为St Patrick在公元5世纪的这一天去世，所以教会把它定为他的feast day（圣人纪念日），并非他的生日。他的确切生卒日期缺乏同时代记录，因此3月17日应理解为长期传统，而非完全可证的历史日期。\n\nSt Patrick可能出生于Roman Britain，年轻时被掳到Ireland，逃脱并成为神职人员后又返回传播基督教。考试把他对应为Northern Ireland的守护神；更广泛地说，他是整个Ireland的守护神。",
+        "answer_summary_zh": "正确选项：17th March。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St Patrick’s"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ireland-st-patrick-activity-pack"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is St Patrick’s day celebrated?”及正确答案“17th March”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ireland-st-patrick-activity-pack"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "By a system of proportional representation"
+        },
+        {
+          "id": "r1",
+          "text": "Using a system of ranked voting"
+        },
+        {
+          "id": "r2",
+          "text": "Using the first past the post system"
+        },
+        {
+          "id": "r3",
+          "text": "Using a runoff system"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q2.members-northern-ireland-parliament-elected.m4a",
+      "question": "How are the members of the Northern Ireland Parliament elected?",
+      "explanation": "The Northern Ireland Assembly has 90 elected members, known as MLAs (members of the Legislative Assembly). They are elected with a form of proportional representation.",
+      "id": "exam-14-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "By a system of proportional representation"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Northern Ireland Assembly uses a proportional system called the Single Transferable Vote (STV). Northern Ireland has 18 constituencies, each returning five MLAs, for 90 in total. Rather than marking an X for one candidate, voters rank candidates 1, 2, 3 and so on. A quota is calculated by dividing valid votes by the number of seats plus one, taking the whole number, then adding one. Candidates who reach it are elected; surplus votes transfer according to later preferences. If nobody reaches the quota, the lowest candidate is eliminated and those ballots transfer. This repeats until all seats are filled, allowing representation to reflect support more proportionately.",
+        "why_correct_zh": "Northern Ireland Assembly采用比例代表制中的Single Transferable Vote（STV）。Northern Ireland分为18个选区，每区选5名MLA，共90名。选民不用画X只选一人，而是在候选人旁写1、2、3，按偏好排序。\n\n计票时先计算当选门槛quota：有效票数除以席位数加一，取整数后再加一。达到门槛者当选，其超额票按下一偏好转移；若无人达到门槛，最低票者淘汰，其选票也按下一偏好转移，直到席位填满。因此即使第一选择已经当选或被淘汰，选票仍可能帮助下一选择，席位也较能反映各党派和社区的实际支持度。",
+        "answer_summary_zh": "正确选项：By a system of proportional representation。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland Parliament"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ni-assembly-stv-guide"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How are the members of the Northern Ireland Parliament elected?”及正确答案“By a system of proportional representation”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ni-assembly-stv-guide"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Winston Churchill"
+        },
+        {
+          "id": "r1",
+          "text": "Earl of Wilmington"
+        },
+        {
+          "id": "r2",
+          "text": "Henry Pelham"
+        },
+        {
+          "id": "r3",
+          "text": "Sir Robert Walpole"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q3.first-british-prime-minister.m4a",
+      "question": "Who was the first British Prime Minister?",
+      "explanation": "The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742.",
+      "id": "exam-14-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Sir Robert Walpole"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742.",
+        "why_correct_zh": "议会中最重要的部长被称为总理。第一个被称为这个名字的人是罗伯特·沃波尔爵士 (Sir Robert Walpole)，他于 1721 年至 1742 年担任英国首相。",
+        "answer_summary_zh": "正确选项：Sir Robert Walpole。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British Prime Minister"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the first British Prime Minister?”及正确答案“Sir Robert Walpole”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Tilda Swinton"
+        },
+        {
+          "id": "r1",
+          "text": "Emily Watson"
+        },
+        {
+          "id": "r2",
+          "text": "Dame Judi Dench"
+        },
+        {
+          "id": "r3",
+          "text": "Kate Winslet"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q4.british-actresses-to-win-oscar.m4a",
+      "question": "Which of the following actresses has not won an Oscar?",
+      "explanation": "British actors to have won Oscars include Colin Firth, Sir Antony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton. Emily Watson has not won an Oscar yet.",
+      "id": "exam-14-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Emily Watson"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "British actors to have won Oscars include Colin Firth, Sir Antony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton. Emily Watson has not won an Oscar yet.",
+        "why_correct_zh": "获得奥斯卡奖的英国演员包括科林·费尔斯、安东尼·霍普金斯爵士、朱迪·丹奇夫人、凯特·温斯莱特和蒂尔达·斯文顿。艾米丽·沃森尚未获得奥斯卡奖。",
+        "answer_summary_zh": "正确选项：Emily Watson。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Oscar"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following actresses has not won an Oscar?”及正确答案“Emily Watson”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Physics"
+        },
+        {
+          "id": "r1",
+          "text": "Economics"
+        },
+        {
+          "id": "r2",
+          "text": "Science"
+        },
+        {
+          "id": "r3",
+          "text": "Engineering"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q5.enlightenment-adam-smith-ideas-economics.m4a",
+      "question": "During the Enlightenment, Adam Smith developed ideas about:",
+      "explanation": "During ’the Enlightenment’ Adam Smith developed ideas about economics which are still referred to today.",
+      "id": "exam-14-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Economics"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "During ’the Enlightenment’ Adam Smith developed ideas about economics which are still referred to today.",
+        "why_correct_zh": "在“启蒙运动”期间，亚当·斯密提出了至今仍被提及的经济学思想。",
+        "answer_summary_zh": "正确选项：Economics。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "During the Enlightenment",
+          "Adam Smith"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During the Enlightenment, Adam Smith developed ideas about:”及正确答案“Economics”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Admiral Nelson"
+        },
+        {
+          "id": "r1",
+          "text": "Henry VIII"
+        },
+        {
+          "id": "r2",
+          "text": "Oliver Cromwell"
+        },
+        {
+          "id": "r3",
+          "text": "Napoleon"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q6.admiral-nelson-died-at-batttle-trafalgar.m4a",
+      "question": "Who died at the Battle of Trafalgar?",
+      "explanation": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle.",
+      "id": "exam-14-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Admiral Nelson"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle.",
+        "why_correct_zh": "纳尔逊海军上将在特拉法加指挥英国舰队，并在战斗中阵亡。",
+        "answer_summary_zh": "正确选项：Admiral Nelson。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Battle of Trafalgar"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who died at the Battle of Trafalgar?”及正确答案“Admiral Nelson”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "25th of December"
+        },
+        {
+          "id": "r1",
+          "text": "2nd of January"
+        },
+        {
+          "id": "r2",
+          "text": "1st of January"
+        },
+        {
+          "id": "r3",
+          "text": "31st of December"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q7.when-is-hogmanay.m4a",
+      "question": "When is Hogmanay celebrated?",
+      "explanation": "In Scotland, the 31st of December is called Hogmanay.",
+      "id": "exam-14-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "31st of December"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Hogmanay is Scotland's name for New Year's Eve and its New Year celebration, beginning on 31 December and continuing into New Year's Day. Traditions include singing Robert Burns's Auld Lang Syne at midnight, fireworks and torchlight, and first-footing: the first visitor after midnight brings gifts such as coal, shortbread or whisky, symbolising warmth, food and good cheer. Hogmanay became especially important after the Scottish Reformation, when the Kirk discouraged Catholic-associated Christmas festivities and the Scottish Parliament prohibited the Yule vacation in 1640. Christmas did not become a Scottish public holiday until 1958. The origin of the word Hogmanay remains uncertain.",
+        "why_correct_zh": "Hogmanay是Scotland对New Year’s Eve及迎新年庆典的名称，在12月31日晚举行并延续到元旦。传统包括午夜唱Robert Burns整理的Auld Lang Syne、烟花与火炬，以及first-footing：新年后第一位进门的访客带来煤、shortbread或whisky，象征温暖、食物和欢乐。\n\n它在Scotland格外重要，是因为1560年宗教改革后，Kirk反对带有Catholic色彩的Christmas庆祝；1640年Scottish Parliament又禁止Yule假期，许多冬季聚餐和送礼活动转移到新年。Christmas直到1958年才成为Scotland的公共假日。Hogmanay一词的来源仍无定论。",
+        "answer_summary_zh": "正确选项：31st of December。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Hogmanay"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "visitscotland-hogmanay",
+        "historic-environment-scotland-christmas-timeline"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is Hogmanay celebrated?”及正确答案“31st of December”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "visitscotland-hogmanay",
+          "historic-environment-scotland-christmas-timeline"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Canvassing"
+        },
+        {
+          "id": "r1",
+          "text": "Hansard"
+        },
+        {
+          "id": "r2",
+          "text": "Cabinets"
+        },
+        {
+          "id": "r3",
+          "text": "Domesday Book"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q8.proceedings-in-parliament-are-broadcast-on-television-and-published-in-official-reports.m4a",
+      "question": "Proceedings in Parliament are broadcast on television and published in official reports known as:",
+      "explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard.",
+      "id": "exam-14-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Hansard"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard.",
+        "why_correct_zh": "议会的会议记录在电视上播出，并在名为《议事录》的官方报告中发表。",
+        "answer_summary_zh": "正确选项：Hansard。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Proceedings",
+          "Parliament"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Proceedings in Parliament are broadcast on television and published in official reports known as:”及正确答案“Hansard”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Scottish Grand National"
+        },
+        {
+          "id": "r1",
+          "text": "The Wimbledon Championships"
+        },
+        {
+          "id": "r2",
+          "text": "The Ashes"
+        },
+        {
+          "id": "r3",
+          "text": "The Six Nations Championship"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q9.rugby-competition.m4a",
+      "question": "Which of the following is a rugby competition?",
+      "explanation": "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy.",
+      "id": "exam-14-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Six Nations Championship"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy.",
+        "why_correct_zh": "最著名的橄榄球联盟比赛是英格兰、爱尔兰、苏格兰、威尔士、法国和意大利之间的六国锦标赛。",
+        "answer_summary_zh": "正确选项：The Six Nations Championship。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is a rugby competition?”及正确答案“The Six Nations Championship”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Speaker"
+        },
+        {
+          "id": "r1",
+          "text": "The Archbishop of Canterbury"
+        },
+        {
+          "id": "r2",
+          "text": "The Prime Minister"
+        },
+        {
+          "id": "r3",
+          "text": "The monarch"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q10.appoints-life-peers-house-of-lords.m4a",
+      "question": "Who appoints life peers in the House of Lords?",
+      "explanation": "Life peers are appointed by the monarch on the advice of the Prime Minister.",
+      "id": "exam-14-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The monarch"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Life peers are appointed by the monarch on the advice of the Prime Minister.",
+        "why_correct_zh": "终身贵族由君主根据首相的建议任命。",
+        "answer_summary_zh": "正确选项：The monarch。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "House of Lords"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who appoints life peers in the House of Lords?”及正确答案“The monarch”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "James Cook"
+        },
+        {
+          "id": "r1",
+          "text": "Admiral Nelson"
+        },
+        {
+          "id": "r2",
+          "text": "Isaac Newton"
+        },
+        {
+          "id": "r3",
+          "text": "Sake Dean Mahomet"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q11.who-mapped-the-coast-of-australia.m4a",
+      "question": "Who mapped the coast of Australia?",
+      "explanation": "Captain James Cook mapped the coast of Australia and a few colonies were established there.",
+      "id": "exam-14-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "James Cook"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Captain James Cook mapped the coast of Australia and a few colonies were established there.",
+        "why_correct_zh": "詹姆斯·库克船长绘制了澳大利亚海岸地图，并在那里建立了一些殖民地。",
+        "answer_summary_zh": "正确选项：James Cook。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Australia"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who mapped the coast of Australia?”及正确答案“James Cook”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Boer War"
+        },
+        {
+          "id": "r1",
+          "text": "The First World War"
+        },
+        {
+          "id": "r2",
+          "text": "The Second World War"
+        },
+        {
+          "id": "r3",
+          "text": "The Crimean War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q12.first-war-extensively-covered-by-media.m4a",
+      "question": "What was the first war to be extensively covered by the media?",
+      "explanation": "The Crimean War was the first war to be extensively covered by the media through news stories and photographs.",
+      "id": "exam-14-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Crimean War"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the Crimean War (1853–56). Rising literacy, cheaper printing and railway distribution expanded newspaper readership, while the telegraph accelerated reports. The Times correspondent William Howard Russell accompanied the army and reported disease, cold, poor supplies and hospital conditions directly to readers. In 1855 Roger Fenton took a camera and mobile darkroom to Crimea and systematically photographed soldiers, camps and the landscape. It is therefore commonly described as the first major conflict extensively covered by modern war correspondents and systematic photography. Long exposures and bulky equipment prevented photographs of combat in progress, and newspapers often reproduced photographs as engravings rather than printing them directly.",
+        "why_correct_zh": "正确答案是Crimean War（1853—1856）。当时识字率上升、廉价印刷和铁路扩大了报纸发行，telegraph又加快消息传递。《The Times》的William Howard Russell随军采访，把疾病、严寒、补给和医院状况直接报道给国内读者；Roger Fenton则在1855年携带相机和流动暗房，系统拍摄士兵、军营和战场地形。\n\n因此它通常被称为第一场受到现代战地记者和系统摄影广泛记录的重大战争。不过相机曝光时间长、器材笨重，无法拍摄正在进行的战斗；报纸也常把照片转绘成版画刊登，所以这些影像与今天的即时战地摄影不同。",
+        "answer_summary_zh": "正确选项：The Crimean War。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "extensively"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-army-museum-crimean-media",
+        "national-army-museum-illustrated-press"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was the first war to be extensively covered by the media?”及正确答案“The Crimean War”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-army-museum-crimean-media",
+          "national-army-museum-illustrated-press"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Hadrian’s Wall"
+        },
+        {
+          "id": "r1",
+          "text": "St Paul’s Cathedral"
+        },
+        {
+          "id": "r2",
+          "text": "Nelson’s Column"
+        },
+        {
+          "id": "r3",
+          "text": "Stonehenge"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q13.monument-in-wiltshire-stonehence.m4a",
+      "question": "Which of the following monuments is located in Wiltshire?",
+      "explanation": "Stonehenge stands in what is now the English county of Wiltshire.",
+      "id": "exam-14-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Stonehenge"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Stonehenge stands in what is now the English county of Wiltshire.",
+        "why_correct_zh": "巨石阵位于现在的英国威尔特郡。",
+        "answer_summary_zh": "正确选项：Stonehenge。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Wiltshire"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following monuments is located in Wiltshire?”及正确答案“Stonehenge”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St Patrick"
+        },
+        {
+          "id": "r1",
+          "text": "St Augustine"
+        },
+        {
+          "id": "r2",
+          "text": "St Andrew"
+        },
+        {
+          "id": "r3",
+          "text": "St Columba"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q14.first-archbishop-of-canterbury.m4a",
+      "question": "Who was the first Archbishop of Canterbury?",
+      "explanation": "St Augustine led missionaries from Rome, who spread Christianity in the south. St Augustine became the first Archbishop of Canterbury.",
+      "id": "exam-14-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "St Augustine"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "St Augustine led missionaries from Rome, who spread Christianity in the south. St Augustine became the first Archbishop of Canterbury.",
+        "why_correct_zh": "圣奥古斯丁带领来自罗马的传教士，在南方传播基督教。圣奥古斯丁成为第一任坎特伯雷大主教。",
+        "answer_summary_zh": "正确选项：St Augustine。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Archbishop of Canterbury"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the first Archbishop of Canterbury?”及正确答案“St Augustine”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "18"
+        },
+        {
+          "id": "r1",
+          "text": "20"
+        },
+        {
+          "id": "r2",
+          "text": "16"
+        },
+        {
+          "id": "r3",
+          "text": "21"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q15.age-to-go-into-betting-shops-or-gambling-clubs.m4a",
+      "question": "How old do you have to be to go into betting shops or gambling clubs?",
+      "explanation": "You have to be 18 to go into betting shops or gambling clubs.",
+      "id": "exam-14-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "18"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "You have to be 18 to go into betting shops or gambling clubs.",
+        "why_correct_zh": "您必须年满 18 岁才能进入投注店或赌博俱乐部。",
+        "answer_summary_zh": "正确选项：18。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "gambling"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How old do you have to be to go into betting shops or gambling clubs?”及正确答案“18”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "91",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q16.system-of-government-in-the-uk.m4a",
+      "question": "The system of government in the UK is a parliamentary democracy.",
+      "explanation": "This statement is true.",
+      "id": "exam-14-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "5.1 The development of British democracy",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The UK is a parliamentary democracy because voters elect Members of Parliament, the government is formed from and accountable to Parliament, and it must retain the confidence of the House of Commons to remain in office.",
+        "why_correct_zh": "本题答案是True。英国实行parliamentary democracy：选民选出下议院议员，能够取得下议院信任的政党或联盟组成政府；政府必须向议会负责。英国同时是constitutional monarchy，两者并不冲突。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The system of government in the UK is a parliamentary democracy.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Haggis"
+        },
+        {
+          "id": "r1",
+          "text": "Pancakes"
+        },
+        {
+          "id": "r2",
+          "text": "Paella"
+        },
+        {
+          "id": "r3",
+          "text": "Ulster Fry"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q17.traditional-food-northern-ireland.m4a",
+      "question": "What is the traditional food of Northern Ireland?",
+      "explanation": "Ulster fry is the correct answer.",
+      "id": "exam-14-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Ulster Fry"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Ulster fry is the correct answer.",
+        "why_correct_zh": "正确答案是Ulster Fry，是北爱尔兰传统的全套煎早餐。常见内容包括培根、香肠、鸡蛋、番茄，以及在平底锅中煎制的soda bread和potato bread；这里的Fry指整套煎早餐，不只是炸薯条。",
+        "answer_summary_zh": "正确选项：Ulster Fry。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "discover-ni-ulster-fry"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the traditional food of Northern Ireland?”及正确答案“Ulster Fry”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "discover-ni-ulster-fry"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Clement Attlee"
+        },
+        {
+          "id": "r1",
+          "text": "Winston Churchill"
+        },
+        {
+          "id": "r2",
+          "text": "Harold Wilson"
+        },
+        {
+          "id": "r3",
+          "text": "Harold Macmillan"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q18.british-prime-minister-1945.m4a",
+      "question": "Who was elected as British Prime Minister in 1945?",
+      "explanation": "In 1945 the British people elected a Labour government. The new Prime Minister was Clement Attlee.",
+      "id": "exam-14-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Clement Attlee"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1945 the British people elected a Labour government. The new Prime Minister was Clement Attlee.",
+        "why_correct_zh": "1945年，英国人民选举了工党政府。新任首相是克莱门特·艾德礼。",
+        "answer_summary_zh": "正确选项：Clement Attlee。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British Prime Minister",
+          "1945"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was elected as British Prime Minister in 1945?”及正确答案“Clement Attlee”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "5"
+        },
+        {
+          "id": "r1",
+          "text": "3"
+        },
+        {
+          "id": "r2",
+          "text": "4"
+        },
+        {
+          "id": "r3",
+          "text": "8"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q19.times-uk-hosted-olympic-games.m4a",
+      "question": "How many times has the UK hosted the Olympic games?",
+      "explanation": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012.",
+      "id": "exam-14-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "3"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012.",
+        "why_correct_zh": "英国曾三次主办奥运会：1908年、1948年和2012年。",
+        "answer_summary_zh": "正确选项：3。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "UK",
+          "Olympic"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How many times has the UK hosted the Olympic games?”及正确答案“3”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "To link the factories to towns and cities and to the ports"
+        },
+        {
+          "id": "r1",
+          "text": "To make space for the large fleet of British ships"
+        },
+        {
+          "id": "r2",
+          "text": "To increase the number of water mills in the UK"
+        },
+        {
+          "id": "r3",
+          "text": "To increase the amount of water in towns and cities"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q20.canals-built-during-industrial-revolution.m4a",
+      "question": "Why were canals built during the Industrial Revolution?",
+      "explanation": "Canals were built to link the factories to towns and cities and to the ports, particularly in the new industrial areas in the middle and north of England.",
+      "id": "exam-14-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "To link the factories to towns and cities and to the ports"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Canals were built to link the factories to towns and cities and to the ports, particularly in the new industrial areas in the middle and north of England.",
+        "why_correct_zh": "修建运河将工厂与城镇和港口连接起来，特别是在英格兰中部和北部的新工业区。",
+        "answer_summary_zh": "正确选项：To link the factories to towns and cities and to the ports。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Industrial Revolution"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Why were canals built during the Industrial Revolution?”及正确答案“To link the factories to towns and cities and to the ports”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r1",
+          "text": "Yes"
+        },
+        {
+          "id": "r2",
+          "text": "No"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q21.are-civil-servants-appointed-by-the-government.m4a",
+      "question": "Are civil servants appointed by the government?",
+      "explanation": "Civil servants are accountable to ministers. They are chosen on merit and are politically neutral – they are not political appointees.",
+      "id": "exam-14-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "No"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Civil servants are accountable to ministers. They are chosen on merit and are politically neutral – they are not political appointees.",
+        "why_correct_zh": "公务员对部长负责。他们是根据功绩挑选的，并且在政治上保持中立——他们不是政治任命者。",
+        "answer_summary_zh": "正确选项：No。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Are",
+          "civil servants"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Are civil servants appointed by the government?”及正确答案“No”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Germany"
+        },
+        {
+          "id": "r1",
+          "text": "Norway"
+        },
+        {
+          "id": "r2",
+          "text": "Italy"
+        },
+        {
+          "id": "r3",
+          "text": "France"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q22.country-helped-britain-develop-the-concorde.m4a",
+      "question": "Which of the following countries helped Britain to develop the Concorde?",
+      "explanation": "Britain and France developed the world’s only supersonic commercial airliner, Concorde.",
+      "id": "exam-14-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "France"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Britain and France developed the world’s only supersonic commercial airliner, Concorde.",
+        "why_correct_zh": "英国和法国开发了世界上唯一的超音速商用客机——协和式客机。",
+        "answer_summary_zh": "正确选项：France。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Britain",
+          "Concorde"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following countries helped Britain to develop the Concorde?”及正确答案“France”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Magnetic Resonance Imaging"
+        },
+        {
+          "id": "r1",
+          "text": "Steam power"
+        },
+        {
+          "id": "r2",
+          "text": "Radar"
+        },
+        {
+          "id": "r3",
+          "text": "Hovercraft"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q23.invention-led-britain-to-development-during-industrial-revolution.m4a",
+      "question": "Which invention led to the development of Britain during the Industrial Revolution?",
+      "explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale. It happened because of the development of machinery and the use of steam power.",
+      "id": "exam-14-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Steam power"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale. It happened because of the development of machinery and the use of steam power.",
+        "why_correct_zh": "工业革命是18、19世纪英国工业的快速发展。英国是第一个大规模工业化的国家。这是由于机械的发展和蒸汽动力的使用而发生的。",
+        "answer_summary_zh": "正确选项：Steam power。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain",
+          "Industrial Revolution"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-14-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which invention led to the development of Britain during the Industrial Revolution?”及正确答案“Steam power”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Columba"
+        },
+        {
+          "id": "r1",
+          "text": "Claudius"
+        },
+        {
+          "id": "r2",
+          "text": "Hadrian"
+        },
+        {
+          "id": "r3",
+          "text": "Boudicca"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT14/Q24.tribal-leader-fought-against-romans.m4a",
+      "question": "Who was the tribal leader who fought against the Romans?",
+      "explanation": "One of the tribal leaders who fought against the Romans was Boudicca.",
+      "id": "exam-14-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Boudicca"
+      ],
+      "exam_number": 14,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-14/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "One of the tribal leaders who fought against the Romans was Boudicca.",
+        "why_correct_zh": "布迪卡是与罗马人作战的部落首领之一。",
+        "answer_summary_zh": "正确选项：Boudicca。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Romans"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-04-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who was the tribal leader who fought against the Romans?”及正确答案“Boudicca”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

@@ -1,0 +1,1552 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 7,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-justice": {
+      "title": "Crime, justice and the law",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/browse/justice",
+      "authority": "official_government",
+      "note_zh": "法院、司法程序、警察和法律权利的官方入口。"
+    },
+    "govuk-test-rules": {
+      "title": "Life in the UK Test",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/life-in-the-uk-test",
+      "authority": "official_government",
+      "note_zh": "确认考试内容仅来自官方 Guide for New Residents。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "76",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Respect and obey the law"
+        },
+        {
+          "id": "r1",
+          "text": "Vote in all elections"
+        },
+        {
+          "id": "r2",
+          "text": "Take part in religious activities"
+        },
+        {
+          "id": "r3",
+          "text": "Look after the area in which you live and the environment"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-1.A-British-citizen-should.m4a",
+      "question": "As a British citizen, you should:",
+      "explanation": "As a British citizen you should respect and obey the law and look after the area in which you live and the environment are the correct answers.",
+      "id": "exam-07-q01",
+      "number": 1,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r3"
+      ],
+      "correct_answers": [
+        "Respect and obey the law",
+        "Look after the area in which you live and the environment"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "1.2 The values and principles of the UK",
+      "handbook_locator": "Chapter 1: The values and principles of the UK",
+      "learning": {
+        "why_correct_en": "As a British citizen you should respect and obey the law and look after the area in which you live and the environment are the correct answers.",
+        "why_correct_zh": "作为英国公民，你应该尊重和遵守法律，爱护你所居住的地区和环境，这是正确的答案。",
+        "answer_summary_zh": "正确选项：Respect and obey the law；Look after the area in which you live and the environment。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British citizen"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-test-rules"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“As a British citizen, you should:”及正确答案“Respect and obey the law；Look after the area in which you live and the environment”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-test-rules"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "5th of November"
+        },
+        {
+          "id": "r1",
+          "text": "11th of November"
+        },
+        {
+          "id": "r2",
+          "text": "31st of October"
+        },
+        {
+          "id": "r3",
+          "text": "1st of April"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-2.Halloween-celebrated.m4a",
+      "question": "When is Halloween celebrated?",
+      "explanation": "Halloween is celebrated on the 31st of October.",
+      "id": "exam-07-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "31st of October"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Halloween is celebrated on the 31st of October.",
+        "why_correct_zh": "10 月 31 日庆祝万圣节。",
+        "answer_summary_zh": "正确选项：31st of October。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Halloween"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is Halloween celebrated?”及正确答案“31st of October”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-3.Bill-of-rights-women-right-to-vote.m4a",
+      "question": "The Bill of Rights in 1689 gave women the right to vote.",
+      "explanation": "False. The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king’s power.",
+      "id": "exam-07-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "False. The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king’s power.",
+        "why_correct_zh": "错误的。 1689 年的《权利法案》确认了议会的权利和国王权力的限制。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Bill of Rights",
+          "1689",
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The Bill of Rights in 1689 gave women the right to vote.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Ashes"
+        },
+        {
+          "id": "r1",
+          "text": "The Six Nations Championship"
+        },
+        {
+          "id": "r2",
+          "text": "The Grand National"
+        },
+        {
+          "id": "r3",
+          "text": "The Australian Open"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-4.famous-cricket-competition-england-australia-ashes.m4a",
+      "question": "What is the name of the most famous cricket competition played between England and Australia?",
+      "explanation": "The most famous cricket competition is the Ashes, which is a series of Test matches played between England and Australia.",
+      "id": "exam-07-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Ashes"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The most famous cricket competition is the Ashes, which is a series of Test matches played between England and Australia.",
+        "why_correct_zh": "最著名的板球比赛是灰烬杯，这是英格兰和澳大利亚之间进行的一系列测试赛。",
+        "answer_summary_zh": "正确选项：The Ashes。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England and Australia"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the most famous cricket competition played between England and Australia?”及正确答案“The Ashes”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Fishing"
+        },
+        {
+          "id": "r1",
+          "text": "Teaching"
+        },
+        {
+          "id": "r2",
+          "text": "Aircraft industry"
+        },
+        {
+          "id": "r3",
+          "text": "Manufacturing"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-5.biggest-source-employment-18-century.m4a",
+      "question": "What was the biggest source of employment during the 18th century?",
+      "explanation": "During the 18th century, manufacturing jobs became the main source of employment in Britain.",
+      "id": "exam-07-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Manufacturing"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "During the 18th century, manufacturing jobs became the main source of employment in Britain.",
+        "why_correct_zh": "18世纪，制造业工作成为英国就业的主要来源。",
+        "answer_summary_zh": "正确选项：Manufacturing。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "18th century"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was the biggest source of employment during the 18th century?”及正确答案“Manufacturing”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7//BCT7.Q-6.battle-Bannockburn.m4a",
+      "question": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the battle of Bannockburn, and Scotland remained unconquered by the English.",
+      "explanation": "This statement is true.",
+      "id": "exam-07-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "At the Battle of Bannockburn in 1314, the Scottish army led by Robert the Bruce defeated the forces of Edward II. The victory helped Scotland remain an independent kingdom rather than being conquered by England.",
+        "why_correct_zh": "本题答案是True。1314年的Battle of Bannockburn中，Robert the Bruce领导的苏格兰军队击败Edward II的英军。这场胜利巩固了苏格兰继续作为独立王国存在的地位。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "1314",
+          "Scottish",
+          "Robert the Bruce"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In 1314 the Scottish, led by Robert the Bruce, defeated the English at the battle of Bannockburn, and Scotland remained unconquered by the English.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Smoking in public places where it is not allowed"
+        },
+        {
+          "id": "r1",
+          "text": "Disputes about faulty goods or services"
+        },
+        {
+          "id": "r2",
+          "text": "Disputes about an unfair dismissal in the workplace"
+        },
+        {
+          "id": "r3",
+          "text": "A dispute between the landlord and the tenants who have not paid the rent"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-7.example-criminal-offence-smoking-public-places.m4a",
+      "question": "Which of the following is an example of criminal offence?",
+      "explanation": "Smoking in public places. It is against the law to smoke tobacco products in nearly every enclosed public place in the UK. There are signs displayed to tell you where you cannot smoke.",
+      "id": "exam-07-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Smoking in public places where it is not allowed"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Smoking in public places. It is against the law to smoke tobacco products in nearly every enclosed public place in the UK. There are signs displayed to tell you where you cannot smoke.",
+        "why_correct_zh": "在公共场所吸烟。在英国几乎所有封闭的公共场所吸食烟草制品都是违法的。有标志告诉您哪里不能吸烟。",
+        "answer_summary_zh": "正确选项：Smoking in public places where it is not allowed。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is an example of criminal offence?”及正确答案“Smoking in public places where it is not allowed”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The MacLaine of Lochbuie"
+        },
+        {
+          "id": "r1",
+          "text": "The McDowalls of Garthland"
+        },
+        {
+          "id": "r2",
+          "text": "The Macpherson of Cluny"
+        },
+        {
+          "id": "r3",
+          "text": "The MacDonalds of Glencoe"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-8.scottish-clan-killed-not-taking-oath.m4a",
+      "question": "Which Scottish clan was killed for not taking the oath?",
+      "explanation": "The correct answer is the MacDonalds of Glencoe.",
+      "id": "exam-07-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The MacDonalds of Glencoe"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the MacDonalds of Glencoe.",
+        "why_correct_zh": "正确答案是格伦科麦当劳。",
+        "answer_summary_zh": "正确选项：The MacDonalds of Glencoe。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which Scottish"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which Scottish clan was killed for not taking the oath?”及正确答案“The MacDonalds of Glencoe”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Defence"
+        },
+        {
+          "id": "r1",
+          "text": "Social security"
+        },
+        {
+          "id": "r2",
+          "text": "Health"
+        },
+        {
+          "id": "r3",
+          "text": "Education"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-9.devolved-administrations-pass-laws-on.m4a",
+      "question": "Which two issues can the devolved administrations pass laws on?",
+      "explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as health and education, are controlled by the devolved administrations.",
+      "id": "exam-07-q09",
+      "number": 9,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r2",
+        "r3"
+      ],
+      "correct_answers": [
+        "Health",
+        "Education"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as health and education, are controlled by the devolved administrations.",
+        "why_correct_zh": "有关国防、外交、移民、税收和社会保障的政策和法律仍然处于英国中央政府的控制之下。然而，许多其他公共服务，例如卫生和教育，由权力下放的政府控制。",
+        "answer_summary_zh": "正确选项：Health；Education。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "devolved administrations"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two issues can the devolved administrations pass laws on?”及正确答案“Health；Education”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Crimean War"
+        },
+        {
+          "id": "r1",
+          "text": "The First World War"
+        },
+        {
+          "id": "r2",
+          "text": "The Civil War"
+        },
+        {
+          "id": "r3",
+          "text": "The Second World War"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-10.assasination-archduke-franz-ferdinand-austria-war.m4a",
+      "question": "The assassination of the Archduke Franz Ferdinand of Austria in 1914 led to which of the following wars?",
+      "explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18).",
+      "id": "exam-07-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "The First World War"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18).",
+        "why_correct_zh": "1914年6月28日，奥地利大公弗朗茨·费迪南大公被暗杀。这引发了导致第一次世界大战（1914-18）的一系列事件。",
+        "answer_summary_zh": "正确选项：The First World War。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Archduke Franz Ferdinand of Austria",
+          "1914"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The assassination of the Archduke Franz Ferdinand of Austria in 1914 led to which of the following wars?”及正确答案“The First World War”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Glasgow"
+        },
+        {
+          "id": "r1",
+          "text": "St Andrews"
+        },
+        {
+          "id": "r2",
+          "text": "Edinburgh"
+        },
+        {
+          "id": "r3",
+          "text": "Aberdeen"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-11.capital-city-scotland-glasgow.m4a",
+      "question": "What is the capital city of Scotland?",
+      "explanation": "The capital city of Scotland is Edinburgh.",
+      "id": "exam-07-q11",
+      "number": 11,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Edinburgh"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The capital city of Scotland is Edinburgh.",
+        "why_correct_zh": "苏格兰的首都是爱丁堡。",
+        "answer_summary_zh": "正确选项：Edinburgh。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "capital city",
+          "Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the capital city of Scotland?”及正确答案“Edinburgh”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-12.1833-emancipation-act-abolished-slavery-throughout-the-british-empire.m4a",
+      "question": "In 1833 the Emancipation Act abolished slavery throughout the British Empire.",
+      "explanation": "This statement is true.",
+      "id": "exam-07-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Parliament passed the Slavery Abolition Act in 1833, abolishing slavery across most of the British Empire. This should be distinguished from the 1807 Act, which prohibited British participation in the slave trade but did not itself free enslaved people.",
+        "why_correct_zh": "本题答案是True。英国议会在1833年通过Slavery Abolition Act，使奴隶制在大英帝国的大部分殖民地被废除。记忆时区分1807年禁止英国参与奴隶贸易，与1833年废除殖民地奴隶制。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "1833",
+          "Emancipation Act",
+          "British Empire"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“In 1833 the Emancipation Act abolished slavery throughout the British Empire.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Black Death"
+        },
+        {
+          "id": "r1",
+          "text": "The Corn Removal"
+        },
+        {
+          "id": "r2",
+          "text": "The Highland Clearances"
+        },
+        {
+          "id": "r3",
+          "text": "The Enlightenment"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-13.scottish-landlords-destroyed-individual-small-farms-crofts-highlnd-clearances.m4a",
+      "question": "What is the name of the process by which many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle?",
+      "explanation": "A process began which became known as the ‘Highland Clearances’. Many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle.",
+      "id": "exam-07-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Highland Clearances"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "A process began which became known as the ‘Highland Clearances’. Many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle.",
+        "why_correct_zh": "一个被称为“高地清理”的过程开始了。许多苏格兰地主摧毁了个别的小农场（称为“小农场”），为大群羊和牛腾出空间。",
+        "answer_summary_zh": "正确选项：The Highland Clearances。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scottish",
+          "crofts"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the process by which many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle?”及正确答案“The Highland Clearances”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r1",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-14.Falkland-islands-are-a-british-overseas-territory-are-part-of-the-nited-kingdom.m4a",
+      "question": "The Falkland Islands are a British overseas territory and are part of the United Kingdom.",
+      "explanation": "False. The Falkland Islands are a British overseas territory. They are also linked to the UK but are not part of it.",
+      "id": "exam-07-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "False. The Falkland Islands are a British overseas territory. They are also linked to the UK but are not part of it.",
+        "why_correct_zh": "错误的。福克兰群岛是英国海外领土。它们也与英国有联系，但不属于英国。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Falkland Islands",
+          "British",
+          "overseas territory"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The Falkland Islands are a British overseas territory and are part of the United Kingdom.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Battle of Waterloo"
+        },
+        {
+          "id": "r1",
+          "text": "The Battle of Marston Moor"
+        },
+        {
+          "id": "r2",
+          "text": "The Battle of Naseby"
+        },
+        {
+          "id": "r3",
+          "text": "The Battle of Agincourt"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-15.british-civil-wars.m4a",
+      "question": "Which two of the following are Civil War Battles?",
+      "explanation": "The Battles of Marston Moor and Naseby.",
+      "id": "exam-07-q15",
+      "number": 15,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r1",
+        "r2"
+      ],
+      "correct_answers": [
+        "The Battle of Marston Moor",
+        "The Battle of Naseby"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Battles of Marston Moor and Naseby.",
+        "why_correct_zh": "马斯顿荒原和内斯比之战。",
+        "answer_summary_zh": "正确选项：The Battle of Marston Moor；The Battle of Naseby。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Civil War Battles"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of the following are Civil War Battles?”及正确答案“The Battle of Marston Moor；The Battle of Naseby”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Chartists"
+        },
+        {
+          "id": "r1",
+          "text": "Beefeaters"
+        },
+        {
+          "id": "r2",
+          "text": "Suffragettes"
+        },
+        {
+          "id": "r3",
+          "text": "Quakers"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-16.activist-group-fought-womens-right-to-vote-suffragettes.m4a",
+      "question": "What was the name of the activist group who fought for the women‘s right to vote?",
+      "explanation": "In the late 19th and early 20th centuries, an increasing number of women campaigned and demonstrated for greater rights and, in particular, the right to vote. They formed the women’s suffrage movement and became known as the ‘suffragettes’.",
+      "id": "exam-07-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Suffragettes"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In the late 19th and early 20th centuries, an increasing number of women campaigned and demonstrated for greater rights and, in particular, the right to vote. They formed the women’s suffrage movement and became known as the ‘suffragettes’.",
+        "why_correct_zh": "在 19 世纪末和 20 世纪初，越来越多的妇女为争取更大的权利，特别是投票权而进行竞选和示威。他们发起了妇女选举权运动，并被称为“妇女参政论者”。",
+        "answer_summary_zh": "正确选项：Suffragettes。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was the name of the activist group who fought for the women‘s right to vote?”及正确答案“Suffragettes”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Big Ben"
+        },
+        {
+          "id": "r1",
+          "text": "Lake District"
+        },
+        {
+          "id": "r2",
+          "text": "Snowdonia"
+        },
+        {
+          "id": "r3",
+          "text": "The London Eye"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-17.uk-landmark-voted-Britains-favourite-view-2007-lake-district.m4a",
+      "question": "What UK landmark was voted as Britain’s favourite view in 2007?",
+      "explanation": "In 2007, television viewers voted Wastwater (Lake District) as Britain’s favourite view.",
+      "id": "exam-07-q17",
+      "number": 17,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Lake District"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "In 2007, television viewers voted Wastwater (Lake District) as Britain’s favourite view.",
+        "why_correct_zh": "2007 年，电视观众将沃斯特沃特（湖区）评选为英国最受欢迎的景观。",
+        "answer_summary_zh": "正确选项：Lake District。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "What UK",
+          "Britain’s",
+          "2007"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What UK landmark was voted as Britain’s favourite view in 2007?”及正确答案“Lake District”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Farmers"
+        },
+        {
+          "id": "r1",
+          "text": "Peasants"
+        },
+        {
+          "id": "r2",
+          "text": "Hunter-gatherers"
+        },
+        {
+          "id": "r3",
+          "text": "Pirates"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-18.first-people-to-live-in-Britain-stone-age-hunter-gatherers.m4a",
+      "question": "Who were the first people to live in Britain in what we call the Stone Age?",
+      "explanation": "The first people to live in Britain were hunter-gatherers.",
+      "id": "exam-07-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Hunter-gatherers"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The first people to live in Britain were hunter-gatherers.",
+        "why_correct_zh": "第一批生活在英国的人是狩猎采集者。",
+        "answer_summary_zh": "正确选项：Hunter-gatherers。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Britain",
+          "Stone Age"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who were the first people to live in Britain in what we call the Stone Age?”及正确答案“Hunter-gatherers”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Reformation"
+        },
+        {
+          "id": "r1",
+          "text": "The Enlightenment"
+        },
+        {
+          "id": "r2",
+          "text": "The Glorious Revolution"
+        },
+        {
+          "id": "r3",
+          "text": "The Renaissance"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-19.movement-against-authority-of-the-pope-and-ideas-catholic-church.m4a",
+      "question": "What is the name of the movement against the authority of the Pope and the ideas of the Catholic Church that took place during the reign of Henry VIII?",
+      "explanation": "The correct answer is the Reformation.",
+      "id": "exam-07-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "The Reformation"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The correct answer is the Reformation.",
+        "why_correct_zh": "正确答案是宗教改革。",
+        "answer_summary_zh": "正确选项：The Reformation。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Pope and the",
+          "Catholic Church",
+          "Henry VIII"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the name of the movement against the authority of the Pope and the ideas of the Catholic Church that took place during the reign of Henry VIII?”及正确答案“The Reformation”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Contact the NHS"
+        },
+        {
+          "id": "r1",
+          "text": "Contact the Department for Work and Pensions (DWP)"
+        },
+        {
+          "id": "r2",
+          "text": "Contact your local MP"
+        },
+        {
+          "id": "r3",
+          "text": "Ask you employer to get it for you"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-20.need-to-apply-national-insurance-number.m4a",
+      "question": "What do you need to do to apply for a National Insurance Number?",
+      "explanation": "If you have permission to work in the UK, you will need to telephone the Department for Work and Pensions (DWP) to arrange to get a National Insurance number.",
+      "id": "exam-07-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Contact the Department for Work and Pensions (DWP)"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "If you have permission to work in the UK, you will need to telephone the Department for Work and Pensions (DWP) to arrange to get a National Insurance number.",
+        "why_correct_zh": "如果您拥有在英国工作的许可，您需要致电工作和养老金部 (DWP) 以安排获取国民保险号码。",
+        "answer_summary_zh": "正确选项：Contact the Department for Work and Pensions (DWP)。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "National Insurance Number"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What do you need to do to apply for a National Insurance Number?”及正确答案“Contact the Department for Work and Pensions (DWP)”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "86",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Wimbledon Championship"
+        },
+        {
+          "id": "r1",
+          "text": "Royal Ascot"
+        },
+        {
+          "id": "r2",
+          "text": "The Open Championship"
+        },
+        {
+          "id": "r3",
+          "text": "The Six Nations Championship"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-21.major-horse-racing-event-ascot.m4a",
+      "question": "Which of the following is a major horse-racing event in England?",
+      "explanation": "Famous horse-racing events include: Royal Ascot , a five-day race meeting in Berkshire attended by members of the Royal Family; the Grand National at Aintree near Liverpool; and the Scottish Grand National at Ayr.",
+      "id": "exam-07-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Royal Ascot"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "4.4 Sport",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Famous horse-racing events include: Royal Ascot , a five-day race meeting in Berkshire attended by members of the Royal Family; the Grand National at Aintree near Liverpool; and the Scottish Grand National at Ayr.",
+        "why_correct_zh": "著名的赛马活动包括：皇家阿斯科特赛马会，这是在伯克郡举行的为期五天的赛马会，皇室成员都会参加；利物浦附近的安特里国家大剧院；以及艾尔的苏格兰国家大赛。",
+        "answer_summary_zh": "正确选项：Royal Ascot。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is a major horse-racing event in England?”及正确答案“Royal Ascot”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "12"
+        },
+        {
+          "id": "r1",
+          "text": "14"
+        },
+        {
+          "id": "r2",
+          "text": "15"
+        },
+        {
+          "id": "r3",
+          "text": "20"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-22.members-jury-scotland.m4a",
+      "question": "How many members form a jury in Scotland?",
+      "explanation": "In Scotland a jury has 15 members.",
+      "id": "exam-07-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "15"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "In Scotland a jury has 15 members.",
+        "why_correct_zh": "在苏格兰，陪审团有 15 名成员。",
+        "answer_summary_zh": "正确选项：15。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-justice"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How many members form a jury in Scotland?”及正确答案“15”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-justice"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The 40 days before Christmas"
+        },
+        {
+          "id": "r1",
+          "text": "The 40 days after Easter"
+        },
+        {
+          "id": "r2",
+          "text": "The 40 days before Easter"
+        },
+        {
+          "id": "r3",
+          "text": "The 40 days after Christmas"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-23.lent-40-days-before-easter.m4a",
+      "question": "What is known as Lent?",
+      "explanation": "The 40 days before Easter are known as Lent.",
+      "id": "exam-07-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The 40 days before Easter"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The 40 days before Easter are known as Lent.",
+        "why_correct_zh": "复活节前的 40 天被称为四旬期。",
+        "answer_summary_zh": "正确选项：The 40 days before Easter。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Lent"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is known as Lent?”及正确答案“The 40 days before Easter”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "74",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1415"
+        },
+        {
+          "id": "r1",
+          "text": "1314"
+        },
+        {
+          "id": "r2",
+          "text": "1066"
+        },
+        {
+          "id": "r3",
+          "text": "1200"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT7/BCT7.Q-24.last-successful-foreign-invation-england-1066.m4a",
+      "question": "When was the last successful foreign invasion of England?",
+      "explanation": "The Norman Conquest was the last successful foreign invasion of England in 1066.",
+      "id": "exam-07-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "1066"
+      ],
+      "exam_number": 7,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-7/",
+      "category_name": "3.1 Early Britain",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Norman Conquest was the last successful foreign invasion of England in 1066.",
+        "why_correct_zh": "诺曼征服是 1066 年最后一次成功的外国入侵英格兰。",
+        "answer_summary_zh": "正确选项：1066。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "England"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-07-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When was the last successful foreign invasion of England?”及正确答案“1066”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}

@@ -1,0 +1,1569 @@
+{
+  "dataset": "Life in the UK Test Web — Exams 1–17",
+  "exam_number": 8,
+  "question_count": 24,
+  "content_policy": {
+    "visuals": "Question-and-answer-specific AI learning illustrations are preferred when present; real licensed media and original SVG fallbacks remain available. All answer visuals display only after the learner answers.",
+    "primary_authority": "official-handbook",
+    "source_roles": "The handbook supports exam answers; supplemental sources provide authoritative topic context."
+  },
+  "authority_sources": {
+    "bank-england-legal-tender": {
+      "title": "What is legal tender?",
+      "publisher": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+      "authority": "central_bank",
+      "note_zh": "英格兰银行解释Scottish和Northern Ireland纸币、legal tender与商家接受付款之间的区别。"
+    },
+    "college-policing-chief-constable": {
+      "title": "Chief constable",
+      "publisher": "College of Policing",
+      "url": "https://www.college.police.uk/career-learning/support-for-career-development/policing-professional-profiles/core-rank-profiles/chief-constable",
+      "authority": "official_policing_body",
+      "note_zh": "英国警务学院说明Chief Constable是领导警队、负责警务行动指挥与整体方向的最高级警官。"
+    },
+    "govuk-bank-holidays": {
+      "title": "UK bank holidays",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/bank-holidays",
+      "authority": "official_government",
+      "note_zh": "英国各地区公共假日的官方信息。"
+    },
+    "govuk-fgm-help": {
+      "title": "Female genital mutilation: help and advice",
+      "publisher": "GOV.UK",
+      "url": "https://www.gov.uk/female-genital-mutilation-help-advice",
+      "authority": "official_government",
+      "note_zh": "英国政府说明FGM在英国违法，带英国国民或永久居民出国接受FGM以及协助实施同样违法。"
+    },
+    "historic-england-list": {
+      "title": "National Heritage List for England",
+      "publisher": "Historic England",
+      "url": "https://historicengland.org.uk/listing/the-list/",
+      "authority": "official_heritage_register",
+      "note_zh": "英格兰受保护历史建筑、遗址和战场的官方名录。"
+    },
+    "iopc-complaints-process": {
+      "title": "A guide to the complaints process",
+      "publisher": "Independent Office for Police Conduct",
+      "url": "https://www.policeconduct.gov.uk/complaints/guide-to-complaints-process",
+      "authority": "official_police_oversight_body",
+      "note_zh": "IOPC说明英格兰和威尔士的警察投诉提交方式、警队初步处理、严重案件转介以及复核流程。"
+    },
+    "national-archives-education": {
+      "title": "The National Archives Education",
+      "publisher": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/education/",
+      "authority": "official_archive",
+      "note_zh": "英国历史时期、人物和原始档案的权威背景资料。"
+    },
+    "official-handbook": {
+      "title": "Life in the United Kingdom: A Guide for New Residents, 3rd edition",
+      "publisher": "TSO on behalf of the Home Office",
+      "url": "https://www.officiallifeintheuk.co.uk/official-guide-new-residents-book",
+      "isbn": "9780113413409",
+      "authority": "primary_exam_source",
+      "note_zh": "官方确认的考试知识范围；用于支持题目正确答案。"
+    },
+    "ons-religion": {
+      "title": "Religion",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion",
+      "authority": "official_statistics",
+      "note_zh": "英国宗教人口数据和分析。"
+    },
+    "ons-uk-geographies": {
+      "title": "UK geographies",
+      "publisher": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/methodology/geography/ukgeographies",
+      "authority": "official_statistics",
+      "note_zh": "英国行政、统计和选举地理的官方资料。"
+    },
+    "parliament-how-it-works": {
+      "title": "How Parliament works",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/about/how/",
+      "authority": "official_parliament",
+      "note_zh": "英国议会、立法和民主制度的官方说明。"
+    },
+    "parliament-magna-carta": {
+      "title": "Magna Carta",
+      "publisher": "UK Parliament",
+      "url": "https://www.parliament.uk/magnacarta/",
+      "authority": "official_parliament",
+      "note_zh": "大宪章及议会发展历史的官方资料。"
+    }
+  },
+  "questions": [
+    {
+      "page_question_id": "p0",
+      "category_id": "80",
+      "options": [
+        {
+          "id": "r0",
+          "text": "France"
+        },
+        {
+          "id": "r1",
+          "text": "Russia"
+        },
+        {
+          "id": "r2",
+          "text": "Poland"
+        },
+        {
+          "id": "r3",
+          "text": "Austria"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-1.world-war-2-started-germany-invaded-poland.m4a",
+      "question": "World War II started as a result of Germany invading which country?",
+      "explanation": "The Second World War started when Hitler invaded Poland in 1939. Britain and France declared war in order to stop his aggression.",
+      "id": "exam-08-q01",
+      "number": 1,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Poland"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.5 The 20th century",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Second World War started when Hitler invaded Poland in 1939. Britain and France declared war in order to stop his aggression.",
+        "why_correct_zh": "1939年希特勒入侵波兰，第二次世界大战爆发。英法两国为制止侵略而宣战。",
+        "answer_summary_zh": "正确选项：Poland。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "World War II",
+          "Germany"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q01.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“World War II started as a result of Germany invading which country?”及正确答案“Poland”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p1",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Shamrock"
+        },
+        {
+          "id": "r1",
+          "text": "The Rose"
+        },
+        {
+          "id": "r2",
+          "text": "The Daffodil"
+        },
+        {
+          "id": "r3",
+          "text": "The Thistle"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-2.flower-associated-scotland-thistle.m4a",
+      "question": "Which flower is associated with Scotland?",
+      "explanation": "The flower associated with Scotland is the thistle.",
+      "id": "exam-08-q02",
+      "number": 2,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The Thistle"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The flower associated with Scotland is the thistle.",
+        "why_correct_zh": "与苏格兰有关的花是蓟。",
+        "answer_summary_zh": "正确选项：The Thistle。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q02.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which flower is associated with Scotland?”及正确答案“The Thistle”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p2",
+      "category_id": "96",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-3.police-complaints.m4a",
+      "question": "Police complaints can only be made by writing to the Chief Constable of the police force involved.",
+      "explanation": "False. Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland.",
+      "id": "exam-08-q03",
+      "number": 3,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "False"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "5.5 Respecting the law",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "False. Anyone can make a complaint about the police by going to a police station and writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland.",
+        "why_correct_zh": "这个说法是错误的，因为写信给Chief Constable并不是唯一的投诉方式。Chief Constable是地方警队的最高级警官；投诉实际通常由警队的Professional Standards Department（专业标准部门）处理，并非由Chief Constable本人逐一处理。\n\n以英格兰和威尔士为例，可以通过警队网站、101电话、前往警察局或书面方式投诉，也可以使用IOPC的表格；IOPC一般会把投诉转给相关警队。警队随后评估并记录投诉，最严重的案件必须转交IOPC。处理结果通知会说明能否申请review（复核），通常须在28天内提出。",
+        "answer_summary_zh": "正确选项：False。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Police complaints",
+          "Chief Constable of the"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "college-policing-chief-constable",
+        "iopc-complaints-process"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q03.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Police complaints can only be made by writing to the Chief Constable of the police force involved.”及正确答案“False”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "college-policing-chief-constable",
+          "iopc-complaints-process"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p3",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Economy"
+        },
+        {
+          "id": "r1",
+          "text": "Crime"
+        },
+        {
+          "id": "r2",
+          "text": "Education"
+        },
+        {
+          "id": "r3",
+          "text": "Defence"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-4.responsibility-home-secretary-crime.m4a",
+      "question": "Which of the following is a responsibility of the Home Secretary?",
+      "explanation": "The Home Secretary is responsible for crime, policing and immigration.",
+      "id": "exam-08-q04",
+      "number": 4,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "Crime"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "The Home Secretary is responsible for crime, policing and immigration.",
+        "why_correct_zh": "内政大臣负责犯罪、治安和移民。",
+        "answer_summary_zh": "正确选项：Crime。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Which of the",
+          "Home Secretary"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q04.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which of the following is a responsibility of the Home Secretary?”及正确答案“Crime”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p4",
+      "category_id": "84",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1st March"
+        },
+        {
+          "id": "r1",
+          "text": "17th March"
+        },
+        {
+          "id": "r2",
+          "text": "23rd April"
+        },
+        {
+          "id": "r3",
+          "text": "17th April"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-5.saint-davids-celebrated-first-march.m4a",
+      "question": "When is St David’s day celebrated?",
+      "explanation": "St David’s day, patron of Wales, is celebrated on the 1st of March.",
+      "id": "exam-08-q05",
+      "number": 5,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "1st March"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.2 Religion",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "St David’s day, patron of Wales, is celebrated on the 1st of March.",
+        "why_correct_zh": "3 月 1 日是威尔士的守护神圣大卫节。",
+        "answer_summary_zh": "正确选项：1st March。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "St David’s"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-religion"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q05.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“When is St David’s day celebrated?”及正确答案“1st March”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-religion"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p5",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "She became Queen of England"
+        },
+        {
+          "id": "r1",
+          "text": "She was sent to France"
+        },
+        {
+          "id": "r2",
+          "text": "She escaped to Denmark"
+        },
+        {
+          "id": "r3",
+          "text": "She was executed"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-6.mary-queen-scotts-20-years-prison.m4a",
+      "question": "What happened to ‘Mary, Queen of Scots’ after she spent 20 years in prison?",
+      "explanation": "Mary was eventually executed, accused of plotting against Elizabeth I.",
+      "id": "exam-08-q06",
+      "number": 6,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "She was executed"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Mary was eventually executed, accused of plotting against Elizabeth I.",
+        "why_correct_zh": "玛丽最终被处决，被指控密谋反对伊丽莎白一世。",
+        "answer_summary_zh": "正确选项：She was executed。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Mary, Queen of Scots",
+          "20"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q06.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What happened to ‘Mary, Queen of Scots’ after she spent 20 years in prison?”及正确答案“She was executed”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p6",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The MRI (magnetic resonance imaging) scanner"
+        },
+        {
+          "id": "r1",
+          "text": "The jet engine"
+        },
+        {
+          "id": "r2",
+          "text": "The IVF (in-vitro fertilisation) therapy"
+        },
+        {
+          "id": "r3",
+          "text": "The structure of the DNA molecule"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/Q7.Francis-crick-discovered-structure-DNA-molecule.m4a",
+      "question": "What did Francis Crick discover?",
+      "explanation": "Francis Crick discovered the structure of the DNA molecule.",
+      "id": "exam-08-q07",
+      "number": 7,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "The structure of the DNA molecule"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "Francis Crick discovered the structure of the DNA molecule.",
+        "why_correct_zh": "弗朗西斯·克里克发现了 DNA 分子的结构。",
+        "answer_summary_zh": "正确选项：The structure of the DNA molecule。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Francis Crick"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q07.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What did Francis Crick discover?”及正确答案“The structure of the DNA molecule”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p7",
+      "category_id": "83",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-8.Northern-ireland-scotland-own-banknotes-valid-everywhere-uk.m4a",
+      "question": "Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.",
+      "explanation": "This statement is true.",
+      "id": "exam-08-q08",
+      "number": 8,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.1 The UK today",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Authorised banks in Scotland and Northern Ireland issue genuine pound sterling notes that may circulate throughout the UK. They are not legal tender everywhere, however, and an individual business may decide which forms of payment it accepts.",
+        "why_correct_zh": "本题答案是True。苏格兰和北爱尔兰获授权的银行都可以发行自己的英镑纸币，这些纸币代表pound sterling，可在英国各地使用。\n\n不过它们不是legal tender，商家可以拒收。因此“valid everywhere”表示它们是有效货币，并不表示每家商店都必须接受。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Northern Ireland and Scotland",
+          "UK"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "bank-england-legal-tender"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q08.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "bank-england-legal-tender"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p8",
+      "category_id": "89",
+      "options": [
+        {
+          "id": "r0",
+          "text": "25"
+        },
+        {
+          "id": "r1",
+          "text": "15"
+        },
+        {
+          "id": "r2",
+          "text": "18"
+        },
+        {
+          "id": "r3",
+          "text": "42"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-9.national-parks-england-wales-scotland-15.m4a",
+      "question": "How many national parks are there in England, Wales and Scotland?",
+      "explanation": "There are 15 national parks in England, Wales and Scotland.",
+      "id": "exam-08-q09",
+      "number": 9,
+      "type": "single",
+      "correct_option_ids": [
+        "r1"
+      ],
+      "correct_answers": [
+        "15"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.7 Places of interest",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "There are 15 national parks in England, Wales and Scotland.",
+        "why_correct_zh": "英格兰、威尔士和苏格兰有 15 个国家公园。",
+        "answer_summary_zh": "正确选项：15。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "national park",
+          "England",
+          "Wales and Scotland"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "historic-england-list"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q09.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How many national parks are there in England, Wales and Scotland?”及正确答案“15”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "historic-england-list"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p9",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Yes"
+        },
+        {
+          "id": "r2",
+          "text": "No"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-10.northern-ireland-part-great-britain.m4a",
+      "question": "Is Northern Ireland part of Great Britain?",
+      "explanation": "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland.",
+      "id": "exam-08-q10",
+      "number": 10,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "No"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland.",
+        "why_correct_zh": "“大不列颠”仅指英格兰、苏格兰和威尔士，而不是北爱尔兰。",
+        "answer_summary_zh": "正确选项：No。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Is Northern Ireland",
+          "Great Britain"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q10.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Is Northern Ireland part of Great Britain?”及正确答案“No”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p10",
+      "category_id": "88",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The owner’s address"
+        },
+        {
+          "id": "r1",
+          "text": "The owner’s name"
+        },
+        {
+          "id": "r2",
+          "text": "The dog’s breed"
+        },
+        {
+          "id": "r3",
+          "text": "The dog’s name"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-11.dogs-collar-should-have.m4a",
+      "question": "If you are a dog owner, which two things should your dog’s collar have when you go out for a walk?",
+      "explanation": "All dogs in public places must wear a collar showing the name and address of the owner.",
+      "id": "exam-08-q11",
+      "number": 11,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r1"
+      ],
+      "correct_answers": [
+        "The owner’s address",
+        "The owner’s name"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.6 Leisure",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "All dogs in public places must wear a collar showing the name and address of the owner.",
+        "why_correct_zh": "公共场所的所有狗都必须佩戴显示主人姓名和地址的项圈。",
+        "answer_summary_zh": "正确选项：The owner’s address；The owner’s name。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "If"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q11.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“If you are a dog owner, which two things should your dog’s collar have when you go out for a walk?”及正确答案“The owner’s address；The owner’s name”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p11",
+      "category_id": "85",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Good Friday"
+        },
+        {
+          "id": "r1",
+          "text": "Easter Sunday"
+        },
+        {
+          "id": "r2",
+          "text": "Easter Monday"
+        },
+        {
+          "id": "r3",
+          "text": "Ash Wednesday"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-12.day-death-jesus-christ-good-friday.m4a",
+      "question": "What day relates to the death of Jesus Christ?",
+      "explanation": "Easter takes place in March or April. It marks the death of Jesus Christ on Good Friday and his rising from the dead on Easter Sunday.",
+      "id": "exam-08-q12",
+      "number": 12,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "Good Friday"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.3 Customs and traditions",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Easter takes place in March or April. It marks the death of Jesus Christ on Good Friday and his rising from the dead on Easter Sunday.",
+        "why_correct_zh": "复活节在三月或四月举行。它标志着耶稣基督在耶稣受难日的死亡和复活节星期日的复活。",
+        "answer_summary_zh": "正确选项：Good Friday。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Jesus Christ"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-bank-holidays"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q12.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What day relates to the death of Jesus Christ?”及正确答案“Good Friday”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-bank-holidays"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p12",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "County"
+        },
+        {
+          "id": "r1",
+          "text": "Estate"
+        },
+        {
+          "id": "r2",
+          "text": "District"
+        },
+        {
+          "id": "r3",
+          "text": "Constituency"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/Q.13.responsibility-mps-represent-everyone-in-constituency.m4a",
+      "question": "A responsibility of the MPs is to represent everyone in their _______.",
+      "explanation": "A responsibility of the MPs is to represent everyone in their constituency.",
+      "id": "exam-08-q13",
+      "number": 13,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "Constituency"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "A responsibility of the MPs is to represent everyone in their constituency.",
+        "why_correct_zh": "议员的责任是代表其选区的每个人。",
+        "answer_summary_zh": "正确选项：Constituency。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "responsibility"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q13.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“A responsibility of the MPs is to represent everyone in their _______.”及正确答案“Constituency”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p13",
+      "category_id": "73",
+      "options": [
+        {
+          "id": "r0",
+          "text": "It restricted the King’s power"
+        },
+        {
+          "id": "r1",
+          "text": "It increased the King’s power"
+        },
+        {
+          "id": "r2",
+          "text": "It restricted the rights of the farmers"
+        },
+        {
+          "id": "r3",
+          "text": "It increased women’s power"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/Q14.achieved-magna-carta-restricted-kings-power.m4a",
+      "question": "What was achieved with the Magna Carta?",
+      "explanation": "The Magna Carta established the idea that even the king was subject to the law. It protected the rights of the nobility and restricted the king’s power to collect taxes or to make and change laws. In future, the king would need to involve his noblemen in decisions.",
+      "id": "exam-08-q14",
+      "number": 14,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "It restricted the King’s power"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.2 The Middle Ages",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The Magna Carta established the idea that even the king was subject to the law. It protected the rights of the nobility and restricted the king’s power to collect taxes or to make and change laws. In future, the king would need to involve his noblemen in decisions.",
+        "why_correct_zh": "《大宪章》确立了即使国王也必须遵守法律的观念。它保护贵族的权利，并限制国王征税或制定和修改法律的权力。将来，国王需要让他的贵族参与决策。",
+        "answer_summary_zh": "正确选项：It restricted the King’s power。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Magna Carta"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-magna-carta"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q14.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What was achieved with the Magna Carta?”及正确答案“It restricted the King’s power”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-magna-carta"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p14",
+      "category_id": "98",
+      "options": [
+        {
+          "id": "r0",
+          "text": "True"
+        },
+        {
+          "id": "r2",
+          "text": "False"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-15.female-genital-mutilation-criminal-offence.m4a",
+      "question": "Female genital mutilation (FGM) or taking a girl or woman abroad for FGM is illegal in the UK and it is a criminal offence.",
+      "explanation": "This statement is true.",
+      "id": "exam-08-q15",
+      "number": 15,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "True"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "5.6 Fundamental principles",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "Female genital mutilation is a criminal offence in the UK. UK law also makes it an offence to take a girl or woman abroad for FGM, preventing the prohibition from being avoided by carrying out the procedure in another country.",
+        "why_correct_zh": "本题答案是True。FGM（女性生殖器切割）在英国属于刑事犯罪；安排或协助实施也违法。把英国国民或永久居民带到国外接受FGM，或协助这样做，同样可能构成犯罪。",
+        "answer_summary_zh": "正确选项：True。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Female",
+          "FGM",
+          "UK and"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "govuk-fgm-help"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q15.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Female genital mutilation (FGM) or taking a girl or woman abroad for FGM is illegal in the UK and it is a criminal offence.”及正确答案“True”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "govuk-fgm-help"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p15",
+      "category_id": "79",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1918"
+        },
+        {
+          "id": "r1",
+          "text": "1925"
+        },
+        {
+          "id": "r2",
+          "text": "1949"
+        },
+        {
+          "id": "r3",
+          "text": "1914"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-16.year-women-given-right-to-vote-1918.m4a",
+      "question": "What year were women given the right to vote?",
+      "explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+      "id": "exam-08-q16",
+      "number": 16,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "1918"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.4 A global power",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.",
+        "why_correct_zh": "1918年，30岁以上的女性被赋予投票权和代表议会的权利，部分是为了表彰女性在第一次世界大战期间为战争做出的贡献。",
+        "answer_summary_zh": "正确选项：1918。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "right to vote"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q16.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What year were women given the right to vote?”及正确答案“1918”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p16",
+      "category_id": "70",
+      "options": [
+        {
+          "id": "r0",
+          "text": "St Helena"
+        },
+        {
+          "id": "r1",
+          "text": "Solomon Islands"
+        },
+        {
+          "id": "r2",
+          "text": "Mauritius"
+        },
+        {
+          "id": "r3",
+          "text": "The Falkland Islands"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-17.british-overseas-territories-falkland-islands-st-helena.m4a",
+      "question": "Which two of the following are British overseas territories?",
+      "explanation": "There are several British overseas territories, such as St Helena and the Falkland Islands. They are linked to the UK but are not part of it.",
+      "id": "exam-08-q17",
+      "number": 17,
+      "type": "multiple",
+      "correct_option_ids": [
+        "r0",
+        "r3"
+      ],
+      "correct_answers": [
+        "St Helena",
+        "The Falkland Islands"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "2.1 What is the UK?",
+      "handbook_locator": "Chapter 2: What is the UK?",
+      "learning": {
+        "why_correct_en": "There are several British overseas territories, such as St Helena and the Falkland Islands. They are linked to the UK but are not part of it.",
+        "why_correct_zh": "有几个英国海外领土，例如圣赫勒拿岛和福克兰群岛。它们与英国有联系，但不属于英国。",
+        "answer_summary_zh": "正确选项：St Helena；The Falkland Islands。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "British"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "ons-uk-geographies"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q17.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Which two of the following are British overseas territories?”及正确答案“St Helena；The Falkland Islands”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "ons-uk-geographies"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p17",
+      "category_id": "78",
+      "options": [
+        {
+          "id": "r0",
+          "text": "The Normans"
+        },
+        {
+          "id": "r1",
+          "text": "The Romans"
+        },
+        {
+          "id": "r2",
+          "text": "The Spanish Armada"
+        },
+        {
+          "id": "r3",
+          "text": "The Saxons"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-18.english-defeated-spanish-armada-1588.m4a",
+      "question": "Who did the English defeat in 1588?",
+      "explanation": "In 1588 the English defeated the Spanish Armada (a large fleet of ships).",
+      "id": "exam-08-q18",
+      "number": 18,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "The Spanish Armada"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.3 The Tudors and Stuarts",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "In 1588 the English defeated the Spanish Armada (a large fleet of ships).",
+        "why_correct_zh": "1588 年，英国人击败了西班牙无敌舰队（一支大型舰队）。",
+        "answer_summary_zh": "正确选项：The Spanish Armada。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "English",
+          "1588"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q18.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who did the English defeat in 1588?”及正确答案“The Spanish Armada”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p18",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Sir Norman Foster"
+        },
+        {
+          "id": "r1",
+          "text": "Lancelot ‘Capability’ Brown"
+        },
+        {
+          "id": "r2",
+          "text": "Sir Edwin Lutyens"
+        },
+        {
+          "id": "r3",
+          "text": "Isambard Kingdom Brunel"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-19.who-designed-cenotaph-sir-edwin-lutyens.m4a",
+      "question": "Who designed the Cenotaph?",
+      "explanation": "Sir Edwin Lutyens was responsible for designing many war memorials throughout the world, including the Cenotaph in Whitehall.",
+      "id": "exam-08-q19",
+      "number": 19,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Sir Edwin Lutyens"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "Sir Edwin Lutyens was responsible for designing many war memorials throughout the world, including the Cenotaph in Whitehall.",
+        "why_correct_zh": "埃德温·勒琴斯爵士负责设计世界各地的许多战争纪念馆，包括白厅的和平纪念碑。",
+        "answer_summary_zh": "正确选项：Sir Edwin Lutyens。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Cenotaph"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q19.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“Who designed the Cenotaph?”及正确答案“Sir Edwin Lutyens”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p19",
+      "category_id": "93",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Every 5 years"
+        },
+        {
+          "id": "r1",
+          "text": "Every 2 years"
+        },
+        {
+          "id": "r2",
+          "text": "Every 4 years"
+        },
+        {
+          "id": "r3",
+          "text": "Every 3 years"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-20.how-often-members-welsh-government-elected-4-years.m4a",
+      "question": "How often are the members of the Welsh government elected?",
+      "explanation": "There are 60 members of the Welsh government or members of the Senedd (SMs) and elections are held every four years using a form of proportional representation.",
+      "id": "exam-08-q20",
+      "number": 20,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Every 4 years"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "5.3 The government",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "There are 60 members of the Welsh government or members of the Senedd (SMs) and elections are held every four years using a form of proportional representation.",
+        "why_correct_zh": "威尔士政府有 60 名成员或参议院 (SM) 成员，每四年举行一次选举，采用比例代表制形式。",
+        "answer_summary_zh": "正确选项：Every 4 years。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Welsh"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q20.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“How often are the members of the Welsh government elected?”及正确答案“Every 4 years”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p20",
+      "category_id": "81",
+      "options": [
+        {
+          "id": "r0",
+          "text": "1960s"
+        },
+        {
+          "id": "r1",
+          "text": "1970s"
+        },
+        {
+          "id": "r2",
+          "text": "1980s"
+        },
+        {
+          "id": "r3",
+          "text": "1950s"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-21.beatles-popular-and-social-laws-liberalised-1960s.m4a",
+      "question": "During which period did the Beatles become popular and social laws were liberalised?",
+      "explanation": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music. Two well-known pop music groups at the time were The Beatles and The Rolling Stones. It was also a time when social laws were liberalised, for example in relation to divorce and to abortion in England, Wales and Scotland. The position of women in the workplace also improved.",
+      "id": "exam-08-q21",
+      "number": 21,
+      "type": "single",
+      "correct_option_ids": [
+        "r0"
+      ],
+      "correct_answers": [
+        "1960s"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "3.6 Britain since 1945",
+      "handbook_locator": "Chapter 3: A long and illustrious history",
+      "learning": {
+        "why_correct_en": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music. Two well-known pop music groups at the time were The Beatles and The Rolling Stones. It was also a time when social laws were liberalised, for example in relation to divorce and to abortion in England, Wales and Scotland. The position of women in the workplace also improved.",
+        "why_correct_zh": "20世纪60年代是社会发生重大变革的时期。它被称为“摇摆的六十年代”。英国时尚、电影和流行音乐都有增长。当时两个著名的流行音乐团体是披头士乐队和滚石乐队。这也是社会法律自由化的时期，例如英格兰、威尔士和苏格兰的离婚和堕胎问题。女性在职场中的地位也有所提高。",
+        "answer_summary_zh": "正确选项：1960s。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Beatles"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "national-archives-education"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q21.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“During which period did the Beatles become popular and social laws were liberalised?”及正确答案“1960s”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "national-archives-education"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p21",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Films"
+        },
+        {
+          "id": "r1",
+          "text": "Sport"
+        },
+        {
+          "id": "r2",
+          "text": "Literature"
+        },
+        {
+          "id": "r3",
+          "text": "Music"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-22.man-booker-prize-awards-literature.m4a",
+      "question": "The Man Booker Prize is awarded in which of the following categories?",
+      "explanation": "The Man Booker Prize for Fiction is awarded annually for the best fiction novel (literature) written by an author from the Commonwealth, Ireland or Zimbabwe. It has been awarded since 1968. Past winners include Ian McEwan, Hilary Mantel and Julian Barnes.",
+      "id": "exam-08-q22",
+      "number": 22,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "Literature"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Man Booker Prize for Fiction is awarded annually for the best fiction novel (literature) written by an author from the Commonwealth, Ireland or Zimbabwe. It has been awarded since 1968. Past winners include Ian McEwan, Hilary Mantel and Julian Barnes.",
+        "why_correct_zh": "曼布克小说奖每年颁发给来自英联邦、爱尔兰或津巴布韦的作家所写的最佳小说（文学）。该奖项自 1968 年开始颁发。过去的获奖者包括伊恩·麦克尤恩 (Ian McEwan)、希拉里·曼特尔 (Hilary Mantel) 和朱利安·巴恩斯 (Julian Barnes)。",
+        "answer_summary_zh": "正确选项：Literature。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "The Man Booker Prize"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q22.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“The Man Booker Prize is awarded in which of the following categories?”及正确答案“Literature”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p22",
+      "category_id": "92",
+      "options": [
+        {
+          "id": "r0",
+          "text": "Coalition"
+        },
+        {
+          "id": "r1",
+          "text": "Pre-selection"
+        },
+        {
+          "id": "r2",
+          "text": "Random selection"
+        },
+        {
+          "id": "r3",
+          "text": "By-election"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-23.member-parliament-dies-or-resigns-by-election.m4a",
+      "question": "What sort of election takes place when a member of the Parliament (MP) dies or resigns?",
+      "explanation": "If an MP dies or resigns, there will be a fresh election, called a by-election, in his or her constituency.",
+      "id": "exam-08-q23",
+      "number": 23,
+      "type": "single",
+      "correct_option_ids": [
+        "r3"
+      ],
+      "correct_answers": [
+        "By-election"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "5.2 The British constitution",
+      "handbook_locator": "Chapter 5: The UK government, the law and your role",
+      "learning": {
+        "why_correct_en": "If an MP dies or resigns, there will be a fresh election, called a by-election, in his or her constituency.",
+        "why_correct_zh": "如果国会议员去世或辞职，他或她的选区将举行新的选举，称为补选。",
+        "answer_summary_zh": "正确选项：By-election。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Parliament",
+          "MP"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook",
+        "parliament-how-it-works"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q23.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What sort of election takes place when a member of the Parliament (MP) dies or resigns?”及正确答案“By-election”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook",
+          "parliament-how-it-works"
+        ]
+      },
+      "film_connection": null
+    },
+    {
+      "page_question_id": "p23",
+      "category_id": "87",
+      "options": [
+        {
+          "id": "r0",
+          "text": "A literature award"
+        },
+        {
+          "id": "r1",
+          "text": "A music award"
+        },
+        {
+          "id": "r2",
+          "text": "A contemporary art award"
+        },
+        {
+          "id": "r3",
+          "text": "A theatre award"
+        }
+      ],
+      "audio_url": "https://ahorrativa.es/audios/BCT8/BCT8.Q-24.what-is-the-turner-prize-contemporary-art-award.m4a",
+      "question": "What is the Turner Prize?",
+      "explanation": "The Turner Prize was established in 1984 and celebrates contemporary art. The Turner Prize is recognised as one of the most prestigious visual art awards in Europe.",
+      "id": "exam-08-q24",
+      "number": 24,
+      "type": "single",
+      "correct_option_ids": [
+        "r2"
+      ],
+      "correct_answers": [
+        "A contemporary art award"
+      ],
+      "exam_number": 8,
+      "source_url": "https://lifeintheuktestweb.co.uk/british-citizenship-test-8/",
+      "category_name": "4.5 Arts and culture",
+      "handbook_locator": "Chapter 4: A modern, thriving society",
+      "learning": {
+        "why_correct_en": "The Turner Prize was established in 1984 and celebrates contemporary art. The Turner Prize is recognised as one of the most prestigious visual art awards in Europe.",
+        "why_correct_zh": "特纳奖成立于 1984 年，旨在表彰当代艺术。特纳奖被公认为欧洲最负盛名的视觉艺术奖项之一。",
+        "answer_summary_zh": "正确选项：A contemporary art award。",
+        "source_note_zh": "官方教材是答案和考试范围的主要依据；其他权威来源用于补充该主题背景。",
+        "keywords": [
+          "Turner Prize"
+        ]
+      },
+      "authoritative_source_ids": [
+        "official-handbook"
+      ],
+      "visual": {
+        "src": "/images/ai/exam-08-q24.webp",
+        "kind": "ai_learning_illustration",
+        "display_after_answer": true,
+        "alt_zh": "根据题目“What is the Turner Prize?”及正确答案“A contemporary art award”生成的AI学习插图。",
+        "fact_source_ids": [
+          "official-handbook"
+        ]
+      },
+      "film_connection": null
+    }
+  ]
+}
