@@ -3,9 +3,9 @@ import { useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
 import { normalizeEnglishPunctuation } from "../services/englishPunctuation";
 import { answersMatch } from "../services/exam";
-import { getQuestionVisual } from "../services/questionVisual";
 import { publicAssetUrl } from "../services/publicAsset";
 import type { AuthoritySource, Question } from "../types/questions";
+import { QuestionVisual } from "./QuestionVisual";
 import { Typography } from "./Typography";
 
 interface AnswerExplanationProps {
@@ -16,7 +16,6 @@ interface AnswerExplanationProps {
 
 export function AnswerExplanation({ question, selected, sources }: AnswerExplanationProps) {
   const { language, t } = useLanguage();
-  const visual = getQuestionVisual(question, language);
   const explanation = language === "zh"
     ? question.learning.why_correct_zh
     : normalizeEnglishPunctuation(question.learning.why_correct_en);
@@ -29,14 +28,7 @@ export function AnswerExplanation({ question, selected, sources }: AnswerExplana
         </Typography>
         <Typography as="h2" variant="title">{t("whyAnswer")}</Typography>
       </header>
-      <figure className={`answer-visual answer-visual--${visual.kind}`}>
-        <img src={visual.src} alt={visual.alt} loading="lazy" />
-        {visual.credit && visual.creditUrl ? (
-          <Typography as="figcaption" variant="utility" className="answer-visual__credit">
-            <a href={visual.creditUrl} target="_blank" rel="noreferrer">{visual.credit}</a>
-          </Typography>
-        ) : null}
-      </figure>
+      <QuestionVisual question={question} language={language} />
       <section className="answer-copy">
         {explanation.split(/\n\n+/).map((paragraph) => (
           <Typography key={paragraph} as="p" variant="body">{paragraph}</Typography>

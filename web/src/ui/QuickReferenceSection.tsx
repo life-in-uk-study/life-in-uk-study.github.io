@@ -15,6 +15,7 @@ import {
 } from "../services/quickReference";
 import { useLanguage } from "../i18n/LanguageContext";
 import { Typography } from "./Typography";
+import { QuestionVisual } from "./QuestionVisual";
 
 interface QuickReferenceSectionProps {
   section: QuickReferenceSectionData;
@@ -208,23 +209,26 @@ function QuickReferenceExplanationView({ detail, language, loading, failed }: {
 
   return (
     <div className="quick-reference-explanation">
-      <Typography as="p" variant="label">{t("quickReferenceExplanationTitle")}</Typography>
-      <div className="quick-reference-explanation__copy">
-        {explanation.split(/\n\n+/).map((paragraph) => (
-          <Typography key={paragraph} as="p" variant="body">{paragraph}</Typography>
-        ))}
-      </div>
-      {detail.sources.length > 0 ? (
-        <div className="quick-reference-explanation__sources">
-          <Typography as="p" variant="label">{t("authoritySources")}</Typography>
-          {detail.sources.map((source) => (
-            <a key={source.url} className="source-link" href={source.url} target="_blank" rel="noreferrer">
-              <Typography as="span" variant="body">{source.title}</Typography>
-              <Typography as="span" variant="utility">{source.publisher}</Typography>
-            </a>
+      <div className="quick-reference-explanation__text">
+        <Typography as="p" variant="label">{t("quickReferenceExplanationTitle")}</Typography>
+        <div className="quick-reference-explanation__copy">
+          {explanation.split(/\n\n+/).map((paragraph) => (
+            <Typography key={paragraph} as="p" variant="body">{paragraph}</Typography>
           ))}
         </div>
-      ) : null}
+        {detail.sources.length > 0 ? (
+          <div className="quick-reference-explanation__sources">
+            <Typography as="p" variant="label">{t("authoritySources")}</Typography>
+            {detail.sources.map((source) => (
+              <a key={source.url} className="source-link" href={source.url} target="_blank" rel="noreferrer">
+                <Typography as="span" variant="body">{source.title}</Typography>
+                <Typography as="span" variant="utility">{source.publisher}</Typography>
+              </a>
+            ))}
+          </div>
+        ) : null}
+      </div>
+      <QuestionVisual question={detail.question} language={language} className="quick-reference-explanation__visual" />
     </div>
   );
 }

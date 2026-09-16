@@ -79,7 +79,7 @@ const examData = {
       keywords: ["Julius Caesar"],
     },
     authoritative_source_ids: ["handbook"],
-    visual: { src: "", kind: "illustration", display_after_answer: true, alt_zh: "", fact_source_ids: [] },
+    visual: { src: "/images/questions/roman-invasion.png", kind: "ai_learning_illustration", display_after_answer: true, alt_zh: "Julius Caesar率领罗马军队渡海远征不列颠的学习图。", fact_source_ids: [] },
     film_connection: null,
   })),
 };
@@ -115,6 +115,9 @@ describe("quick-reference chapter disclosures", () => {
     const explanationToggle = screen.getByRole("button", { name: /展开答案解析：Who led the first invasion of Britain/ });
     await user.click(explanationToggle);
     expect(await screen.findByText("Julius Caesar在公元前55年和54年率领罗马军队远征不列颠。")).toBeTruthy();
+    const visual = screen.getByRole("img", { name: "Julius Caesar率领罗马军队渡海远征不列颠的学习图。" });
+    expect(visual.getAttribute("src")).toBe("/images/questions/roman-invasion.png");
+    expect(visual.getAttribute("loading")).toBe("lazy");
     expect(screen.getByRole("link", { name: /Life in the United Kingdom/ })).toBeTruthy();
     expect(fetch).toHaveBeenCalledWith("/data/exams/exam-01.json");
     expect(screen.getByRole("button", { name: /收起答案解析：Who led the first invasion of Britain/ }).getAttribute("aria-expanded")).toBe("true");
