@@ -1,4 +1,6 @@
 import { publicAssetUrl } from "./publicAsset";
+import { loadQuestionBank } from "./questionBank";
+import type { AuthoritySource, Question } from "../types/questions";
 
 export interface QuickReferenceRow {
   topic_id?: string;
@@ -32,6 +34,11 @@ export interface QuickReferenceData {
   sections: QuickReferenceSection[];
 }
 
+export interface QuickReferenceExplanation {
+  question: Question;
+  sources: AuthoritySource[];
+}
+
 export interface QuickReferenceSubsection {
   id: string;
   title_en: string;
@@ -50,6 +57,22 @@ export interface QuickReferenceDetailGroup {
 
 export function countReferencedQuestions(rows: QuickReferenceRow[]): number {
   return rows.reduce((total, row) => total + row.question_ids.length, 0);
+}
+
+export async function loadQuickReferenceExplanation(questionId: string): Promise<QuickReferenceExplanation> {
+  const match = /^exam-(\d{2})-q\d{2}$/.exec(questionId);
+  if (!match) throw new Error(`Invalid question ID: ${questionId}`);
+
+  const bank = await loadQuestionBank(Number(match[1]));
+  const question = bank.questions.find((candidate) => candidate.id === questionId);
+  if (!question) throw new Error(`Question not found: ${questionId}`);
+
+  return {
+    question,
+    sources: question.authoritative_source_ids
+      .map((sourceId) => bank.authority_sources[sourceId])
+      .filter((source): source is AuthoritySource => Boolean(source)),
+  };
 }
 
 export function buildQuickReferenceDetailGroups(rows: QuickReferenceRow[]): QuickReferenceDetailGroup[] {

@@ -47,12 +47,49 @@ const quickReferenceData = {
   ],
 };
 
+const examData = {
+  dataset: "test",
+  exam_number: 1,
+  question_count: 24,
+  authority_sources: {
+    handbook: {
+      title: "Life in the United Kingdom: A Guide for New Residents",
+      publisher: "Home Office",
+      url: "https://www.gov.uk/government/publications/life-in-the-united-kingdom-a-guide-for-new-residents",
+      authority: "official",
+      note_zh: "官方考试手册",
+    },
+  },
+  questions: Array.from({ length: 24 }, (_, index) => ({
+    id: `exam-01-q${String(index + 1).padStart(2, "0")}`,
+    number: index + 1,
+    exam_number: 1,
+    question: index === 0 ? "Who led the first invasion of Britain?" : `Question ${index + 1}`,
+    type: "single",
+    options: [{ id: "a", text: "Julius Caesar" }],
+    correct_option_ids: ["a"],
+    correct_answers: ["Julius Caesar"],
+    explanation: "Julius Caesar led the first Roman invasion.",
+    category_name: "History",
+    handbook_locator: "History",
+    learning: {
+      why_correct_en: "Julius Caesar led Roman expeditions to Britain in 55 and 54 BC.",
+      why_correct_zh: "Julius Caesar在公元前55年和54年率领罗马军队远征不列颠。",
+      answer_summary_zh: "Julius Caesar",
+      keywords: ["Julius Caesar"],
+    },
+    authoritative_source_ids: ["handbook"],
+    visual: { src: "", kind: "illustration", display_after_answer: true, alt_zh: "", fact_source_ids: [] },
+    film_connection: null,
+  })),
+};
+
 describe("quick-reference chapter disclosures", () => {
   beforeEach(() => {
-    vi.stubGlobal("fetch", vi.fn().mockResolvedValue({
+    vi.stubGlobal("fetch", vi.fn().mockImplementation((url: string) => Promise.resolve({
       ok: true,
-      json: async () => quickReferenceData,
-    }));
+      json: async () => url.includes("/data/exams/") ? examData : quickReferenceData,
+    })));
   });
 
   afterEach(() => {
@@ -74,5 +111,12 @@ describe("quick-reference chapter disclosures", () => {
     expect(screen.getByRole("heading", { name: /罗马时期/ })).toBeTruthy();
     expect(screen.getByRole("heading", { name: /罗马入侵/ })).toBeTruthy();
     expect(politicsToggle.getAttribute("aria-expanded")).toBe("false");
+
+    const explanationToggle = screen.getByRole("button", { name: /展开答案解析：Who led the first invasion of Britain/ });
+    await user.click(explanationToggle);
+    expect(await screen.findByText("Julius Caesar在公元前55年和54年率领罗马军队远征不列颠。")).toBeTruthy();
+    expect(screen.getByRole("link", { name: /Life in the United Kingdom/ })).toBeTruthy();
+    expect(fetch).toHaveBeenCalledWith("/data/exams/exam-01.json");
+    expect(screen.getByRole("button", { name: /收起答案解析：Who led the first invasion of Britain/ }).getAttribute("aria-expanded")).toBe("true");
   });
 });

@@ -1,11 +1,15 @@
 import { CaretDown } from "@phosphor-icons/react";
+import { useState } from "react";
 import type { Language } from "../i18n/translations";
 import { normalizeEnglishPunctuation } from "../services/englishPunctuation";
 import {
   buildQuickReferenceDetailGroups,
   buildQuickReferenceSubsections,
   countReferencedQuestions,
+  loadQuickReferenceExplanation,
+  type QuickReferenceExplanation,
   type QuickReferenceDetailGroup,
+  type QuickReferenceRow,
   type QuickReferenceSection as QuickReferenceSectionData,
   type QuickReferenceSubsection,
 } from "../services/quickReference";
@@ -122,14 +126,105 @@ function QuickReferenceDetailGroupView({ group, language }: {
           <thead><tr><th scope="col">{t("quickReferenceTopic")}</th><th scope="col">{t("quickReferenceAnswer")}</th></tr></thead>
           <tbody>
             {group.rows.map((row) => (
-              <tr key={row.question_ids.join("-")}>
-                <td>{normalizeEnglishPunctuation(row.prompts[0])}</td>
-                <td className="quick-reference-answer">{normalizeEnglishPunctuation(row.answers.join(" · "))}</td>
-              </tr>
+              <QuickReferenceRowView key={row.question_ids.join("-")} row={row} language={language} />
             ))}
           </tbody>
         </table>
       </div>
     </section>
+  );
+}
+
+function QuickReferenceRowView({ row, language }: { row: QuickReferenceRow; language: Language }) {
+  const { t } = useLanguage();
+  const [expanded, setExpanded] = useState(false);
+  const [detail, setDetail] = useState<QuickReferenceExplanation | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const question = normalizeEnglishPunctuation(row.prompts[0]);
+  const answer = normalizeEnglishPunctuation(row.answers.join(" · "));
+  const rowId = `quick-reference-row-${row.question_ids.join("-")}`;
+
+  const toggleExplanation = async () => {
+    if (expanded) {
+      setExpanded(false);
+      return;
+    }
+
+    setExpanded(true);
+    if (detail || loading) return;
+
+    setLoading(true);
+    setFailed(false);
+    try {
+      setDetail(await loadQuickReferenceExplanation(row.question_ids[0]));
+    } catch {
+      setFailed(true);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <>
+      <tr className="quick-reference-question-row">
+        <td colSpan={2}>
+          <button
+            type="button"
+            className="quick-reference-row-toggle"
+            aria-expanded={expanded}
+            aria-controls={`${rowId}-explanation`}
+            aria-label={t(expanded ? "quickReferenceCollapseExplanation" : "quickReferenceExpandExplanation", { question })}
+            onClick={toggleExplanation}
+          >
+            <span className="quick-reference-row-toggle__question">{question}</span>
+            <span className="quick-reference-answer">{answer}</span>
+            <CaretDown aria-hidden="true" />
+          </button>
+        </td>
+      </tr>
+      <tr className="quick-reference-explanation-row" hidden={!expanded}>
+        <td colSpan={2} id={`${rowId}-explanation`}>
+          <QuickReferenceExplanationView detail={detail} language={language} loading={loading} failed={failed} />
+        </td>
+      </tr>
+    </>
+  );
+}
+
+function QuickReferenceExplanationView({ detail, language, loading, failed }: {
+  detail: QuickReferenceExplanation | null;
+  language: Language;
+  loading: boolean;
+  failed: boolean;
+}) {
+  const { t } = useLanguage();
+  if (loading) return <Typography as="p" variant="body">{t("quickReferenceExplanationLoading")}</Typography>;
+  if (failed || !detail) return <Typography as="p" variant="body">{t("quickReferenceExplanationError")}</Typography>;
+
+  const explanation = language === "zh"
+    ? detail.question.learning.why_correct_zh
+    : normalizeEnglishPunctuation(detail.question.learning.why_correct_en);
+
+  return (
+    <div className="quick-reference-explanation">
+      <Typography as="p" variant="label">{t("quickReferenceExplanationTitle")}</Typography>
+      <div className="quick-reference-explanation__copy">
+        {explanation.split(/\n\n+/).map((paragraph) => (
+          <Typography key={paragraph} as="p" variant="body">{paragraph}</Typography>
+        ))}
+      </div>
+      {detail.sources.length > 0 ? (
+        <div className="quick-reference-explanation__sources">
+          <Typography as="p" variant="label">{t("authoritySources")}</Typography>
+          {detail.sources.map((source) => (
+            <a key={source.url} className="source-link" href={source.url} target="_blank" rel="noreferrer">
+              <Typography as="span" variant="body">{source.title}</Typography>
+              <Typography as="span" variant="utility">{source.publisher}</Typography>
+            </a>
+          ))}
+        </div>
+      ) : null}
+    </div>
   );
 }
