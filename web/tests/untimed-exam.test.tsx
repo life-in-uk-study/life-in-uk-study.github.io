@@ -9,7 +9,7 @@ describe("untimed exam status", () => {
   it("shows progress without a countdown", () => {
     render(
       <LanguageProvider>
-        <ExamStatusBar examNumber={3} current={7} total={24} />
+        <ExamStatusBar title="Exam 3" current={7} total={24} />
       </LanguageProvider>,
     );
 

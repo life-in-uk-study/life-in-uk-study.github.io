@@ -7,7 +7,7 @@
 .home-intro__visual { position: absolute; z-index: -1; inset: 0; margin: 0; overflow: hidden; }
 .home-intro__visual img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .home-reference-section, .home-exams-section { width: min(calc(100% - 2 * var(--page-gutter)), var(--content-max)); margin-inline: auto; }
-.home-reference-section { position: relative; z-index: 2; margin-top: calc(-1 * var(--space-6)); margin-bottom: var(--space-12); padding-inline: clamp(var(--space-4), 4vw, var(--space-10)); }
+.home-reference-section { position: relative; z-index: 2; display: grid; gap: var(--space-3); margin-top: calc(-1 * var(--space-6)); margin-bottom: var(--space-12); padding-inline: clamp(var(--space-4), 4vw, var(--space-10)); }
 .home-reference-card { min-height: 8rem; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--space-6); padding: var(--space-5) var(--space-6); border: 1px solid rgba(196, 183, 158, 0.6); border-left: var(--space-1) solid var(--color-gold); border-radius: var(--radius-lg); color: var(--color-ink); background: rgba(255, 253, 247, 0.82); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.92), 0 1rem 2.5rem rgba(65, 48, 21, 0.1); backdrop-filter: blur(22px) saturate(1.25); -webkit-backdrop-filter: blur(22px) saturate(1.25); text-decoration: none; transition: background-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast); }
 .home-reference-card:hover { background: rgba(255, 253, 247, 0.94); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.96), 0 1.2rem 3rem rgba(65, 48, 21, 0.13); transform: translateY(-2px); }
 .home-reference-card__icon, .home-reference-card__action { display: grid; place-items: center; flex: 0 0 auto; border-radius: 50%; }
@@ -17,6 +17,8 @@
 .home-reference-card__description { max-width: 44rem; color: var(--color-ink-soft); }
 .home-reference-card__action { width: 3rem; height: 3rem; color: var(--color-coral-deep); background: rgba(255, 255, 255, 0.62); box-shadow: inset 0 1px 0 white, 0 0.4rem 1rem rgba(65, 48, 21, 0.08); }
 .home-reference-card__action svg { width: 1.5rem; height: 1.5rem; }
+.home-reference-card--random { min-height: 6.5rem; border-left-color: var(--color-coral); }
+.home-reference-card--random .home-reference-card__icon { color: var(--color-coral-deep); background: color-mix(in srgb, var(--color-coral) 10%, white); }
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: var(--space-6); margin-bottom: var(--space-8); }
 .section-heading svg { width: 2.5rem; height: 2.5rem; color: var(--color-coral); }
 .exam-rules-note { max-width: 34rem; color: var(--color-ink-soft); text-align: right; }
@@ -141,6 +143,7 @@
   .home-reference-card__description { font-size: var(--font-size-utility); line-height: 1.5; }
   .home-reference-card__action { width: 2.25rem; height: 2.25rem; }
   .home-reference-card__action svg { width: 1.25rem; height: 1.25rem; }
+  .home-reference-card--random { min-height: 5.75rem; }
   .home-exams-section .section-heading { flex-direction: row; align-items: end; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-4); }
   .home-exams-section .exam-rules-note { max-width: 14rem; font-size: var(--font-size-utility); text-align: right; }
   .exam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-2); }

@@ -1,5 +1,5 @@
 import { ArrowCounterClockwise, ArrowLeft, ArrowRight, BookOpenText, WarningCircle } from "@phosphor-icons/react";
-import { useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import { Navigate, useParams } from "react-router-dom";
 import { EXAM_CONFIG } from "../config/exam";
 import { useExamSession } from "../hooks/useExamSession";
@@ -28,24 +28,35 @@ export function ExamPage({ examResults, onExamCompleted, onExamReset }: ExamPage
   const { t } = useLanguage();
   const { examNumber: examParam } = useParams();
   const examNumber = Number(examParam);
+  const handleExamCompleted = useCallback(
+    (result: ExamResult) => onExamCompleted(examNumber, result),
+    [examNumber, onExamCompleted],
+  );
+  const handleExamReset = useCallback(
+    () => onExamReset(examNumber),
+    [examNumber, onExamReset],
+  );
   const validExamNumber = Number.isInteger(examNumber) && examNumber >= 1 && examNumber <= EXAM_CONFIG.examCount;
   const { bank, error } = useQuestionBank(validExamNumber ? examNumber : null);
   if (!validExamNumber) return <Navigate to="/" replace />;
   if (error) return <MessagePage icon={<WarningCircle />} title={t("questionBankError")} />;
   if (!bank) return <MessagePage title={t("loadingQuestions")} />;
-  return <LoadedExam bank={bank} examNumber={examNumber} questions={bank.questions} completedResult={examResults[examNumber]} onExamCompleted={onExamCompleted} onExamReset={onExamReset} />;
+  return <LoadedExam bank={bank} sessionId={examNumber} statusTitle={`Exam ${examNumber}`} questions={bank.questions} completedResult={examResults[examNumber]} onExamCompleted={handleExamCompleted} onExamReset={handleExamReset} />;
 }
 
 interface LoadedExamProps {
   bank: QuestionBank;
-  examNumber: number;
+  sessionId: number;
+  statusTitle: string;
   questions: Question[];
   completedResult?: ExamResult;
-  onExamCompleted: (examNumber: number, result: ExamResult) => void;
-  onExamReset: (examNumber: number) => void;
+  restartLabel?: string;
+  onExamCompleted?: (result: ExamResult) => void;
+  onExamReset?: () => void;
+  onQuestionSetReset?: () => void;
 }
 
-function LoadedExam({ bank, examNumber, questions, completedResult, onExamCompleted, onExamReset }: LoadedExamProps) {
+export function LoadedExam({ bank, sessionId, statusTitle, questions, completedResult, restartLabel, onExamCompleted, onExamReset, onQuestionSetReset }: LoadedExamProps) {
   const { t } = useLanguage();
   const reviewNavigation = useMemo(
     () => completedResult && !completedResult.passed
@@ -53,7 +64,7 @@ function LoadedExam({ bank, examNumber, questions, completedResult, onExamComple
       : null,
     [completedResult, questions],
   );
-  const exam = useExamSession(examNumber, questions);
+  const exam = useExamSession(sessionId, questions);
   const isComplete = exam.session.completedAt !== null;
   const isReviewMode = !isComplete && Boolean(completedResult && !completedResult.passed);
   const activeIndex = exam.session.currentIndex;
@@ -64,8 +75,8 @@ function LoadedExam({ bank, examNumber, questions, completedResult, onExamComple
   const finalScore = useMemo(() => isComplete ? scoreExam(questions, exam.session.answers) : null, [exam.session.answers, isComplete, questions]);
   useEffect(() => {
     if (finalScore === null) return;
-    onExamCompleted(examNumber, createExamResult(finalScore, exam.session.answers));
-  }, [exam.session.answers, examNumber, finalScore, onExamCompleted]);
+    onExamCompleted?.(createExamResult(finalScore, exam.session.answers));
+  }, [exam.session.answers, finalScore, onExamCompleted]);
   useEffect(() => {
     if (!isReviewMode || !reviewNavigation) return;
     exam.goToQuestion(reviewNavigation.firstIncorrectIndex);
@@ -84,7 +95,11 @@ function LoadedExam({ bank, examNumber, questions, completedResult, onExamComple
   const sources = currentQuestion?.authoritative_source_ids.map((sourceId) => bank.authority_sources[sourceId]).filter(Boolean) ?? [];
 
   const restartExam = () => {
-    onExamReset(examNumber);
+    onExamReset?.();
+    if (onQuestionSetReset) {
+      onQuestionSetReset();
+      return;
+    }
     exam.resetExam();
   };
 
@@ -103,18 +118,18 @@ function LoadedExam({ bank, examNumber, questions, completedResult, onExamComple
   return (
     <main className="exam-page">
       <section className="exam-column exam-column--question" aria-label={t("examQuestionRegion")}>
-        <ExamStatusBar examNumber={examNumber} current={activeIndex + 1} total={questions.length} />
+        <ExamStatusBar title={statusTitle} current={activeIndex + 1} total={questions.length} />
         {isReviewMode ? (
           <div className="review-toolbar">
             <div>
               <Typography as="p" variant="heading">{t("reviewIncorrectAnswers")}</Typography>
               <Typography as="p" variant="utility">{t("reviewIncorrectCount", { count: incorrectIndexes.size })}</Typography>
             </div>
-            <Button tone="secondary" onClick={restartExam}><ArrowCounterClockwise aria-hidden="true" />{t("restartExam")}</Button>
+            <Button tone="secondary" onClick={restartExam}><ArrowCounterClockwise aria-hidden="true" />{restartLabel ?? t("restartExam")}</Button>
           </div>
         ) : null}
         <QuestionNavigator total={questions.length} currentIndex={activeIndex} correctIndexes={correctIndexes} incorrectIndexes={incorrectIndexes} onSelect={exam.goToQuestion} />
-        {isComplete ? <ExamSummary score={finalScore ?? 0} onRestart={restartExam} /> : (
+        {isComplete ? <ExamSummary score={finalScore ?? 0} onRestart={restartExam} restartLabel={restartLabel} /> : (
           <>
             <div className="question-heading">
               <Typography as="p" variant="label" className="eyebrow">{currentQuestion.type === "multiple" ? t("chooseMultiple", { count: currentQuestion.correct_option_ids.length }) : t("chooseOne")}</Typography>

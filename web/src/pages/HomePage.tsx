@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpenText, CheckCircle, Circle, XCircle } from "@phosphor-icons/react";
+import { ArrowRight, BookOpenText, CheckCircle, Circle, Shuffle, XCircle } from "@phosphor-icons/react";
 import { Link } from "react-router-dom";
 import { EXAM_CONFIG } from "../config/exam";
 import { useLanguage } from "../i18n/LanguageContext";
@@ -20,14 +20,26 @@ export function HomePage({ examResults = {} }: { examResults?: Partial<Record<nu
           <img src={publicAssetUrl("/images/featured/union-jack-homepage.png")} alt={t("flagAlt")} />
         </figure>
       </section>
-      <section className="home-reference-section" aria-labelledby="quick-reference-home-title">
+      <section className="home-reference-section" aria-label={t("studyResources")}>
         <Link className="home-reference-card" to="/quick-reference">
           <span className="home-reference-card__icon" aria-hidden="true">
             <BookOpenText weight="regular" />
           </span>
           <div className="home-reference-card__copy">
-            <Typography as="h2" variant="title" id="quick-reference-home-title">{t("quickReferenceTitle")}</Typography>
+            <Typography as="h2" variant="title">{t("quickReferenceTitle")}</Typography>
             <Typography as="p" variant="body" className="home-reference-card__description">{t("quickReferenceEntryCopy")}</Typography>
+          </div>
+          <span className="home-reference-card__action" aria-hidden="true">
+            <ArrowRight />
+          </span>
+        </Link>
+        <Link className="home-reference-card home-reference-card--random" to="/random-exam">
+          <span className="home-reference-card__icon" aria-hidden="true">
+            <Shuffle weight="regular" />
+          </span>
+          <div className="home-reference-card__copy">
+            <Typography as="h2" variant="title">{t("randomMockExamTitle")}</Typography>
+            <Typography as="p" variant="body" className="home-reference-card__description">{t("randomMockExamEntryCopy")}</Typography>
           </div>
           <span className="home-reference-card__action" aria-hidden="true">
             <ArrowRight />

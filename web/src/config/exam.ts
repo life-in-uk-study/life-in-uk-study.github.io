@@ -9,4 +9,5 @@ export const ROUTES = {
   home: "/",
   mockExam: "/exam/1",
   quickReference: "/quick-reference",
+  randomExam: "/random-exam",
 } as const;

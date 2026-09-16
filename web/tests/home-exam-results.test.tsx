@@ -20,6 +20,9 @@ describe("homepage exam results", () => {
     expect(html).toContain('class="home-reference-section"');
     expect(html).toContain('class="home-reference-card"');
     expect(html).toContain('href="/quick-reference"');
+    expect(html).toContain("随机模拟考");
+    expect(html).toContain("从17套题中随机抽取24题");
+    expect(html).toContain('href="/random-exam"');
     expect(html).toContain("模拟考试");
     expect((html.match(/<a class="exam-card(?: |")/g) ?? [])).toHaveLength(17);
   });

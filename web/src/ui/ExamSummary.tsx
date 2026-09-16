@@ -3,7 +3,7 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { Button } from "./Button";
 import { Typography } from "./Typography";
 
-export function ExamSummary({ score, onRestart }: { score: number; onRestart: () => void }) {
+export function ExamSummary({ score, onRestart, restartLabel }: { score: number; onRestart: () => void; restartLabel?: string }) {
   const { t } = useLanguage();
   const passed = score >= EXAM_CONFIG.passingScore;
   return (
@@ -14,7 +14,7 @@ export function ExamSummary({ score, onRestart }: { score: number; onRestart: ()
       <Typography as="p" variant="body">
         {t("passingStandard", { score: EXAM_CONFIG.passingScore, total: EXAM_CONFIG.questionsPerExam })}
       </Typography>
-      <Button onClick={onRestart}>{t("restartExam")}</Button>
+      <Button onClick={onRestart}>{restartLabel ?? t("restartExam")}</Button>
     </section>
   );
 }

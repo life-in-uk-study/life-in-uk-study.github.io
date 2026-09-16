@@ -3,6 +3,7 @@ import { BrowserRouter, HashRouter, Navigate, Route, Routes } from "react-router
 import { ExamPage } from "./pages/ExamPage";
 import { HomePage } from "./pages/HomePage";
 import { QuickReferencePage } from "./pages/QuickReferencePage";
+import { RandomExamPage } from "./pages/RandomExamPage";
 import type { ExamResult } from "./services/exam";
 import { AppHeader } from "./ui/AppHeader";
 
@@ -29,6 +30,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<HomePage examResults={examResults} />} />
           <Route path="/quick-reference" element={<QuickReferencePage />} />
+          <Route path="/random-exam" element={<RandomExamPage />} />
           <Route path="/exam" element={<Navigate to="/exam/1" replace />} />
           <Route
             path="/exam/:examNumber"
