@@ -2,6 +2,8 @@
 
 面向中文母语学习者的双语 Life in the UK Test 练习网站，包含17套模拟练习、答题后解析、配图、权威来源和答案速记表。
 
+在线使用：[life-in-uk-study.github.io](https://life-in-uk-study.github.io/)
+
 ## 项目边界
 
 - 本项目不是英国政府或官方考试机构的网站，也不保证覆盖真实考试或保证通过。
