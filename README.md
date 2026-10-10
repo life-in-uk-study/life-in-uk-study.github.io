@@ -1,61 +1,43 @@
-# Life in the UK 学习网站
+# Life in the UK 考试准备
 
-面向中文母语学习者的双语 Life in the UK Test 练习网站，包含17套模拟练习、答题后解析、配图、权威来源和答案速记表。
+面向中文母语学习者的免费双语练习网站。通过模拟考试、中文解析、相关配图和考点速记，帮助你理解并记住 Life in the UK Test 的重点知识。
 
-在线使用：[life-in-uk-study.github.io](https://life-in-uk-study.github.io/)
+## 立即开始
 
-## 项目边界
+访问网站：[life-in-uk-study.github.io](https://life-in-uk-study.github.io/)
 
-- 本项目不是英国政府或官方考试机构的网站，也不保证覆盖真实考试或保证通过。
-- 授权题干和选项保持英文原文；中文内容用于学习解释。
-- 题库来源、授权范围和覆盖限制见 [EXAM_SOURCE_AND_COVERAGE.md](EXAM_SOURCE_AND_COVERAGE.md)。
-- 图片与外部资料的来源记录见数据文件及相关审计文档。
+无需注册或安装，使用手机、平板或电脑均可直接练习。
 
-## 隐私与安全
+## 网站能做什么
 
-- 纯静态前端，不含账户、数据库、分析 SDK 或广告追踪。
+- **17套模拟考试**：每套24题，答对18题视为通过。
+- **随机模拟考**：从17套题中随机抽取24题，每次重新开始都会更换题目。
+- **即时答案解析**：确认答案后查看正确选项、中文解释、相关配图和权威来源。
+- **错题复盘**：未通过一套考试时，可以重新进入查看错题，也可以重置后再次作答。
+- **全部考点速记表**：按地理、历史、政治、宗教、文化、体育等主题整理重点题目。
+- **中英文界面**：题干和选项保留英文原文，其他界面内容和解释可切换中文或英文。
+
+## 如何使用
+
+1. 先选择一套模拟考试，熟悉题型和英文表达。
+2. 选择答案后点击确认，立即阅读解析并查看配图。
+3. 完成24题后查看成绩；未通过时重点复盘标红的错题。
+4. 刷过几套题后，再使用“全部考点速记表”集中复习容易混淆的知识。
+5. 考前可使用“随机模拟考”检查自己是否真正掌握，而不是只记住题目顺序。
+
+## 隐私说明
+
+- 网站不需要账户，也不收集姓名、邮箱或答题记录。
 - 不使用 Cookie、`localStorage` 或 `sessionStorage` 保存个人资料、答案或错题。
-- 答题状态和最近一次考试结果只保留在当前页面内存中，刷新后清除。
-- HTML入口配置了内容安全策略和 Referrer Policy；支持自定义响应头的平台还会启用禁止嵌入及浏览器权限限制。GitHub Pages不应用仓库中的自定义响应头文件。
-- 发现安全问题时，请优先使用 GitHub 的 Private vulnerability reporting，避免在公开 Issue 中披露敏感细节。
+- 答题状态和最近一次考试结果只保留在当前页面中；刷新页面后会清除并重新开始。
+- 网站目前不包含分析 SDK、广告或第三方行为追踪。
 
-## 本地开发
+## 非官方声明与内容来源
 
-```bash
-cd web
-npm ci
-npm run dev
-```
-
-## 发布前验证
-
-```bash
-cd web
-npm run typecheck
-npm test
-npm run test:translations
-npm run build
-npm run test:sites
-npm audit
-
-cd ..
-python3 scripts/validate_question_data.py
-python3 scripts/validate_enriched_content.py
-git diff --check
-```
-
-## 发布到 GitHub Pages
-
-仓库包含 `.github/workflows/deploy-pages.yml`。它会在代码推送到 `main` 后完成测试、按实际 Pages路径构建网站，并自动发布。GitHub Pages版本使用 Hash路由，因此刷新考试页不会出现 SPA 404。
-
-首次发布需要在 GitHub仓库中打开：
-
-1. `Settings` → `Pages`。
-2. 在 `Build and deployment` 中将 `Source` 设为 `GitHub Actions`。
-3. 将代码推送到 `main`，然后在 `Actions` 页面查看部署结果。
-
-项目同时支持 `https://用户名.github.io/仓库名/`、用户主页仓库和自定义域名，不需要手工填写仓库名。
-
-## 许可证
-
-仓库目前没有开放源代码许可证。公开仓库允许他人查看代码，但不会自动授予复制、修改或再发布代码及内容的权利。正式开放协作前，请由项目所有者为代码和已授权内容分别确认合适的许可证。
+- 本项目不是英国政府或官方考试机构的网站，也不承诺覆盖真实考试或保证通过。
+- 模拟题用于学习和练习，正式考试规则与内容应以英国政府公布的信息为准。
+- 授权题干和选项保持英文原文；中文内容是为学习者编写的辅助解释。
+- 解释中的事实尽量引用 GOV.UK、UK Parliament、The National Archives 等权威来源。
+- 题库来源、授权范围和覆盖限制见 [EXAM_SOURCE_AND_COVERAGE.md](EXAM_SOURCE_AND_COVERAGE.md)。
+- 图片和外部资料的来源记录保存在项目的数据文件与审计文档中。
+- 本仓库目前未开放源代码许可证；公开可见不代表允许复制、修改或重新发布其中的代码与内容。
